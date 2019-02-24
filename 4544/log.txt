@@ -1,0 +1,190 @@
+2018-11-06 17:40:09,926 INFO  DownloadService - Downloading "https://github.com/aykuttasil/CallRecorder/archive/master.zip", attempt 3
+2018-11-06 17:41:10,645 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-11-06 17:41:11,598 INFO  GithubDownloadService - Default branch of this repository: master
+2018-11-06 17:41:11,598 INFO  DownloadService - Downloading "https://github.com/aykuttasil/CallRecorder/archive/master.zip", attempt 3
+2018-11-06 17:42:13,274 DEBUG FullProcessService - Repository https://github.com/aykuttasil/CallRecorder available: true
+2018-11-06 17:42:13,275 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-11-06 17:42:13,275 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/aykuttasil/CallRecorder, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src]
+2018-11-06 17:42:15,270 INFO  SysUtils - 
+2018-11-06 17:42:15,278 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/.git": true
+2018-11-06 17:42:15,281 INFO  FullProcessService - Size of directory with sources: 182 KB
+2018-11-06 17:42:15,281 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src]
+2018-11-06 17:42:15,298 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/.git/
+
+2018-11-06 17:42:15,302 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/gradlew
+2018-11-06 17:42:15,305 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/build.gradle
+2018-11-06 17:42:15,308 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/settings.gradle
+2018-11-06 17:42:15,309 INFO  ProjectBuildService - Remote scripts: none
+2018-11-06 17:42:15,309 INFO  ProjectFixService - Fixing project...
+2018-11-06 17:42:15,318 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/app/local.properties
+2018-11-06 17:42:15,321 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=17,targetSdkVersion=<null>]
+2018-11-06 17:42:15,321 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2018-11-06 17:42:15,321 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/local.properties
+2018-11-06 17:42:15,324 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=17,targetSdkVersion=<null>]
+2018-11-06 17:42:15,324 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2018-11-06 17:42:15,325 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/local.properties
+2018-11-06 17:42:15,326 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-11-06 17:42:15,326 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-11-06 17:42:15,328 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=17,targetSdkVersion=<null>]
+2018-11-06 17:42:15,328 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2018-11-06 17:42:15,329 INFO  ProjectFixService - Project was maybe fixed
+2018-11-06 17:42:15,329 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-06 17:42:15,329 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-06 17:42:20,911 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-11-06 17:42:20,911 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-06 17:42:20,911 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-06 17:42:58,442 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:callrecord:preBuild UP-TO-DATE
+:callrecord:preDebugBuild UP-TO-DATE
+:callrecord:checkDebugManifest
+:callrecord:processDebugManifest
+:app:preDebugBuild
+:callrecord:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:callrecord:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:callrecord:compileDebugRenderscript
+:callrecord:generateDebugResValues
+:callrecord:generateDebugResources
+:callrecord:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:callrecord:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:callrecord:generateDebugBuildConfig
+:callrecord:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (54, 38): Parameter 'context' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (54, 56): Parameter 'callRecord' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (54, 80): Parameter 'audioFile' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (56, 39): Parameter 'context' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (56, 57): Parameter 'callRecord' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (56, 81): Parameter 'audioFile' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (149, 26): Variable 'suffix' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (176, 38): Parameter 'mediaRecorder' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (176, 53): Parameter 'i' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (176, 56): Parameter 'i1' is never used, could be renamed to _
+:callrecord:prepareLintJar
+:callrecord:generateDebugSources
+:callrecord:javaPreCompileDebug
+:callrecord:compileDebugJavaWithJavac
+:callrecord:processDebugJavaRes NO-SOURCE
+:callrecord:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:callrecord:mergeDebugShaders
+:callrecord:compileDebugShaders
+:callrecord:generateDebugAssets
+:callrecord:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:callrecord:compileDebugNdk NO-SOURCE
+:callrecord:mergeDebugJniLibFolders
+:callrecord:transformNativeLibsWithMergeJniLibsForDebug
+:callrecord:transformNativeLibsWithStripDebugSymbolForDebug
+:callrecord:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:callrecord:preReleaseBuild UP-TO-DATE
+:callrecord:checkReleaseManifest
+:callrecord:processReleaseManifest
+:app:preReleaseBuild
+:callrecord:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:callrecord:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:callrecord:compileReleaseRenderscript
+:callrecord:generateReleaseResValues
+:callrecord:generateReleaseResources
+:callrecord:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:callrecord:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:callrecord:generateReleaseBuildConfig
+:callrecord:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (54, 38): Parameter 'context' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (54, 56): Parameter 'callRecord' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (54, 80): Parameter 'audioFile' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (56, 39): Parameter 'context' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (56, 57): Parameter 'callRecord' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (56, 81): Parameter 'audioFile' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (149, 26): Variable 'suffix' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (176, 38): Parameter 'mediaRecorder' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (176, 53): Parameter 'i' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (176, 56): Parameter 'i1' is never used, could be renamed to _
+:callrecord:generateReleaseSources
+:callrecord:javaPreCompileRelease
+:callrecord:compileReleaseJavaWithJavac
+:callrecord:processReleaseJavaRes NO-SOURCE
+:callrecord:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/a10953103b7a8b103789caf702d248dd/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:callrecord:mergeReleaseShaders
+:callrecord:compileReleaseShaders
+:callrecord:generateReleaseAssets
+:callrecord:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:callrecord:compileReleaseNdk NO-SOURCE
+:callrecord:mergeReleaseJniLibFolders
+:callrecord:transformNativeLibsWithMergeJniLibsForRelease
+:callrecord:transformNativeLibsWithStripDebugSymbolForRelease
+:callrecord:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 36s
+92 actionable tasks: 92 executed
+
+2018-11-06 17:42:58,527 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541500809924-0/src/app/build/outputs/apk/debug/app-debug.apk

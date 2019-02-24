@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.wickerlabs.logmanager",
+    "label" : "Call logs",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 2,
+    "installLocation" : null,
+    "minSdkVersion" : "10",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.READ_CALL_LOG", "android.permission.READ_CONTACTS" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1548,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"1.0\" package=\"com.wickerlabs.logmanager\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"10\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.READ_CALL_LOG\" />\n\t<uses-permission android:name=\"android.permission.READ_CONTACTS\" />\n\t<application android:theme=\"resourceId:0x7f09008a\" android:label=\"Call logs\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.wickerlabs.calls.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1279221,
+  "crc32" : 2377732070,
+  "sha256" : "b112ab145d41b69341930fa7a21efe0be750b8e3bd5d4377c127f6701be6bf26",
+  "buildTime" : 1547897592000
+}

@@ -1,0 +1,167 @@
+2019-01-20 18:49:00,385 INFO  DownloadService - Downloading "https://github.com/SiimKinks/sqlitemagic/archive/master.zip", attempt 3
+2019-01-20 18:49:01,617 INFO  DownloadService - Downloaded https://github.com/SiimKinks/sqlitemagic/archive/master.zip, attempt 3
+2019-01-20 18:49:01,617 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/master.zip": 1 MB
+2019-01-20 18:49:01,618 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-20 18:49:01,625 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/master.zip: true
+2019-01-20 18:49:01,625 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src'.
+2019-01-20 18:49:01,801 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-01-20 18:49:01,801 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src]
+2019-01-20 18:49:01,819 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/.git/
+
+2019-01-20 18:49:01,838 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-sample/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-intellij-plugin/gradlew
+2019-01-20 18:49:01,860 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-sample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/another-submodule/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/app-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/multimodule-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/submodule/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-intellij-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/compiler-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/compiler-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/compiler-magic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/gradle-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/runtime/build.gradle
+2019-01-20 18:49:01,879 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/compiler-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-sample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-sample/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/buildsystem/bintray-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/buildsystem/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/buildsystem/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/runtime/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/compiler-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/gradle-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/submodule/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/multimodule-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/another-submodule/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/app-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-intellij-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-intellij-plugin/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/compiler-magic/build.gradle
+2019-01-20 18:49:01,884 INFO  ProjectBuildService - Remote scripts: none
+2019-01-20 18:49:01,884 INFO  ProjectFixService - Fixing project...
+2019-01-20 18:49:01,944 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-sample/app/local.properties
+2019-01-20 18:49:01,945 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-sample/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:49:01,946 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/another-submodule/local.properties
+2019-01-20 18:49:01,947 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/another-submodule/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:49:01,948 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/app-kotlin/local.properties
+2019-01-20 18:49:01,949 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/app-kotlin/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:49:01,950 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/app/local.properties
+2019-01-20 18:49:01,951 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:49:01,952 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/multimodule-app/local.properties
+2019-01-20 18:49:01,954 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/multimodule-app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:49:01,954 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/submodule/local.properties
+2019-01-20 18:49:01,956 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/submodule/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:49:01,956 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/local.properties
+2019-01-20 18:49:01,956 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-01-20 18:49:01,957 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-01-20 18:49:01,958 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:49:01,958 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-intellij-plugin/local.properties
+2019-01-20 18:49:01,959 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2-bin.zip
+2019-01-20 18:49:01,961 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-intellij-plugin/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:49:01,961 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-sample/local.properties
+2019-01-20 18:49:01,962 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-01-20 18:49:01,962 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-01-20 18:49:01,963 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:49:01,964 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/local.properties
+2019-01-20 18:49:01,965 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1-all.zip
+2019-01-20 18:49:01,965 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1-bin.zip)
+2019-01-20 18:49:01,966 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-tests/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:49:01,967 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/annotations/local.properties
+2019-01-20 18:49:01,968 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/annotations/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:49:01,968 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/compiler-core/local.properties
+2019-01-20 18:49:01,969 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/compiler-core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:49:01,970 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/compiler-kotlin/local.properties
+2019-01-20 18:49:01,971 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/compiler-kotlin/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:49:01,971 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/compiler-magic/local.properties
+2019-01-20 18:49:01,973 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/compiler-magic/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:49:01,974 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/compiler/local.properties
+2019-01-20 18:49:01,975 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/compiler/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:49:01,975 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/gradle-plugin/local.properties
+2019-01-20 18:49:01,977 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/gradle-plugin/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:49:01,977 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/kotlin/local.properties
+2019-01-20 18:49:01,978 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/kotlin/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:49:01,979 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/runtime/local.properties
+2019-01-20 18:49:01,980 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/runtime/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:49:01,980 INFO  ProjectFixService - Project was maybe fixed
+2019-01-20 18:49:01,980 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 18:49:01,980 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-sample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 18:49:08,381 INFO  ProjectTaskService - Detected possible tasks: 78
+2019-01-20 18:49:08,381 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-20 18:49:08,381 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-sample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-20 18:49:53,647 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:checkDebugClasspath
+> Task :app:preBuild UP-TO-DATE
+> Task :app:extractProguardFiles
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:configDebugDb
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:splitsDiscoveryTaskDebug
+> Task :app:processDebugResources
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+
+> Task :app:compileDebugJavaWithJavac
+warning: File for type 'com.siimkinks.sqlitemagic.GeneratedClassesManager' created in the last round will not be subject to annotation processing.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:transformClassesWithSqlitemagicForDebug
+> Task :app:transformClassesWithAndroidGradleClassShrinkerForDebug
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:checkDebugLibraries
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:validateSigningDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:checkReleaseClasspath
+> Task :app:preReleaseBuild
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:configReleaseDb
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:splitsDiscoveryTaskRelease
+> Task :app:processReleaseResources
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+
+> Task :app:compileReleaseJavaWithJavac
+warning: File for type 'com.siimkinks.sqlitemagic.GeneratedClassesManager' created in the last round will not be subject to annotation processing.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/aa24cd24c40e7188cdaff881506f3864/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:transformClassesWithSqlitemagicForRelease
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:transformDexArchiveWithDexMergerForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:checkReleaseLibraries
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 44s
+59 actionable tasks: 59 executed
+
+2019-01-20 18:49:54,111 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547984940381-0/src/sqlitemagic-master/sqlitemagic-sample/app/build/outputs/apk/debug/app-debug.apk

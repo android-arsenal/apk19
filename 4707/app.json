@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.github.marlonlom.utilities.timeago",
+    "label" : "TimeAgo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.webp",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "21",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "1",
+    "platformBuildVersionName" : "{4:1065353216}",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.webp",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2695,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.github.marlonlom.utilities.timeago\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0f0006\" android:label=\"TimeAgo\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.webp\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.webp\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:theme=\"resourceId:0x7f0f0008\" android:name=\"com.github.marlonlom.timeago.sample.ui.MainTabsActivity\" android:screenOrientation=\"portrait\" android:configChanges=\"0x80\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2199455,
+  "crc32" : 1497970121,
+  "sha256" : "b5eb5ff89b29c4b0b0e5ea50c0fb8c31cb83674a1850ae82ba2316b08e9a5d63",
+  "buildTime" : 1544675434000
+}

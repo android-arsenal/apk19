@@ -1,0 +1,194 @@
+2018-10-16 14:08:19,115 INFO  DownloadService - Downloading "https://github.com/gavinliu/ShapedImageView/archive/master.zip", attempt 3
+2018-10-16 14:08:23,660 INFO  DownloadService - Downloaded https://github.com/gavinliu/ShapedImageView/archive/master.zip, attempt 3
+2018-10-16 14:08:23,660 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/master.zip": 3 MB
+2018-10-16 14:08:23,660 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-16 14:08:23,667 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/master.zip: true
+2018-10-16 14:08:23,667 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src'.
+2018-10-16 14:08:23,711 INFO  FullProcessService - Size of directory with sources: 3 MB
+2018-10-16 14:08:23,711 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src]
+2018-10-16 14:08:23,727 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/.git/
+
+2018-10-16 14:08:23,730 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/gradlew
+2018-10-16 14:08:23,733 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/ShapedImageView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/build.gradle
+2018-10-16 14:08:23,735 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/ShapedImageView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/settings.gradle
+2018-10-16 14:08:23,735 INFO  ProjectBuildService - Remote scripts: none
+2018-10-16 14:08:23,735 INFO  ProjectFixService - Fixing project...
+2018-10-16 14:08:23,741 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/ShapedImageView/local.properties
+2018-10-16 14:08:23,741 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/ShapedImageView/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-16 14:08:23,741 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/app/local.properties
+2018-10-16 14:08:23,742 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-16 14:08:23,742 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/local.properties
+2018-10-16 14:08:23,742 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-10-16 14:08:23,742 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-10-16 14:08:23,743 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-16 14:08:23,743 INFO  ProjectFixService - Project was maybe fixed
+2018-10-16 14:08:23,743 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-16 14:08:23,743 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/ShapedImageView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-16 14:08:31,260 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-10-16 14:08:31,260 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-16 14:08:31,261 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/ShapedImageView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-16 14:08:40,554 INFO  SysUtils - Configuration on demand is an incubating feature.
+:ShapedImageView:preBuild UP-TO-DATE
+:ShapedImageView:preDebugBuild UP-TO-DATE
+:ShapedImageView:compileDebugAidl
+:ShapedImageView:compileDebugRenderscript
+:ShapedImageView:checkDebugManifest
+:ShapedImageView:generateDebugBuildConfig
+:ShapedImageView:generateDebugResValues
+:ShapedImageView:generateDebugResources
+:ShapedImageView:packageDebugResources
+:ShapedImageView:platformAttrExtractor
+:ShapedImageView:processDebugManifest
+:ShapedImageView:prepareLintJar
+:ShapedImageView:javaPreCompileDebug
+:ShapedImageView:mergeDebugConsumerProguardFiles
+:ShapedImageView:mergeDebugShaders
+:ShapedImageView:compileDebugShaders
+:ShapedImageView:generateDebugAssets
+:ShapedImageView:packageDebugAssets
+:ShapedImageView:packageDebugRenderscript NO-SOURCE
+:ShapedImageView:processDebugJavaRes NO-SOURCE
+:ShapedImageView:compileDebugNdk NO-SOURCE
+:ShapedImageView:mergeDebugJniLibFolders
+:ShapedImageView:transformNativeLibsWithMergeJniLibsForDebug
+:ShapedImageView:transformNativeLibsWithStripDebugSymbolForDebug
+:ShapedImageView:transformNativeLibsWithSyncJniLibsForDebug
+:ShapedImageView:preReleaseBuild UP-TO-DATE
+:ShapedImageView:compileReleaseAidl
+:ShapedImageView:compileReleaseRenderscript
+:ShapedImageView:checkReleaseManifest
+:ShapedImageView:generateReleaseBuildConfig
+:ShapedImageView:generateReleaseResValues
+:ShapedImageView:generateReleaseResources
+:ShapedImageView:packageReleaseResources
+:ShapedImageView:processReleaseManifest
+:ShapedImageView:javaPreCompileRelease
+:ShapedImageView:mergeReleaseConsumerProguardFiles
+:ShapedImageView:mergeReleaseShaders
+:ShapedImageView:compileReleaseShaders
+:ShapedImageView:generateReleaseAssets
+:ShapedImageView:packageReleaseAssets
+:ShapedImageView:packageReleaseRenderscript NO-SOURCE
+:ShapedImageView:processReleaseJavaRes NO-SOURCE
+:ShapedImageView:compileReleaseNdk NO-SOURCE
+:ShapedImageView:mergeReleaseJniLibFolders
+:ShapedImageView:transformNativeLibsWithMergeJniLibsForRelease
+:ShapedImageView:transformNativeLibsWithStripDebugSymbolForRelease
+:ShapedImageView:transformNativeLibsWithSyncJniLibsForRelease
+:ShapedImageView:mergeReleaseResources
+:ShapedImageView:verifyReleaseResources
+:ShapedImageView:generateDebugRFile
+:ShapedImageView:generateDebugSources
+:ShapedImageView:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/ShapedImageView/src/main/java/cn/gavinliu/android/lib/shapedimageview/ShapedImageView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:ShapedImageView:extractDebugAnnotations
+:ShapedImageView:transformResourcesWithMergeJavaResForDebug
+:ShapedImageView:transformClassesAndResourcesWithSyncLibJarsForDebug
+:ShapedImageView:bundleDebug
+:ShapedImageView:compileDebugSources
+:ShapedImageView:assembleDebug
+:ShapedImageView:generateReleaseRFile
+:ShapedImageView:generateReleaseSources
+:ShapedImageView:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/ShapedImageView/src/main/java/cn/gavinliu/android/lib/shapedimageview/ShapedImageView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:ShapedImageView:extractReleaseAnnotations
+:ShapedImageView:transformResourcesWithMergeJavaResForRelease
+:ShapedImageView:transformClassesAndResourcesWithSyncLibJarsForRelease
+:ShapedImageView:bundleRelease
+:ShapedImageView:compileReleaseSources
+:ShapedImageView:assembleRelease
+:ShapedImageView:assemble
+:ShapedImageView:build
+
+BUILD SUCCESSFUL in 9s
+48 actionable tasks: 48 executed
+
+2018-10-16 14:08:40,567 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-16 14:08:40,567 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-16 14:08:46,344 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-16 14:08:46,345 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-16 14:08:46,345 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-16 14:09:22,266 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+Download https://jitpack.io/cn/gavinliu/ShapedImageView/0.8.6/ShapedImageView-0.8.6.pom
+Download https://jitpack.io/cn/gavinliu/ShapedImageView/0.8.6/ShapedImageView-0.8.6.aar
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/app/src/main/java/cn/gavinliu/android/lib/shapedimageview/demo/SettingActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/app/src/main/java/cn/gavinliu/android/lib/shapedimageview/demo/SettingActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 35s
+53 actionable tasks: 53 executed
+
+2018-10-16 14:09:22,376 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673699111-0/src/ShapedImageView-master/app/build/outputs/apk/debug/app-debug.apk

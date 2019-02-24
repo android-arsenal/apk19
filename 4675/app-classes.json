@@ -1,0 +1,5 @@
+{
+  "com.niltonvasques.mathjs" : [ "BuildConfig", "MainActivity", "MainActivity$1", "MainActivity$1$1", "MainActivity$2", "R", "R$attr", "R$color", "R$dimen", "R$id", "R$layout", "R$mipmap", "R$string" ],
+  "com.squareup.duktape" : [ "BuildConfig", "Duktape", "Duktape$1", "DuktapeException", "R" ],
+  "mathjs.niltonvasques.com.mathjs" : [ "BuildConfig", "MathJS", "MathJS$1", "MathJS$MathJSError", "MathJS$MathJSResult", "R", "R$string" ]
+}

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.github.aleksandermielczarek.napkinexample",
+    "label" : "Napkin Example",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "0.7.0",
+    "versionCode" : 70000,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1967,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"70000\" android:versionName=\"0.7.0\" package=\"com.github.aleksandermielczarek.napkinexample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"25\" />\n\t<application android:theme=\"resourceId:0x7f0800a3\" android:label=\"Napkin Example\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"com.github.aleksandermielczarek.napkinexample.NapkinApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.github.aleksandermielczarek.napkinexample.ui.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1517896,
+  "crc32" : 717913659,
+  "sha256" : "d08a590b4383dc3fc982ff100aca833e3a95a0c8d2f37afe14a97b42e483a974",
+  "buildTime" : 1521992986000
+}

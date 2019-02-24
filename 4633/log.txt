@@ -1,0 +1,1046 @@
+2018-10-16 13:27:39,302 INFO  DownloadService - Downloading "https://github.com/WassimBenltaief/ReactiveFB/archive/master.zip", attempt 3
+2018-10-16 13:27:39,785 INFO  DownloadService - Downloaded https://github.com/WassimBenltaief/ReactiveFB/archive/master.zip, attempt 3
+2018-10-16 13:27:39,785 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/master.zip": 167 KB
+2018-10-16 13:27:39,785 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-16 13:27:39,791 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/master.zip: true
+2018-10-16 13:27:39,791 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src'.
+2018-10-16 13:27:39,825 INFO  FullProcessService - Size of directory with sources: 308 KB
+2018-10-16 13:27:39,825 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src]
+2018-10-16 13:27:39,841 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/.git/
+
+2018-10-16 13:27:39,845 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/gradlew
+2018-10-16 13:27:39,848 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/build.gradle
+2018-10-16 13:27:39,852 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/settings.gradle
+2018-10-16 13:27:39,852 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2018-10-16 13:28:39,853 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-10-16 13:28:39,853 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2018-10-16 13:29:39,857 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-10-16 13:29:39,857 INFO  ProjectBuildService - Remote scripts: none
+2018-10-16 13:29:39,857 INFO  ProjectFixService - Fixing project...
+2018-10-16 13:29:39,869 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/app/local.properties
+2018-10-16 13:29:39,869 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2018-10-16 13:29:39,870 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/local.properties
+2018-10-16 13:29:39,870 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2018-10-16 13:29:39,870 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/local.properties
+2018-10-16 13:29:39,871 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-10-16 13:29:39,871 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-10-16 13:29:39,872 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2018-10-16 13:29:39,872 INFO  ProjectFixService - Project was maybe fixed
+2018-10-16 13:29:39,872 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-16 13:29:39,872 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-16 13:29:58,535 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-10-16 13:29:58,536 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-10-16 13:29:58,536 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-10-16 13:29:58,536 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-10-16 13:30:06,303 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-10-16 13:30:06,303 INFO  SysUtils - Configuration on demand is an incubating feature.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':app'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':app'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:74)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:540)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:93)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:42)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:142)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:139)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:330)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:207)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:300)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:333)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:87)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1342)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantData(ApplicationTaskManager.java:289)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:485)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:293)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:290)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:44)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:286)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:688)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:685)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:683)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:608)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:605)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$1(BasePlugin.java:603)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
+	... 57 more
+
+
+BUILD FAILED
+
+Total time: 7.112 secs
+
+2018-10-16 13:30:06,308 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-16 13:30:06,308 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-16 13:30:23,580 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-10-16 13:30:23,580 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-10-16 13:30:23,580 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-10-16 13:30:23,581 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-10-16 13:30:47,406 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-10-16 13:30:47,406 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:reactivefb:preBuild UP-TO-DATE
+:reactivefb:preDebugBuild UP-TO-DATE
+:reactivefb:checkDebugManifest
+:reactivefb:preDebugAndroidTestBuild UP-TO-DATE
+:reactivefb:preDebugUnitTestBuild UP-TO-DATE
+:reactivefb:preReleaseBuild UP-TO-DATE
+:reactivefb:preReleaseUnitTestBuild UP-TO-DATE
+:reactivefb:prepareComAndroidSupportCardviewV72340Library
+:reactivefb:prepareComAndroidSupportCustomtabs2340Library
+:reactivefb:prepareComAndroidSupportSupportV42340Library
+:reactivefb:prepareComFacebookAndroidFacebookAndroidSdk4150Library
+:reactivefb:prepareIoReactivexRxjava2Rxandroid200Library
+:reactivefb:prepareDebugDependencies
+:reactivefb:compileDebugAidl
+:reactivefb:compileDebugNdk UP-TO-DATE
+:reactivefb:compileLint
+:reactivefb:copyDebugLint UP-TO-DATE
+:reactivefb:compileDebugRenderscript
+:reactivefb:generateDebugBuildConfig
+:reactivefb:generateDebugResValues
+:reactivefb:generateDebugResources
+:reactivefb:mergeDebugResources
+:reactivefb:processDebugManifest
+:reactivefb:processDebugResources
+:reactivefb:generateDebugSources
+:reactivefb:incrementalDebugJavaCompilationSafeguard
+:reactivefb:compileDebugJavaWithJavac
+:reactivefb:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:reactivefb:extractDebugAnnotations
+:reactivefb:mergeDebugShaders
+:reactivefb:compileDebugShaders
+:reactivefb:generateDebugAssets
+:reactivefb:mergeDebugAssets
+:reactivefb:mergeDebugProguardFiles
+:reactivefb:packageDebugRenderscript UP-TO-DATE
+:reactivefb:packageDebugResources
+:reactivefb:processDebugJavaRes UP-TO-DATE
+:reactivefb:transformResourcesWithMergeJavaResForDebug
+:reactivefb:transformClassesAndResourcesWithSyncLibJarsForDebug
+:reactivefb:mergeDebugJniLibFolders
+:reactivefb:transformNative_libsWithMergeJniLibsForDebug
+:reactivefb:transformNative_libsWithSyncJniLibsForDebug
+:reactivefb:bundleDebug
+:reactivefb:compileDebugSources
+:reactivefb:assembleDebug
+:reactivefb:checkReleaseManifest
+:reactivefb:prepareReleaseDependencies
+:reactivefb:compileReleaseAidl
+:reactivefb:compileReleaseNdk UP-TO-DATE
+:reactivefb:copyReleaseLint UP-TO-DATE
+:reactivefb:compileReleaseRenderscript
+:reactivefb:generateReleaseBuildConfig
+:reactivefb:generateReleaseResValues
+:reactivefb:generateReleaseResources
+:reactivefb:mergeReleaseResources
+:reactivefb:processReleaseManifest
+:reactivefb:processReleaseResources
+:reactivefb:generateReleaseSources
+:reactivefb:incrementalReleaseJavaCompilationSafeguard
+:reactivefb:compileReleaseJavaWithJavac
+:reactivefb:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:reactivefb:extractReleaseAnnotations
+:reactivefb:mergeReleaseShaders
+:reactivefb:compileReleaseShaders
+:reactivefb:generateReleaseAssets
+:reactivefb:mergeReleaseAssets
+:reactivefb:mergeReleaseProguardFiles
+:reactivefb:packageReleaseRenderscript UP-TO-DATE
+:reactivefb:packageReleaseResources
+:reactivefb:processReleaseJavaRes UP-TO-DATE
+:reactivefb:transformResourcesWithMergeJavaResForRelease
+:reactivefb:transformClassesAndResourcesWithSyncLibJarsForRelease
+:reactivefb:mergeReleaseJniLibFolders
+:reactivefb:transformNative_libsWithMergeJniLibsForRelease
+:reactivefb:transformNative_libsWithSyncJniLibsForRelease
+:reactivefb:bundleRelease
+:reactivefb:compileReleaseSources
+:reactivefb:assembleRelease
+:reactivefb:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:4: error: package com.facebook.internal does not exist
+import com.facebook.internal.ServerProtocol;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:5: error: package com.facebook.login does not exist
+import com.facebook.login.DefaultAudience;
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:6: error: package com.facebook.login does not exist
+import com.facebook.login.LoginBehavior;
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:17: error: cannot find symbol
+    private DefaultAudience mDefaultAudience = null;
+            ^
+  symbol:   class DefaultAudience
+  location: class SimpleFacebookConfiguration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:18: error: cannot find symbol
+    private LoginBehavior mLoginBehavior = null;
+            ^
+  symbol:   class LoginBehavior
+  location: class SimpleFacebookConfiguration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:89: error: cannot find symbol
+    LoginBehavior getLoginBehavior() {
+    ^
+  symbol:   class LoginBehavior
+  location: class SimpleFacebookConfiguration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:98: error: cannot find symbol
+    DefaultAudience getDefaultAudience() {
+    ^
+  symbol:   class DefaultAudience
+  location: class SimpleFacebookConfiguration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:162: error: cannot find symbol
+        DefaultAudience mDefaultAudience = DefaultAudience.FRIENDS;
+        ^
+  symbol:   class DefaultAudience
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:163: error: cannot find symbol
+        LoginBehavior mLoginBehavior = LoginBehavior.NATIVE_WITH_FALLBACK;
+        ^
+  symbol:   class LoginBehavior
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:221: error: cannot find symbol
+        public Builder setDefaultAudience(DefaultAudience defaultAudience) {
+                                          ^
+  symbol:   class DefaultAudience
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:230: error: cannot find symbol
+        public Builder setLoginBehavior(LoginBehavior loginBehavior) {
+                                        ^
+  symbol:   class LoginBehavior
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:11: error: package com.facebook does not exist
+import com.facebook.AccessToken;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:12: error: package com.facebook does not exist
+import com.facebook.FacebookAuthorizationException;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:13: error: package com.facebook does not exist
+import com.facebook.FacebookGraphResponseException;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:14: error: package com.facebook does not exist
+import com.facebook.FacebookRequestError;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:15: error: package com.facebook does not exist
+import com.facebook.GraphRequest;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:16: error: package com.facebook does not exist
+import com.facebook.GraphRequestAsyncTask;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:17: error: package com.facebook does not exist
+import com.facebook.GraphResponse;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:18: error: package com.facebook does not exist
+import com.facebook.HttpMethod;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:20: error: package io.reactivex does not exist
+import io.reactivex.SingleEmitter;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:30: error: cannot find symbol
+    SingleEmitter<GraphResponse> mSingleEmitter = null;
+    ^
+  symbol:   class SingleEmitter
+  location: class RequestAction
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:30: error: cannot find symbol
+    SingleEmitter<GraphResponse> mSingleEmitter = null;
+                  ^
+  symbol:   class GraphResponse
+  location: class RequestAction
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:7: error: package com.facebook does not exist
+import com.facebook.AccessToken;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:8: error: package com.facebook does not exist
+import com.facebook.CallbackManager;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:9: error: package com.facebook.login does not exist
+import com.facebook.login.LoginManager;
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:10: error: package com.facebook.login does not exist
+import com.facebook.login.LoginResult;
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:15: error: package io.reactivex does not exist
+import io.reactivex.MaybeEmitter;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:16: error: package io.reactivex does not exist
+import io.reactivex.ObservableEmitter;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:40: error: package GraphRequest does not exist
+    private GraphRequest.Callback mCallback = new GraphRequest.Callback() {
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:70: error: cannot find symbol
+    public void setSingleEmitter(SingleEmitter<GraphResponse> singleEmitter) {
+                                 ^
+  symbol:   class SingleEmitter
+  location: class RequestAction
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:70: error: cannot find symbol
+    public void setSingleEmitter(SingleEmitter<GraphResponse> singleEmitter) {
+                                               ^
+  symbol:   class GraphResponse
+  location: class RequestAction
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:91: error: cannot find symbol
+    private void runRequest(GraphRequest request) {
+                            ^
+  symbol:   class GraphRequest
+  location: class RequestAction
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:25: error: cannot find symbol
+    private final LoginManager mLoginManager;
+                  ^
+  symbol:   class LoginManager
+  location: class SessionManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:3: error: package com.facebook does not exist
+import com.facebook.FacebookCallback;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:4: error: package com.facebook does not exist
+import com.facebook.FacebookException;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:8: error: package io.reactivex does not exist
+import io.reactivex.MaybeEmitter;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:13: error: cannot find symbol
+public class ReactiveLoginCallback<T> implements FacebookCallback<T> {
+                                                 ^
+  symbol: class FacebookCallback
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:26: error: cannot find symbol
+    private final ReactiveLoginCallback<LoginResult> mLoginCallback = new ReactiveLoginCallback<>();
+                                        ^
+  symbol:   class LoginResult
+  location: class SessionManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:3: error: package com.facebook does not exist
+import com.facebook.FacebookCallback;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:4: error: package com.facebook does not exist
+import com.facebook.FacebookException;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:6: error: package io.reactivex does not exist
+import io.reactivex.ObservableEmitter;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:11: error: cannot find symbol
+public class ReactiveLoginWithButtonCallback<T> implements FacebookCallback<T> {
+                                                           ^
+  symbol: class FacebookCallback
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:27: error: cannot find symbol
+    private final ReactiveLoginWithButtonCallback<LoginResult> mLoginWithButtonCallback = new ReactiveLoginWithButtonCallback<>();
+                                                  ^
+  symbol:   class LoginResult
+  location: class SessionManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:28: error: cannot find symbol
+    private final CallbackManager mCallbackManager = CallbackManager.Factory.create();
+                  ^
+  symbol:   class CallbackManager
+  location: class SessionManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:53: error: cannot find symbol
+    public LoginResult createLastLoginResult() {
+           ^
+  symbol:   class LoginResult
+  location: class SessionManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:57: error: cannot find symbol
+    public ReactiveLoginCallback<LoginResult> getLoginCallback() {
+                                 ^
+  symbol:   class LoginResult
+  location: class SessionManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:70: error: cannot find symbol
+    public AccessToken getAccessToken() {
+           ^
+  symbol:   class AccessToken
+  location: class SessionManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:74: error: cannot find symbol
+    public CallbackManager getCallbackManager() {
+           ^
+  symbol:   class CallbackManager
+  location: class SessionManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:85: error: cannot find symbol
+    public void setCallbackAsLoginWithButton(ObservableEmitter<LoginResult> emitter) {
+                                             ^
+  symbol:   class ObservableEmitter
+  location: class SessionManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:85: error: cannot find symbol
+    public void setCallbackAsLoginWithButton(ObservableEmitter<LoginResult> emitter) {
+                                                               ^
+  symbol:   class LoginResult
+  location: class SessionManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:93: error: cannot find symbol
+    public void setCallbackAsLogin(MaybeEmitter<LoginResult> emitter) {
+                                   ^
+  symbol:   class MaybeEmitter
+  location: class SessionManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:93: error: cannot find symbol
+    public void setCallbackAsLogin(MaybeEmitter<LoginResult> emitter) {
+                                                ^
+  symbol:   class LoginResult
+  location: class SessionManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:15: error: cannot find symbol
+    private MaybeEmitter<T> maybeEmitter;
+            ^
+  symbol:   class MaybeEmitter
+  location: class ReactiveLoginCallback<T>
+  where T is a type-variable:
+    T extends Object declared in class ReactiveLoginCallback
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:30: error: cannot find symbol
+    public void onError(FacebookException error) {
+                        ^
+  symbol:   class FacebookException
+  location: class ReactiveLoginCallback<T>
+  where T is a type-variable:
+    T extends Object declared in class ReactiveLoginCallback
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:34: error: cannot find symbol
+    public void setEmitter(MaybeEmitter<T> emitter) {
+                           ^
+  symbol:   class MaybeEmitter
+  location: class ReactiveLoginCallback<T>
+  where T is a type-variable:
+    T extends Object declared in class ReactiveLoginCallback
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:13: error: cannot find symbol
+    private ObservableEmitter<T> maybeEmitter;
+            ^
+  symbol:   class ObservableEmitter
+  location: class ReactiveLoginWithButtonCallback<T>
+  where T is a type-variable:
+    T extends Object declared in class ReactiveLoginWithButtonCallback
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:26: error: cannot find symbol
+    public void onError(FacebookException error) {
+                        ^
+  symbol:   class FacebookException
+  location: class ReactiveLoginWithButtonCallback<T>
+  where T is a type-variable:
+    T extends Object declared in class ReactiveLoginWithButtonCallback
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:30: error: cannot find symbol
+    public void setEmitter(ObservableEmitter<T> emitter) {
+                           ^
+  symbol:   class ObservableEmitter
+  location: class ReactiveLoginWithButtonCallback<T>
+  where T is a type-variable:
+    T extends Object declared in class ReactiveLoginWithButtonCallback
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:6: error: package com.facebook does not exist
+import com.facebook.GraphResponse;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:8: error: package io.reactivex does not exist
+import io.reactivex.SingleEmitter;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:9: error: package io.reactivex does not exist
+import io.reactivex.SingleOnSubscribe;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:16: error: cannot find symbol
+class RequestOnSubscribe implements SingleOnSubscribe<GraphResponse> {
+                                    ^
+  symbol: class SingleOnSubscribe
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:16: error: cannot find symbol
+class RequestOnSubscribe implements SingleOnSubscribe<GraphResponse> {
+                                                      ^
+  symbol: class GraphResponse
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:43: error: cannot find symbol
+    public void subscribe(SingleEmitter<GraphResponse> emitter) throws Exception {
+                          ^
+  symbol:   class SingleEmitter
+  location: class RequestOnSubscribe
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:43: error: cannot find symbol
+    public void subscribe(SingleEmitter<GraphResponse> emitter) throws Exception {
+                                        ^
+  symbol:   class GraphResponse
+  location: class RequestOnSubscribe
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:8: error: package com.facebook does not exist
+import com.facebook.GraphResponse;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:10: error: package io.reactivex does not exist
+import io.reactivex.Single;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:25: error: cannot find symbol
+    public static Single<GraphResponse> getMe() {
+                  ^
+  symbol:   class Single
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:25: error: cannot find symbol
+    public static Single<GraphResponse> getMe() {
+                         ^
+  symbol:   class GraphResponse
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:39: error: cannot find symbol
+    public static Single<GraphResponse> getMe(String fields) {
+                  ^
+  symbol:   class Single
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:39: error: cannot find symbol
+    public static Single<GraphResponse> getMe(String fields) {
+                         ^
+  symbol:   class GraphResponse
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:51: error: cannot find symbol
+    public static Single<GraphResponse> getFriends() {
+                  ^
+  symbol:   class Single
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:51: error: cannot find symbol
+    public static Single<GraphResponse> getFriends() {
+                         ^
+  symbol:   class GraphResponse
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:65: error: cannot find symbol
+    public static Single<GraphResponse> getFriends(String fields) {
+                  ^
+  symbol:   class Single
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:65: error: cannot find symbol
+    public static Single<GraphResponse> getFriends(String fields) {
+                         ^
+  symbol:   class GraphResponse
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:80: error: cannot find symbol
+    public static Single<GraphResponse> getFriends(String fields, int limit) {
+                  ^
+  symbol:   class Single
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:80: error: cannot find symbol
+    public static Single<GraphResponse> getFriends(String fields, int limit) {
+                         ^
+  symbol:   class GraphResponse
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:93: error: cannot find symbol
+    public static Single<GraphResponse> getProfile(@NonNull String profileId) {
+                  ^
+  symbol:   class Single
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:93: error: cannot find symbol
+    public static Single<GraphResponse> getProfile(@NonNull String profileId) {
+                         ^
+  symbol:   class GraphResponse
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:108: error: cannot find symbol
+    public static Single<GraphResponse> getProfile(@Nullable String fields,
+                  ^
+  symbol:   class Single
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:108: error: cannot find symbol
+    public static Single<GraphResponse> getProfile(@Nullable String fields,
+                         ^
+  symbol:   class GraphResponse
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:121: error: cannot find symbol
+    public static Single<GraphResponse> getMyAlbums() {
+                  ^
+  symbol:   class Single
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:121: error: cannot find symbol
+    public static Single<GraphResponse> getMyAlbums() {
+                         ^
+  symbol:   class GraphResponse
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:135: error: cannot find symbol
+    public static Single<GraphResponse> getMyAlbums(String fields) {
+                  ^
+  symbol:   class Single
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:135: error: cannot find symbol
+    public static Single<GraphResponse> getMyAlbums(String fields) {
+                         ^
+  symbol:   class GraphResponse
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:150: error: cannot find symbol
+    public static Single<GraphResponse> getMyAlbums(String fields, int limit) {
+                  ^
+  symbol:   class Single
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:150: error: cannot find symbol
+    public static Single<GraphResponse> getMyAlbums(String fields, int limit) {
+                         ^
+  symbol:   class GraphResponse
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:163: error: cannot find symbol
+    public static Single<GraphResponse> getAlbums(String userId) {
+                  ^
+  symbol:   class Single
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:163: error: cannot find symbol
+    public static Single<GraphResponse> getAlbums(String userId) {
+                         ^
+  symbol:   class GraphResponse
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:178: error: cannot find symbol
+    public static Single<GraphResponse> getAlbums(String userId, String fields) {
+                  ^
+  symbol:   class Single
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:178: error: cannot find symbol
+    public static Single<GraphResponse> getAlbums(String userId, String fields) {
+                         ^
+  symbol:   class GraphResponse
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:194: error: cannot find symbol
+    public static Single<GraphResponse> getAlbums(String userId, String fields, int limit) {
+                  ^
+  symbol:   class Single
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:194: error: cannot find symbol
+    public static Single<GraphResponse> getAlbums(String userId, String fields, int limit) {
+                         ^
+  symbol:   class GraphResponse
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:207: error: cannot find symbol
+    public static Single<GraphResponse> getPhoto(String photoId) {
+                  ^
+  symbol:   class Single
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:207: error: cannot find symbol
+    public static Single<GraphResponse> getPhoto(String photoId) {
+                         ^
+  symbol:   class GraphResponse
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:222: error: cannot find symbol
+    public static Single<GraphResponse> getPhoto(String photoId, String fields) {
+                  ^
+  symbol:   class Single
+  location: class ReactiveRequest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:222: error: cannot find symbol
+    public static Single<GraphResponse> getPhoto(String photoId, String fields) {
+                         ^
+  symbol:   class GraphResponse
+  location: class ReactiveRequest
+
+100 warnings
+:reactivefb:javadocJar
+:reactivefb:sourcesJar
+:reactivefb:assemble
+:reactivefb:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':reactivefb:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':reactivefb:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:330)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:207)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getCCompiler(DefaultNdkInfo.java:263)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getCCompiler(NdkHandler.java:306)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:240)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:175)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.java:288)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.java:105)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:228)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:621)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:604)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 23.172 secs
+
+2018-10-16 13:30:47,478 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-16 13:30:47,478 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-16 13:30:54,278 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-10-16 13:30:54,278 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-10-16 13:30:54,278 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-10-16 13:30:54,278 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-10-16 13:31:00,701 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-10-16 13:31:00,702 INFO  SysUtils - Configuration on demand is an incubating feature.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':app'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':app'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:74)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:540)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:93)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:47)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:142)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:139)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:330)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:207)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:300)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:333)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:87)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1342)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantData(ApplicationTaskManager.java:289)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:485)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:293)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:290)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:44)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:286)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:688)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:685)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:683)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:608)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:605)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$1(BasePlugin.java:603)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
+	... 57 more
+
+
+BUILD FAILED
+
+Total time: 5.833 secs
+
+2018-10-16 13:31:00,777 ERROR FullProcessService - Project build has not produced APK file
+2018-10-16 13:31:00,841 ERROR FullProcessService - Could not find generated or existed APK file

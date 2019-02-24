@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "de.dotwee.micropinner",
+    "label" : "MicroPinner",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "v2.2.0",
+    "versionCode" : 29,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.RECEIVE_BOOT_COMPLETED" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1295,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"29\" android:versionName=\"v2.2.0\" package=\"de.dotwee.micropinner\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\" />\n\t<application android:label=\"MicroPinner\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:fullBackupContent=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0d00a8\" android:label=\"New Pin\" android:name=\"de.dotwee.micropinner.view.MainDialog\" android:excludeFromRecents=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<receiver android:name=\"de.dotwee.micropinner.receiver.OnDeleteReceiver\" />\n\t\t<receiver android:name=\"de.dotwee.micropinner.receiver.OnClipReceiver\" />\n\t\t<receiver android:name=\"de.dotwee.micropinner.receiver.OnBootReceiver\" android:exported=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.BOOT_COMPLETED\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1433661,
+  "crc32" : 3482536167,
+  "sha256" : "e073fc7a22679b136b6d759716d1cd7db35ca5c8086d879e1f22659590d31e84",
+  "buildTime" : 1539708771000
+}

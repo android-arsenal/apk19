@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.droidbyme.toastlibrary",
+    "label" : "Toast Library",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAC6FBMVEUAAAD61o/71ZH71JD81JD71JD71JD71JD71ZD81JH51Y7/1ZX/0pb60Y/61ZL81ZH71JH71JD50o/nvH3On2Wyf0ulbz6lbzyjcD361JL71JH71JD71ZD61I/71JD71JD40Y3arnGwfUmkbz6kbj2kbz///4D71JH71ZH1zYrElV2kbz6mbT2AgAD//6r81JHNoGWlbjyqVVX71ZDDk1ujbj371ZH71JDzy4iteUakbz6kcD3////71JLVqGykbz3/AAD71ZL71JD2zourd0Skbz6mb0D71JHElFykbz7Xqm6kbz771ZDkuXqjbz771JDpv3+kbz6kbz7it3mlbj771ZDVp2ulbj7704+/jlf40JTwx4WnckGoZTz61I/Km2KkcD7314/71JDqwICnc0Gkbz6ncED805H71ZD30I23hlCkbz6lbz/705D50o7AkFmlbz//qqr71I/PoWelbj/41pH71JDpwICmckCkbz6ccTn61JHBkVqlbz760o/zy4mnc0GgcTv605PgtXekcD3WqW2kbj7/043TpWqkcD7/0ZL71JHLnGOlbj361JGxfkqjbz3/1pT71JGlbj3/0I781JD71ZH40Y3nvX3Ck1ukbz6jbz6lbTy/gED71JDxyofuxoT40Y6kbz7xyYbZsHDiuXj30IzetXXku3r604/yyofasXHftnX30I3etnXyy4j705DowH7nv37asXDux4T3z4zdtHT2z4zYr2/wyYbpwX/txYP2z4vnv33qwoDmvXzzy4j40Y3lvHv1zorbsnLcs3P2zovju3n50o7huHfvyIXrxIHiunjcs3LdtXTbsnHzzIntxYLiunnsxILuxoPZsG/huXjkvHvlvXzrw4Hvx4Xqw4DguHf50Y7ju3rft3bkvHrwyIbnvn3dtHP40I3mvn3zzIjctHP0zInmvnz1zYr0zYn1zovYsG/gt3bov37605DetXTxyYfyyojlvXvftnb0zYrwyIWQKdzBAAAAnnRSTlMAMoS93+zjxJFYKwwRMmCXyebc3+ndvYMyNrf99uDn+v77/P23NQJ29v379nUCA5T7lAN++308+f39+TsBv/u/AT3+/f3+PI38jPzE6vzq+/v7+vzluvy8e/wm/P4moPugIOn8/uggVvz+/PxVdf77bgOw+5sl9fz+4hKn+3xg/P0rNPvg+8Id/bkc8vuipfxTH9qeG5bw7+zs7s5uBOGyogcAAAMjSURBVEjH3Zb1X1NRGMYxEBULu7BbsRXFwsDubsXu7u7uzrPxOsE5aurgwqRkExAsFBhKGKiIiaL+6j1x7+7uNv4Azg97zznP9/ncc7fnnDMHhyLVihUvUdKxlFPpMmWd+VG58hUqVnJxrFylarXqNWrawGvVroOEVtfFtV59cdSgYaPGTZrK8GbNWxBRoUTS5uNDSstW0LqNm5Rv244CN1Q3pbyv3y3aUbcH6NBRYuhE529r/AOkfKAmiHXVnQG6mPmu7owPxHyw9g7j7ypI554OoW7dwaOHwPfsxfiQUFy1nJbxYWQ+nNPzn70B+ngyQ99+jL9P9QgLPpKLUvOl/wDwGsgMg/B8tMhH4RJj5h+oSWcwwBBmcOKHsQbjQ6rHYT0+QfWIYIlcEuXRUIBhzDCc5x/LeE7OoxEAI5lhFFI/efoMTz7nkuMxn8S9INDLlFQ8VqeZEBoNMEY0oHTCK1WW/CsV5eO4RGIYywwu7KFKqkv4BMa/5ss4gPHMMEHgMzKxniXy2TFkPYRHEwEmMcNkgSf6GxlvojyaYg7HVHeiC3ykjA8n42nTwWOGkI2Z/MI1Gez5VFeIvJYueBbAbDF83nMQeptpwWtk/Nx5MH+BOa4LF9Hpd0wP0rzPoTn8QIXFS2DpMukOWo4kOcU8yxXjV6wEr1UWW3T1GqKbgrH80fApluYkjeViLcA6T8tNvX6DqOeKfBzjN26CzVvkp8ZW9JnkHuUZ5TzaBrDd6pjZwcQ8o1HKx0fkop27wGu3lWGPwBu+4KpnfGpKGNoLsM/NyuAt8CS3epXA8/t5P8AB65PvIOa+inwq5tXJmEeHAA7bNoSGiDzJddY3zNs3+Pppomluv2dKc2jPEOCnUtCcCjzNlV2Dkh4UfO5yaO5+oMINPwMo709yx3hdkqKQlyZ8vo7mkPL5/GsVZuD5UAnvm6/5ZW9JRzDwW+QLyHn5B/N2DM5H+QvHQHk9V4B/t5hswqNjAMdtXHIn+G8mkqwf/U0nOdWq/pE77iTAKRuG02eQrOnIz4746+qsm61r99x51wtW7eKly1euXrtetP5g/AfgX284Mr1nOAAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 1652,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.droidbyme.toastlibrary\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f08008e\" android:label=\"Toast Library\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.droidbyme.toastlibrary.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1618375,
+  "crc32" : 745043343,
+  "sha256" : "1b192c903a768f6dfc8c19aebf23e86afaa91c77e0bd97684b77523a0c0cc4a2",
+  "buildTime" : 1521995037000
+}

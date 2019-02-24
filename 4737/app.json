@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "xyz.matteobattilana.weatherview",
+    "label" : "WeatherView Demo Library",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "2.0.4",
+    "versionCode" : 10,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 726,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"10\" android:versionName=\"2.0.4\" package=\"xyz.matteobattilana.weatherview\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0e0005\" android:label=\"WeatherView Demo Library\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.github.matteobattilana.demo.MainActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1650214,
+  "crc32" : 1510812333,
+  "sha256" : "b4f85d8ad949eebc0751f48f401ee86bcab46604a1d623cfe4099bb4532014ce",
+  "buildTime" : 1539583934000
+}

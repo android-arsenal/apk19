@@ -1,0 +1,382 @@
+2018-10-16 14:12:21,758 INFO  DownloadService - Downloading "https://github.com/Plastix/RxSchedulerRule/archive/master.zip", attempt 3
+2018-10-16 14:12:22,305 INFO  DownloadService - Downloaded https://github.com/Plastix/RxSchedulerRule/archive/master.zip, attempt 3
+2018-10-16 14:12:22,305 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/master.zip": 68 KB
+2018-10-16 14:12:22,305 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-16 14:12:22,305 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/master.zip: true
+2018-10-16 14:12:22,305 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src'.
+2018-10-16 14:12:22,316 INFO  FullProcessService - Size of directory with sources: 76 KB
+2018-10-16 14:12:22,316 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src]
+2018-10-16 14:12:22,332 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/.git/
+
+2018-10-16 14:12:22,334 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/gradlew
+2018-10-16 14:12:22,336 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/build.gradle
+2018-10-16 14:12:22,338 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/settings.gradle
+2018-10-16 14:12:22,338 INFO  ProjectBuildService - Remote scripts: none
+2018-10-16 14:12:22,338 INFO  ProjectFixService - Fixing project...
+2018-10-16 14:12:22,344 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx1/local.properties
+2018-10-16 14:12:22,344 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx1/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
+2018-10-16 14:12:22,344 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx2/local.properties
+2018-10-16 14:12:22,345 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx2/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
+2018-10-16 14:12:22,345 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/local.properties
+2018-10-16 14:12:22,345 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-10-16 14:12:22,346 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-10-16 14:12:22,346 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
+2018-10-16 14:12:22,346 INFO  ProjectFixService - Project was maybe fixed
+2018-10-16 14:12:22,346 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-16 14:12:22,346 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx1/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-16 14:12:33,528 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-10-16 14:12:33,530 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-16 14:12:33,530 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx1/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-16 14:12:42,798 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:rx1:preBuild UP-TO-DATE
+:rx1:preDebugBuild UP-TO-DATE
+:rx1:checkDebugManifest
+:rx1:preDebugAndroidTestBuild UP-TO-DATE
+:rx1:preDebugUnitTestBuild UP-TO-DATE
+:rx1:preReleaseBuild UP-TO-DATE
+:rx1:preReleaseUnitTestBuild UP-TO-DATE
+:rx1:prepareIoReactivexRxandroid121Library
+:rx1:prepareDebugDependencies
+:rx1:compileDebugAidl
+:rx1:compileDebugNdk UP-TO-DATE
+:rx1:compileLint
+:rx1:copyDebugLint UP-TO-DATE
+:rx1:mergeDebugShaders
+:rx1:compileDebugShaders
+:rx1:generateDebugAssets
+:rx1:mergeDebugAssets
+:rx1:mergeDebugProguardFiles
+:rx1:packageDebugRenderscript UP-TO-DATE
+:rx1:compileDebugRenderscript
+:rx1:generateDebugResValues
+:rx1:generateDebugResources
+:rx1:packageDebugResources
+:rx1:processDebugManifest
+:rx1:generateDebugBuildConfig
+:rx1:mergeDebugResources
+:rx1:processDebugResources
+:rx1:generateDebugSources
+:rx1:incrementalDebugJavaCompilationSafeguard
+:rx1:compileDebugJavaWithJavac
+:rx1:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:rx1:processDebugJavaRes UP-TO-DATE
+:rx1:transformResourcesWithMergeJavaResForDebug
+:rx1:transformClassesAndResourcesWithSyncLibJarsForDebug
+:rx1:mergeDebugJniLibFolders
+:rx1:transformNative_libsWithMergeJniLibsForDebug
+:rx1:transformNative_libsWithSyncJniLibsForDebug
+:rx1:bundleDebug
+:rx1:compileDebugSources
+:rx1:assembleDebug
+:rx1:checkReleaseManifest
+:rx1:prepareReleaseDependencies
+:rx1:compileReleaseAidl
+:rx1:compileReleaseNdk UP-TO-DATE
+:rx1:copyReleaseLint UP-TO-DATE
+:rx1:mergeReleaseShaders
+:rx1:compileReleaseShaders
+:rx1:generateReleaseAssets
+:rx1:mergeReleaseAssets
+:rx1:mergeReleaseProguardFiles
+:rx1:packageReleaseRenderscript UP-TO-DATE
+:rx1:compileReleaseRenderscript
+:rx1:generateReleaseResValues
+:rx1:generateReleaseResources
+:rx1:packageReleaseResources
+:rx1:processReleaseManifest
+:rx1:generateReleaseBuildConfig
+:rx1:mergeReleaseResources
+:rx1:processReleaseResources
+:rx1:generateReleaseSources
+:rx1:incrementalReleaseJavaCompilationSafeguard
+:rx1:compileReleaseJavaWithJavac
+:rx1:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:rx1:processReleaseJavaRes UP-TO-DATE
+:rx1:transformResourcesWithMergeJavaResForRelease
+:rx1:transformClassesAndResourcesWithSyncLibJarsForRelease
+:rx1:mergeReleaseJniLibFolders
+:rx1:transformNative_libsWithMergeJniLibsForRelease
+:rx1:transformNative_libsWithSyncJniLibsForRelease
+:rx1:bundleRelease
+:rx1:compileReleaseSources
+:rx1:assembleRelease
+:rx1:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx1/src/main/java/io/github/plastix/rxschedulerrule/RxSchedulerRule.java:8: error: package rx.android.plugins does not exist
+import rx.android.plugins.RxAndroidPlugins;
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx1/src/main/java/io/github/plastix/rxschedulerrule/RxSchedulerRule.java:9: error: package rx.android.plugins does not exist
+import rx.android.plugins.RxAndroidSchedulersHook;
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx1/src/main/java/io/github/plastix/rxschedulerrule/RxSchedulerRule.java:21: error: cannot find symbol
+    private final RxAndroidSchedulersHook rxAndroidSchedulersHook = new RxAndroidSchedulersHook() {
+                  ^
+  symbol:   class RxAndroidSchedulersHook
+  location: class RxSchedulerRule
+
+3 warnings
+:rx1:javadocJar
+:rx1:sourcesJar
+:rx1:assemble
+:rx1:build
+
+BUILD SUCCESSFUL
+
+Total time: 8.666 secs
+
+2018-10-16 14:12:42,830 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-16 14:12:42,831 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-16 14:12:50,233 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-10-16 14:12:50,233 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-16 14:12:50,233 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-16 14:12:59,664 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:rx2:preBuild UP-TO-DATE
+:rx2:preDebugBuild UP-TO-DATE
+:rx2:checkDebugManifest
+:rx2:preDebugAndroidTestBuild UP-TO-DATE
+:rx2:preDebugUnitTestBuild UP-TO-DATE
+:rx2:preReleaseBuild UP-TO-DATE
+:rx2:preReleaseUnitTestBuild UP-TO-DATE
+:rx2:prepareIoReactivexRxjava2Rxandroid201Library
+:rx2:prepareDebugDependencies
+:rx2:compileDebugAidl
+:rx2:compileDebugNdk UP-TO-DATE
+:rx2:compileLint
+:rx2:copyDebugLint UP-TO-DATE
+:rx2:mergeDebugShaders
+:rx2:compileDebugShaders
+:rx2:generateDebugAssets
+:rx2:mergeDebugAssets
+:rx2:mergeDebugProguardFiles
+:rx2:packageDebugRenderscript UP-TO-DATE
+:rx2:compileDebugRenderscript
+:rx2:generateDebugResValues
+:rx2:generateDebugResources
+:rx2:packageDebugResources
+:rx2:processDebugManifest
+:rx2:generateDebugBuildConfig
+:rx2:mergeDebugResources
+:rx2:processDebugResources
+:rx2:generateDebugSources
+:rx2:incrementalDebugJavaCompilationSafeguard
+:rx2:compileDebugJavaWithJavac
+:rx2:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:rx2:processDebugJavaRes UP-TO-DATE
+:rx2:transformResourcesWithMergeJavaResForDebug
+:rx2:transformClassesAndResourcesWithSyncLibJarsForDebug
+:rx2:mergeDebugJniLibFolders
+:rx2:transformNative_libsWithMergeJniLibsForDebug
+:rx2:transformNative_libsWithSyncJniLibsForDebug
+:rx2:bundleDebug
+:rx2:compileDebugSources
+:rx2:assembleDebug
+:rx2:checkReleaseManifest
+:rx2:prepareReleaseDependencies
+:rx2:compileReleaseAidl
+:rx2:compileReleaseNdk UP-TO-DATE
+:rx2:copyReleaseLint UP-TO-DATE
+:rx2:mergeReleaseShaders
+:rx2:compileReleaseShaders
+:rx2:generateReleaseAssets
+:rx2:mergeReleaseAssets
+:rx2:mergeReleaseProguardFiles
+:rx2:packageReleaseRenderscript UP-TO-DATE
+:rx2:compileReleaseRenderscript
+:rx2:generateReleaseResValues
+:rx2:generateReleaseResources
+:rx2:packageReleaseResources
+:rx2:processReleaseManifest
+:rx2:generateReleaseBuildConfig
+:rx2:mergeReleaseResources
+:rx2:processReleaseResources
+:rx2:generateReleaseSources
+:rx2:incrementalReleaseJavaCompilationSafeguard
+:rx2:compileReleaseJavaWithJavac
+:rx2:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:rx2:processReleaseJavaRes UP-TO-DATE
+:rx2:transformResourcesWithMergeJavaResForRelease
+:rx2:transformClassesAndResourcesWithSyncLibJarsForRelease
+:rx2:mergeReleaseJniLibFolders
+:rx2:transformNative_libsWithMergeJniLibsForRelease
+:rx2:transformNative_libsWithSyncJniLibsForRelease
+:rx2:bundleRelease
+:rx2:compileReleaseSources
+:rx2:assembleRelease
+:rx2:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx2/src/main/java/io/github/plastix/rxschedulerrule/RxSchedulerRule.java:10: error: package io.reactivex.android.plugins does not exist
+import io.reactivex.android.plugins.RxAndroidPlugins;
+                                   ^
+
+1 warning
+:rx2:javadocJar
+:rx2:sourcesJar
+:rx2:assemble
+:rx2:build
+
+BUILD SUCCESSFUL
+
+Total time: 8.842 secs
+
+2018-10-16 14:12:59,733 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-16 14:12:59,733 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-16 14:13:07,234 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-10-16 14:13:07,234 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-16 14:13:07,234 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-16 14:13:14,440 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:rx1:preBuild UP-TO-DATE
+:rx1:preDebugBuild UP-TO-DATE
+:rx1:checkDebugManifest
+:rx1:preDebugAndroidTestBuild UP-TO-DATE
+:rx1:preDebugUnitTestBuild UP-TO-DATE
+:rx1:preReleaseBuild UP-TO-DATE
+:rx1:preReleaseUnitTestBuild UP-TO-DATE
+:rx1:prepareIoReactivexRxandroid121Library UP-TO-DATE
+:rx1:prepareDebugDependencies
+:rx1:compileDebugAidl UP-TO-DATE
+:rx1:compileDebugNdk UP-TO-DATE
+:rx1:compileLint UP-TO-DATE
+:rx1:copyDebugLint UP-TO-DATE
+:rx1:mergeDebugShaders UP-TO-DATE
+:rx1:compileDebugShaders UP-TO-DATE
+:rx1:generateDebugAssets UP-TO-DATE
+:rx1:mergeDebugAssets UP-TO-DATE
+:rx1:mergeDebugProguardFiles UP-TO-DATE
+:rx1:packageDebugRenderscript UP-TO-DATE
+:rx1:compileDebugRenderscript UP-TO-DATE
+:rx1:generateDebugResValues UP-TO-DATE
+:rx1:generateDebugResources UP-TO-DATE
+:rx1:packageDebugResources UP-TO-DATE
+:rx1:processDebugManifest UP-TO-DATE
+:rx1:generateDebugBuildConfig UP-TO-DATE
+:rx1:mergeDebugResources UP-TO-DATE
+:rx1:processDebugResources UP-TO-DATE
+:rx1:generateDebugSources UP-TO-DATE
+:rx1:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:rx1:compileDebugJavaWithJavac UP-TO-DATE
+:rx1:processDebugJavaRes UP-TO-DATE
+:rx1:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:rx1:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:rx1:mergeDebugJniLibFolders UP-TO-DATE
+:rx1:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:rx1:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:rx1:bundleDebug UP-TO-DATE
+:rx1:compileDebugSources UP-TO-DATE
+:rx1:assembleDebug UP-TO-DATE
+:rx1:checkReleaseManifest
+:rx1:prepareReleaseDependencies
+:rx1:compileReleaseAidl UP-TO-DATE
+:rx1:compileReleaseNdk UP-TO-DATE
+:rx1:copyReleaseLint UP-TO-DATE
+:rx1:mergeReleaseShaders UP-TO-DATE
+:rx1:compileReleaseShaders UP-TO-DATE
+:rx1:generateReleaseAssets UP-TO-DATE
+:rx1:mergeReleaseAssets UP-TO-DATE
+:rx1:mergeReleaseProguardFiles UP-TO-DATE
+:rx1:packageReleaseRenderscript UP-TO-DATE
+:rx1:compileReleaseRenderscript UP-TO-DATE
+:rx1:generateReleaseResValues UP-TO-DATE
+:rx1:generateReleaseResources UP-TO-DATE
+:rx1:packageReleaseResources UP-TO-DATE
+:rx1:processReleaseManifest UP-TO-DATE
+:rx1:generateReleaseBuildConfig UP-TO-DATE
+:rx1:mergeReleaseResources UP-TO-DATE
+:rx1:processReleaseResources UP-TO-DATE
+:rx1:generateReleaseSources UP-TO-DATE
+:rx1:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:rx1:compileReleaseJavaWithJavac UP-TO-DATE
+:rx1:processReleaseJavaRes UP-TO-DATE
+:rx1:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:rx1:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:rx1:mergeReleaseJniLibFolders UP-TO-DATE
+:rx1:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:rx1:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:rx1:bundleRelease UP-TO-DATE
+:rx1:compileReleaseSources UP-TO-DATE
+:rx1:assembleRelease UP-TO-DATE
+:rx1:javadoc UP-TO-DATE
+:rx1:javadocJar UP-TO-DATE
+:rx1:sourcesJar UP-TO-DATE
+:rx1:assemble UP-TO-DATE
+:rx1:build
+:rx2:preBuild UP-TO-DATE
+:rx2:preDebugBuild UP-TO-DATE
+:rx2:checkDebugManifest
+:rx2:preDebugAndroidTestBuild UP-TO-DATE
+:rx2:preDebugUnitTestBuild UP-TO-DATE
+:rx2:preReleaseBuild UP-TO-DATE
+:rx2:preReleaseUnitTestBuild UP-TO-DATE
+:rx2:prepareIoReactivexRxjava2Rxandroid201Library UP-TO-DATE
+:rx2:prepareDebugDependencies
+:rx2:compileDebugAidl UP-TO-DATE
+:rx2:compileDebugNdk UP-TO-DATE
+:rx2:compileLint UP-TO-DATE
+:rx2:copyDebugLint UP-TO-DATE
+:rx2:mergeDebugShaders UP-TO-DATE
+:rx2:compileDebugShaders UP-TO-DATE
+:rx2:generateDebugAssets UP-TO-DATE
+:rx2:mergeDebugAssets UP-TO-DATE
+:rx2:mergeDebugProguardFiles UP-TO-DATE
+:rx2:packageDebugRenderscript UP-TO-DATE
+:rx2:compileDebugRenderscript UP-TO-DATE
+:rx2:generateDebugResValues UP-TO-DATE
+:rx2:generateDebugResources UP-TO-DATE
+:rx2:packageDebugResources UP-TO-DATE
+:rx2:processDebugManifest UP-TO-DATE
+:rx2:generateDebugBuildConfig UP-TO-DATE
+:rx2:mergeDebugResources UP-TO-DATE
+:rx2:processDebugResources UP-TO-DATE
+:rx2:generateDebugSources UP-TO-DATE
+:rx2:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:rx2:compileDebugJavaWithJavac UP-TO-DATE
+:rx2:processDebugJavaRes UP-TO-DATE
+:rx2:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:rx2:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:rx2:mergeDebugJniLibFolders UP-TO-DATE
+:rx2:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:rx2:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:rx2:bundleDebug UP-TO-DATE
+:rx2:compileDebugSources UP-TO-DATE
+:rx2:assembleDebug UP-TO-DATE
+:rx2:checkReleaseManifest
+:rx2:prepareReleaseDependencies
+:rx2:compileReleaseAidl UP-TO-DATE
+:rx2:compileReleaseNdk UP-TO-DATE
+:rx2:copyReleaseLint UP-TO-DATE
+:rx2:mergeReleaseShaders UP-TO-DATE
+:rx2:compileReleaseShaders UP-TO-DATE
+:rx2:generateReleaseAssets UP-TO-DATE
+:rx2:mergeReleaseAssets UP-TO-DATE
+:rx2:mergeReleaseProguardFiles UP-TO-DATE
+:rx2:packageReleaseRenderscript UP-TO-DATE
+:rx2:compileReleaseRenderscript UP-TO-DATE
+:rx2:generateReleaseResValues UP-TO-DATE
+:rx2:generateReleaseResources UP-TO-DATE
+:rx2:packageReleaseResources UP-TO-DATE
+:rx2:processReleaseManifest UP-TO-DATE
+:rx2:generateReleaseBuildConfig UP-TO-DATE
+:rx2:mergeReleaseResources UP-TO-DATE
+:rx2:processReleaseResources UP-TO-DATE
+:rx2:generateReleaseSources UP-TO-DATE
+:rx2:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:rx2:compileReleaseJavaWithJavac UP-TO-DATE
+:rx2:processReleaseJavaRes UP-TO-DATE
+:rx2:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:rx2:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:rx2:mergeReleaseJniLibFolders UP-TO-DATE
+:rx2:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:rx2:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:rx2:bundleRelease UP-TO-DATE
+:rx2:compileReleaseSources UP-TO-DATE
+:rx2:assembleRelease UP-TO-DATE
+:rx2:javadoc UP-TO-DATE
+:rx2:javadocJar UP-TO-DATE
+:rx2:sourcesJar UP-TO-DATE
+:rx2:assemble UP-TO-DATE
+:rx2:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.603 secs
+
+2018-10-16 14:13:14,509 ERROR FullProcessService - Project build has not produced APK file
+2018-10-16 14:13:14,569 ERROR FullProcessService - Could not find generated or existed APK file

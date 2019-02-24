@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.byox.drawviewproject",
+    "label" : "DrawView Library",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.3",
+    "versionCode" : 4,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2070,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"4\" android:versionName=\"1.3\" package=\"com.byox.drawviewproject\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"24\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f080093\" android:label=\"DrawView Library\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f080039\" android:label=\"DrawView Library\" android:name=\"com.byox.drawviewproject.SplashScreenActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f080039\" android:label=\"DrawView Library\" android:name=\"com.byox.drawviewproject.MainActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1847116,
+  "crc32" : 645256468,
+  "sha256" : "3a567e1cb92dca62ca54b57f942e7807e6dae25f98f5df376467d0f31f63ab00",
+  "buildTime" : 1496784649000
+}

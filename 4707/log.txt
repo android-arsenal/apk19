@@ -1,0 +1,129 @@
+2018-12-13 11:29:34,492 INFO  DownloadService - Downloading "https://github.com/marlonlom/timeago/archive/master.zip", attempt 3
+2018-12-13 11:29:36,213 INFO  DownloadService - Downloaded https://github.com/marlonlom/timeago/archive/master.zip, attempt 3
+2018-12-13 11:29:36,213 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/master.zip": 181 KB
+2018-12-13 11:29:36,213 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-13 11:29:36,213 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/master.zip: true
+2018-12-13 11:29:36,214 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src'.
+2018-12-13 11:29:36,238 INFO  FullProcessService - Size of directory with sources: 265 KB
+2018-12-13 11:29:36,238 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src]
+2018-12-13 11:29:36,260 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src/.git/
+
+2018-12-13 11:29:36,264 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src/timeago-master/gradlew
+2018-12-13 11:29:36,268 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src/timeago-master/ta_sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src/timeago-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src/timeago-master/ta_library/build.gradle
+2018-12-13 11:29:36,271 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src/timeago-master/ta_sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src/timeago-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src/timeago-master/ta_library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src/timeago-master/settings.gradle
+2018-12-13 11:29:36,272 INFO  ProjectBuildService - Remote scripts: none
+2018-12-13 11:29:36,272 INFO  ProjectFixService - Fixing project...
+2018-12-13 11:29:36,280 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src/timeago-master/ta_sample/local.properties
+2018-12-13 11:29:36,281 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src/timeago-master/ta_sample/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-12-13 11:29:36,281 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src/timeago-master/local.properties
+2018-12-13 11:29:36,281 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.9-all.zip
+2018-12-13 11:29:36,282 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.9-bin.zip)
+2018-12-13 11:29:36,282 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src/timeago-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-12-13 11:29:36,283 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src/timeago-master/ta_library/local.properties
+2018-12-13 11:29:36,284 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src/timeago-master/ta_library/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2018-12-13 11:29:36,284 INFO  ProjectFixService - Project was maybe fixed
+2018-12-13 11:29:36,284 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-13 11:29:36,284 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src/timeago-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src/timeago-master/ta_sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-13 11:29:56,068 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-12-13 11:29:56,068 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-13 11:29:56,068 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src/timeago-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src/timeago-master/ta_sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-13 11:30:35,411 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :ta_library:compileKotlin
+> Task :ta_library:compileJava NO-SOURCE
+> Task :ta_library:processResources
+> Task :ta_library:classes
+> Task :ta_library:inspectClassesForKotlinIC
+> Task :ta_library:jar
+> Transform ta_library.jar (project :ta_library) with IdentityTransform
+> Task :ta_sample:checkDebugClasspath
+> Task :ta_sample:preBuild UP-TO-DATE
+> Transform ta_library.jar with IdentityTransform
+> Task :ta_sample:preDebugBuild
+> Task :ta_sample:compileDebugAidl NO-SOURCE
+> Task :ta_sample:compileDebugRenderscript
+> Task :ta_sample:checkDebugManifest
+> Task :ta_sample:generateDebugBuildConfig
+> Task :ta_sample:mainApkListPersistenceDebug
+> Task :ta_sample:generateDebugResValues
+> Task :ta_sample:generateDebugResources
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/3.3.0-alpha08-4963834/aapt2-3.3.0-alpha08-4963834-osx.jar
+> Task :ta_sample:mergeDebugResources
+> Task :ta_sample:createDebugCompatibleScreenManifests
+> Task :ta_sample:processDebugManifest
+> Task :ta_sample:processDebugResources
+> Task :ta_sample:compileDebugKotlin
+> Task :ta_sample:prepareLintJar
+> Task :ta_sample:generateDebugSources
+> Task :ta_sample:javaPreCompileDebug
+> Task :ta_sample:compileDebugJavaWithJavac
+> Task :ta_sample:compileDebugNdk NO-SOURCE
+> Task :ta_sample:compileDebugSources
+> Task :ta_sample:mergeDebugShaders
+> Task :ta_sample:compileDebugShaders
+> Task :ta_sample:generateDebugAssets
+> Task :ta_sample:mergeDebugAssets
+> Task :ta_sample:transformClassesWithDexBuilderForDebug
+> Task :ta_sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :ta_sample:transformDexArchiveWithDexMergerForDebug
+> Transform ta_library.jar (project :ta_library) with IdentityTransform
+> Task :ta_sample:mergeDebugJniLibFolders
+> Transform ta_library.jar with IdentityTransform
+> Task :ta_sample:processDebugJavaRes NO-SOURCE
+> Task :ta_sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :ta_sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :ta_sample:transformResourcesWithMergeJavaResForDebug
+> Task :ta_sample:validateSigningDebug
+> Task :ta_sample:packageDebug
+> Task :ta_sample:assembleDebug
+> Task :ta_sample:checkReleaseClasspath
+> Task :ta_sample:preReleaseBuild
+> Task :ta_sample:compileReleaseAidl NO-SOURCE
+> Task :ta_sample:compileReleaseRenderscript
+> Task :ta_sample:checkReleaseManifest
+> Task :ta_sample:generateReleaseBuildConfig
+> Task :ta_sample:mainApkListPersistenceRelease
+> Task :ta_sample:generateReleaseResValues
+> Task :ta_sample:generateReleaseResources
+> Task :ta_sample:mergeReleaseResources
+> Task :ta_sample:createReleaseCompatibleScreenManifests
+> Task :ta_sample:processReleaseManifest
+> Task :ta_sample:processReleaseResources
+> Task :ta_sample:compileReleaseKotlin
+> Task :ta_sample:generateReleaseSources
+> Task :ta_sample:javaPreCompileRelease
+> Task :ta_sample:compileReleaseJavaWithJavac
+> Task :ta_sample:compileReleaseNdk NO-SOURCE
+> Task :ta_sample:compileReleaseSources
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.3.0-alpha08/lint-gradle-26.3.0-alpha08.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.3.0-alpha08/lint-kotlin-26.3.0-alpha08.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.3.0-alpha08/lint-api-26.3.0-alpha08.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.3.0-alpha08/lint-26.3.0-alpha08.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.3.0-alpha08/lint-checks-26.3.0-alpha08.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.3.0-alpha08/uast-26.3.0-alpha08.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.3.0-alpha08/kotlin-compiler-26.3.0-alpha08.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.3.0-alpha08/intellij-core-26.3.0-alpha08.jar
+
+> Task :ta_sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/a96e74bc4f8840c9014994927960c710/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :ta_sample:mergeReleaseShaders
+> Task :ta_sample:compileReleaseShaders
+> Task :ta_sample:generateReleaseAssets
+> Task :ta_sample:mergeReleaseAssets
+> Task :ta_sample:transformClassesWithDexBuilderForRelease
+> Task :ta_sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :ta_sample:transformDexArchiveWithDexMergerForRelease
+> Task :ta_sample:mergeReleaseJniLibFolders
+> Task :ta_sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :ta_sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :ta_sample:processReleaseJavaRes NO-SOURCE
+> Task :ta_sample:transformResourcesWithMergeJavaResForRelease
+> Task :ta_sample:packageRelease
+> Task :ta_sample:assembleRelease
+> Task :ta_sample:assemble
+> Task :ta_sample:build
+
+BUILD SUCCESSFUL in 38s
+57 actionable tasks: 57 executed
+
+2018-12-13 11:30:35,488 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544675374489-0/src/timeago-master/ta_sample/build/outputs/apk/release/ta_sample-release-unsigned.apk

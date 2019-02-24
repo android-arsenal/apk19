@@ -1,0 +1,767 @@
+2018-10-15 17:51:06,113 INFO  DownloadService - Downloading "https://github.com/xbauquet/Theo/archive/master.zip", attempt 3
+2018-10-15 17:51:07,409 INFO  DownloadService - Downloaded https://github.com/xbauquet/Theo/archive/master.zip, attempt 3
+2018-10-15 17:51:07,409 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/master.zip": 379 KB
+2018-10-15 17:51:07,410 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-15 17:51:07,416 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/master.zip: true
+2018-10-15 17:51:07,416 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src'.
+2018-10-15 17:51:07,471 INFO  FullProcessService - Size of directory with sources: 694 KB
+2018-10-15 17:51:07,471 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src]
+2018-10-15 17:51:07,487 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/.git/
+
+2018-10-15 17:51:07,493 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/gradlew
+2018-10-15 17:51:07,499 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo-plugin/build.gradle
+2018-10-15 17:51:07,504 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/settings.gradle
+2018-10-15 17:51:07,505 INFO  ProjectBuildService - Remote scripts: none
+2018-10-15 17:51:07,505 INFO  ProjectFixService - Fixing project...
+2018-10-15 17:51:07,518 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo-example/local.properties
+2018-10-15 17:51:07,519 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo-example/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=18,targetSdkVersion=24]
+2018-10-15 17:51:07,520 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo/local.properties
+2018-10-15 17:51:07,521 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2018-10-15 17:51:07,521 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/local.properties
+2018-10-15 17:51:07,522 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-10-15 17:51:07,522 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-10-15 17:51:07,523 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=18,targetSdkVersion=24]
+2018-10-15 17:51:07,523 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo-plugin/local.properties
+2018-10-15 17:51:07,524 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo-plugin/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=18,targetSdkVersion=24]
+2018-10-15 17:51:07,525 INFO  ProjectFixService - Project was maybe fixed
+2018-10-15 17:51:07,525 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-15 17:51:07,525 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-15 17:51:14,831 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-10-15 17:51:14,831 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-10-15 17:51:14,831 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-10-15 17:51:14,831 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-10-15 17:51:19,994 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-10-15 17:51:19,994 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':theo-example'.
+> Could not resolve all dependencies for configuration ':theo-example:classpath'.
+   > Could not find com.xavierbauquet.theo:theo-plugin:1.3.1.
+     Searched in the following locations:
+         https://repo1.maven.org/maven2/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.pom
+         https://repo1.maven.org/maven2/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.jar
+         https://jcenter.bintray.com/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.pom
+         https://jcenter.bintray.com/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.jar
+         file:/Users/vbauer/.m2/repository/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.pom
+         file:/Users/vbauer/.m2/repository/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.jar
+     Required by:
+         Theo-master:theo-example:unspecified
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':theo-example'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:57)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:540)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:93)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:42)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:142)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:139)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.artifacts.ResolveException: Could not resolve all dependencies for configuration ':theo-example:classpath'.
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration.rethrowFailure(DefaultLenientConfiguration.java:62)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultResolvedConfiguration.rethrowFailure(DefaultResolvedConfiguration.java:36)
+	at org.gradle.api.internal.artifacts.ivyservice.SelfResolvingDependencyConfigurationResolver$FilesAggregatingResolvedConfiguration.rethrowFailure(SelfResolvingDependencyConfigurationResolver.java:112)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver$ErrorHandlingResolvedConfiguration.rethrowFailure(ErrorHandlingConfigurationResolver.java:189)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:669)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getFiles(DefaultConfiguration.java:293)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getFiles(Unknown Source)
+	at org.gradle.api.internal.initialization.DefaultScriptHandler.getScriptClassPath(DefaultScriptHandler.java:69)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.defineScriptHandlerClassScope(DefaultPluginRequestApplicator.java:186)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugins(DefaultPluginRequestApplicator.java:75)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:157)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:38)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:25)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:55)
+	... 56 more
+Caused by: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not find com.xavierbauquet.theo:theo-plugin:1.3.1.
+Searched in the following locations:
+    https://repo1.maven.org/maven2/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.pom
+    https://repo1.maven.org/maven2/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.jar
+    https://jcenter.bintray.com/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.pom
+    https://jcenter.bintray.com/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.jar
+    file:/Users/vbauer/.m2/repository/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.pom
+    file:/Users/vbauer/.m2/repository/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.jar
+Required by:
+    Theo-master:theo-example:unspecified
+	at org.gradle.internal.resolve.result.DefaultBuildableComponentResolveResult.notFound(DefaultBuildableComponentResolveResult.java:38)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolveModule(RepositoryChainComponentMetaDataResolver.java:88)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolve(RepositoryChainComponentMetaDataResolver.java:59)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ComponentMetaDataResolverChain.resolve(ComponentResolversChain.java:80)
+	at org.gradle.api.internal.artifacts.ivyservice.clientmodule.ClientModuleResolver.resolve(ClientModuleResolver.java:44)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$ModuleVersionResolveState.resolve(DependencyGraphBuilder.java:564)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$ModuleVersionResolveState.getMetaData(DependencyGraphBuilder.java:574)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$DependencyEdge.calculateTargetConfigurations(DependencyGraphBuilder.java:260)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$DependencyEdge.attachToTargetConfigurations(DependencyGraphBuilder.java:234)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.traverseGraph(DependencyGraphBuilder.java:141)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.resolve(DependencyGraphBuilder.java:79)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver$1.execute(DefaultArtifactDependencyResolver.java:90)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver$1.execute(DefaultArtifactDependencyResolver.java:80)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:61)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver.resolve(DefaultArtifactDependencyResolver.java:80)
+	at org.gradle.api.internal.artifacts.ivyservice.CacheLockingArtifactDependencyResolver$1.run(CacheLockingArtifactDependencyResolver.java:41)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:192)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:175)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.useCache(DefaultPersistentDirectoryStore.java:106)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.useCache(DefaultCacheFactory.java:187)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.useCache(DefaultCacheLockingManager.java:64)
+	at org.gradle.api.internal.artifacts.ivyservice.CacheLockingArtifactDependencyResolver.resolve(CacheLockingArtifactDependencyResolver.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultConfigurationResolver.resolve(DefaultConfigurationResolver.java:91)
+	at org.gradle.api.internal.artifacts.ivyservice.SelfResolvingDependencyConfigurationResolver.resolve(SelfResolvingDependencyConfigurationResolver.java:40)
+	at org.gradle.api.internal.artifacts.ivyservice.ShortCircuitEmptyConfigurationResolver.resolve(ShortCircuitEmptyConfigurationResolver.java:52)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver.resolve(ErrorHandlingConfigurationResolver.java:43)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveGraphIfRequired(DefaultConfiguration.java:372)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveNow(DefaultConfiguration.java:347)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getResolvedConfiguration(DefaultConfiguration.java:340)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getResolvedConfiguration(Unknown Source)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:667)
+	... 66 more
+
+
+BUILD FAILED
+
+Total time: 4.692 secs
+
+2018-10-15 17:51:20,000 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-15 17:51:20,000 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-15 17:51:34,290 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-10-15 17:51:34,290 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-10-15 17:51:34,290 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-10-15 17:51:34,290 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-10-15 17:51:46,394 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-10-15 17:51:46,394 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:theo:preBuild UP-TO-DATE
+:theo:preDebugBuild UP-TO-DATE
+:theo:checkDebugManifest
+:theo:preDebugAndroidTestBuild UP-TO-DATE
+:theo:preDebugUnitTestBuild UP-TO-DATE
+:theo:preReleaseBuild UP-TO-DATE
+:theo:preReleaseUnitTestBuild UP-TO-DATE
+:theo:prepareComAndroidSupportAnimatedVectorDrawable2421Library
+:theo:prepareComAndroidSupportAppcompatV72421Library
+:theo:prepareComAndroidSupportDesign2421Library
+:theo:prepareComAndroidSupportRecyclerviewV72421Library
+:theo:prepareComAndroidSupportSupportCompat2421Library
+:theo:prepareComAndroidSupportSupportCoreUi2421Library
+:theo:prepareComAndroidSupportSupportCoreUtils2421Library
+:theo:prepareComAndroidSupportSupportFragment2421Library
+:theo:prepareComAndroidSupportSupportMediaCompat2421Library
+:theo:prepareComAndroidSupportSupportV42421Library
+:theo:prepareComAndroidSupportSupportVectorDrawable2421Library
+:theo:prepareDebugDependencies
+:theo:compileDebugAidl
+:theo:compileDebugNdk UP-TO-DATE
+:theo:compileLint
+:theo:copyDebugLint UP-TO-DATE
+:theo:compileDebugRenderscript
+:theo:generateDebugBuildConfig
+:theo:generateDebugResValues
+:theo:generateDebugResources
+:theo:mergeDebugResources
+:theo:processDebugManifest
+:theo:processDebugResources
+:theo:generateDebugSources
+:theo:incrementalDebugJavaCompilationSafeguard
+:theo:compileDebugJavaWithJavac
+:theo:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:theo:extractDebugAnnotations
+:theo:mergeDebugShaders
+:theo:compileDebugShaders
+:theo:generateDebugAssets
+:theo:mergeDebugAssets
+:theo:mergeDebugProguardFiles
+:theo:packageDebugRenderscript UP-TO-DATE
+:theo:packageDebugResources
+:theo:processDebugJavaRes UP-TO-DATE
+:theo:transformResourcesWithMergeJavaResForDebug
+:theo:transformClassesAndResourcesWithSyncLibJarsForDebug
+:theo:mergeDebugJniLibFolders
+:theo:transformNative_libsWithMergeJniLibsForDebug
+:theo:transformNative_libsWithSyncJniLibsForDebug
+:theo:bundleDebug
+:theo:compileDebugSources
+:theo:assembleDebug
+:theo:checkReleaseManifest
+:theo:prepareReleaseDependencies
+:theo:compileReleaseAidl
+:theo:compileReleaseNdk UP-TO-DATE
+:theo:copyReleaseLint UP-TO-DATE
+:theo:compileReleaseRenderscript
+:theo:generateReleaseBuildConfig
+:theo:generateReleaseResValues
+:theo:generateReleaseResources
+:theo:mergeReleaseResources
+:theo:processReleaseManifest
+:theo:processReleaseResources
+:theo:generateReleaseSources
+:theo:incrementalReleaseJavaCompilationSafeguard
+:theo:compileReleaseJavaWithJavac
+:theo:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:theo:extractReleaseAnnotations
+:theo:mergeReleaseShaders
+:theo:compileReleaseShaders
+:theo:generateReleaseAssets
+:theo:mergeReleaseAssets
+:theo:mergeReleaseProguardFiles
+:theo:packageReleaseRenderscript UP-TO-DATE
+:theo:packageReleaseResources
+:theo:processReleaseJavaRes UP-TO-DATE
+:theo:transformResourcesWithMergeJavaResForRelease
+:theo:transformClassesAndResourcesWithSyncLibJarsForRelease
+:theo:mergeReleaseJniLibFolders
+:theo:transformNative_libsWithMergeJniLibsForRelease
+:theo:transformNative_libsWithSyncJniLibsForRelease
+:theo:bundleRelease
+:theo:compileReleaseSources
+:theo:assembleRelease
+:theo:assemble
+:theo:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':theo:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':theo:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:330)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:207)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getCCompiler(DefaultNdkInfo.java:263)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getCCompiler(NdkHandler.java:306)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:240)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:175)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.java:288)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.java:105)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:228)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:621)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:604)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 11.428 secs
+
+2018-10-15 17:51:46,467 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-15 17:51:46,467 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-15 17:51:54,675 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-10-15 17:51:54,675 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-10-15 17:51:54,675 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-10-15 17:51:54,676 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-10-15 17:52:03,014 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-10-15 17:52:03,014 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':theo-example'.
+> Could not resolve all dependencies for configuration ':theo-example:classpath'.
+   > Could not find com.xavierbauquet.theo:theo-plugin:1.3.1.
+     Searched in the following locations:
+         https://repo1.maven.org/maven2/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.pom
+         https://repo1.maven.org/maven2/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.jar
+         https://jcenter.bintray.com/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.pom
+         https://jcenter.bintray.com/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.jar
+         file:/Users/vbauer/.m2/repository/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.pom
+         file:/Users/vbauer/.m2/repository/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.jar
+     Required by:
+         Theo-master:theo-example:unspecified
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':theo-example'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:57)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:540)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:93)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:47)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:142)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:139)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.artifacts.ResolveException: Could not resolve all dependencies for configuration ':theo-example:classpath'.
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration.rethrowFailure(DefaultLenientConfiguration.java:62)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultResolvedConfiguration.rethrowFailure(DefaultResolvedConfiguration.java:36)
+	at org.gradle.api.internal.artifacts.ivyservice.SelfResolvingDependencyConfigurationResolver$FilesAggregatingResolvedConfiguration.rethrowFailure(SelfResolvingDependencyConfigurationResolver.java:112)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver$ErrorHandlingResolvedConfiguration.rethrowFailure(ErrorHandlingConfigurationResolver.java:189)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:669)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getFiles(DefaultConfiguration.java:293)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getFiles(Unknown Source)
+	at org.gradle.api.internal.initialization.DefaultScriptHandler.getScriptClassPath(DefaultScriptHandler.java:69)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.defineScriptHandlerClassScope(DefaultPluginRequestApplicator.java:186)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugins(DefaultPluginRequestApplicator.java:75)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:157)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:38)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:25)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:55)
+	... 56 more
+Caused by: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not find com.xavierbauquet.theo:theo-plugin:1.3.1.
+Searched in the following locations:
+    https://repo1.maven.org/maven2/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.pom
+    https://repo1.maven.org/maven2/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.jar
+    https://jcenter.bintray.com/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.pom
+    https://jcenter.bintray.com/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.jar
+    file:/Users/vbauer/.m2/repository/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.pom
+    file:/Users/vbauer/.m2/repository/com/xavierbauquet/theo/theo-plugin/1.3.1/theo-plugin-1.3.1.jar
+Required by:
+    Theo-master:theo-example:unspecified
+	at org.gradle.internal.resolve.result.DefaultBuildableComponentResolveResult.notFound(DefaultBuildableComponentResolveResult.java:38)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolveModule(RepositoryChainComponentMetaDataResolver.java:88)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolve(RepositoryChainComponentMetaDataResolver.java:59)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ComponentMetaDataResolverChain.resolve(ComponentResolversChain.java:80)
+	at org.gradle.api.internal.artifacts.ivyservice.clientmodule.ClientModuleResolver.resolve(ClientModuleResolver.java:44)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$ModuleVersionResolveState.resolve(DependencyGraphBuilder.java:564)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$ModuleVersionResolveState.getMetaData(DependencyGraphBuilder.java:574)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$DependencyEdge.calculateTargetConfigurations(DependencyGraphBuilder.java:260)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$DependencyEdge.attachToTargetConfigurations(DependencyGraphBuilder.java:234)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.traverseGraph(DependencyGraphBuilder.java:141)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.resolve(DependencyGraphBuilder.java:79)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver$1.execute(DefaultArtifactDependencyResolver.java:90)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver$1.execute(DefaultArtifactDependencyResolver.java:80)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:61)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver.resolve(DefaultArtifactDependencyResolver.java:80)
+	at org.gradle.api.internal.artifacts.ivyservice.CacheLockingArtifactDependencyResolver$1.run(CacheLockingArtifactDependencyResolver.java:41)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:192)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:175)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.useCache(DefaultPersistentDirectoryStore.java:106)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.useCache(DefaultCacheFactory.java:187)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.useCache(DefaultCacheLockingManager.java:64)
+	at org.gradle.api.internal.artifacts.ivyservice.CacheLockingArtifactDependencyResolver.resolve(CacheLockingArtifactDependencyResolver.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultConfigurationResolver.resolve(DefaultConfigurationResolver.java:91)
+	at org.gradle.api.internal.artifacts.ivyservice.SelfResolvingDependencyConfigurationResolver.resolve(SelfResolvingDependencyConfigurationResolver.java:40)
+	at org.gradle.api.internal.artifacts.ivyservice.ShortCircuitEmptyConfigurationResolver.resolve(ShortCircuitEmptyConfigurationResolver.java:52)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver.resolve(ErrorHandlingConfigurationResolver.java:43)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveGraphIfRequired(DefaultConfiguration.java:372)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveNow(DefaultConfiguration.java:347)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getResolvedConfiguration(DefaultConfiguration.java:340)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getResolvedConfiguration(Unknown Source)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:667)
+	... 66 more
+
+
+BUILD FAILED
+
+Total time: 7.773 secs
+
+2018-10-15 17:52:03,079 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-15 17:52:03,080 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo-plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-15 17:52:12,366 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-10-15 17:52:12,366 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-10-15 17:52:12,366 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-10-15 17:52:12,366 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo-plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-10-15 17:52:18,130 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-10-15 17:52:18,130 INFO  SysUtils - Configuration on demand is an incubating feature.
+:theo-plugin:compileJava UP-TO-DATE
+:theo-plugin:compileGroovy
+:theo-plugin:processResources
+:theo-plugin:classes
+:theo-plugin:jar
+:theo-plugin:assemble
+:theo-plugin:compileTestJava/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo-plugin/src/test/java/com/xavierbauquet/theo_pluggin/ExampleUnitTest.java:3: error: package org.junit does not exist
+import org.junit.Test;
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo-plugin/src/test/java/com/xavierbauquet/theo_pluggin/ExampleUnitTest.java:5: error: package org.junit does not exist
+import static org.junit.Assert.*;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo-plugin/src/test/java/com/xavierbauquet/theo_pluggin/ExampleUnitTest.java:13: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class ExampleUnitTest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600666110-0/src/Theo-master/theo-plugin/src/test/java/com/xavierbauquet/theo_pluggin/ExampleUnitTest.java:15: error: cannot find symbol
+        assertEquals(4, 2 + 2);
+        ^
+  symbol:   method assertEquals(int,int)
+  location: class ExampleUnitTest
+4 errors
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':theo-plugin:compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':theo-plugin:compileTestJava'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:48)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:33)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:104)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:53)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:38)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:35)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:25)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:163)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:145)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:93)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:245)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:232)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 5.254 secs
+
+2018-10-15 17:52:18,206 ERROR FullProcessService - Project build has not produced APK file
+2018-10-15 17:52:18,271 ERROR FullProcessService - Could not find generated or existed APK file

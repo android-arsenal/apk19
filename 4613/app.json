@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.ufreedom.demo",
+    "label" : "FloatingView",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACOlBMVEVtX4hyZYxuYIhzZ42wq7/p6O2Xj6psXoeYkKvi4Of///+knbWHfZ3OyteUi6d3a5C4s8X7+/z+/v7j4uf9/f6LgqBvYomhmrLs7O/NydfY197V0dyspbuAdZiNhKLZ1uDl5OqVjKizrsDd2+Px8fSDeJq0r8L39/l4a5F8cZTBvc339viwqb5xZYyvqb7MydbEwM+zrcHHwtFzZoxxZYurpbvy8fTIw9GAdJeyq8DPy9eaka3Y1d7Sz9rm5OttYIhtX4eXjqri3+fd2+SRiKXZ1eB7bpPc2eKNg6Hg3eXa1+CDeJnKx9Xw7/KnoLdwY4qpornb2eJ0aI69t8m4ssVvYYnr6u/Oy9Z3apC0rsL5+Pr9/v6+ucqmnrXd2eKRh6Xc2eNzZo11aI709Padla/n5uzPzNiFepyjnLN7cJR0Z47e3eWPhKN9cJT9/f3Tz9uel7CTiaaSiKeLgaCDeZqim7Tf3eV+cZa/ucu7tcimnrZ6bpPn5+z39vn6+vz8/P2MgaGUiafa2OF0Zo2PhaN9cZV9cpWCd5mNg6KMg6GVi6iflrC6tceTiafj4eibkq2OhKN4bZH6+/x/cpbp5+zg3+WLgKCnn7ZuYYnh3uann7e+usrw8POHe5y1r8P5+fq8t8nz8fXv7/KIfp7Cvs719PZ1aI+VjKm1sMOTiqfv7vLy8PSJfp/Py9jp5+1yZozt7PDi4ejy8fXa1uC1r8LCvs14a5Dd2uPAu8zc2uK2sMN4bJDKxtOQhqWXTSKyAAABdklEQVRIx2NgGAWjgF6AkYkk5cwsrGwkKGfn4OTi4iZePQ8vFxDwEaucX0CQS4hLWESUOOVi4hJcklJc0jJCskSpl5PnUlBUUlZRVVPXIEK5phaXto6unr6BIYORijFB5SamZlzmFgyWVtY2ugy2dvYElDs4OnE5uzAw6Lm6uXswMHh6EdDg7cPl6+fPwBAQGBQcwsAQGhaOV3lEZFR0jBuQERunEZ+QyMCQlByDR7l9SipXWjqIlRGXmZWdA2Tk5lniVh+Uz8XlVVBYVFxSWlbOUFEJEkvnqsKtobpGvbYOlBi46hsYGpuaQWItXBy4NTAZt7a1d3R2dfdw9TL0yYDF+rkmEBFvEydZTp4ydRqIOZ1LlQgNM2bmz5qdMGcukDlvfjUxKWnBwqZFXFy+ixkYlixdRoyG5UCPr1i5avUahrXrQonRsH4DlxoDQ/vGTYs3KzsQlbq3bAWR27YnJ+8gqQjYtpNrF2llzO49e0cL2lFAIwAA605RZmmEbsAAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 2069,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.ufreedom.demo\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f080039\" android:label=\"FloatingView\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.ufreedom.demo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1879098,
+  "crc32" : 1565114649,
+  "sha256" : "b6f5ff1da6a576af1218ba7eace7a1b5247d7ff2569fbf128f4a5415950b1366",
+  "buildTime" : 1522003174000
+}

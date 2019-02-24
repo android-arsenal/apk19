@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.appeaser.imagetransition",
+    "label" : "ImageTransition",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1",
+    "versionCode" : 2,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACSVBMVEUAAACOjo6Pj4+JiYmEhISCgoJ+fn5wcHBbW1uPj499fX11dXV0dHRzc3Nvb29eXl5DQ0Nubm5nZ2dlZWVgYGBLS0s3NzdiYmJhYWFXV1dSUlJRUVFWVlZGRkY1NTWnp6epqamkpKRPT0/W1tbV1dXY2Nja2tpKSkrp6env7+/09PT19fVJSUnr6+vx8fHt7e3z8/P29vZQUFBTU1NbW1vR0dH39/f4+PjS0tKNlYabpY+lr5i1wae5w65cXFydp5G2wqjI1bnY5cff689ZWVm0wKbU4sTd6s3f7NDi7dVfX19UVFTe68/h7dPj7tXHzr1dXV1aWlpOTk6ksZbB26S405qkvImJlHzO47XG36m92Z2ju4iFmW+lspjC26WlvImIk3u105K12IyozH6Aj2621ZGz14qs036exm+JqmOrz4Clz3WWvGqFp152klZYWVaRp3iixXeo0Xl9jG2LrGV+nVl0j1VxfGVjY2NZW1aWuWyfzWmby2OZyl9WWFSBgYGJo2uXyVyTx1ePxVCNxE2Iomp/f39ycnKKulSNxE6Lw0uLw0p8fHxYWFiGuUiJwEl4eHh8p0mBtUWIvkiKwkp8p0hycnJ4kFx2pT9+sUOGvEeIv0l4kF1sbGxsbGxYWlZtjUZslzlzoT13pz9XWVVFRUVlZWViYmJRU09tgVZggTtdgjNuglhWV1Q0NDRZWVlSUlJNTU1ISEhHR0dMTEw7OzsyMjJMTExCQkI+Pj5AQEAxMTFEREQ5OTk0NDQ0NDQ1NTUxMTExMTH4Z81BAAAAw3RSTlMAM9T//////7XW//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////T//////9n///+d//////9K////////Acv/////////LPX/////////RfD///////8pzP//1wFKnd771jPGO5HSAAACK0lEQVRIx2NgGJSAkYmZhZUwYGPngGrgZObi5iEIePn4BaAamLkEhYQJAxFRMagGFm4hcQlcgF9SShoEpCRlZOWgGlh5hHGql5CUV1AEAQV5JeI0SCmrqKqpqamqKKsTp0FaQ1NLW1tbS1NDh0gNunraIKCnS5wGESV9A7AGA32iNIjwK2kbQoA2IT8Aw9NIydjE2NTMHATMLAiFkqSllbWNrbEd0fEgZe/g6OQsjRBwwa9BxMjVzd3DU4poDV7etj6+fv6SxGrwCgj0Bjmcn0gNIgH8ASJoYng1eAVgqMerwUvGKMjYxYt4DS7BIaFh4S7EazCOiIyKjjGmoQaX2LjQ+AQSnOTlYhRkRIqnQfHgRUqwivDzEx0PXoHeUsaSJgEYFuDSEBiemJScgpyGCGjwTk1Lz8iUFiGkwcvFW8obFC7GWdk5uXneEng18AoH5BcUFhUW5Ad4yRSXlJaVBxLQUFFZVV1TW1NdVWdiJyMt7R3ohVdDPW9AQ2NTc0tzU2OrDL8IriIHoaGt3aWjubOru6uzuUMKp3okDT3tvX393SDQ3yclQYSGCe0mEydNntI9ZfKkqd7EaJjGLjJ9xsxZs2fNnDHHhRgNc+cJz1+wcNHiRQsXLPHCo2EpTAPDsuW9K1auWr1qzdoA3OpFJAXWwSve9Rs2btq8aYu0pAtuILll6zZEVb19x85dAktl8YClAlvX7Uaq3Pfs3bf/gBw+sG7bwUODs2ECAExcA+c3j9ilAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 1812,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"1.1\" package=\"com.appeaser.imagetransition\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f090038\" android:label=\"ImageTransition\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.appeaser.imagetransition.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f09008f\" android:label=\"Second Activity\" android:name=\"com.appeaser.imagetransition.SecondActivity\" />\n\t\t<activity android:label=\"About this app\" android:name=\"com.appeaser.imagetransition.AboutThisApp\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2567289,
+  "crc32" : 913674226,
+  "sha256" : "cd68467770c69ddb0a26e9040fca50c1e01a9f43fd0fd32b54115e8ad4351e0c",
+  "buildTime" : 1522017991000
+}

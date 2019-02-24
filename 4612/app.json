@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.codemybrainsout.rating",
+    "label" : "Smart App Rate",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2183,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.codemybrainsout.rating\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0900a6\" android:label=\"Smart App Rate\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.codemybrainsout.rating.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1898092,
+  "crc32" : 1117090586,
+  "sha256" : "ddac23fdbebc28c95604f1823b31f9d5b91195711ef523ac887d8f4049481317",
+  "buildTime" : 1522003332000
+}

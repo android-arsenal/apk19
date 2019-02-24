@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "io.techery.sample",
+    "label" : "Cell Adapter",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 4,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1864,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"4\" android:versionName=\"1.0\" package=\"io.techery.sample\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f08008e\" android:label=\"Cell Adapter\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"io.techery.sample.home.SampleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"io.techery.sample.base.BaseSampleActivity\" />\n\t\t<activity android:name=\"io.techery.sample.single.SingleChoiceActivity\" />\n\t\t<activity android:name=\"io.techery.sample.multi.MultiChoiceActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1441279,
+  "crc32" : 3613608439,
+  "sha256" : "d7f88f265b9623da7c7ec1cf77649660a2f3f09f5c6c736c75e51b7d05ae005d",
+  "buildTime" : 1522003792000
+}

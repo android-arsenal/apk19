@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "ca.antonious.sample",
+    "label" : "ViewCellAdapter",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "19",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAB+FBMVEUAAAD/////b2//b2//b2//cHD/b2//bW3/bm7/Q0P/QkL/QkL/QED/R0f/Pj7/PT3/PT3/PT3/bm7/bW33g4Pmr6/jt7fAV1eyLy/AWFj/bGz3goL/a2v/amr3gYHmrq7jtrb/aWnjtbW7R0f/Z2f/aGi8SUmyMDD/ZmbCWlrVj4+0NDT/ZGTjtLS0NTXSh4fDYGDUjIy0MzP/ZWX/Y2PAVlbam5vTiIizMjL/YmLjs7O7SEizMTH/YWH/YGDmqqq7Rkb/X1//Xl73d3f/XV3/W1v/XFz/Wlr3c3PmqKjjsbH/WVn/WFjmp6f/V1fjsLDAVVX/VVX/Vlb/VFTamJi5QkLRgID/U1P/UlLjr6/fpaXGY2O4Pj7McXG4QEDOd3f/UVHYlJTMcnK+UFDOeHjjrq7ira3Ndna3OzvKbm7hqqrfpKS8SkrFYmL/T0//UFDcnZ3PenrCWVm2OTm9SkrJbGzXjY3bnJzBVla6RUXdnp7hq6vDW1vfpqb/Tk7ThIS4Pz+5QUHThYXWjIzCWFjWj4/KcHDcnJz/TU3/TEzjra3iqqrJamq2OjrQe3vdnZ3/S0vAVFS/UFDZlJT/SkrjrKz/SUn/SEizMzP/R0f/RUXmoKDjq6v/RET3YmLjqqr/QkL/Q0P/QUH/QED/Pz//PT3/Pj7/PDzwE+UpAAAAEnRSTlMAAWXI8hm88/LyyGW8GbxlyPMivmgQAAAC00lEQVRIx5WW+VsScRDGB1DKW0FlQ1JawTLdLrOSUiSDFDXQMkMrS8NOoazszrJL6LJju7wQRP/NZpZDZDnWzzPP7nxn3ndmn91fFgBkckWOSgI5CrkMkFxlOoVapcZIrChzcb4yg0CEUgby9JMTB8RyOSjExUwbFbANG+UVlRKoKEfzdiCbJD066DFBjVRWaphNaMQFgrRkUG3BoIpukEZsQ/yRdmTahEtUyQZNFoNaq40YJL8l2qDFS5W071CFWi0ZtLiKUJM5CeptqoM2OzqtDiN6AJ1Ot7O6Ri+BmmrSwi4kjZ7Vsxh6fa3wlmr1NaQFg9FoYNnk18kmIpTqdrOs0WAwwh5EgqF+bwPLkhYaEY7jWI7F4ASS8337Gw4cPMRwbGNTUyMcRjgu4YNGcw0Xh2k+cvQYw3AcaaEFSTQ0R/NmjjNxJgw0MMdPYMXEtba0tEIbYjZlpF2Y0G4yt1ksbXDSYrF0ZHFEMHeQFk5tEbDabFabFSNyJ2xpaoQVTiOdXXYJdHWSFrp7enp67ZLoRW03nEEcDqfTkRq7w44RPZAW+vr7+xwOhnFIgLRwFslkODdwPp6TFgYHBy+4XAzjSsnQ8MVLl0diJ9LCFURkuDo6NnbN7Rq/fuPmLdftOxPjkTJpweP1etxuhnHHuHtv8v6Dh1OPHj8ZGZh8SpVnz8deCC2vx+OFl0jcMDQ98er18Eyk/ebtu9iQ9wMf6EZamPX5fH4/w/g/Tn2q+1z/5as/FdMzdJ1FYM7nmxMM376P/vBnZg6Bn4hg4AX8/EYfD/GzkP9CLfxGeP4PkxUnz5MW/iI875RkIC38Q+YXJDFPWshbXFxcijiWF5YxFtLl80sozYP8QGAlsIIREJGqng8FwWAoGMIIiqA6EevRuQBkhatEaDWEsSoiqV6IvydFxeG1sMBaeE0E9TbqxUX0OyMrKS1bJ8LrYYz1dJSVluD8/2W3T5T/uwQVAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 2134,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"ca.antonious.sample\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"19\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f080093\" android:label=\"ViewCellAdapter\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f080039\" android:label=\"ViewCellAdapter\" android:name=\"ca.antonious.sample.HomeActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f080039\" android:label=\"Information\" android:name=\"ca.antonious.sample.about.AboutActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f080039\" android:label=\"Basic Homogeneous Section\" android:name=\"ca.antonious.sample.BasicHomogeneousSectionSample\" />\n\t\t<activity android:theme=\"resourceId:0x7f080039\" android:label=\"Sorted Homogeneous Section\" android:name=\"ca.antonious.sample.SortedHomogeneousSectionSample\" />\n\t\t<activity android:theme=\"resourceId:0x7f080039\" android:label=\"Filtered Homogeneous Section\" android:name=\"ca.antonious.sample.FilteredHomogeneousSectionSample\" />\n\t\t<activity android:theme=\"resourceId:0x7f080039\" android:label=\"Multiple Sections\" android:name=\"ca.antonious.sample.MultipleSectionsSample\" />\n\t\t<activity android:theme=\"resourceId:0x7f080039\" android:label=\"Complex Decorator Composition\" android:name=\"ca.antonious.sample.ComplexDecoratorCompositionSample\" />\n\t\t<activity android:theme=\"resourceId:0x7f080039\" android:label=\"Selection\" android:name=\"ca.antonious.sample.SelectionSample\" />\n\t\t<activity android:theme=\"resourceId:0x7f080039\" android:label=\"Heterogeneous Section\" android:name=\"ca.antonious.sample.HeterogeneousSample\" />\n\t\t<activity android:theme=\"resourceId:0x7f080039\" android:label=\"Grid Layout\" android:name=\"ca.antonious.sample.GridLayoutSample\" />\n\t\t<activity android:theme=\"resourceId:0x7f080039\" android:label=\"Settings\" android:name=\"ca.antonious.sample.SettingsSample\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1668985,
+  "crc32" : 1572823461,
+  "sha256" : "05f9c9066f6fe409d9166cb7fad23077d6fa4e662c2c6c0f11e5b62eabae90f1",
+  "buildTime" : 1496784651000
+}

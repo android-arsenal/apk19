@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "proguard.acra.app",
+    "label" : null,
+    "icon" : null,
+    "versionName" : null,
+    "versionCode" : null,
+    "installLocation" : null,
+    "minSdkVersion" : "8",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "25",
+    "platformBuildVersionName" : "7.1.1",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 81,
+  "locales" : [ ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" package=\"proguard.acra.app\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"25\" />\n\t<application android:debuggable=\"true\" />\n</manifest>\n",
+  "fileSize" : 57059,
+  "crc32" : 3468210986,
+  "sha256" : "e5ebcc6759aaad7b86770c50ac52a5a7f8d5aa283efb41d090423d34a22144e9",
+  "buildTime" : 1547911934000
+}

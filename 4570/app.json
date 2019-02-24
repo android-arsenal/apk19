@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "me.zhanghai.android.materialratingbar.sample",
+    "label" : "MaterialRatingBar Sample",
+    "icon" : "res/mipmap-mdpi-v4/launcher_icon.png",
+    "versionName" : "1.3.2",
+    "versionCode" : 9,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "9",
+    "platformBuildVersionName" : "1.3.2",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/launcher_icon.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1408,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"9\" android:versionName=\"1.3.2\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"me.zhanghai.android.materialratingbar.sample\" platformBuildVersionCode=\"9\" platformBuildVersionName=\"1.3.2\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"MaterialRatingBar Sample\" android:icon=\"res/mipmap-xxxhdpi-v4/launcher_icon.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"true\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:label=\"MaterialRatingBar Sample\" android:name=\"me.zhanghai.android.materialratingbar.sample.MainActivity\" android:launchMode=\"singleTop\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"About\" android:name=\"me.zhanghai.android.materialratingbar.sample.AboutActivity\" android:launchMode=\"singleTop\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\".MainActivity\" />\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1528369,
+  "crc32" : 1845734133,
+  "sha256" : "539ee5c8d3886766461c9b532b22a39d58f2a932e117dd3e8edf47dc004a78ae",
+  "buildTime" : 1546776695000
+}

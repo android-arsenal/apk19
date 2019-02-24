@@ -1,0 +1,163 @@
+2018-11-19 11:44:11,009 INFO  DownloadService - Downloading "https://github.com/Kunzisoft/Android-SwitchDateTimePicker/archive/master.zip", attempt 3
+2018-11-19 11:44:16,068 INFO  DownloadService - Downloaded https://github.com/Kunzisoft/Android-SwitchDateTimePicker/archive/master.zip, attempt 3
+2018-11-19 11:44:16,068 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/master.zip": 1 MB
+2018-11-19 11:44:16,068 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-19 11:44:16,074 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/master.zip: true
+2018-11-19 11:44:16,075 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src'.
+2018-11-19 11:44:16,120 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-11-19 11:44:16,121 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src]
+2018-11-19 11:44:16,138 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src/.git/
+
+2018-11-19 11:44:16,142 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src/Android-SwitchDateTimePicker-master/gradlew
+2018-11-19 11:44:16,147 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src/Android-SwitchDateTimePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src/Android-SwitchDateTimePicker-master/switchdatetime/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src/Android-SwitchDateTimePicker-master/build.gradle
+2018-11-19 11:44:16,150 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src/Android-SwitchDateTimePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src/Android-SwitchDateTimePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src/Android-SwitchDateTimePicker-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src/Android-SwitchDateTimePicker-master/switchdatetime/build.gradle
+2018-11-19 11:44:16,151 INFO  ProjectBuildService - Remote scripts: none
+2018-11-19 11:44:16,151 INFO  ProjectFixService - Fixing project...
+2018-11-19 11:44:16,160 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src/Android-SwitchDateTimePicker-master/sample/local.properties
+2018-11-19 11:44:16,160 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src/Android-SwitchDateTimePicker-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-19 11:44:16,160 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src/Android-SwitchDateTimePicker-master/switchdatetime/local.properties
+2018-11-19 11:44:16,161 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src/Android-SwitchDateTimePicker-master/switchdatetime/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-19 11:44:16,161 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src/Android-SwitchDateTimePicker-master/local.properties
+2018-11-19 11:44:16,162 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-11-19 11:44:16,162 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-11-19 11:44:16,163 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src/Android-SwitchDateTimePicker-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-19 11:44:16,164 INFO  ProjectFixService - Project was maybe fixed
+2018-11-19 11:44:16,164 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-19 11:44:16,164 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src/Android-SwitchDateTimePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src/Android-SwitchDateTimePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-19 11:44:23,061 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-11-19 11:44:23,061 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-19 11:44:23,061 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src/Android-SwitchDateTimePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src/Android-SwitchDateTimePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-19 11:44:54,191 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sample:preBuild UP-TO-DATE
+:switchdatetime:preBuild UP-TO-DATE
+:switchdatetime:preDebugBuild UP-TO-DATE
+:switchdatetime:checkDebugManifest
+:switchdatetime:processDebugManifest
+:sample:preDebugBuild
+Download https://jitpack.io/com/github/prolificinteractive/material-calendarview/1.5.0/material-calendarview-1.5.0.aar
+:switchdatetime:compileDebugAidl
+:sample:compileDebugAidl
+:switchdatetime:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:switchdatetime:compileDebugRenderscript
+:switchdatetime:generateDebugResValues
+:switchdatetime:generateDebugResources
+:switchdatetime:packageDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:switchdatetime:platformAttrExtractor
+:switchdatetime:generateDebugBuildConfig
+:switchdatetime:prepareLintJar
+:switchdatetime:javaPreCompileDebug
+:switchdatetime:processDebugJavaRes NO-SOURCE
+:sample:compileDebugNdk NO-SOURCE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:switchdatetime:mergeDebugShaders
+:switchdatetime:compileDebugShaders
+:switchdatetime:generateDebugAssets
+:switchdatetime:packageDebugAssets
+:sample:mergeDebugAssets
+:sample:mergeDebugJniLibFolders
+:switchdatetime:compileDebugNdk NO-SOURCE
+:switchdatetime:mergeDebugJniLibFolders
+:switchdatetime:transformNativeLibsWithMergeJniLibsForDebug
+:switchdatetime:transformNativeLibsWithStripDebugSymbolForDebug
+:switchdatetime:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:validateSigningDebug
+:switchdatetime:preReleaseBuild UP-TO-DATE
+:switchdatetime:checkReleaseManifest
+:switchdatetime:processReleaseManifest
+:sample:preReleaseBuild
+:switchdatetime:compileReleaseAidl
+:sample:compileReleaseAidl
+:switchdatetime:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:switchdatetime:compileReleaseRenderscript
+:switchdatetime:generateReleaseResValues
+:switchdatetime:generateReleaseResources
+:switchdatetime:packageReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:switchdatetime:generateReleaseBuildConfig
+:switchdatetime:javaPreCompileRelease
+:switchdatetime:processReleaseJavaRes NO-SOURCE
+:sample:compileReleaseNdk NO-SOURCE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:switchdatetime:mergeReleaseShaders
+:switchdatetime:compileReleaseShaders
+:switchdatetime:generateReleaseAssets
+:switchdatetime:packageReleaseAssets
+:sample:mergeReleaseAssets
+:sample:mergeReleaseJniLibFolders
+:switchdatetime:compileReleaseNdk NO-SOURCE
+:switchdatetime:mergeReleaseJniLibFolders
+:switchdatetime:transformNativeLibsWithMergeJniLibsForRelease
+:switchdatetime:transformNativeLibsWithStripDebugSymbolForRelease
+:switchdatetime:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:switchdatetime:generateDebugRFile
+:sample:processDebugResources
+:sample:generateDebugSources
+:switchdatetime:generateDebugSources
+:switchdatetime:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:switchdatetime:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugSources
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:packageDebug
+:sample:assembleDebug
+:switchdatetime:generateReleaseRFile
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:switchdatetime:generateReleaseSources
+:switchdatetime:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:switchdatetime:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 30s
+91 actionable tasks: 91 executed
+
+2018-11-19 11:44:54,279 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602651001-0/src/Android-SwitchDateTimePicker-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

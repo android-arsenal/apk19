@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.rd.pageindicatorview",
+    "label" : "PageIndicatorView",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "1",
+    "platformBuildVersionName" : "{4:1065353216}",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1603,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.rd.pageindicatorview\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0e0005\" android:label=\"PageIndicatorView\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.rd.pageindicatorview.home.HomeActivity\" android:screenOrientation=\"sensorPortrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.rd.pageindicatorview.customize.CustomizeActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1482779,
+  "crc32" : 3479054102,
+  "sha256" : "1b2db8d026066167811e70f1c5e37bb9ecab05283d0d86175093efc21e3b71c9",
+  "buildTime" : 1542006386000
+}

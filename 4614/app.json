@@ -1,0 +1,44 @@
+{
+  "meta" : {
+    "packageName" : "com.vansuita.pickimage.sample",
+    "label" : "Pick Image Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 4,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "4",
+    "platformBuildVersionName" : "{4:1065353216}",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.CAMERA", "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ {
+      "name" : "android.hardware.camera",
+      "required" : false
+    }, {
+      "name" : "android.hardware.camera.autofocus",
+      "required" : false
+    } ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1467,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"4\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.vansuita.pickimage.sample\" platformBuildVersionCode=\"4\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<uses-feature android:name=\"android.hardware.camera\" />\n\t<uses-feature android:name=\"android.hardware.camera.autofocus\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"Pick Image Sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:screenOrientation=\"portrait\" android:configChanges=\"0x80\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.vansuita.pickimage.sample.act.SampleActivity\" android:screenOrientation=\"sensorPortrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<provider android:name=\"androidx.core.content.FileProvider\" android:exported=\"false\" android:authorities=\"com.vansuita.pickimage.sample.com.vansuita.pickimage.provider\" android:grantUriPermissions=\"true\">\n\t\t\t<meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"res/xml/picker_provider_paths.xml\" />\n\t\t</provider>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1754173,
+  "crc32" : 1221030237,
+  "sha256" : "d9110afc3ffed3d737841f3b0a948866a54c2fb6df81ba2553dca23189b98eb1",
+  "buildTime" : 1539673432000
+}

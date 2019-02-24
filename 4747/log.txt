@@ -1,0 +1,186 @@
+2018-10-15 13:06:01,453 INFO  DownloadService - Downloading "https://github.com/firetrap/verso/archive/master.zip", attempt 3
+2018-10-15 13:06:19,166 INFO  DownloadService - Downloaded https://github.com/firetrap/verso/archive/master.zip, attempt 3
+2018-10-15 13:06:19,167 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/master.zip": 7 MB
+2018-10-15 13:06:19,167 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-15 13:06:19,174 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/master.zip: true
+2018-10-15 13:06:19,175 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src'.
+2018-10-15 13:06:19,218 INFO  FullProcessService - Size of directory with sources: 7 MB
+2018-10-15 13:06:19,218 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src]
+2018-10-15 13:06:19,235 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/.git/
+
+2018-10-15 13:06:19,237 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/verso-master/gradlew
+2018-10-15 13:06:19,240 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/verso-master/verso/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/verso-master/build.gradle
+2018-10-15 13:06:19,241 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/verso-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/verso-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/verso-master/verso/build.gradle
+2018-10-15 13:06:19,242 INFO  ProjectBuildService - Remote scripts: none
+2018-10-15 13:06:19,242 INFO  ProjectFixService - Fixing project...
+2018-10-15 13:06:19,248 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/verso-master/verso/local.properties
+2018-10-15 13:06:19,248 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/verso-master/verso/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-10-15 13:06:19,249 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/verso-master/local.properties
+2018-10-15 13:06:19,249 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-10-15 13:06:19,250 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-10-15 13:06:19,251 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/verso-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-10-15 13:06:19,251 INFO  ProjectFixService - Project was maybe fixed
+2018-10-15 13:06:19,251 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-15 13:06:19,251 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/verso-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/verso-master/verso/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-15 13:06:26,081 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-15 13:06:26,081 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-15 13:06:26,081 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/verso-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/verso-master/verso/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-15 13:06:33,782 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:verso:preBuild UP-TO-DATE
+:verso:preDebugBuild UP-TO-DATE
+:verso:checkDebugManifest
+:verso:prepareDebugDependencies
+:verso:compileDebugAidl
+:verso:compileDebugNdk UP-TO-DATE
+:verso:compileLint
+:verso:copyDebugLint UP-TO-DATE
+:verso:mergeDebugShaders
+:verso:compileDebugShaders
+:verso:generateDebugAssets
+:verso:mergeDebugAssets
+:verso:mergeDebugProguardFiles
+:verso:packageDebugRenderscript UP-TO-DATE
+:verso:compileDebugRenderscript
+:verso:generateDebugResValues
+:verso:generateDebugResources
+:verso:packageDebugResources
+:verso:processDebugManifest
+:verso:generateDebugBuildConfig
+:verso:processDebugResources
+:verso:generateDebugSources
+:verso:incrementalDebugJavaCompilationSafeguard
+:verso:compileDebugJavaWithJavac
+:verso:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/verso-master/verso/src/main/java/com/firetrap/verso/kdtree/KDTree.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:verso:processDebugJavaRes UP-TO-DATE
+:verso:transformResourcesWithMergeJavaResForDebug
+:verso:transformClassesAndResourcesWithSyncLibJarsForDebug
+:verso:mergeDebugJniLibFolders
+:verso:transformNative_libsWithMergeJniLibsForDebug
+:verso:transformNative_libsWithSyncJniLibsForDebug
+:verso:bundleDebug
+:verso:compileDebugSources
+:verso:assembleDebug
+:verso:preReleaseBuild UP-TO-DATE
+:verso:checkReleaseManifest
+:verso:prepareReleaseDependencies
+:verso:compileReleaseAidl
+:verso:compileReleaseNdk UP-TO-DATE
+:verso:copyReleaseLint UP-TO-DATE
+:verso:mergeReleaseShaders
+:verso:compileReleaseShaders
+:verso:generateReleaseAssets
+:verso:mergeReleaseAssets
+:verso:mergeReleaseProguardFiles
+:verso:packageReleaseRenderscript UP-TO-DATE
+:verso:compileReleaseRenderscript
+:verso:generateReleaseResValues
+:verso:generateReleaseResources
+:verso:packageReleaseResources
+:verso:processReleaseManifest
+:verso:generateReleaseBuildConfig
+:verso:processReleaseResources
+:verso:generateReleaseSources
+:verso:incrementalReleaseJavaCompilationSafeguard
+:verso:compileReleaseJavaWithJavac
+:verso:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/verso-master/verso/src/main/java/com/firetrap/verso/kdtree/KDTree.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:verso:processReleaseJavaRes UP-TO-DATE
+:verso:transformResourcesWithMergeJavaResForRelease
+:verso:transformClassesAndResourcesWithSyncLibJarsForRelease
+:verso:mergeReleaseJniLibFolders
+:verso:transformNative_libsWithMergeJniLibsForRelease
+:verso:transformNative_libsWithSyncJniLibsForRelease
+:verso:bundleRelease
+:verso:compileReleaseSources
+:verso:assembleRelease
+:verso:assemble
+:verso:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.116 secs
+
+2018-10-15 13:06:33,791 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-15 13:06:33,792 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/verso-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/verso-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-15 13:06:39,723 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-15 13:06:39,723 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-15 13:06:39,723 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/verso-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539583561449-0/src/verso-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-15 13:06:45,644 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:verso:preBuild UP-TO-DATE
+:verso:preDebugBuild UP-TO-DATE
+:verso:checkDebugManifest
+:verso:prepareDebugDependencies
+:verso:compileDebugAidl UP-TO-DATE
+:verso:compileDebugNdk UP-TO-DATE
+:verso:compileLint UP-TO-DATE
+:verso:copyDebugLint UP-TO-DATE
+:verso:mergeDebugShaders UP-TO-DATE
+:verso:compileDebugShaders UP-TO-DATE
+:verso:generateDebugAssets UP-TO-DATE
+:verso:mergeDebugAssets UP-TO-DATE
+:verso:mergeDebugProguardFiles UP-TO-DATE
+:verso:packageDebugRenderscript UP-TO-DATE
+:verso:compileDebugRenderscript UP-TO-DATE
+:verso:generateDebugResValues UP-TO-DATE
+:verso:generateDebugResources UP-TO-DATE
+:verso:packageDebugResources UP-TO-DATE
+:verso:processDebugManifest UP-TO-DATE
+:verso:generateDebugBuildConfig UP-TO-DATE
+:verso:processDebugResources UP-TO-DATE
+:verso:generateDebugSources UP-TO-DATE
+:verso:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:verso:compileDebugJavaWithJavac UP-TO-DATE
+:verso:processDebugJavaRes UP-TO-DATE
+:verso:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:verso:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:verso:mergeDebugJniLibFolders UP-TO-DATE
+:verso:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:verso:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:verso:bundleDebug UP-TO-DATE
+:verso:compileDebugSources UP-TO-DATE
+:verso:assembleDebug UP-TO-DATE
+:verso:preReleaseBuild UP-TO-DATE
+:verso:checkReleaseManifest
+:verso:prepareReleaseDependencies
+:verso:compileReleaseAidl UP-TO-DATE
+:verso:compileReleaseNdk UP-TO-DATE
+:verso:copyReleaseLint UP-TO-DATE
+:verso:mergeReleaseShaders UP-TO-DATE
+:verso:compileReleaseShaders UP-TO-DATE
+:verso:generateReleaseAssets UP-TO-DATE
+:verso:mergeReleaseAssets UP-TO-DATE
+:verso:mergeReleaseProguardFiles UP-TO-DATE
+:verso:packageReleaseRenderscript UP-TO-DATE
+:verso:compileReleaseRenderscript UP-TO-DATE
+:verso:generateReleaseResValues UP-TO-DATE
+:verso:generateReleaseResources UP-TO-DATE
+:verso:packageReleaseResources UP-TO-DATE
+:verso:processReleaseManifest UP-TO-DATE
+:verso:generateReleaseBuildConfig UP-TO-DATE
+:verso:processReleaseResources UP-TO-DATE
+:verso:generateReleaseSources UP-TO-DATE
+:verso:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:verso:compileReleaseJavaWithJavac UP-TO-DATE
+:verso:processReleaseJavaRes UP-TO-DATE
+:verso:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:verso:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:verso:mergeReleaseJniLibFolders UP-TO-DATE
+:verso:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:verso:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:verso:bundleRelease UP-TO-DATE
+:verso:compileReleaseSources UP-TO-DATE
+:verso:assembleRelease UP-TO-DATE
+:verso:assemble UP-TO-DATE
+:verso:build
+
+BUILD SUCCESSFUL
+
+Total time: 5.324 secs
+
+2018-10-15 13:06:45,653 ERROR FullProcessService - Project build has not produced APK file
+2018-10-15 13:06:45,663 ERROR FullProcessService - Could not find generated or existed APK file

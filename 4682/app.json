@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.drextended.rvdbsample",
+    "label" : "DataBinding for RecyclerView",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "24",
+    "platformBuildVersionName" : "7.0",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACN1BMVEUAAAD////////////////////////////////+/v79/f39/f38/Pzw8PAAAADy8vL8/Pz8/Pz9/f38/Pzy8vLCwsLW1tb7+/vy8vKwsLDDw8P7+/umpqaioqLGxsakpKStra36+vru7u6Hh4e/v78AAADa2trMzMwAAAAAAAA7OzvLy8vr6+vv7+/u7u7s7OzHx8c5OTkAAABFRUVjY2NdXV1ERERVVVUAAAAAAADMzMz+/v79/f3S0tKRkZFiYmJBQUEzMzM0NDRkZGSUlJTV1dXy8vKSkpIsLCwAAAAvLy+Wlpb09PT8/PympqYcHBwfHx+srKzx8fFaWloBAQEoKChlZWWNjY2goKCMjIwnJydgYGDz8/Pp6ek3NzcGBgZjY2PPz8/Nzc1hYWEFBQU8PDzs7OzQ0NBZWVn29vb19fVcXFxfX1+lpaX7+/v6+vqrq6sbGxs4ODj39/eQkJAHBwfT09Pe3t6ysrLk5OTj4+Pf398qKipmZmYNDQ2/v7+9vb0LCwsICAiwsLArKytEREQ/Pz+Ojo4lJSU6OjqTk5NpaWmampoCAgKxsbGtra0EBAQDAwOenp4+Pj7IyMiYmJjKysouLi49PT1eXl5qamotLS1DQ0NGRkbOzs5oaGhLS0tPT0/W1tZKSkpNTU0ZGRk7OzsUFBQVFRUdHR2ioqKpqaltbW1RUVFubm6oqKhWVlbv7+85OTno6Ojq6upVVVVbW1unp6ddXV2Pj4/R0dH////5+fmGsxtEAAAAO3RSTlMAAwQCEx4dCpbo7ZaYmwEU6vn9/esZJe/wKibuKywoLRzs7SIECKquCQMrse7x8O6yLSFDTU1EBgsOBS3Ps0cAAALfSURBVEjHvZbpP1RhFMfvWJJ2pn1fVFRUUtSMCZPh4IYJY8sSJcsYYSYVaZlUtEtEUYpKqbTX9Md1zlzu3Os+d+6nN35v5rnP/X2f5Z7nnGc4bq6kC9CQTmYPDNQeUurBZlDwPL8KDvLaZvwh80MXaCh0YYhIBHKLDEZtLV4yDei4pcuMYeF6vwoPMyxfwQk7D+BWrjLqJUMlmo4mJackmY+lSjr1htVr0CoAa9f5AEtaOojKyMySAOt9gDgDfzwbZMrJ5UVggxKwniBTXn6BrbCwyFycRw8lperAyTJ0lFdUzizjVFU1dpw+owZYyV+WKP2UNSlElLIB/iy+LKmVf/y6euxs4JmAnfyNs8PlQCKviQVYzgE0tygDXIerysliAK0AThcazrddmPFebLtE+8CdZzKAdoAOfJ3rhMudgv/KVbh2HX+rMIJKoAaXSh/IjTu5IQBdFGv6uhiPVAVwE8BNob6Fri4BuI3NdmoUA3QrgAaAHnp55y5U3xOA+w/g4SNqmAEqFEAvgMlre9wnhq6m74n3twggSQFkANjVUqcQIFkB9P8vMACQpgbYWEt6CjCoBhSwNo2jDNHReZYu03M6XPk4uwIYxsDRyeiWZ1wfdlVi4FwKgMdhRmiKF1L/S5qggiZXniUMtXOU0uiVz//aQkWkHAPNAKxjAON0vB2tbwT7224HPtZiHr4rZSXQBHrM3gTKev9hcvJjUx21G0twc5/YKfqZiFkp1IJ+qGenqHGKMn58VOp3NWPXF6tamflKhHPEJdbMDid2NH9TL2RT372FbGgwzW439bipkMEPq5/KZ+QnxuSBy/7JLJWSYmy1FfvsbpOFWYw3yso9P2z7NdCf0dvw+4+83G+aBnTc5i0G7QvFs3UbFzF9ZW3f4fAYPH5l8PzdGSnecVG7du+Jjon2o5jovfv2R/mu0cjYA3EH/SruUGyk9KKOTzisoYR4+eUfcURDEXP2L+YfoDSfbhEoXt8AAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 2685,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.drextended.rvdbsample\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"24\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f090092\" android:label=\"DataBinding for RecyclerView\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.drextended.rvdbsample.view.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1725504,
+  "crc32" : 4141472428,
+  "sha256" : "75a7a1e5cf6746249a325b16e0701eba26265c1ad65d69b6ac69415db6c31c64",
+  "buildTime" : 1539607760000
+}

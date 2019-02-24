@@ -1,0 +1,11 @@
+{
+  "org.acra" : [ "ACRA", "ACRA$1", "ACRA$2", "ACRAConfiguration", "ACRAConfigurationException", "ACRAConstants", "CrashReportDialog", "CrashReportFileNameParser", "CrashReportFinder", "CrashReportFinder$1", "CrashReportPersister", "ErrorReporter", "ErrorReporter$1", "ErrorReporter$2", "ErrorReporter$3", "ErrorReporter$4", "ReportField", "ReportField$1", "ReportField$10", "ReportField$11", "ReportField$2", "ReportField$3", "ReportField$4", "ReportField$5", "ReportField$6", "ReportField$7", "ReportField$8", "ReportField$9", "ReportingInteractionMode", "SendWorker" ],
+  "org.acra.annotation" : [ "ReportsCrashes" ],
+  "org.acra.collector" : [ "Compatibility", "ConfigurationCollector", "CrashReportData", "CrashReportDataFactory", "DeviceFeaturesCollector", "DisplayManagerCollector", "DropBoxCollector", "DumpSysCollector", "LogCatCollector", "LogCatCollector$1", "LogFileCollector", "MediaCodecListCollector", "MediaCodecListCollector$1", "MediaCodecListCollector$CodecType", "ReflectionCollector", "SettingsCollector", "SharedPreferencesCollector", "ThreadCollector" ],
+  "org.acra.jraf.android.util.activitylifecyclecallbackscompat" : [ "ActivityLifecycleCallbacksAdapter", "ActivityLifecycleCallbacksCompat", "ActivityLifecycleCallbacksWrapper", "ApplicationHelper", "MainLifecycleDispatcher" ],
+  "org.acra.log" : [ "ACRALog", "AndroidLogDelegate" ],
+  "org.acra.sender" : [ "EmailIntentSender", "GoogleFormSender", "GoogleFormSender$1", "HttpSender", "HttpSender$1", "HttpSender$Method", "HttpSender$Type", "HttpSender$Type$1", "HttpSender$Type$2", "ReportSender", "ReportSenderException" ],
+  "org.acra.util" : [ "BoundedLinkedList", "FakeSocketFactory", "HttpRequest", "HttpRequest$1", "HttpRequest$SocketTimeOutRetryHandler", "Installation", "JSONReportBuilder", "JSONReportBuilder$JSONReportException", "NaiveTrustManager", "PackageManagerWrapper", "ReportUtils", "ToastSender" ],
+  "proguard.acra" : [ "BuildConfig" ],
+  "proguard.acra.app" : [ "BuildConfig" ]
+}

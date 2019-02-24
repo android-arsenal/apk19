@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.kunzisoft.switchdatetimepicker.sample",
+    "label" : "Switch DateTime Picker",
+    "icon" : "res/mipmap-ldpi-v4/ic_launcher.png",
+    "versionName" : "2.0",
+    "versionCode" : 20,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-ldpi-v4/ic_launcher.png",
+    "density" : 120,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAFnUlEQVRYw+2YaWwc5RmAn/f7Znd2x+uNQxJIQ0JaLOMCQaVRcMVREIcAiSIOUVWViigiIDWNUZMQjiqlUQSKiBDilJCQED9IBKEiqioQZ1AiWgUIjklCQkDUdZuD0BxrO7bXu57v7Y9Z2zvZXWdtwg9E39VqvmNm9pn33oH/y3dM5PgFXfnb1JF/52+16JkARlWdc0RjFGBkLqKqI2NVHbmHcw7jVHsT3itz1v51x6SBdCWmr+uXW2xx6AIUUAV1pSOAlsal+cgeI3MdvUYVChf+PNff23PNnDVPfVgvkCmfHPni5rYYDDrOpTruugImlW6a3tK68T/3trdNCuhg77GZ48KUa6cqS+WGTQcNpzSf9Xa9UDGggg5LDCYGoOMrS7WmVyTSQXZqnVCm8uauDKSG75TPxwUt7RshmU5nm5pb3tm2+I6LJwik9WumBoRW05gIfjpobJ73kzd23H3nRXUBmdBFgT364FoBqCjOKaFzhOoIS2PnlOgzJiPpodx8qSDIzD3nvDc/ba9uPq9m9OjxRwiDAO+GW7BntoC1MQ1qYQh38CvCrR+gHR+BhuT37yVz+uwKbaWCIHPGOc2b9rS3X9b6VDwleDUjpQwEYNizpB9+DO8Hsyh8/hmuUIyZU5pOwZ93Pub6myl2/5P8k4/Czu10F4o0zJ6DETOarwRF0NSUKcm3v/jVFfNbXt74ZR1AYxpzCrRdROKMH7Lvj0spdHZgGHNq5yJTqrWk2i7k1IWLaHzkCdzqlejmjRza+Qm5YhGjICJYFAskxWSdkVagOlAYhpWOrIpThZmzoumOTrKewZROcepI3/k7VJW+554hMW0Gh9evJXvltWSX/wnd2022u4u+okdPcRgrYAGrYAW6hoqJCYa9lhw2OjWJkhLBN4Iv4AmoKg7Fv/wqprUvw58+gwMPLiccHCC1cDHDzpG1hqmejcFYEYyITiDsx0JOGS2isT1R6HvuGfreeYumP9zPQOfH9K97gfRAP0fXryO14Ge4GaehQMZaGq0dhbECyePyShzIhUp53GvZNJZnSmZUxSgkpjZx6srVDPfkOPTQClJOSYmh+I/NIILMOx91kSsERghKUEaknsRY/tWK+qUo9te3kfnbeww7xakj88AqvNNmcnDNKlK9PSQFPFHk6wORVqdNIyx7Kt8IvjF49QGVAJyrYrpoeWDnJ/Stf5HQRRHY//fNaLHI9IWL8DIZjAiCYNJBFCyDg2MaH4kmETwRbH0+5Kgw3Ui+UcVt+5jB55/FiGJEyW94iX1/vg+/+Swyqx4lVIeqI/Hjc6Mc1t0V+d6JusPjgTR0Wi3KxrQUJTV/5ixS8xdEeUUhaDkb7+gRDqy4h8HOraVyoqSuu5HhXA63fVvVH6+rdFTtIsoWVRV75TU0/OZ2ctdeggDBXYtJA0eWLWJw6xaSIpgrria4+FIOPf0YCRdijZkcUCWRIqKE/cciHwoCjr31GgPbOzDOIQi5Z58AjW5mjMH7xU00LlpC/0dbGHz1JRpF6m4WYkB2NOwrnby4bSs4x5RlKxh8bQMaOuxPF0R2dw7xfZIL2khdfjWJ5haOvb+Jww+toAHFEzM5oAoNlYZGBen6kq8fX8OM3y8huOSymr1QfvdO/vvgvRQ2vUuDMfjGIBNop7yavXsZmAGSIgy8voF/vfsG9kfNGN+PgYS9vYRfHYDeHCljyFpLQgQjE+vvYkDDYVgK+UpJoDQYQ7KQJ9y9I9briypJiR7G8zy8UmmYjNTh1GPrXimhYWz1Zu4kSH1AeoKu8iRKzP2PDuRz8VpW1luPZm0XS5TfVI4OFXtqAi3dt6tjf36osybASdbI/nyhc+m+XR3jlpPWRr/1gbmzb5nlJ2d/m2859g8V9q7u3vuXPX1De05U3wSYAiS+5TcvRaBn4n/8vu/yP2w+JraiiKuSAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 1839,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"20\" android:versionName=\"2.0\" package=\"com.kunzisoft.switchdatetimepicker.sample\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"resourceId:0x7f0c009e\" android:label=\"Switch DateTime Picker\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\">\n\t\t<activity android:name=\"com.kunzisoft.switchdatetimesample.Sample\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1584075,
+  "crc32" : 251376551,
+  "sha256" : "e004f602a01209a0817e34d5bba926f0216ef25fbcbd813a57c2872ad07a035f",
+  "buildTime" : 1542602693000
+}

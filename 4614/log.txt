@@ -1,0 +1,173 @@
+2018-10-16 14:03:08,255 INFO  DownloadService - Downloading "https://github.com/jrvansuita/PickImage/archive/master.zip", attempt 3
+2018-10-16 14:03:11,438 INFO  DownloadService - Downloaded https://github.com/jrvansuita/PickImage/archive/master.zip, attempt 3
+2018-10-16 14:03:11,439 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/master.zip": 1 MB
+2018-10-16 14:03:11,439 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-16 14:03:11,445 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/master.zip: true
+2018-10-16 14:03:11,445 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src'.
+2018-10-16 14:03:11,497 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-10-16 14:03:11,497 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src]
+2018-10-16 14:03:11,513 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/.git/
+
+2018-10-16 14:03:11,517 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/gradlew
+2018-10-16 14:03:11,521 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/build.gradle
+2018-10-16 14:03:11,525 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/settings.gradle
+2018-10-16 14:03:11,525 INFO  ProjectBuildService - Remote scripts: none
+2018-10-16 14:03:11,525 INFO  ProjectFixService - Fixing project...
+2018-10-16 14:03:11,533 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/app/local.properties
+2018-10-16 14:03:11,534 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/app/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-10-16 14:03:11,534 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/library/local.properties
+2018-10-16 14:03:11,534 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/library/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
+2018-10-16 14:03:11,535 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/local.properties
+2018-10-16 14:03:11,535 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-10-16 14:03:11,535 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-10-16 14:03:11,536 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-10-16 14:03:11,536 INFO  ProjectFixService - Project was maybe fixed
+2018-10-16 14:03:11,536 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-16 14:03:11,536 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-16 14:03:18,219 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-10-16 14:03:18,219 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-16 14:03:18,219 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-16 14:04:03,701 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://jcenter.bintray.com/org/jetbrains/annotations-java5/15.0/annotations-java5-15.0.pom
+Download https://jcenter.bintray.com/com/jrummyapps/colorpicker/2.0.4/colorpicker-2.0.4.pom
+:app:checkDebugClasspath
+Download https://jcenter.bintray.com/com/jrummyapps/colorpicker/2.0.4/colorpicker-2.0.4.aar
+:app:preBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:processDebugManifest
+:app:preDebugBuild
+:library:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:library:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:library:compileDebugRenderscript
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:library:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:library:generateDebugBuildConfig
+:library:prepareLintJar
+:library:generateDebugSources
+:library:javaPreCompileDebug
+:library:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/library/src/main/java/com/vansuita/pickimage/util/Util.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library:processDebugJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/app/src/main/java/com/vansuita/pickimage/sample/act/BaseSampleActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:processReleaseManifest
+:app:preReleaseBuild
+:library:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:library:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:library:compileReleaseRenderscript
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:library:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:library:generateReleaseBuildConfig
+:library:generateReleaseSources
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/library/src/main/java/com/vansuita/pickimage/util/Util.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/app/src/main/java/com/vansuita/pickimage/sample/act/BaseSampleActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/fbab05b2de2edfeca23ff38d7a827e0c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 45s
+90 actionable tasks: 90 executed
+
+2018-10-16 14:04:03,801 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673388247-0/src/PickImage-master/app/build/outputs/apk/debug/app-debug.apk

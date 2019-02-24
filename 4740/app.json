@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.eschao.android.widget.sample",
+    "label" : "PageFlip",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.2",
+    "versionCode" : 2,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1692,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"1.0.2\" package=\"com.eschao.android.widget.sample\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f09008e\" android:label=\"PageFlip\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:largeHeap=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.eschao.android.widget.sample.pageflip.SampleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 15731085,
+  "crc32" : 3660685299,
+  "sha256" : "d6d39d41247c15152515ce6f1c24c68a79976fabd56101ee9adad01024ab1fae",
+  "buildTime" : 1496784651000
+}

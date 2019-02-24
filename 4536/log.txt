@@ -1,0 +1,211 @@
+2018-10-18 11:10:47,695 INFO  DownloadService - Downloading "https://github.com/Gperez88/AndroidMapperObject/archive/master.zip", attempt 3
+2018-10-18 11:11:48,270 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-10-18 11:11:49,169 INFO  GithubDownloadService - Default branch of this repository: master
+2018-10-18 11:11:49,169 INFO  DownloadService - Downloading "https://github.com/Gperez88/AndroidMapperObject/archive/master.zip", attempt 3
+2018-10-18 11:12:50,575 DEBUG FullProcessService - Repository https://github.com/Gperez88/AndroidMapperObject available: true
+2018-10-18 11:12:50,575 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-10-18 11:12:50,575 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Gperez88/AndroidMapperObject, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src]
+2018-10-18 11:12:52,182 INFO  SysUtils - 
+2018-10-18 11:12:52,190 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/.git": true
+2018-10-18 11:12:52,194 INFO  FullProcessService - Size of directory with sources: 151 KB
+2018-10-18 11:12:52,194 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src]
+2018-10-18 11:12:52,210 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/.git/
+
+2018-10-18 11:12:52,213 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/gradlew
+2018-10-18 11:12:52,216 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/androidMapperObject/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/build.gradle
+2018-10-18 11:12:52,222 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/androidMapperObject/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/androidMapperObject/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/androidMapperObject/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/settings.gradle
+2018-10-18 11:12:52,223 INFO  ProjectBuildService - Remote scripts: none
+2018-10-18 11:12:52,224 INFO  ProjectFixService - Fixing project...
+2018-10-18 11:12:52,231 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/androidMapperObject/local.properties
+2018-10-18 11:12:52,231 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/androidMapperObject/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=24]
+2018-10-18 11:12:52,231 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/local.properties
+2018-10-18 11:12:52,232 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2018-10-18 11:12:52,232 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2018-10-18 11:12:52,233 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=24]
+2018-10-18 11:12:52,233 INFO  ProjectFixService - Project was maybe fixed
+2018-10-18 11:12:52,233 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-18 11:12:52,233 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/androidMapperObject/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-18 11:13:04,438 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-10-18 11:13:04,438 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-18 11:13:04,438 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/androidMapperObject/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-18 11:13:17,036 INFO  SysUtils - Configuration on demand is an incubating feature.
+:androidMapperObject:preBuild UP-TO-DATE
+:androidMapperObject:preDebugBuild UP-TO-DATE
+:androidMapperObject:compileDebugNdk UP-TO-DATE
+:androidMapperObject:compileLint
+:androidMapperObject:copyDebugLint UP-TO-DATE
+:androidMapperObject:checkDebugManifest
+:androidMapperObject:preDebugAndroidTestBuild UP-TO-DATE
+:androidMapperObject:preDebugUnitTestBuild UP-TO-DATE
+:androidMapperObject:preReleaseBuild UP-TO-DATE
+:androidMapperObject:preReleaseUnitTestBuild UP-TO-DATE
+:androidMapperObject:prepareComAndroidSupportAnimatedVectorDrawable2420Library
+:androidMapperObject:prepareComAndroidSupportAppcompatV72420Library
+:androidMapperObject:prepareComAndroidSupportSupportCompat2420Library
+:androidMapperObject:prepareComAndroidSupportSupportCoreUi2420Library
+:androidMapperObject:prepareComAndroidSupportSupportCoreUtils2420Library
+:androidMapperObject:prepareComAndroidSupportSupportFragment2420Library
+:androidMapperObject:prepareComAndroidSupportSupportMediaCompat2420Library
+:androidMapperObject:prepareComAndroidSupportSupportV42420Library
+:androidMapperObject:prepareComAndroidSupportSupportVectorDrawable2420Library
+:androidMapperObject:prepareDebugDependencies
+:androidMapperObject:compileDebugAidl
+:androidMapperObject:compileDebugRenderscript
+:androidMapperObject:generateDebugBuildConfig
+:androidMapperObject:generateDebugAssets UP-TO-DATE
+:androidMapperObject:mergeDebugAssets
+:androidMapperObject:generateDebugResValues
+:androidMapperObject:generateDebugResources
+:androidMapperObject:mergeDebugResources
+:androidMapperObject:processDebugManifest
+:androidMapperObject:processDebugResources
+:androidMapperObject:generateDebugSources
+:androidMapperObject:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/androidMapperObject/src/main/java/com/gp89developers/androidmapperobject/MapperObject.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:androidMapperObject:extractDebugAnnotations
+:androidMapperObject:mergeDebugProguardFiles
+:androidMapperObject:packageDebugRenderscript UP-TO-DATE
+:androidMapperObject:packageDebugResources
+:androidMapperObject:processDebugJavaRes UP-TO-DATE
+:androidMapperObject:transformResourcesWithMergeJavaResForDebug
+:androidMapperObject:transformClassesAndResourcesWithSyncLibJarsForDebug
+:androidMapperObject:mergeDebugJniLibFolders
+:androidMapperObject:transformNative_libsWithMergeJniLibsForDebug
+:androidMapperObject:transformNative_libsWithSyncJniLibsForDebug
+:androidMapperObject:bundleDebug
+:androidMapperObject:compileDebugSources
+:androidMapperObject:assembleDebug
+:androidMapperObject:compileReleaseNdk UP-TO-DATE
+:androidMapperObject:copyReleaseLint UP-TO-DATE
+:androidMapperObject:checkReleaseManifest
+:androidMapperObject:prepareReleaseDependencies
+:androidMapperObject:compileReleaseAidl
+:androidMapperObject:compileReleaseRenderscript
+:androidMapperObject:generateReleaseBuildConfig
+:androidMapperObject:generateReleaseAssets UP-TO-DATE
+:androidMapperObject:mergeReleaseAssets
+:androidMapperObject:generateReleaseResValues
+:androidMapperObject:generateReleaseResources
+:androidMapperObject:mergeReleaseResources
+:androidMapperObject:processReleaseManifest
+:androidMapperObject:processReleaseResources
+:androidMapperObject:generateReleaseSources
+:androidMapperObject:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/androidMapperObject/src/main/java/com/gp89developers/androidmapperobject/MapperObject.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:androidMapperObject:extractReleaseAnnotations
+:androidMapperObject:mergeReleaseProguardFiles
+:androidMapperObject:packageReleaseRenderscript UP-TO-DATE
+:androidMapperObject:packageReleaseResources
+:androidMapperObject:processReleaseJavaRes UP-TO-DATE
+:androidMapperObject:transformResourcesWithMergeJavaResForRelease
+:androidMapperObject:transformClassesAndResourcesWithSyncLibJarsForRelease
+:androidMapperObject:mergeReleaseJniLibFolders
+:androidMapperObject:transformNative_libsWithMergeJniLibsForRelease
+:androidMapperObject:transformNative_libsWithSyncJniLibsForRelease
+:androidMapperObject:bundleRelease
+:androidMapperObject:compileReleaseSources
+:androidMapperObject:assembleRelease
+:androidMapperObject:javadoc
+:androidMapperObject:javadocJar
+:androidMapperObject:sourcesJar
+:androidMapperObject:assemble
+:androidMapperObject:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.09 secs
+
+2018-10-18 11:13:17,104 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-18 11:13:17,104 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-18 11:13:22,931 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-10-18 11:13:22,931 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-18 11:13:22,932 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539835847693-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-18 11:13:28,695 INFO  SysUtils - Configuration on demand is an incubating feature.
+:androidMapperObject:preBuild UP-TO-DATE
+:androidMapperObject:preDebugBuild UP-TO-DATE
+:androidMapperObject:compileDebugNdk UP-TO-DATE
+:androidMapperObject:compileLint
+:androidMapperObject:copyDebugLint UP-TO-DATE
+:androidMapperObject:checkDebugManifest
+:androidMapperObject:preDebugAndroidTestBuild UP-TO-DATE
+:androidMapperObject:preDebugUnitTestBuild UP-TO-DATE
+:androidMapperObject:preReleaseBuild UP-TO-DATE
+:androidMapperObject:preReleaseUnitTestBuild UP-TO-DATE
+:androidMapperObject:prepareComAndroidSupportAnimatedVectorDrawable2420Library UP-TO-DATE
+:androidMapperObject:prepareComAndroidSupportAppcompatV72420Library UP-TO-DATE
+:androidMapperObject:prepareComAndroidSupportSupportCompat2420Library UP-TO-DATE
+:androidMapperObject:prepareComAndroidSupportSupportCoreUi2420Library UP-TO-DATE
+:androidMapperObject:prepareComAndroidSupportSupportCoreUtils2420Library UP-TO-DATE
+:androidMapperObject:prepareComAndroidSupportSupportFragment2420Library UP-TO-DATE
+:androidMapperObject:prepareComAndroidSupportSupportMediaCompat2420Library UP-TO-DATE
+:androidMapperObject:prepareComAndroidSupportSupportV42420Library UP-TO-DATE
+:androidMapperObject:prepareComAndroidSupportSupportVectorDrawable2420Library UP-TO-DATE
+:androidMapperObject:prepareDebugDependencies
+:androidMapperObject:compileDebugAidl UP-TO-DATE
+:androidMapperObject:compileDebugRenderscript UP-TO-DATE
+:androidMapperObject:generateDebugBuildConfig UP-TO-DATE
+:androidMapperObject:generateDebugAssets UP-TO-DATE
+:androidMapperObject:mergeDebugAssets UP-TO-DATE
+:androidMapperObject:generateDebugResValues UP-TO-DATE
+:androidMapperObject:generateDebugResources UP-TO-DATE
+:androidMapperObject:mergeDebugResources UP-TO-DATE
+:androidMapperObject:processDebugManifest UP-TO-DATE
+:androidMapperObject:processDebugResources UP-TO-DATE
+:androidMapperObject:generateDebugSources UP-TO-DATE
+:androidMapperObject:compileDebugJavaWithJavac UP-TO-DATE
+:androidMapperObject:extractDebugAnnotations UP-TO-DATE
+:androidMapperObject:mergeDebugProguardFiles UP-TO-DATE
+:androidMapperObject:packageDebugRenderscript UP-TO-DATE
+:androidMapperObject:packageDebugResources UP-TO-DATE
+:androidMapperObject:processDebugJavaRes UP-TO-DATE
+:androidMapperObject:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:androidMapperObject:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:androidMapperObject:mergeDebugJniLibFolders UP-TO-DATE
+:androidMapperObject:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:androidMapperObject:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:androidMapperObject:bundleDebug UP-TO-DATE
+:androidMapperObject:compileDebugSources UP-TO-DATE
+:androidMapperObject:assembleDebug UP-TO-DATE
+:androidMapperObject:compileReleaseNdk UP-TO-DATE
+:androidMapperObject:copyReleaseLint UP-TO-DATE
+:androidMapperObject:checkReleaseManifest
+:androidMapperObject:prepareReleaseDependencies
+:androidMapperObject:compileReleaseAidl UP-TO-DATE
+:androidMapperObject:compileReleaseRenderscript UP-TO-DATE
+:androidMapperObject:generateReleaseBuildConfig UP-TO-DATE
+:androidMapperObject:generateReleaseAssets UP-TO-DATE
+:androidMapperObject:mergeReleaseAssets UP-TO-DATE
+:androidMapperObject:generateReleaseResValues UP-TO-DATE
+:androidMapperObject:generateReleaseResources UP-TO-DATE
+:androidMapperObject:mergeReleaseResources UP-TO-DATE
+:androidMapperObject:processReleaseManifest UP-TO-DATE
+:androidMapperObject:processReleaseResources UP-TO-DATE
+:androidMapperObject:generateReleaseSources UP-TO-DATE
+:androidMapperObject:compileReleaseJavaWithJavac UP-TO-DATE
+:androidMapperObject:extractReleaseAnnotations UP-TO-DATE
+:androidMapperObject:mergeReleaseProguardFiles UP-TO-DATE
+:androidMapperObject:packageReleaseRenderscript UP-TO-DATE
+:androidMapperObject:packageReleaseResources UP-TO-DATE
+:androidMapperObject:processReleaseJavaRes UP-TO-DATE
+:androidMapperObject:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:androidMapperObject:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:androidMapperObject:mergeReleaseJniLibFolders UP-TO-DATE
+:androidMapperObject:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:androidMapperObject:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:androidMapperObject:bundleRelease UP-TO-DATE
+:androidMapperObject:compileReleaseSources UP-TO-DATE
+:androidMapperObject:assembleRelease UP-TO-DATE
+:androidMapperObject:javadoc UP-TO-DATE
+:androidMapperObject:javadocJar UP-TO-DATE
+:androidMapperObject:sourcesJar UP-TO-DATE
+:androidMapperObject:assemble UP-TO-DATE
+:androidMapperObject:build
+
+BUILD SUCCESSFUL
+
+Total time: 5.264 secs
+
+2018-10-18 11:13:28,764 ERROR FullProcessService - Project build has not produced APK file
+2018-10-18 11:13:28,832 ERROR FullProcessService - Could not find generated or existed APK file

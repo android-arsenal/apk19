@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.rf17.soundifyapp",
+    "label" : "Soundify",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "19",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.RECORD_AUDIO" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2137,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.rf17.soundifyapp\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"19\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />\n\t<application android:theme=\"resourceId:0x7f08003b\" android:label=\"Soundify\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f08003c\" android:label=\"Soundify\" android:name=\"com.rf17.soundify.app.activity.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f08003c\" android:label=\"Soundify\" android:name=\"com.rf17.soundify.app.activity.AboutActivity\" android:parentActivityName=\"com.rf17.soundify.app.activity.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\"com.rf17.soundify.app.activity.MainActivity\" />\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2491261,
+  "crc32" : 2306304952,
+  "sha256" : "d177bffb2f58a931154c7ebc3b3d706cef8416cd558199ebe6f8ef4dae413df3",
+  "buildTime" : 1522006388000
+}

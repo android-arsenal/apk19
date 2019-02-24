@@ -1,0 +1,235 @@
+2018-10-18 10:51:21,409 INFO  DownloadService - Downloading "https://github.com/L4Digital/RxLoader/archive/master.zip", attempt 3
+2018-10-18 10:51:22,229 INFO  DownloadService - Downloaded https://github.com/L4Digital/RxLoader/archive/master.zip, attempt 3
+2018-10-18 10:51:22,230 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/master.zip": 105 KB
+2018-10-18 10:51:22,230 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-18 10:51:22,230 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/master.zip: true
+2018-10-18 10:51:22,230 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src'.
+2018-10-18 10:51:22,247 INFO  FullProcessService - Size of directory with sources: 125 KB
+2018-10-18 10:51:22,247 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src]
+2018-10-18 10:51:22,269 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/.git/
+
+2018-10-18 10:51:22,272 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/gradlew
+2018-10-18 10:51:22,275 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/rxloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/build.gradle
+2018-10-18 10:51:22,277 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/rxloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/settings.gradle
+2018-10-18 10:51:22,278 INFO  ProjectBuildService - Remote scripts: none
+2018-10-18 10:51:22,278 INFO  ProjectFixService - Fixing project...
+2018-10-18 10:51:22,285 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/local.properties
+2018-10-18 10:51:22,287 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2018-10-18 10:51:22,288 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-10-18 10:51:22,289 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/rxloader/local.properties
+2018-10-18 10:51:22,291 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/rxloader/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2018-10-18 10:51:22,291 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/rxloader/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-10-18 10:51:22,293 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/local.properties
+2018-10-18 10:51:22,294 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-10-18 10:51:22,295 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-10-18 10:51:22,299 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2018-10-18 10:51:22,299 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-10-18 10:51:22,300 INFO  ProjectFixService - Project was maybe fixed
+2018-10-18 10:51:22,300 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-18 10:51:22,300 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-18 10:51:29,975 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-18 10:51:29,975 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-18 10:51:29,976 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-18 10:52:13,716 INFO  SysUtils - Configuration on demand is an incubating feature.
+:example:preBuild UP-TO-DATE
+:rxloader:preBuild UP-TO-DATE
+:rxloader:preDebugBuild UP-TO-DATE
+:rxloader:checkDebugManifest
+:rxloader:processDebugManifest
+:example:preDebugBuild
+:rxloader:compileDebugAidl
+:example:compileDebugAidl
+:rxloader:packageDebugRenderscript NO-SOURCE
+:example:compileDebugRenderscript
+:example:checkDebugManifest
+:example:generateDebugBuildConfig
+:example:prepareLintJar
+:example:mainApkListPersistenceDebug
+:example:generateDebugResValues
+:example:generateDebugResources
+:rxloader:compileDebugRenderscript
+:rxloader:generateDebugResValues
+:rxloader:generateDebugResources
+:rxloader:packageDebugResources
+:example:mergeDebugResources
+:example:createDebugCompatibleScreenManifests
+:example:processDebugManifest
+:example:splitsDiscoveryTaskDebug
+:rxloader:platformAttrExtractor
+:rxloader:generateDebugBuildConfig
+:rxloader:prepareLintJar
+:rxloader:javaPreCompileDebug
+:rxloader:processDebugJavaRes NO-SOURCE
+:example:compileDebugNdk NO-SOURCE
+:example:mergeDebugShaders
+:example:compileDebugShaders
+:example:generateDebugAssets
+:rxloader:mergeDebugShaders
+:rxloader:compileDebugShaders
+:rxloader:generateDebugAssets
+:rxloader:packageDebugAssets
+:example:mergeDebugAssets
+:example:mergeDebugJniLibFolders
+:rxloader:compileDebugNdk NO-SOURCE
+:rxloader:mergeDebugJniLibFolders
+:rxloader:transformNativeLibsWithMergeJniLibsForDebug
+:rxloader:transformNativeLibsWithStripDebugSymbolForDebug
+:rxloader:transformNativeLibsWithIntermediateJniLibsForDebug
+:example:processDebugJavaRes NO-SOURCE
+:example:validateSigningDebug
+:example:extractProguardFiles
+:rxloader:preReleaseBuild UP-TO-DATE
+:rxloader:checkReleaseManifest
+:rxloader:processReleaseManifest
+:example:preReleaseBuild
+:rxloader:compileReleaseAidl
+:example:compileReleaseAidl
+:rxloader:packageReleaseRenderscript NO-SOURCE
+:example:compileReleaseRenderscript
+:example:checkReleaseManifest
+:example:generateReleaseBuildConfig
+:example:mainApkListPersistenceRelease
+:example:generateReleaseResValues
+:example:generateReleaseResources
+:rxloader:compileReleaseRenderscript
+:rxloader:generateReleaseResValues
+:rxloader:generateReleaseResources
+:rxloader:packageReleaseResources
+:example:mergeReleaseResources
+:example:createReleaseCompatibleScreenManifests
+:example:processReleaseManifest
+:example:splitsDiscoveryTaskRelease
+:rxloader:generateReleaseBuildConfig
+:rxloader:javaPreCompileRelease
+:rxloader:processReleaseJavaRes NO-SOURCE
+:example:compileReleaseNdk NO-SOURCE
+:example:mergeReleaseShaders
+:example:compileReleaseShaders
+:example:generateReleaseAssets
+:rxloader:mergeReleaseShaders
+:rxloader:compileReleaseShaders
+:rxloader:generateReleaseAssets
+:rxloader:packageReleaseAssets
+:example:mergeReleaseAssets
+:example:processReleaseJavaRes NO-SOURCE
+:rxloader:mergeReleaseConsumerProguardFiles
+:example:mergeReleaseJniLibFolders
+:rxloader:compileReleaseNdk NO-SOURCE
+:rxloader:mergeReleaseJniLibFolders
+:rxloader:transformNativeLibsWithMergeJniLibsForRelease
+:rxloader:transformNativeLibsWithStripDebugSymbolForRelease
+:rxloader:transformNativeLibsWithIntermediateJniLibsForRelease
+:rxloader:generateDebugRFile
+:example:processDebugResources
+:example:generateDebugSources
+:rxloader:generateDebugSources
+:rxloader:compileDebugJavaWithJavac
+:rxloader:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:example:javaPreCompileDebug
+:example:compileDebugJavaWithJavac
+:example:compileDebugSources
+:example:transformClassesWithDexBuilderForDebug
+:example:transformDexArchiveWithExternalLibsDexMergerForDebug
+:example:transformDexArchiveWithDexMergerForDebug
+:example:transformNativeLibsWithMergeJniLibsForDebug
+:example:transformNativeLibsWithStripDebugSymbolForDebug
+:example:transformResourcesWithMergeJavaResForDebug
+:example:packageDebug
+:example:assembleDebug
+:rxloader:generateReleaseRFile
+:example:processReleaseResources
+:example:generateReleaseSources
+:rxloader:generateReleaseSources
+:rxloader:compileReleaseJavaWithJavac
+:rxloader:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:example:javaPreCompileRelease
+:example:compileReleaseJavaWithJavac
+:example:compileReleaseSources
+:example:lintVitalRelease
+:example:transformResourcesWithMergeJavaResForRelease
+:example:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+ProGuard, version 5.3.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/fcfd9989704c6c69e2c97a0d7344d02d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.0.aar/12f222c1be92da126a63276e4499bfc4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/c80d3c6eb776e66b6576da7053deadcf/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.7/8c6d3f76a0b8ed49e9d49a5af9c80c5fc2091677/rxjava-2.1.7.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.0.aar/5c44be1a35b7a1e316198f2955b8b46e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/2ab515a67644846164318c95557248d6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/480defe1bdd3d699301a7522ac508952/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/f83f7b543bdba4965aa9904adaf4caa5/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/d1423a3d6bb72af5b0427bc632c7f511/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.0/a7782471b2a0de8fec071b8094a8aaf61c46ab70/support-annotations-27.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.1/1b1c911686eb40179219466e6a59b634b9d7a748/reactive-streams-1.0.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/22314288a32c37bc589d6035fc3b5c53/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/rxloader/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build/intermediates/classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Ignoring unused library classes...
+  Original number of library classes: 4610
+  Final number of library classes:    1064
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 2810
+  Final number of program classes:    765
+Inlining subroutines...
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/fcfd9989704c6c69e2c97a0d7344d02d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.0.aar/12f222c1be92da126a63276e4499bfc4/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/c80d3c6eb776e66b6576da7053deadcf/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.7/8c6d3f76a0b8ed49e9d49a5af9c80c5fc2091677/rxjava-2.1.7.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.0.aar/5c44be1a35b7a1e316198f2955b8b46e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/2ab515a67644846164318c95557248d6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/480defe1bdd3d699301a7522ac508952/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/f83f7b543bdba4965aa9904adaf4caa5/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/d1423a3d6bb72af5b0427bc632c7f511/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.0/a7782471b2a0de8fec071b8094a8aaf61c46ab70/support-annotations-27.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.1/1b1c911686eb40179219466e6a59b634b9d7a748/reactive-streams-1.0.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/22314288a32c37bc589d6035fc3b5c53/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/rxloader/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build/intermediates/classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build/outputs/mapping/release/dump.txt]...
+:example:transformClassesWithShrinkResForRelease
+Removed unused resources: Binary resource data reduced from 477KB to 465KB: Removed 2%
+:example:transformClassesWithDexBuilderForRelease
+:example:transformDexArchiveWithDexMergerForRelease
+:example:transformNativeLibsWithMergeJniLibsForRelease
+:example:transformNativeLibsWithStripDebugSymbolForRelease
+:example:packageRelease
+:example:assembleRelease
+:example:assemble
+:example:build
+
+BUILD SUCCESSFUL in 43s
+94 actionable tasks: 94 executed
+
+2018-10-18 10:52:13,810 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build/outputs/apk/release/example-release-unsigned.apk

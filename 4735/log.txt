@@ -1,0 +1,249 @@
+2019-01-20 18:07:18,678 INFO  DownloadService - Downloading "https://github.com/wonderkiln/blurkit-android/archive/master.zip", attempt 3
+2019-01-20 18:07:24,704 INFO  DownloadService - Downloaded https://github.com/wonderkiln/blurkit-android/archive/master.zip, attempt 3
+2019-01-20 18:07:24,704 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/master.zip": 5 MB
+2019-01-20 18:07:24,704 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-20 18:07:24,707 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/master.zip: true
+2019-01-20 18:07:24,708 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src'.
+2019-01-20 18:07:24,768 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-01-20 18:07:24,768 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src]
+2019-01-20 18:07:24,787 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/.git/
+
+2019-01-20 18:07:24,790 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/gradlew
+2019-01-20 18:07:24,794 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/blurkit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/build.gradle
+2019-01-20 18:07:24,797 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/blurkit/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/blurkit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/settings.gradle
+2019-01-20 18:07:24,798 INFO  ProjectBuildService - Remote scripts: none
+2019-01-20 18:07:24,798 INFO  ProjectFixService - Fixing project...
+2019-01-20 18:07:24,809 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/blurkit/local.properties
+2019-01-20 18:07:24,810 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/blurkit/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-01-20 18:07:24,811 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/demo/local.properties
+2019-01-20 18:07:24,812 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/demo/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-01-20 18:07:24,813 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/local.properties
+2019-01-20 18:07:24,813 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-20 18:07:24,814 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-20 18:07:24,815 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-01-20 18:07:24,816 INFO  ProjectFixService - Project was maybe fixed
+2019-01-20 18:07:24,816 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 18:07:24,816 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/blurkit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 18:07:32,668 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-01-20 18:07:32,668 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-20 18:07:32,668 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/blurkit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-20 18:07:46,109 INFO  SysUtils - Configuration on demand is an incubating feature.
+BlurKit: Deployment: Building...
+BlurKit - Starting Release Deployment
+:blurkit:preBuild UP-TO-DATE
+:blurkit:preDebugBuild UP-TO-DATE
+:blurkit:compileDebugAidl NO-SOURCE
+:blurkit:compileDebugRenderscript
+:blurkit:checkDebugManifest
+:blurkit:generateDebugBuildConfig
+:blurkit:generateDebugResValues
+:blurkit:generateDebugResources
+:blurkit:packageDebugResources
+:blurkit:processDebugManifest
+:blurkit:generateDebugRFile
+:blurkit:prepareLintJar
+:blurkit:generateDebugSources
+:blurkit:javaPreCompileDebug
+:blurkit:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/blurkit/src/main/java/io/alterac/blurkit/RoundedImageView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:blurkit:extractDebugAnnotations
+:blurkit:mergeDebugConsumerProguardFiles
+:blurkit:mergeDebugShaders
+:blurkit:compileDebugShaders
+:blurkit:generateDebugAssets
+:blurkit:packageDebugAssets
+:blurkit:packageDebugRenderscript NO-SOURCE
+:blurkit:processDebugJavaRes NO-SOURCE
+:blurkit:transformResourcesWithMergeJavaResForDebug
+:blurkit:transformClassesAndResourcesWithSyncLibJarsForDebug
+:blurkit:compileDebugNdk NO-SOURCE
+:blurkit:mergeDebugJniLibFolders
+:blurkit:transformNativeLibsWithMergeJniLibsForDebug
+:blurkit:transformNativeLibsWithStripDebugSymbolForDebug
+:blurkit:transformNativeLibsWithSyncJniLibsForDebug
+:blurkit:bundleDebugAar
+:blurkit:compileDebugSources
+:blurkit:assembleDebug
+:blurkit:preReleaseBuild UP-TO-DATE
+:blurkit:compileReleaseAidl NO-SOURCE
+:blurkit:compileReleaseRenderscript
+:blurkit:checkReleaseManifest
+:blurkit:generateReleaseBuildConfig
+:blurkit:generateReleaseResValues
+:blurkit:generateReleaseResources
+:blurkit:packageReleaseResources
+:blurkit:processReleaseManifest
+:blurkit:generateReleaseRFile
+:blurkit:generateReleaseSources
+:blurkit:javaPreCompileRelease
+:blurkit:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/blurkit/src/main/java/io/alterac/blurkit/RoundedImageView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:blurkit:extractReleaseAnnotations
+:blurkit:mergeReleaseConsumerProguardFiles
+:blurkit:mergeReleaseShaders
+:blurkit:compileReleaseShaders
+:blurkit:generateReleaseAssets
+:blurkit:packageReleaseAssets
+:blurkit:packageReleaseRenderscript NO-SOURCE
+:blurkit:processReleaseJavaRes NO-SOURCE
+:blurkit:transformResourcesWithMergeJavaResForRelease
+:blurkit:transformClassesAndResourcesWithSyncLibJarsForRelease
+:blurkit:compileReleaseNdk NO-SOURCE
+:blurkit:mergeReleaseJniLibFolders
+:blurkit:transformNativeLibsWithMergeJniLibsForRelease
+:blurkit:transformNativeLibsWithStripDebugSymbolForRelease
+:blurkit:transformNativeLibsWithSyncJniLibsForRelease
+:blurkit:bundleReleaseAar
+:blurkit:compileReleaseSources
+:blurkit:mergeReleaseResources
+:blurkit:verifyReleaseResources
+:blurkit:assembleRelease
+:blurkit:assemble
+:blurkit:build
+
+BUILD SUCCESSFUL in 13s
+45 actionable tasks: 45 executed
+
+2019-01-20 18:07:46,126 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 18:07:46,126 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 18:07:54,233 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-20 18:07:54,233 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-20 18:07:54,233 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-20 18:08:32,634 INFO  SysUtils - Configuration on demand is an incubating feature.
+BlurKit: Deployment: Building...
+BlurKit - Starting Release Deployment
+:blurkit:preBuild UP-TO-DATE
+:blurkit:preDebugBuild UP-TO-DATE
+:blurkit:compileDebugAidl NO-SOURCE
+:blurkit:compileDebugRenderscript UP-TO-DATE
+:blurkit:checkDebugManifest UP-TO-DATE
+:blurkit:generateDebugBuildConfig UP-TO-DATE
+:blurkit:generateDebugResValues UP-TO-DATE
+:blurkit:generateDebugResources UP-TO-DATE
+:blurkit:packageDebugResources UP-TO-DATE
+:blurkit:processDebugManifest UP-TO-DATE
+:blurkit:generateDebugRFile UP-TO-DATE
+:blurkit:prepareLintJar UP-TO-DATE
+:blurkit:generateDebugSources UP-TO-DATE
+:blurkit:javaPreCompileDebug UP-TO-DATE
+:blurkit:compileDebugJavaWithJavac UP-TO-DATE
+:blurkit:processDebugJavaRes NO-SOURCE
+:blurkit:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:demo:checkDebugClasspath
+:demo:preBuild UP-TO-DATE
+:demo:preDebugBuild
+:demo:compileDebugAidl NO-SOURCE
+:blurkit:packageDebugRenderscript NO-SOURCE
+:demo:compileDebugRenderscript
+:demo:checkDebugManifest
+:demo:generateDebugBuildConfig
+:demo:prepareLintJar
+:demo:mainApkListPersistenceDebug
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:demo:mergeDebugResources
+:demo:createDebugCompatibleScreenManifests
+:demo:processDebugManifest
+:demo:splitsDiscoveryTaskDebug
+:demo:processDebugResources
+:demo:generateDebugSources
+:demo:javaPreCompileDebug
+:demo:compileDebugJavaWithJavac
+:demo:compileDebugNdk NO-SOURCE
+:demo:compileDebugSources
+:blurkit:mergeDebugShaders UP-TO-DATE
+:blurkit:compileDebugShaders UP-TO-DATE
+:blurkit:generateDebugAssets UP-TO-DATE
+:blurkit:packageDebugAssets UP-TO-DATE
+:demo:mergeDebugShaders
+:demo:compileDebugShaders
+:demo:generateDebugAssets
+:demo:mergeDebugAssets
+:demo:transformClassesWithDexBuilderForDebug
+:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
+:demo:transformDexArchiveWithDexMergerForDebug
+:blurkit:compileDebugNdk NO-SOURCE
+:blurkit:mergeDebugJniLibFolders UP-TO-DATE
+:blurkit:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:blurkit:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:blurkit:transformNativeLibsWithIntermediateJniLibsForDebug
+:demo:mergeDebugJniLibFolders
+:demo:transformNativeLibsWithMergeJniLibsForDebug
+:demo:transformNativeLibsWithStripDebugSymbolForDebug
+:demo:checkDebugLibraries
+:demo:processDebugJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:validateSigningDebug
+:demo:packageDebug
+:demo:assembleDebug
+:blurkit:preReleaseBuild UP-TO-DATE
+:blurkit:compileReleaseAidl NO-SOURCE
+:blurkit:compileReleaseRenderscript UP-TO-DATE
+:blurkit:checkReleaseManifest UP-TO-DATE
+:blurkit:generateReleaseBuildConfig UP-TO-DATE
+:blurkit:generateReleaseResValues UP-TO-DATE
+:blurkit:generateReleaseResources UP-TO-DATE
+:blurkit:packageReleaseResources UP-TO-DATE
+:blurkit:processReleaseManifest UP-TO-DATE
+:blurkit:generateReleaseRFile UP-TO-DATE
+:blurkit:generateReleaseSources UP-TO-DATE
+:blurkit:javaPreCompileRelease UP-TO-DATE
+:blurkit:compileReleaseJavaWithJavac UP-TO-DATE
+:blurkit:processReleaseJavaRes NO-SOURCE
+:blurkit:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demo:checkReleaseClasspath
+:demo:preReleaseBuild
+:demo:compileReleaseAidl NO-SOURCE
+:blurkit:packageReleaseRenderscript NO-SOURCE
+:demo:compileReleaseRenderscript
+:demo:checkReleaseManifest
+:demo:generateReleaseBuildConfig
+:demo:mainApkListPersistenceRelease
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:demo:mergeReleaseResources
+:demo:createReleaseCompatibleScreenManifests
+:demo:processReleaseManifest
+:demo:splitsDiscoveryTaskRelease
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:demo:javaPreCompileRelease
+:demo:compileReleaseJavaWithJavac
+:demo:compileReleaseNdk NO-SOURCE
+:demo:compileReleaseSources
+:demo:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/d20475f8901e17014c8d004ca63c65f3/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/c83525d878e464c41b954cc621bb3974/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:blurkit:mergeReleaseShaders UP-TO-DATE
+:blurkit:compileReleaseShaders UP-TO-DATE
+:blurkit:generateReleaseAssets UP-TO-DATE
+:blurkit:packageReleaseAssets UP-TO-DATE
+:demo:mergeReleaseShaders
+:demo:compileReleaseShaders
+:demo:generateReleaseAssets
+:demo:mergeReleaseAssets
+:demo:transformClassesWithDexBuilderForRelease
+:demo:transformDexArchiveWithExternalLibsDexMergerForRelease
+:demo:transformDexArchiveWithDexMergerForRelease
+:blurkit:compileReleaseNdk NO-SOURCE
+:blurkit:mergeReleaseJniLibFolders UP-TO-DATE
+:blurkit:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:blurkit:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:blurkit:transformNativeLibsWithIntermediateJniLibsForRelease
+:demo:mergeReleaseJniLibFolders
+:demo:transformNativeLibsWithMergeJniLibsForRelease
+:demo:transformNativeLibsWithStripDebugSymbolForRelease
+:demo:checkReleaseLibraries
+:demo:processReleaseJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForRelease
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL in 37s
+90 actionable tasks: 59 executed, 31 up-to-date
+
+2019-01-20 18:08:32,734 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982438674-0/src/blurkit-android-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

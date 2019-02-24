@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.vansuita.gaussianblur.sample",
+    "label" : "Gaussian Blur Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2192,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.vansuita.gaussianblur.sample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"25\" />\n\t<application android:theme=\"resourceId:0x7f08009f\" android:label=\"Gaussian Blur Sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.vansuita.gaussianblur.sample.act.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 5546782,
+  "crc32" : 3435762858,
+  "sha256" : "3a6dc0abe8d23c4cd36253c49419d1033c225448ca3dce85a709082d81926926",
+  "buildTime" : 1521998382000
+}

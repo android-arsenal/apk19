@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "at.aau.itec.android.mediaplayerdemo.debug",
+    "label" : "MediaPlayer-Extended Demo Debug",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "-debug",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAFh0lEQVRo3u1Yy4tbVRj/nftIMplkZjIznc5M5lWV4rIotVWwVHTlygcWXAjiogvBti5EQegf4MpKFTdS7cKdIIIPCkJfakud1lYKg7WUVttpOjOZzDDMTe7jfC5y78055z6StCCI+UJIzj0nOb/zfb/vdYCe9KQnPenJ/1lYm3nt429OPl4aHdvrEpsGQxYEEIG4spCULxzc/0TwwJ/i4UMO+TP4PYFsHfh7fW3p5LsvPjsPwOv6AJ98d3Z3vjR2xNOMJxouDwESUYjT/woiao5bAFpz4nyX63OGjgy5F9y1uwffeem5Xzo+wKcnLrxqDg4fsz3KhoqJ2aC5uQIgBdD9rs/qrME2am+898JTX7Y9wNGvz+zKTUyecj20wPv6J2ptIFqB/J2kcdz6BziwyZjNa4t7D++TLaGpnM+Mjn4YgGcsOCVTTp0+vm+PSxGbU0Yvjh5RMUuDD776cQfXzN0qbdJkrVbFanXpX4k4tmbufP/4icfEZ4Y4MPuH9nACGKNQsyIdVEqBgHt3b6NWXUFhYBDTcw+jL1+M3ZykUNWlBJGNCMgX9wD4NdYCXGPjIS/J5yLJDgyKD5vrazVcvTyPG38uwLHtdOvRA1gBbCLRAsQD3TfpSsp+ovO2HEx0WsJS5Q5WliuYKM9i6+Q0GNMScXc79p/qiT7AOfe1ToIVED5TwYeECiKJP++6Lm7dvI7LF89hZbmigCI1acnziunU9aoYydal2CxL4h+H9PLDoOQohIZl4drC7ygMDGF223bkC8XONZ1EM+WAWuy8pH1hrIIXY3qYbSkS79drq7hy6Tyu/3EVdqMRxUfyOG0u1QI8NBmLUQjFWEGgmAReoCBac5XF21i6V0F5eg7j5VkwjcnAibr0hzgKJcQ7SrBkMnhqUUv4tes6uHnjGhbv/IXZh7ZjeHRrYrgl0QNi/CVqgRRzqecSI0878KKVgt/ULQsLV3/DwGAJc488inx/MbGyJYUlyVHIr3kp5h1WjcFL8AtOwTOSwJMCPs4/aqtVXLl4Hp7rRLSPNtpPiELJLqMmJxGUChqJ4GWLFYoDmJ7eBqfRgAkGphuSr1HK/ik+0FkSbeULUeti9RkFH1g4k82iPDWLUmk0ICPsugUz1wem64nc56k+wNtk+bjEE2gUstahNDIBeKZpmBwvY+v4JJimhc4VKM6uWzCyOWi60Vb7CRagji0AEvkfYKFYK4CA4ZEtmJyagWlmUrsxp27ByPb5h6BISdMmD7RHr2qGC4kMUvvYBNdfKGJqZhvy+X6lHImCD/7TqVswck1LpCWzrn0gktSI5FqJWisymYDnI7IWY8BD7PL81bYV+ISRyA6lGuVtKRTvyCQB1zQNE+NTGBufBGNMaeBlzlNMlSsq0q5bMLNNx27rxEQdGUCOEL4fBBXI8MgWlMuzME0zVutxFwTJlml+t+ubTZ8wDGge3MQDuJxXqMNmQ4g7ICIUCgOYmplDPl8QqJCsdcQ09vLh5Hm7vgkzl4fLvUriAVZXVk73Dwx23uURMDYxhcGhYZRKI5E5EuEqfKdUy8QfzrY2sba8eCbtnkA7/O2lc5lMdmcXrSo814HTqCtRKgZ4xHGjVzBplvEcZ/7oa8/sEm/q1H6AV5cW3+ZENkFsGRPevgNrugEjk2vVOEqtJJcPYgkurxOdMHK/ROSsV5cOqdeMkYbm6OvP/7S2fG8/59wRQ2TcW+S6phswsjmh8JOBS81SCq2SwG/UVvcfP7jvbMdXTW8d++HpwS1jH5mZ7I5Ok1qLTlbCTUb3tHJd5/LGcvXAF4dePn0/d2X6m599/2RxaGivpuszRPKNQFK/4Do2PM8RbqF5pKCn2Jvp0AoeefyWtbF+6vMDr/ycdjvdk570pCc96cl/Wv4Ba5oJCqPZNk8AAAAASUVORK5CYII="
+  },
+  "dexClasses" : 1268,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"-debug\" package=\"at.aau.itec.android.mediaplayerdemo.debug\" platformBuildVersionCode=\"22\" platformBuildVersionName=\"5.1.1-1819727\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"22\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f070000\" android:label=\"MediaPlayer-Extended Demo Debug\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"MediaPlayer-Extended Demo Debug\" android:name=\"net.protyposis.android.mediaplayerdemo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.VIEW\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<category android:name=\"android.intent.category.BROWSABLE\" />\n\t\t\t\t<data android:scheme=\"rtsp\" />\n\t\t\t\t<data android:scheme=\"http\" android:host=\"*\" android:pathPattern=\".*\\.mpd\" />\n\t\t\t\t<data android:scheme=\"http\" android:host=\"*\" android:pathPattern=\".*\\.mp4\" />\n\t\t\t\t<data android:scheme=\"http\" android:host=\"*\" android:pathPattern=\".*\\.webm\" />\n\t\t\t\t<data android:scheme=\"http\" android:host=\"*\" android:pathPattern=\".*\\.mp3\" />\n\t\t\t\t<data android:scheme=\"http\" android:host=\"*\" android:pathPattern=\".*\\.aac\" />\n\t\t\t\t<data android:scheme=\"http\" android:host=\"*\" android:pathPattern=\".*\\.wav\" />\n\t\t\t</intent-filter>\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.VIEW\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<category android:name=\"android.intent.category.BROWSABLE\" />\n\t\t\t\t<data android:mimeType=\"video/*\" android:scheme=\"file\" />\n\t\t\t\t<data android:mimeType=\"audio/*\" android:scheme=\"file\" />\n\t\t\t\t<data android:mimeType=\"video/*\" android:scheme=\"content\" />\n\t\t\t\t<data android:mimeType=\"audio/*\" android:scheme=\"content\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Android VideoView vs. MPX VideoView\" android:name=\"net.protyposis.android.mediaplayerdemo.SideBySideActivity\" />\n\t\t<activity android:label=\"VideoView SeekMode Comparison\" android:name=\"net.protyposis.android.mediaplayerdemo.SideBySideSeekTestActivity\" />\n\t\t<activity android:label=\"VideoView Demo\" android:name=\"net.protyposis.android.mediaplayerdemo.VideoViewActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 823153,
+  "crc32" : 1433594220,
+  "sha256" : "4105bac02c76878b2d3f1d332148fee896304d9f6d6ba2c10d92503ac81e0d2d",
+  "buildTime" : 1522019560000
+}

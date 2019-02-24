@@ -1,0 +1,7 @@
+2018-10-16 23:50:06,869 INFO  DownloadService - Downloading "https://github.com/dotWee/MicroPinner/archive/master.zip", attempt 3
+2018-10-16 23:51:07,492 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-10-16 23:51:08,447 INFO  GithubDownloadService - Default branch of this repository: master
+2018-10-16 23:51:08,447 INFO  DownloadService - Downloading "https://github.com/dotWee/MicroPinner/archive/master.zip", attempt 3
+2018-10-16 23:52:10,441 DEBUG FullProcessService - Repository https://github.com/dotWee/MicroPinner available: true
+2018-10-16 23:52:10,441 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-10-16 23:52:10,441 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/dotWee/MicroPinner, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539708606865-0/src]

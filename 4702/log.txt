@@ -1,0 +1,356 @@
+2018-10-15 17:47:50,054 INFO  DownloadService - Downloading "https://github.com/Pernifloss/ImageMap/archive/master.zip", attempt 3
+2018-10-15 17:47:55,056 INFO  DownloadService - Downloaded https://github.com/Pernifloss/ImageMap/archive/master.zip, attempt 3
+2018-10-15 17:47:55,056 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/master.zip": 10 MB
+2018-10-15 17:47:55,056 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-15 17:47:55,063 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/master.zip: true
+2018-10-15 17:47:55,063 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src'.
+2018-10-15 17:47:55,269 INFO  FullProcessService - Size of directory with sources: 10 MB
+2018-10-15 17:47:55,269 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src]
+2018-10-15 17:47:55,288 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/.git/
+
+2018-10-15 17:47:55,297 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/gradlew
+2018-10-15 17:47:55,307 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/zonemap/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/build.gradle
+2018-10-15 17:47:55,317 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/zonemap/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/settings.gradle
+2018-10-15 17:47:55,318 INFO  ProjectBuildService - Remote scripts: none
+2018-10-15 17:47:55,318 INFO  ProjectFixService - Fixing project...
+2018-10-15 17:47:55,340 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/app/local.properties
+2018-10-15 17:47:55,341 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=11,targetSdkVersion=24]
+2018-10-15 17:47:55,342 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/zonemap/local.properties
+2018-10-15 17:47:55,342 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/zonemap/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=11,targetSdkVersion=24]
+2018-10-15 17:47:55,343 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/local.properties
+2018-10-15 17:47:55,343 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-10-15 17:47:55,343 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-10-15 17:47:55,344 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=11,targetSdkVersion=24]
+2018-10-15 17:47:55,344 INFO  ProjectFixService - Project was maybe fixed
+2018-10-15 17:47:55,344 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-15 17:47:55,344 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-15 17:47:57,670 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-10-15 17:47:57,670 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-10-15 17:47:57,670 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-10-15 17:47:57,670 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-10-15 17:47:59,242 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-10-15 17:47:59,242 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/app/build.gradle' line: 1
+
+* What went wrong:
+A problem occurred evaluating root project 'app'.
+> Plugin with id 'com.android.application' not found.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'app'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:93)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:177)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:182)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:38)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:25)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:55)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:540)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:93)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher$2.run(DefaultGradleLauncher.java:124)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:121)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.android.application' not found.
+	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:110)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:113)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:36)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:80)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:136)
+	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
+	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
+	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
+	at build_1e9cv73h564pnn77uw9xwci82.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/app/build.gradle:1)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
+	... 50 more
+
+
+BUILD FAILED
+
+Total time: 1.372 secs
+
+2018-10-15 17:47:59,253 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-15 17:47:59,253 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/zonemap/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-15 17:48:06,257 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-10-15 17:48:06,258 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-15 17:48:06,258 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/zonemap/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-15 17:48:19,488 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:zonemap:preBuild UP-TO-DATE
+:zonemap:preDebugBuild UP-TO-DATE
+:zonemap:checkDebugManifest
+:zonemap:preDebugAndroidTestBuild UP-TO-DATE
+:zonemap:preDebugUnitTestBuild UP-TO-DATE
+:zonemap:preReleaseBuild UP-TO-DATE
+:zonemap:preReleaseUnitTestBuild UP-TO-DATE
+:zonemap:prepareComAndroidSupportAnimatedVectorDrawable2421Library
+:zonemap:prepareComAndroidSupportAppcompatV72421Library
+:zonemap:prepareComAndroidSupportSupportCompat2421Library
+:zonemap:prepareComAndroidSupportSupportCoreUi2421Library
+:zonemap:prepareComAndroidSupportSupportCoreUtils2421Library
+:zonemap:prepareComAndroidSupportSupportFragment2421Library
+:zonemap:prepareComAndroidSupportSupportMediaCompat2421Library
+:zonemap:prepareComAndroidSupportSupportV42421Library
+:zonemap:prepareComAndroidSupportSupportVectorDrawable2421Library
+:zonemap:prepareDebugDependencies
+:zonemap:compileDebugAidl
+:zonemap:compileDebugNdk UP-TO-DATE
+:zonemap:compileLint
+:zonemap:copyDebugLint UP-TO-DATE
+:zonemap:compileDebugRenderscript
+:zonemap:generateDebugBuildConfig
+:zonemap:generateDebugResValues
+:zonemap:generateDebugResources
+:zonemap:mergeDebugResources
+:zonemap:processDebugManifest
+:zonemap:processDebugResources
+:zonemap:generateDebugSources
+:zonemap:incrementalDebugJavaCompilationSafeguard
+:zonemap:compileDebugJavaWithJavac
+:zonemap:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/zonemap/src/main/java/com/zechassault/zonemap/view/ImageMapView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:zonemap:extractDebugAnnotations
+:zonemap:mergeDebugShaders
+:zonemap:compileDebugShaders
+:zonemap:generateDebugAssets
+:zonemap:mergeDebugAssets
+:zonemap:mergeDebugProguardFiles
+:zonemap:packageDebugRenderscript UP-TO-DATE
+:zonemap:packageDebugResources
+:zonemap:processDebugJavaRes UP-TO-DATE
+:zonemap:transformResourcesWithMergeJavaResForDebug
+:zonemap:transformClassesAndResourcesWithSyncLibJarsForDebug
+:zonemap:mergeDebugJniLibFolders
+:zonemap:transformNative_libsWithMergeJniLibsForDebug
+:zonemap:transformNative_libsWithSyncJniLibsForDebug
+:zonemap:bundleDebug
+:zonemap:compileDebugSources
+:zonemap:assembleDebug
+:zonemap:checkReleaseManifest
+:zonemap:prepareReleaseDependencies
+:zonemap:compileReleaseAidl
+:zonemap:compileReleaseNdk UP-TO-DATE
+:zonemap:copyReleaseLint UP-TO-DATE
+:zonemap:compileReleaseRenderscript
+:zonemap:generateReleaseBuildConfig
+:zonemap:generateReleaseResValues
+:zonemap:generateReleaseResources
+:zonemap:mergeReleaseResources
+:zonemap:processReleaseManifest
+:zonemap:processReleaseResources
+:zonemap:generateReleaseSources
+:zonemap:incrementalReleaseJavaCompilationSafeguard
+:zonemap:compileReleaseJavaWithJavac
+:zonemap:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/zonemap/src/main/java/com/zechassault/zonemap/view/ImageMapView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:zonemap:extractReleaseAnnotations
+:zonemap:mergeReleaseShaders
+:zonemap:compileReleaseShaders
+:zonemap:generateReleaseAssets
+:zonemap:mergeReleaseAssets
+:zonemap:mergeReleaseProguardFiles
+:zonemap:packageReleaseRenderscript UP-TO-DATE
+:zonemap:packageReleaseResources
+:zonemap:processReleaseJavaRes UP-TO-DATE
+:zonemap:transformResourcesWithMergeJavaResForRelease
+:zonemap:transformClassesAndResourcesWithSyncLibJarsForRelease
+:zonemap:mergeReleaseJniLibFolders
+:zonemap:transformNative_libsWithMergeJniLibsForRelease
+:zonemap:transformNative_libsWithSyncJniLibsForRelease
+:zonemap:bundleRelease
+:zonemap:compileReleaseSources
+:zonemap:assembleRelease
+:zonemap:generateJavaDocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/zonemap/src/main/java/com/zechassault/zonemap/view/ImageMapView.java:273: warning: no description for @param
+     * @param motionEvent
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/zonemap/src/main/java/com/zechassault/zonemap/view/ImageMapView.java:274: warning: no description for @return
+     * @return
+       ^
+
+2 warnings
+:zonemap:generateJavaDocsJar
+:zonemap:generateSourcesJar
+:zonemap:assemble
+:zonemap:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.631 secs
+
+2018-10-15 17:48:19,556 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-15 17:48:19,556 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-15 17:48:26,245 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-10-15 17:48:26,246 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-15 17:48:26,246 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600470051-0/src/ImageMap-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-15 17:48:33,307 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:zonemap:preBuild UP-TO-DATE
+:zonemap:preDebugBuild UP-TO-DATE
+:zonemap:checkDebugManifest
+:zonemap:preDebugAndroidTestBuild UP-TO-DATE
+:zonemap:preDebugUnitTestBuild UP-TO-DATE
+:zonemap:preReleaseBuild UP-TO-DATE
+:zonemap:preReleaseUnitTestBuild UP-TO-DATE
+:zonemap:prepareComAndroidSupportAnimatedVectorDrawable2421Library UP-TO-DATE
+:zonemap:prepareComAndroidSupportAppcompatV72421Library UP-TO-DATE
+:zonemap:prepareComAndroidSupportSupportCompat2421Library UP-TO-DATE
+:zonemap:prepareComAndroidSupportSupportCoreUi2421Library UP-TO-DATE
+:zonemap:prepareComAndroidSupportSupportCoreUtils2421Library UP-TO-DATE
+:zonemap:prepareComAndroidSupportSupportFragment2421Library UP-TO-DATE
+:zonemap:prepareComAndroidSupportSupportMediaCompat2421Library UP-TO-DATE
+:zonemap:prepareComAndroidSupportSupportV42421Library UP-TO-DATE
+:zonemap:prepareComAndroidSupportSupportVectorDrawable2421Library UP-TO-DATE
+:zonemap:prepareDebugDependencies
+:zonemap:compileDebugAidl UP-TO-DATE
+:zonemap:compileDebugNdk UP-TO-DATE
+:zonemap:compileLint UP-TO-DATE
+:zonemap:copyDebugLint UP-TO-DATE
+:zonemap:compileDebugRenderscript UP-TO-DATE
+:zonemap:generateDebugBuildConfig UP-TO-DATE
+:zonemap:generateDebugResValues UP-TO-DATE
+:zonemap:generateDebugResources UP-TO-DATE
+:zonemap:mergeDebugResources UP-TO-DATE
+:zonemap:processDebugManifest UP-TO-DATE
+:zonemap:processDebugResources UP-TO-DATE
+:zonemap:generateDebugSources UP-TO-DATE
+:zonemap:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:zonemap:compileDebugJavaWithJavac UP-TO-DATE
+:zonemap:extractDebugAnnotations UP-TO-DATE
+:zonemap:mergeDebugShaders UP-TO-DATE
+:zonemap:compileDebugShaders UP-TO-DATE
+:zonemap:generateDebugAssets UP-TO-DATE
+:zonemap:mergeDebugAssets UP-TO-DATE
+:zonemap:mergeDebugProguardFiles UP-TO-DATE
+:zonemap:packageDebugRenderscript UP-TO-DATE
+:zonemap:packageDebugResources UP-TO-DATE
+:zonemap:processDebugJavaRes UP-TO-DATE
+:zonemap:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:zonemap:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:zonemap:mergeDebugJniLibFolders UP-TO-DATE
+:zonemap:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:zonemap:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:zonemap:bundleDebug UP-TO-DATE
+:zonemap:compileDebugSources UP-TO-DATE
+:zonemap:assembleDebug UP-TO-DATE
+:zonemap:checkReleaseManifest
+:zonemap:prepareReleaseDependencies
+:zonemap:compileReleaseAidl UP-TO-DATE
+:zonemap:compileReleaseNdk UP-TO-DATE
+:zonemap:copyReleaseLint UP-TO-DATE
+:zonemap:compileReleaseRenderscript UP-TO-DATE
+:zonemap:generateReleaseBuildConfig UP-TO-DATE
+:zonemap:generateReleaseResValues UP-TO-DATE
+:zonemap:generateReleaseResources UP-TO-DATE
+:zonemap:mergeReleaseResources UP-TO-DATE
+:zonemap:processReleaseManifest UP-TO-DATE
+:zonemap:processReleaseResources UP-TO-DATE
+:zonemap:generateReleaseSources UP-TO-DATE
+:zonemap:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:zonemap:compileReleaseJavaWithJavac UP-TO-DATE
+:zonemap:extractReleaseAnnotations UP-TO-DATE
+:zonemap:mergeReleaseShaders UP-TO-DATE
+:zonemap:compileReleaseShaders UP-TO-DATE
+:zonemap:generateReleaseAssets UP-TO-DATE
+:zonemap:mergeReleaseAssets UP-TO-DATE
+:zonemap:mergeReleaseProguardFiles UP-TO-DATE
+:zonemap:packageReleaseRenderscript UP-TO-DATE
+:zonemap:packageReleaseResources UP-TO-DATE
+:zonemap:processReleaseJavaRes UP-TO-DATE
+:zonemap:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:zonemap:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:zonemap:mergeReleaseJniLibFolders UP-TO-DATE
+:zonemap:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:zonemap:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:zonemap:bundleRelease UP-TO-DATE
+:zonemap:compileReleaseSources UP-TO-DATE
+:zonemap:assembleRelease UP-TO-DATE
+:zonemap:generateJavaDocs UP-TO-DATE
+:zonemap:generateJavaDocsJar UP-TO-DATE
+:zonemap:generateSourcesJar UP-TO-DATE
+:zonemap:assemble UP-TO-DATE
+:zonemap:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.442 secs
+
+2018-10-15 17:48:33,378 ERROR FullProcessService - Project build has not produced APK file
+2018-10-15 17:48:33,440 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,426 @@
+2018-10-16 13:23:36,989 INFO  DownloadService - Downloading "https://github.com/saveendhiman/SampleApp/archive/master.zip", attempt 3
+2018-10-16 13:23:40,871 INFO  DownloadService - Downloaded https://github.com/saveendhiman/SampleApp/archive/master.zip, attempt 3
+2018-10-16 13:23:40,871 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/master.zip": 151 KB
+2018-10-16 13:23:40,871 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-16 13:23:40,877 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/master.zip: true
+2018-10-16 13:23:40,877 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src'.
+2018-10-16 13:23:40,911 INFO  FullProcessService - Size of directory with sources: 213 KB
+2018-10-16 13:23:40,911 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src]
+2018-10-16 13:23:40,927 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/.git/
+
+2018-10-16 13:23:40,931 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/gradlew
+2018-10-16 13:23:40,935 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/build.gradle
+2018-10-16 13:23:40,939 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/settings.gradle
+2018-10-16 13:23:40,939 INFO  ProjectBuildService - Remote scripts: none
+2018-10-16 13:23:40,939 INFO  ProjectFixService - Fixing project...
+2018-10-16 13:23:40,947 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/app/local.properties
+2018-10-16 13:23:40,948 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=23]
+2018-10-16 13:23:40,948 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/local.properties
+2018-10-16 13:23:40,949 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-10-16 13:23:40,949 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-10-16 13:23:40,949 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=23]
+2018-10-16 13:23:40,949 INFO  ProjectFixService - Project was maybe fixed
+2018-10-16 13:23:40,950 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-16 13:23:40,950 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-16 13:24:56,621 INFO  ProjectTaskService - Detected possible tasks: 76
+2018-10-16 13:24:56,622 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-16 13:24:56,622 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-16 13:25:09,839 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-10-16 13:25:09,839 INFO  SysUtils - Configuration on demand is an incubating feature.
+Jack is required to support java 8 language features.
+Incremental java compilation is an incubating feature.
+Jack is required to support java 8 language features.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2400Alpha1Library
+:app:prepareComAndroidSupportAppcompatV72400Alpha1Library
+:app:prepareComAndroidSupportCardviewV72340Library
+:app:prepareComAndroidSupportCustomtabs2340Library
+:app:prepareComAndroidSupportDesign2400Alpha1Library
+:app:prepareComAndroidSupportRecyclerviewV72400Alpha1Library
+:app:prepareComAndroidSupportSupportV42400Alpha1Library
+:app:prepareComAndroidSupportSupportVectorDrawable2400Alpha1Library
+:app:prepareComCrashlyticsSdkAndroidAnswers139Library
+:app:prepareComCrashlyticsSdkAndroidBeta122Library
+:app:prepareComCrashlyticsSdkAndroidCrashlytics262Library
+:app:prepareComCrashlyticsSdkAndroidCrashlyticsCore2311Library
+:app:prepareComFacebookAndroidFacebookAndroidSdk4150Library
+:app:prepareComGoogleAndroidGmsPlayServicesBase940Library
+:app:prepareComGoogleAndroidGmsPlayServicesBasement940Library
+:app:prepareComGoogleAndroidGmsPlayServicesLocation940Library
+:app:prepareComGoogleAndroidGmsPlayServicesMaps940Library
+:app:prepareComGoogleAndroidGmsPlayServicesTasks940Library
+:app:prepareComGoogleFirebaseFirebaseCommon940Library
+:app:prepareComGoogleFirebaseFirebaseIid940Library
+:app:prepareComGoogleFirebaseFirebaseMessaging940Library
+:app:prepareComJakewhartonButterknife821Library
+:app:prepareComJakewhartonTimberTimber412Library
+:app:prepareEuInmiteAndroidLibAndroidValidationKomensky094Library
+:app:prepareIoFabricSdkAndroidFabric1313Library
+:app:prepareIoReactivexRxandroid121Library
+:app:prepareUkCoChrisjenxCalligraphy220Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:processDebugManifest
+:app:fabricGenerateResourcesDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/app/src/main/java/com/sampleapp/base/AppComponent.java:22: error: com.sampleapp.api.RestService cannot be provided without an @Provides- or @Produces-annotated method.
+    void inject(SamplePresenter samplePresenter);
+         ^
+      com.sampleapp.api.RestService is injected at
+          com.sampleapp.module.fragmentsample.SamplePresenter.mRestService
+      com.sampleapp.module.fragmentsample.SamplePresenter is injected at
+          com.sampleapp.base.AppComponent.inject(samplePresenter)
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/app/src/main/java/com/sampleapp/base/AppComponent.java:24: error: com.sampleapp.api.RestService cannot be provided without an @Provides- or @Produces-annotated method.
+    void inject(SampleFragment sampleFragment);
+         ^
+      com.sampleapp.api.RestService is injected at
+          com.sampleapp.module.fragmentsample.SamplePresenter.mRestService
+      com.sampleapp.module.fragmentsample.SamplePresenter is injected at
+          com.sampleapp.module.fragmentsample.SampleFragment.mPresenter
+      com.sampleapp.module.fragmentsample.SampleFragment is injected at
+          com.sampleapp.base.AppComponent.inject(sampleFragment)
+2 errors
+ FAILED
+:app:compileRetrolambdaDebug
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:compileDebugJavaWithJavac'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:48)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:33)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:104)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:53)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:38)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:35)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:25)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:163)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:145)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:93)
+	at com.android.build.gradle.tasks.factory.AndroidJavaCompile.compile(AndroidJavaCompile.java:49)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:245)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:232)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 12.689 secs
+
+2018-10-16 13:25:09,904 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-16 13:25:09,905 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-16 13:25:17,041 INFO  ProjectTaskService - Detected possible tasks: 75
+2018-10-16 13:25:17,041 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-16 13:25:17,042 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-16 13:25:27,665 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-10-16 13:25:27,665 INFO  SysUtils - Configuration on demand is an incubating feature.
+Jack is required to support java 8 language features.
+Incremental java compilation is an incubating feature.
+Jack is required to support java 8 language features.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2400Alpha1Library UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72400Alpha1Library UP-TO-DATE
+:app:prepareComAndroidSupportCardviewV72340Library UP-TO-DATE
+:app:prepareComAndroidSupportCustomtabs2340Library UP-TO-DATE
+:app:prepareComAndroidSupportDesign2400Alpha1Library UP-TO-DATE
+:app:prepareComAndroidSupportRecyclerviewV72400Alpha1Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportV42400Alpha1Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportVectorDrawable2400Alpha1Library UP-TO-DATE
+:app:prepareComCrashlyticsSdkAndroidAnswers139Library UP-TO-DATE
+:app:prepareComCrashlyticsSdkAndroidBeta122Library UP-TO-DATE
+:app:prepareComCrashlyticsSdkAndroidCrashlytics262Library UP-TO-DATE
+:app:prepareComCrashlyticsSdkAndroidCrashlyticsCore2311Library UP-TO-DATE
+:app:prepareComFacebookAndroidFacebookAndroidSdk4150Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesBase940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesBasement940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesLocation940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesMaps940Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesTasks940Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseCommon940Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseIid940Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseMessaging940Library UP-TO-DATE
+:app:prepareComJakewhartonButterknife821Library UP-TO-DATE
+:app:prepareComJakewhartonTimberTimber412Library UP-TO-DATE
+:app:prepareEuInmiteAndroidLibAndroidValidationKomensky094Library UP-TO-DATE
+:app:prepareIoFabricSdkAndroidFabric1313Library UP-TO-DATE
+:app:prepareIoReactivexRxandroid121Library UP-TO-DATE
+:app:prepareUkCoChrisjenxCalligraphy220Library UP-TO-DATE
+:app:prepareDebugDependencies
+:app:compileDebugAidl UP-TO-DATE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:mergeDebugShaders UP-TO-DATE
+:app:compileDebugShaders UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:fabricGenerateResourcesDebug
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:app:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/app/src/main/java/com/sampleapp/base/AppComponent.java:22: error: com.sampleapp.api.RestService cannot be provided without an @Provides- or @Produces-annotated method.
+    void inject(SamplePresenter samplePresenter);
+         ^
+      com.sampleapp.api.RestService is injected at
+          com.sampleapp.module.fragmentsample.SamplePresenter.mRestService
+      com.sampleapp.module.fragmentsample.SamplePresenter is injected at
+          com.sampleapp.base.AppComponent.inject(samplePresenter)
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671016987-0/src/SampleApp-master/app/src/main/java/com/sampleapp/base/AppComponent.java:24: error: com.sampleapp.api.RestService cannot be provided without an @Provides- or @Produces-annotated method.
+    void inject(SampleFragment sampleFragment);
+         ^
+      com.sampleapp.api.RestService is injected at
+          com.sampleapp.module.fragmentsample.SamplePresenter.mRestService
+      com.sampleapp.module.fragmentsample.SamplePresenter is injected at
+          com.sampleapp.module.fragmentsample.SampleFragment.mPresenter
+      com.sampleapp.module.fragmentsample.SampleFragment is injected at
+          com.sampleapp.base.AppComponent.inject(sampleFragment)
+2 errors
+ FAILED
+:app:compileRetrolambdaDebug UP-TO-DATE
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:compileDebugJavaWithJavac'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:48)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:33)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:104)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:53)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:38)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:35)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:25)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:163)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:145)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:93)
+	at com.android.build.gradle.tasks.factory.AndroidJavaCompile.compile(AndroidJavaCompile.java:49)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:245)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:232)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 10.118 secs
+
+2018-10-16 13:25:27,722 ERROR FullProcessService - Project build has not produced APK file
+2018-10-16 13:25:27,785 ERROR FullProcessService - Could not find generated or existed APK file

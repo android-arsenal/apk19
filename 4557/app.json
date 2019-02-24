@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.takeoffandroid.mvpauthentication",
+    "label" : "TakeoffMVP",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "11",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 4642,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.takeoffandroid.mvpauthentication\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"11\" android:targetSdkVersion=\"23\" />\n\t<application android:label=\"TakeoffMVP\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0900bc\" android:label=\"TakeoffMVP\" android:name=\"com.takeoffandroid.mvpauthentication.activities.SplashActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f090037\" android:label=\"TakeoffMVP\" android:name=\"com.takeoffandroid.mvpauthentication.activities.AuthenticationActivity\" android:configChanges=\"0x4a0\" android:windowSoftInputMode=\"0x20\" />\n\t\t<activity android:theme=\"resourceId:0x7f090037\" android:label=\"TakeoffMVP\" android:name=\"com.takeoffandroid.mvpauthentication.activities.MainActivity\" android:windowSoftInputMode=\"0x20\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2704123,
+  "crc32" : 3844096435,
+  "sha256" : "e349da3354eac37babcd4f96ab916275782ffdf3e011ca70bf98bbf7522bdecf",
+  "buildTime" : 1496784648000
+}
