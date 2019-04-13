@@ -1,33 +1,33 @@
-2018-10-15 17:47:33,406 INFO  DownloadService - Downloading "https://github.com/GreaseMonk/SpannableBar/archive/master.zip", attempt 3
-2018-10-15 17:47:33,888 INFO  DownloadService - Downloaded https://github.com/GreaseMonk/SpannableBar/archive/master.zip, attempt 3
-2018-10-15 17:47:33,889 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600453397-0/master.zip": 67 KB
-2018-10-15 17:47:33,889 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-15 17:47:33,894 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600453397-0/master.zip: true
-2018-10-15 17:47:33,894 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600453397-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600453397-0/src'.
-2018-10-15 17:47:33,901 INFO  FullProcessService - Size of directory with sources: 96 KB
-2018-10-15 17:47:33,901 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600453397-0/src]
-2018-10-15 17:47:33,919 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600453397-0/src/.git/
+2019-04-13 21:29:52,571 INFO  DownloadService - Downloading "https://github.com/GreaseMonk/SpannableBar/archive/master.zip", attempt 3
+2019-04-13 21:29:53,049 INFO  DownloadService - Downloaded https://github.com/GreaseMonk/SpannableBar/archive/master.zip, attempt 3
+2019-04-13 21:29:53,049 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165792563-0/master.zip": 67 KB
+2019-04-13 21:29:53,049 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-13 21:29:53,054 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165792563-0/master.zip: true
+2019-04-13 21:29:53,054 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165792563-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165792563-0/src'.
+2019-04-13 21:29:53,063 INFO  FullProcessService - Size of directory with sources: 96 KB
+2019-04-13 21:29:53,063 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165792563-0/src]
+2019-04-13 21:29:53,087 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165792563-0/src/.git/
 
-2018-10-15 17:47:33,920 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600453397-0/src/SpannableBar-master/gradlew
-2018-10-15 17:47:33,922 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600453397-0/src/SpannableBar-master/build.gradle
-2018-10-15 17:47:33,923 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600453397-0/src/SpannableBar-master/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600453397-0/src/SpannableBar-master/build.gradle
-2018-10-15 17:47:33,923 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/GreaseMonk/JCenter/master/bintrayv1.gradle", attempt 3
-2018-10-15 17:47:34,167 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/GreaseMonk/JCenter/master/bintrayv1.gradle, attempt 3
-2018-10-15 17:47:34,168 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/GreaseMonk/JCenter/master/installv1.gradle", attempt 3
-2018-10-15 17:47:34,378 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/GreaseMonk/JCenter/master/installv1.gradle, attempt 3
-2018-10-15 17:47:34,378 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/GreaseMonk/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/GreaseMonk/JCenter/master/installv1.gradle
-2018-10-15 17:47:34,378 INFO  ProjectFixService - Fixing project...
-2018-10-15 17:47:34,386 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600453397-0/src/SpannableBar-master/local.properties
-2018-10-15 17:47:34,387 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-bin.zip
-2018-10-15 17:47:34,387 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600453397-0/src/SpannableBar-master/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-10-15 17:47:34,387 INFO  ProjectFixService - Project was maybe fixed
-2018-10-15 17:47:34,388 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 17:47:34,388 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600453397-0/src/SpannableBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600453397-0/src/SpannableBar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 17:47:42,019 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 17:47:42,019 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-15 17:47:42,019 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-15 17:47:42,019 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600453397-0/src/SpannableBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600453397-0/src/SpannableBar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-15 17:47:50,032 ERROR SysUtils - Could not process external command
+2019-04-13 21:29:53,089 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165792563-0/src/SpannableBar-master/gradlew
+2019-04-13 21:29:53,091 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165792563-0/src/SpannableBar-master/build.gradle
+2019-04-13 21:29:53,093 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165792563-0/src/SpannableBar-master/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165792563-0/src/SpannableBar-master/build.gradle
+2019-04-13 21:29:53,094 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/GreaseMonk/JCenter/master/bintrayv1.gradle", attempt 3
+2019-04-13 21:29:53,389 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/GreaseMonk/JCenter/master/bintrayv1.gradle, attempt 3
+2019-04-13 21:29:53,389 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/GreaseMonk/JCenter/master/installv1.gradle", attempt 3
+2019-04-13 21:29:53,653 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/GreaseMonk/JCenter/master/installv1.gradle, attempt 3
+2019-04-13 21:29:53,653 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/GreaseMonk/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/GreaseMonk/JCenter/master/installv1.gradle
+2019-04-13 21:29:53,653 INFO  ProjectFixService - Fixing project...
+2019-04-13 21:29:53,661 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165792563-0/src/SpannableBar-master/local.properties
+2019-04-13 21:29:53,662 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-bin.zip
+2019-04-13 21:29:53,663 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165792563-0/src/SpannableBar-master/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2019-04-13 21:29:53,663 INFO  ProjectFixService - Project was maybe fixed
+2019-04-13 21:29:53,663 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 21:29:53,663 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165792563-0/src/SpannableBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165792563-0/src/SpannableBar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 21:30:01,576 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 21:30:01,576 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-04-13 21:30:01,576 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-04-13 21:30:01,576 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165792563-0/src/SpannableBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165792563-0/src/SpannableBar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-04-13 21:30:09,384 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 17:47:50,032 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 21:30:09,385 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -82,7 +82,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_c997jrtqndps7vm70yix7nteq.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600453397-0/src/SpannableBar-master/build.gradle:77)
+	at build_z7alyi2k61zcuywr4jmxyt3p.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165792563-0/src/SpannableBar-master/build.gradle:77)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:177)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -146,7 +146,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 
 BUILD FAILED
 
-Total time: 7.434 secs
+Total time: 7.157 secs
 
-2018-10-15 17:47:50,034 ERROR FullProcessService - Project build has not produced APK file
-2018-10-15 17:47:50,036 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-13 21:30:09,388 ERROR FullProcessService - Project build has not produced APK file
+2019-04-13 21:30:09,390 ERROR FullProcessService - Could not find generated or existed APK file

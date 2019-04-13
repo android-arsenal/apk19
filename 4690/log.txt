@@ -1,33 +1,33 @@
-2018-10-15 19:40:55,873 INFO  DownloadService - Downloading "https://github.com/xenione/beforeafter-effect/archive/master.zip", attempt 3
-2018-10-15 19:40:57,692 INFO  DownloadService - Downloaded https://github.com/xenione/beforeafter-effect/archive/master.zip, attempt 3
-2018-10-15 19:40:57,692 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/master.zip": 2 MB
-2018-10-15 19:40:57,692 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-15 19:40:57,699 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/master.zip: true
-2018-10-15 19:40:57,699 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src'.
-2018-10-15 19:40:57,740 INFO  FullProcessService - Size of directory with sources: 3 MB
-2018-10-15 19:40:57,741 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src]
-2018-10-15 19:40:57,757 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src/.git/
+2019-04-13 21:40:01,893 INFO  DownloadService - Downloading "https://github.com/xenione/beforeafter-effect/archive/master.zip", attempt 3
+2019-04-13 21:40:04,440 INFO  DownloadService - Downloaded https://github.com/xenione/beforeafter-effect/archive/master.zip, attempt 3
+2019-04-13 21:40:04,440 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/master.zip": 2 MB
+2019-04-13 21:40:04,440 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-13 21:40:04,446 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/master.zip: true
+2019-04-13 21:40:04,446 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src'.
+2019-04-13 21:40:04,494 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-04-13 21:40:04,494 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src]
+2019-04-13 21:40:04,517 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src/.git/
 
-2018-10-15 19:40:57,760 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src/beforeafter-effect-master/gradlew
-2018-10-15 19:40:57,763 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src/beforeafter-effect-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src/beforeafter-effect-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src/beforeafter-effect-master/build.gradle
-2018-10-15 19:40:57,766 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src/beforeafter-effect-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src/beforeafter-effect-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src/beforeafter-effect-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src/beforeafter-effect-master/settings.gradle
-2018-10-15 19:40:57,766 INFO  ProjectBuildService - Remote scripts: none
-2018-10-15 19:40:57,766 INFO  ProjectFixService - Fixing project...
-2018-10-15 19:40:57,773 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src/beforeafter-effect-master/app/local.properties
-2018-10-15 19:40:57,773 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src/beforeafter-effect-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-10-15 19:40:57,774 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src/beforeafter-effect-master/library/local.properties
-2018-10-15 19:40:57,774 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src/beforeafter-effect-master/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-10-15 19:40:57,775 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src/beforeafter-effect-master/local.properties
-2018-10-15 19:40:57,775 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
-2018-10-15 19:40:57,775 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
-2018-10-15 19:40:57,776 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src/beforeafter-effect-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-10-15 19:40:57,776 INFO  ProjectFixService - Project was maybe fixed
-2018-10-15 19:40:57,776 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 19:40:57,776 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src/beforeafter-effect-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src/beforeafter-effect-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 19:41:05,352 INFO  ProjectTaskService - Detected possible tasks: 68
-2018-10-15 19:41:05,353 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-15 19:41:05,353 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src/beforeafter-effect-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src/beforeafter-effect-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-15 19:41:22,500 ERROR SysUtils - Could not process external command
+2019-04-13 21:40:04,522 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src/beforeafter-effect-master/gradlew
+2019-04-13 21:40:04,526 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src/beforeafter-effect-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src/beforeafter-effect-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src/beforeafter-effect-master/build.gradle
+2019-04-13 21:40:04,531 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src/beforeafter-effect-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src/beforeafter-effect-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src/beforeafter-effect-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src/beforeafter-effect-master/settings.gradle
+2019-04-13 21:40:04,531 INFO  ProjectBuildService - Remote scripts: none
+2019-04-13 21:40:04,531 INFO  ProjectFixService - Fixing project...
+2019-04-13 21:40:04,542 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src/beforeafter-effect-master/app/local.properties
+2019-04-13 21:40:04,542 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src/beforeafter-effect-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-04-13 21:40:04,543 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src/beforeafter-effect-master/library/local.properties
+2019-04-13 21:40:04,543 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src/beforeafter-effect-master/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-04-13 21:40:04,544 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src/beforeafter-effect-master/local.properties
+2019-04-13 21:40:04,544 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-04-13 21:40:04,544 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-04-13 21:40:04,545 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src/beforeafter-effect-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-04-13 21:40:04,545 INFO  ProjectFixService - Project was maybe fixed
+2019-04-13 21:40:04,545 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 21:40:04,545 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src/beforeafter-effect-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src/beforeafter-effect-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 21:40:14,196 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-04-13 21:40:14,196 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-13 21:40:14,196 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src/beforeafter-effect-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src/beforeafter-effect-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-13 21:40:36,147 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -40,8 +40,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -55,7 +54,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 19:41:22,500 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 21:40:36,147 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
 :app:checkDebugManifest
@@ -242,6 +241,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 16.622 secs
+Total time: 21.397 secs
 
-2018-10-15 19:41:22,578 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607255870-0/src/beforeafter-effect-master/app/build/outputs/apk/app-debug.apk
+2019-04-13 21:40:36,251 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166401888-0/src/beforeafter-effect-master/app/build/outputs/apk/app-debug.apk

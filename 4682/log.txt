@@ -1,38 +1,38 @@
-2018-10-15 19:49:16,007 INFO  DownloadService - Downloading "https://github.com/drstranges/DataBinding_For_RecyclerView/archive/master.zip", attempt 3
-2018-10-15 19:49:20,425 INFO  DownloadService - Downloaded https://github.com/drstranges/DataBinding_For_RecyclerView/archive/master.zip, attempt 3
-2018-10-15 19:49:20,425 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/master.zip": 2 MB
-2018-10-15 19:49:20,426 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-15 19:49:20,432 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/master.zip: true
-2018-10-15 19:49:20,432 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src'.
-2018-10-15 19:49:20,476 INFO  FullProcessService - Size of directory with sources: 3 MB
-2018-10-15 19:49:20,477 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src]
-2018-10-15 19:49:20,493 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src/.git/
+2019-04-13 21:47:45,120 INFO  DownloadService - Downloading "https://github.com/drstranges/DataBinding_For_RecyclerView/archive/master.zip", attempt 3
+2019-04-13 21:47:49,272 INFO  DownloadService - Downloaded https://github.com/drstranges/DataBinding_For_RecyclerView/archive/master.zip, attempt 3
+2019-04-13 21:47:49,272 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/master.zip": 2 MB
+2019-04-13 21:47:49,272 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-13 21:47:49,279 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/master.zip: true
+2019-04-13 21:47:49,279 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src'.
+2019-04-13 21:47:49,323 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-04-13 21:47:49,323 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src]
+2019-04-13 21:47:49,340 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src/.git/
 
-2018-10-15 19:49:20,496 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src/DataBinding_For_RecyclerView-master/gradlew
-2018-10-15 19:49:20,499 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src/DataBinding_For_RecyclerView-master/rvdatabinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src/DataBinding_For_RecyclerView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src/DataBinding_For_RecyclerView-master/build.gradle
-2018-10-15 19:49:20,502 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src/DataBinding_For_RecyclerView-master/rvdatabinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src/DataBinding_For_RecyclerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src/DataBinding_For_RecyclerView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src/DataBinding_For_RecyclerView-master/settings.gradle
-2018-10-15 19:49:20,502 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-10-15 19:49:20,605 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-10-15 19:49:20,605 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-10-15 19:49:20,705 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-10-15 19:49:20,705 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-10-15 19:49:20,705 INFO  ProjectFixService - Fixing project...
-2018-10-15 19:49:20,716 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src/DataBinding_For_RecyclerView-master/rvdatabinding/local.properties
-2018-10-15 19:49:20,717 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src/DataBinding_For_RecyclerView-master/rvdatabinding/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-15 19:49:20,717 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src/DataBinding_For_RecyclerView-master/sample/local.properties
-2018-10-15 19:49:20,717 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src/DataBinding_For_RecyclerView-master/sample/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-10-15 19:49:20,718 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src/DataBinding_For_RecyclerView-master/local.properties
-2018-10-15 19:49:20,718 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-15 19:49:20,719 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-15 19:49:20,719 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src/DataBinding_For_RecyclerView-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-15 19:49:20,720 INFO  ProjectFixService - Project was maybe fixed
-2018-10-15 19:49:20,720 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 19:49:20,720 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src/DataBinding_For_RecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src/DataBinding_For_RecyclerView-master/rvdatabinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 19:49:53,489 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 19:49:53,489 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-15 19:49:53,489 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-15 19:49:53,490 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src/DataBinding_For_RecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src/DataBinding_For_RecyclerView-master/rvdatabinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-15 19:50:06,236 ERROR SysUtils - Could not process external command
+2019-04-13 21:47:49,343 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src/DataBinding_For_RecyclerView-master/gradlew
+2019-04-13 21:47:49,347 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src/DataBinding_For_RecyclerView-master/rvdatabinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src/DataBinding_For_RecyclerView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src/DataBinding_For_RecyclerView-master/build.gradle
+2019-04-13 21:47:49,350 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src/DataBinding_For_RecyclerView-master/rvdatabinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src/DataBinding_For_RecyclerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src/DataBinding_For_RecyclerView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src/DataBinding_For_RecyclerView-master/settings.gradle
+2019-04-13 21:47:49,351 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-04-13 21:47:49,454 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-04-13 21:47:49,454 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-04-13 21:47:49,555 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-04-13 21:47:49,555 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-04-13 21:47:49,555 INFO  ProjectFixService - Fixing project...
+2019-04-13 21:47:49,567 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src/DataBinding_For_RecyclerView-master/rvdatabinding/local.properties
+2019-04-13 21:47:49,567 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src/DataBinding_For_RecyclerView-master/rvdatabinding/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-13 21:47:49,568 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src/DataBinding_For_RecyclerView-master/sample/local.properties
+2019-04-13 21:47:49,568 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src/DataBinding_For_RecyclerView-master/sample/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-04-13 21:47:49,569 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src/DataBinding_For_RecyclerView-master/local.properties
+2019-04-13 21:47:49,569 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-13 21:47:49,569 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-13 21:47:49,570 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src/DataBinding_For_RecyclerView-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-13 21:47:49,570 INFO  ProjectFixService - Project was maybe fixed
+2019-04-13 21:47:49,570 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 21:47:49,571 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src/DataBinding_For_RecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src/DataBinding_For_RecyclerView-master/rvdatabinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 21:47:56,851 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 21:47:56,851 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-04-13 21:47:56,851 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-04-13 21:47:56,851 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src/DataBinding_For_RecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src/DataBinding_For_RecyclerView-master/rvdatabinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-04-13 21:48:02,173 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,142 +59,36 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 19:50:06,236 INFO  SysUtils - Configuration on demand is an incubating feature.
-Incremental java compilation is an incubating feature.
-:rvdatabinding:preBuild UP-TO-DATE
-:rvdatabinding:preDebugBuild UP-TO-DATE
-:rvdatabinding:compileDebugNdk UP-TO-DATE
-:rvdatabinding:compileLint
-:rvdatabinding:copyDebugLint UP-TO-DATE
-:rvdatabinding:checkDebugManifest
-:rvdatabinding:preDebugAndroidTestBuild UP-TO-DATE
-:rvdatabinding:preDebugUnitTestBuild UP-TO-DATE
-:rvdatabinding:preReleaseBuild UP-TO-DATE
-:rvdatabinding:preReleaseUnitTestBuild UP-TO-DATE
-:rvdatabinding:prepareComAndroidDatabindingAdapters11Library
-:rvdatabinding:prepareComAndroidDatabindingLibrary11Library
-:rvdatabinding:prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library
-:rvdatabinding:prepareComAndroidSupportAppcompatV72600Alpha1Library
-:rvdatabinding:prepareComAndroidSupportRecyclerviewV72600Alpha1Library
-:rvdatabinding:prepareComAndroidSupportSupportCompat2600Alpha1Library
-:rvdatabinding:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
-:rvdatabinding:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
-:rvdatabinding:prepareComAndroidSupportSupportFragment2600Alpha1Library
-:rvdatabinding:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
-:rvdatabinding:prepareComAndroidSupportSupportV42600Alpha1Library
-:rvdatabinding:prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library
-:rvdatabinding:prepareComDrextendedActionhandlerActionhandler0116Library
-:rvdatabinding:prepareComHannesdorfmannAdapterdelegates2201Library
-:rvdatabinding:prepareDebugDependencies
-:rvdatabinding:compileDebugRenderscript
-:rvdatabinding:generateDebugResValues
-:rvdatabinding:generateDebugResources
-:rvdatabinding:mergeDebugResources
-:rvdatabinding:dataBindingProcessLayoutsDebug
-:rvdatabinding:compileDebugAidl
-:rvdatabinding:generateDebugBuildConfig
-:rvdatabinding:mergeDebugShaders
-:rvdatabinding:compileDebugShaders
-:rvdatabinding:generateDebugAssets
-:rvdatabinding:mergeDebugAssets
-:rvdatabinding:processDebugManifest
-:rvdatabinding:processDebugResources
-:rvdatabinding:generateDebugSources
-:rvdatabinding:dataBindingExportBuildInfoDebug
-:rvdatabinding:incrementalDebugJavaCompilationSafeguard
-:rvdatabinding:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-:rvdatabinding:extractDebugAnnotations
-:rvdatabinding:mergeDebugProguardFiles
-:rvdatabinding:packageDebugRenderscript UP-TO-DATE
-:rvdatabinding:packageDebugResources
-:rvdatabinding:processDebugJavaRes UP-TO-DATE
-:rvdatabinding:transformResourcesWithMergeJavaResForDebug
-:rvdatabinding:transformClassesAndResourcesWithSyncLibJarsForDebug
-:rvdatabinding:mergeDebugJniLibFolders
-:rvdatabinding:transformNative_libsWithMergeJniLibsForDebug
-:rvdatabinding:transformNative_libsWithSyncJniLibsForDebug
-:rvdatabinding:bundleDebug
-:rvdatabinding:compileDebugSources
-:rvdatabinding:assembleDebug
-:rvdatabinding:compileReleaseNdk UP-TO-DATE
-:rvdatabinding:copyReleaseLint UP-TO-DATE
-:rvdatabinding:checkReleaseManifest
-:rvdatabinding:prepareReleaseDependencies
-:rvdatabinding:compileReleaseRenderscript
-:rvdatabinding:generateReleaseResValues
-:rvdatabinding:generateReleaseResources
-:rvdatabinding:mergeReleaseResources
-:rvdatabinding:dataBindingProcessLayoutsRelease
-:rvdatabinding:compileReleaseAidl
-:rvdatabinding:generateReleaseBuildConfig
-:rvdatabinding:mergeReleaseShaders
-:rvdatabinding:compileReleaseShaders
-:rvdatabinding:generateReleaseAssets
-:rvdatabinding:mergeReleaseAssets
-:rvdatabinding:processReleaseManifest
-:rvdatabinding:processReleaseResources
-:rvdatabinding:generateReleaseSources
-:rvdatabinding:dataBindingExportBuildInfoRelease
-:rvdatabinding:incrementalReleaseJavaCompilationSafeguard
-:rvdatabinding:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-:rvdatabinding:extractReleaseAnnotations
-:rvdatabinding:mergeReleaseProguardFiles
-:rvdatabinding:packageReleaseRenderscript UP-TO-DATE
-:rvdatabinding:packageReleaseResources
-:rvdatabinding:processReleaseJavaRes UP-TO-DATE
-:rvdatabinding:transformResourcesWithMergeJavaResForRelease
-:rvdatabinding:transformClassesAndResourcesWithSyncLibJarsForRelease
-:rvdatabinding:mergeReleaseJniLibFolders
-:rvdatabinding:transformNative_libsWithMergeJniLibsForRelease
-:rvdatabinding:transformNative_libsWithSyncJniLibsForRelease
-:rvdatabinding:bundleRelease
-:rvdatabinding:compileReleaseSources
-:rvdatabinding:assembleRelease
-:rvdatabinding:assemble
-:rvdatabinding:lint FAILED
+2019-04-13 21:48:02,173 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Execution failed for task ':rvdatabinding:lint'.
-> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+A problem occurred configuring project ':rvdatabinding'.
+> Could not find support-compat.aar (com.android.support:support-compat:26.0.0-alpha1).
+  Searched in the following locations:
+      https://jcenter.bintray.com/com/android/support/support-compat/26.0.0-alpha1/support-compat-26.0.0-alpha1.aar
 
 * Try:
 Run with --info or --debug option to get more log output.
 
 * Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':rvdatabinding:lint'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
-	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
-	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
-	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
-	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
-	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':rvdatabinding'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:74)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:540)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:93)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:56)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:142)
 	at org.gradle.internal.Factories$1.create(Factories.java:22)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:139)
 	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
 	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
 	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
@@ -229,28 +123,78 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':rvdatab
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
-	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:375)
-	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:273)
-	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:461)
-	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
-	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
-	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
-	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
-	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:228)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:621)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:604)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
-	... 60 more
+Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find support-compat.aar (com.android.support:support-compat:26.0.0-alpha1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-compat/26.0.0-alpha1/support-compat-26.0.0-alpha1.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:38)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:260)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:244)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:54)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:82)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:116)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:63)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:98)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$3.execute(ContextualArtifactResolver.java:61)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$3.execute(ContextualArtifactResolver.java:59)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:61)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$4.run(ContextualArtifactResolver.java:69)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:192)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:175)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.useCache(DefaultPersistentDirectoryStore.java:106)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.useCache(DefaultCacheFactory.java:187)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.useCache(DefaultCacheLockingManager.java:64)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver.executeInContext(ContextualArtifactResolver.java:67)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver.resolveArtifact(ContextualArtifactResolver.java:59)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:53)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:93)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:80)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:90)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:911)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:855)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:855)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencyForConfig(DependencyManager.java:276)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencies(DependencyManager.java:139)
+	at com.android.build.gradle.internal.TaskManager.resolveDependencies(TaskManager.java:356)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:603)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:600)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:51)
+	at com.android.build.gradle.internal.VariantManager.createVariantData(VariantManager.java:599)
+	at com.android.build.gradle.internal.VariantManager.createVariantDataForProductFlavors(VariantManager.java:756)
+	at com.android.build.gradle.internal.VariantManager.populateVariantDataList(VariantManager.java:465)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:269)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:266)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:265)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:661)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:658)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:657)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:571)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:568)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:567)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:564)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
+	... 47 more
 
 
 BUILD FAILED
 
-Total time: 12.165 secs
+Total time: 4.793 secs
 
-2018-10-15 19:50:06,269 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607756004-0/src/DataBinding_For_RecyclerView-master/!_apk/sample.apk
+2019-04-13 21:48:02,178 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166865115-0/src/DataBinding_For_RecyclerView-master/!_apk/sample.apk

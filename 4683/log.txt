@@ -1,38 +1,38 @@
-2018-10-15 19:48:13,071 INFO  DownloadService - Downloading "https://github.com/RobotPajamas/Stetho-Couchbase/archive/master.zip", attempt 3
-2018-10-15 19:48:13,676 INFO  DownloadService - Downloaded https://github.com/RobotPajamas/Stetho-Couchbase/archive/master.zip, attempt 3
-2018-10-15 19:48:13,677 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/master.zip": 119 KB
-2018-10-15 19:48:13,677 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-15 19:48:13,682 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/master.zip: true
-2018-10-15 19:48:13,683 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src'.
-2018-10-15 19:48:13,703 INFO  FullProcessService - Size of directory with sources: 143 KB
-2018-10-15 19:48:13,703 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src]
-2018-10-15 19:48:13,720 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/.git/
+2019-04-13 21:46:44,424 INFO  DownloadService - Downloading "https://github.com/RobotPajamas/Stetho-Couchbase/archive/master.zip", attempt 3
+2019-04-13 21:46:44,928 INFO  DownloadService - Downloaded https://github.com/RobotPajamas/Stetho-Couchbase/archive/master.zip, attempt 3
+2019-04-13 21:46:44,928 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/master.zip": 119 KB
+2019-04-13 21:46:44,928 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-13 21:46:44,934 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/master.zip: true
+2019-04-13 21:46:44,935 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src'.
+2019-04-13 21:46:44,960 INFO  FullProcessService - Size of directory with sources: 143 KB
+2019-04-13 21:46:44,960 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src]
+2019-04-13 21:46:44,982 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/.git/
 
-2018-10-15 19:48:13,723 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/gradlew
-2018-10-15 19:48:13,726 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/stetho-couchbase-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/stetho-couchbase/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/build.gradle
-2018-10-15 19:48:13,729 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/stetho-couchbase/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/jcenter/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/jcenter/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/stetho-couchbase-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/settings.gradle
-2018-10-15 19:48:13,729 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/sureshjoshi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-10-15 19:48:13,948 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/sureshjoshi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-10-15 19:48:13,948 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/sureshjoshi/JCenter/master/installv1.gradle", attempt 3
-2018-10-15 19:48:14,172 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/sureshjoshi/JCenter/master/installv1.gradle, attempt 3
-2018-10-15 19:48:14,172 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/sureshjoshi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/sureshjoshi/JCenter/master/installv1.gradle
-2018-10-15 19:48:14,172 INFO  ProjectFixService - Fixing project...
-2018-10-15 19:48:14,183 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/stetho-couchbase-sample/local.properties
-2018-10-15 19:48:14,183 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/stetho-couchbase-sample/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
-2018-10-15 19:48:14,184 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/stetho-couchbase/local.properties
-2018-10-15 19:48:14,185 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/stetho-couchbase/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
-2018-10-15 19:48:14,186 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/local.properties
-2018-10-15 19:48:14,186 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-15 19:48:14,186 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-15 19:48:14,187 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
-2018-10-15 19:48:14,187 INFO  ProjectFixService - Project was maybe fixed
-2018-10-15 19:48:14,187 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 19:48:14,187 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/stetho-couchbase-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 19:48:40,017 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 19:48:40,018 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-15 19:48:40,018 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-15 19:48:40,018 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/stetho-couchbase-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-15 19:48:46,664 ERROR SysUtils - Could not process external command
+2019-04-13 21:46:44,986 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/gradlew
+2019-04-13 21:46:44,989 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/stetho-couchbase-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/stetho-couchbase/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/build.gradle
+2019-04-13 21:46:44,992 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/stetho-couchbase/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/jcenter/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/jcenter/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/stetho-couchbase-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/settings.gradle
+2019-04-13 21:46:44,993 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/sureshjoshi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-04-13 21:46:45,260 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/sureshjoshi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-04-13 21:46:45,260 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/sureshjoshi/JCenter/master/installv1.gradle", attempt 3
+2019-04-13 21:46:45,514 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/sureshjoshi/JCenter/master/installv1.gradle, attempt 3
+2019-04-13 21:46:45,514 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/sureshjoshi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/sureshjoshi/JCenter/master/installv1.gradle
+2019-04-13 21:46:45,514 INFO  ProjectFixService - Fixing project...
+2019-04-13 21:46:45,529 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/stetho-couchbase-sample/local.properties
+2019-04-13 21:46:45,529 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/stetho-couchbase-sample/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
+2019-04-13 21:46:45,530 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/stetho-couchbase/local.properties
+2019-04-13 21:46:45,530 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/stetho-couchbase/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
+2019-04-13 21:46:45,531 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/local.properties
+2019-04-13 21:46:45,531 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-13 21:46:45,532 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-13 21:46:45,533 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
+2019-04-13 21:46:45,533 INFO  ProjectFixService - Project was maybe fixed
+2019-04-13 21:46:45,533 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 21:46:45,533 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/stetho-couchbase-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 21:47:05,698 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 21:47:05,698 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-04-13 21:47:05,698 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-04-13 21:47:05,698 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/stetho-couchbase-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-04-13 21:47:12,489 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,7 +59,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 19:48:46,664 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 21:47:12,489 INFO  SysUtils - Configuration on demand is an incubating feature.
 extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
 extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
 Jack is disabled, but one of the plugins you are using supports Java 8 language features.
@@ -162,15 +162,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.947 secs
+Total time: 6.198 secs
 
-2018-10-15 19:48:46,668 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 19:48:46,668 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/stetho-couchbase/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 19:48:53,577 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 19:48:53,577 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-15 19:48:53,577 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-15 19:48:53,577 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/stetho-couchbase/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-15 19:49:02,468 ERROR SysUtils - Could not process external command
+2019-04-13 21:47:12,493 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 21:47:12,493 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/stetho-couchbase/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 21:47:19,635 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 21:47:19,635 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-04-13 21:47:19,635 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-04-13 21:47:19,635 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/stetho-couchbase/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-04-13 21:47:30,953 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -197,7 +197,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 19:49:02,469 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 21:47:30,953 INFO  SysUtils - Configuration on demand is an incubating feature.
 extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
 extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
 :stetho-couchbase:preBuild UP-TO-DATE
@@ -235,6 +235,7 @@ extractReleaseAnnotations is incompatible with java 8 sources and has been disab
 :stetho-couchbase:packageDebugRenderscript UP-TO-DATE
 :stetho-couchbase:packageDebugResources
 :stetho-couchbase:transformClassesWithRetrolambdaForDebug
+Download https://jcenter.bintray.com/net/orfjackal/retrolambda/retrolambda/2.3.0/retrolambda-2.3.0.jar
 :stetho-couchbase:processDebugJavaRes UP-TO-DATE
 :stetho-couchbase:transformResourcesWithMergeJavaResForDebug
 :stetho-couchbase:transformClassesAndResourcesWithSyncLibJarsForDebug
@@ -374,15 +375,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 8.272 secs
+Total time: 10.742 secs
 
-2018-10-15 19:49:02,483 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 19:49:02,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 19:49:09,177 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 19:49:09,177 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-15 19:49:09,177 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-15 19:49:09,177 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607693068-0/src/Stetho-Couchbase-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-15 19:49:15,903 ERROR SysUtils - Could not process external command
+2019-04-13 21:47:30,971 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 21:47:30,971 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 21:47:38,065 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 21:47:38,065 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-04-13 21:47:38,065 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-04-13 21:47:38,065 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166804421-0/src/Stetho-Couchbase-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-04-13 21:47:45,017 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -409,7 +410,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 19:49:15,903 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 21:47:45,017 INFO  SysUtils - Configuration on demand is an incubating feature.
 extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
 extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
 Jack is disabled, but one of the plugins you are using supports Java 8 language features.
@@ -513,7 +514,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.08 secs
+Total time: 6.371 secs
 
-2018-10-15 19:49:15,917 ERROR FullProcessService - Project build has not produced APK file
-2018-10-15 19:49:15,929 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-13 21:47:45,035 ERROR FullProcessService - Project build has not produced APK file
+2019-04-13 21:47:45,050 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,36 +1,36 @@
-2018-10-15 17:48:33,923 INFO  DownloadService - Downloading "https://github.com/polok/ClickNumberPicker/archive/master.zip", attempt 3
-2018-10-15 17:48:34,833 INFO  DownloadService - Downloaded https://github.com/polok/ClickNumberPicker/archive/master.zip, attempt 3
-2018-10-15 17:48:34,834 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/master.zip": 388 KB
-2018-10-15 17:48:34,834 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-15 17:48:34,839 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/master.zip: true
-2018-10-15 17:48:34,840 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src'.
-2018-10-15 17:48:34,863 INFO  FullProcessService - Size of directory with sources: 438 KB
-2018-10-15 17:48:34,863 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src]
-2018-10-15 17:48:34,880 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/.git/
+2019-04-13 21:31:05,363 INFO  DownloadService - Downloading "https://github.com/polok/ClickNumberPicker/archive/master.zip", attempt 3
+2019-04-13 21:31:06,164 INFO  DownloadService - Downloaded https://github.com/polok/ClickNumberPicker/archive/master.zip, attempt 3
+2019-04-13 21:31:06,165 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/master.zip": 388 KB
+2019-04-13 21:31:06,165 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-13 21:31:06,166 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/master.zip: true
+2019-04-13 21:31:06,167 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src'.
+2019-04-13 21:31:06,190 INFO  FullProcessService - Size of directory with sources: 438 KB
+2019-04-13 21:31:06,190 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src]
+2019-04-13 21:31:06,210 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/.git/
 
-2018-10-15 17:48:34,883 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/gradlew
-2018-10-15 17:48:34,886 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/build.gradle
-2018-10-15 17:48:34,888 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/settings.gradle
-2018-10-15 17:48:34,888 INFO  DownloadService - Downloading "https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
-2018-10-15 17:48:35,884 INFO  DownloadService - Downloaded https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
-2018-10-15 17:48:35,885 INFO  ProjectBuildService - Remote scripts: https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle
-2018-10-15 17:48:35,885 INFO  ProjectFixService - Fixing project...
-2018-10-15 17:48:35,894 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/app/local.properties
-2018-10-15 17:48:35,894 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-10-15 17:48:35,895 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/library/local.properties
-2018-10-15 17:48:35,895 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/library/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-10-15 17:48:35,896 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/local.properties
-2018-10-15 17:48:35,896 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-10-15 17:48:35,896 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-10-15 17:48:35,897 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-10-15 17:48:35,897 INFO  ProjectFixService - Project was maybe fixed
-2018-10-15 17:48:35,897 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 17:48:35,898 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 17:48:47,001 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 17:48:47,001 INFO  ProjectTaskService - Detected possible tasks: 4
-2018-10-15 17:48:47,001 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2018-10-15 17:48:47,001 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2018-10-15 17:48:53,888 ERROR SysUtils - Could not process external command
+2019-04-13 21:31:06,214 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/gradlew
+2019-04-13 21:31:06,218 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/build.gradle
+2019-04-13 21:31:06,222 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/settings.gradle
+2019-04-13 21:31:06,222 INFO  DownloadService - Downloading "https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2019-04-13 21:31:07,533 INFO  DownloadService - Downloaded https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
+2019-04-13 21:31:07,533 INFO  ProjectBuildService - Remote scripts: https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle
+2019-04-13 21:31:07,533 INFO  ProjectFixService - Fixing project...
+2019-04-13 21:31:07,543 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/app/local.properties
+2019-04-13 21:31:07,543 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-04-13 21:31:07,544 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/library/local.properties
+2019-04-13 21:31:07,544 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/library/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-04-13 21:31:07,545 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/local.properties
+2019-04-13 21:31:07,545 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-04-13 21:31:07,545 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-04-13 21:31:07,546 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-04-13 21:31:07,546 INFO  ProjectFixService - Project was maybe fixed
+2019-04-13 21:31:07,546 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 21:31:07,547 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 21:31:17,069 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 21:31:17,069 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-04-13 21:31:17,069 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-04-13 21:31:17,069 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-04-13 21:31:23,741 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -58,18 +58,18 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 17:48:53,888 INFO  SysUtils - Configuration on demand is an incubating feature.
-Incremental java compilation is an incubating feature.
+2019-04-13 21:31:23,741 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
-
-* Where:
-Script 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle' line: 48
 
 * What went wrong:
 A problem occurred configuring project ':app'.
 > A problem occurred configuring project ':library'.
-   > No such property: GROUP for class: org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer
+   > Failed to notify project evaluation listener.
+      > Could not find support-compat.aar (com.android.support:support-compat:24.2.1).
+        Searched in the following locations:
+            https://jcenter.bintray.com/com/android/support/support-compat/24.2.1/support-compat-24.2.1.aar
+      > No such property: GROUP for class: org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer
 
 * Try:
 Run with --info or --debug option to get more log output.
@@ -166,65 +166,93 @@ Caused by: org.gradle.api.ProjectConfigurationException: A problem occurred conf
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 47 more
-Caused by: groovy.lang.MissingPropertyException: No such property: GROUP for class: org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer
-	at gradle_mvn_push_3q1rso86jrk838uxdilm97epv$_run_closure1$_closure2$_closure8$_closure9.doCall(https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle:48)
-	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
-	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.addRepository(DefaultArtifactRepositoryContainer.java:87)
-	at org.gradle.api.publication.maven.internal.DefaultMavenRepositoryHandlerConvention.mavenDeployer(DefaultMavenRepositoryHandlerConvention.java:43)
-	at org.gradle.api.internal.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:236)
-	at org.gradle.api.internal.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:130)
-	at org.gradle.api.internal.plugins.DefaultConvention$ExtensionsDynamicObject.invokeMethod(DefaultConvention.java:212)
-	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
-	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
-	at org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler_Decorated.invokeMethod(Unknown Source)
-	at gradle_mvn_push_3q1rso86jrk838uxdilm97epv$_run_closure1$_closure2$_closure8.doCall(https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle:45)
-	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
-	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.configure(DefaultArtifactRepositoryContainer.java:66)
-	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.configure(DefaultArtifactRepositoryContainer.java:33)
-	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:59)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
-	at org.gradle.api.tasks.Upload.repositories(Upload.java:118)
-	at gradle_mvn_push_3q1rso86jrk838uxdilm97epv$_run_closure1$_closure2.doCall(https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle:44)
-	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
-	at org.gradle.api.internal.AbstractTask.configure(AbstractTask.java:488)
-	at org.gradle.api.internal.AbstractTask.configure(AbstractTask.java:58)
-	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:59)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
-	at org.gradle.api.internal.DefaultNamedDomainObjectCollection$ContainerElementsDynamicObject.invokeMethod(DefaultNamedDomainObjectCollection.java:341)
-	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
-	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
-	at gradle_mvn_push_3q1rso86jrk838uxdilm97epv$_run_closure1.doCall(https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle:43)
-	at org.gradle.listener.ClosureBackedMethodInvocationDispatch.dispatch(ClosureBackedMethodInvocationDispatch.java:40)
-	at org.gradle.listener.ClosureBackedMethodInvocationDispatch.dispatch(ClosureBackedMethodInvocationDispatch.java:25)
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+Caused by: org.gradle.internal.event.ListenerNotificationException: Failed to notify project evaluation listener.
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:55)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 87 more
+Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find support-compat.aar (com.android.support:support-compat:24.2.1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-compat/24.2.1/support-compat-24.2.1.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:38)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:260)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:244)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:54)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:82)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:116)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:63)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:98)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$3.execute(ContextualArtifactResolver.java:61)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$3.execute(ContextualArtifactResolver.java:59)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:137)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:61)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$4.run(ContextualArtifactResolver.java:69)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:192)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:175)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.useCache(DefaultPersistentDirectoryStore.java:106)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.useCache(DefaultCacheFactory.java:187)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.useCache(DefaultCacheLockingManager.java:64)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver.executeInContext(ContextualArtifactResolver.java:67)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver.resolveArtifact(ContextualArtifactResolver.java:59)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:53)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:93)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:80)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:90)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:911)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:855)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:855)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencyForConfig(DependencyManager.java:276)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencies(DependencyManager.java:139)
+	at com.android.build.gradle.internal.TaskManager.resolveDependencies(TaskManager.java:356)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:597)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:594)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:51)
+	at com.android.build.gradle.internal.VariantManager.createVariantData(VariantManager.java:593)
+	at com.android.build.gradle.internal.VariantManager.createVariantDataForProductFlavors(VariantManager.java:750)
+	at com.android.build.gradle.internal.VariantManager.populateVariantDataList(VariantManager.java:459)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:263)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:260)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:259)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:657)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:654)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:653)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:572)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:569)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:568)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:565)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	... 92 more
 
 
 BUILD FAILED
 
-Total time: 6.383 secs
+Total time: 6.166 secs
 
-2018-10-15 17:48:53,891 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 17:48:53,892 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 17:49:00,352 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 17:49:00,352 INFO  ProjectTaskService - Detected possible tasks: 4
-2018-10-15 17:49:00,352 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2018-10-15 17:49:00,352 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2018-10-15 17:49:07,695 ERROR SysUtils - Could not process external command
+2019-04-13 21:31:23,745 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 21:31:23,745 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 21:31:30,576 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 21:31:30,576 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-04-13 21:31:30,576 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-04-13 21:31:30,577 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-04-13 21:31:37,156 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -252,17 +280,17 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 17:49:07,696 INFO  SysUtils - Configuration on demand is an incubating feature.
-Incremental java compilation is an incubating feature.
+2019-04-13 21:31:37,156 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
-* Where:
-Script 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle' line: 48
-
 * What went wrong:
 A problem occurred configuring project ':library'.
-> No such property: GROUP for class: org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer
+> Failed to notify project evaluation listener.
+   > Could not find support-compat.aar (com.android.support:support-compat:24.2.1).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/support/support-compat/24.2.1/support-compat-24.2.1.aar
+   > No such property: GROUP for class: org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer
 
 * Try:
 Run with --info or --debug option to get more log output.
@@ -318,62 +346,90 @@ org.gradle.api.ProjectConfigurationException: A problem occurred configuring pro
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: groovy.lang.MissingPropertyException: No such property: GROUP for class: org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer
-	at gradle_mvn_push_3q1rso86jrk838uxdilm97epv$_run_closure1$_closure2$_closure8$_closure9.doCall(https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle:48)
-	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
-	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.addRepository(DefaultArtifactRepositoryContainer.java:87)
-	at org.gradle.api.publication.maven.internal.DefaultMavenRepositoryHandlerConvention.mavenDeployer(DefaultMavenRepositoryHandlerConvention.java:43)
-	at org.gradle.api.internal.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:236)
-	at org.gradle.api.internal.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:130)
-	at org.gradle.api.internal.plugins.DefaultConvention$ExtensionsDynamicObject.invokeMethod(DefaultConvention.java:212)
-	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
-	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
-	at org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler_Decorated.invokeMethod(Unknown Source)
-	at gradle_mvn_push_3q1rso86jrk838uxdilm97epv$_run_closure1$_closure2$_closure8.doCall(https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle:45)
-	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
-	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.configure(DefaultArtifactRepositoryContainer.java:66)
-	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.configure(DefaultArtifactRepositoryContainer.java:33)
-	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:59)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
-	at org.gradle.api.tasks.Upload.repositories(Upload.java:118)
-	at gradle_mvn_push_3q1rso86jrk838uxdilm97epv$_run_closure1$_closure2.doCall(https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle:44)
-	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
-	at org.gradle.api.internal.AbstractTask.configure(AbstractTask.java:488)
-	at org.gradle.api.internal.AbstractTask.configure(AbstractTask.java:58)
-	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:59)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
-	at org.gradle.api.internal.DefaultNamedDomainObjectCollection$ContainerElementsDynamicObject.invokeMethod(DefaultNamedDomainObjectCollection.java:341)
-	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
-	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
-	at gradle_mvn_push_3q1rso86jrk838uxdilm97epv$_run_closure1.doCall(https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle:43)
-	at org.gradle.listener.ClosureBackedMethodInvocationDispatch.dispatch(ClosureBackedMethodInvocationDispatch.java:40)
-	at org.gradle.listener.ClosureBackedMethodInvocationDispatch.dispatch(ClosureBackedMethodInvocationDispatch.java:25)
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+Caused by: org.gradle.internal.event.ListenerNotificationException: Failed to notify project evaluation listener.
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:55)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 47 more
+Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find support-compat.aar (com.android.support:support-compat:24.2.1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-compat/24.2.1/support-compat-24.2.1.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:38)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:260)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:244)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:54)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:82)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:116)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:63)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:98)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$3.execute(ContextualArtifactResolver.java:61)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$3.execute(ContextualArtifactResolver.java:59)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:137)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:61)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$4.run(ContextualArtifactResolver.java:69)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:192)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:175)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.useCache(DefaultPersistentDirectoryStore.java:106)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.useCache(DefaultCacheFactory.java:187)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.useCache(DefaultCacheLockingManager.java:64)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver.executeInContext(ContextualArtifactResolver.java:67)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver.resolveArtifact(ContextualArtifactResolver.java:59)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:53)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:93)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:80)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:90)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:911)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:855)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:855)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencyForConfig(DependencyManager.java:276)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencies(DependencyManager.java:139)
+	at com.android.build.gradle.internal.TaskManager.resolveDependencies(TaskManager.java:356)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:597)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:594)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:51)
+	at com.android.build.gradle.internal.VariantManager.createVariantData(VariantManager.java:593)
+	at com.android.build.gradle.internal.VariantManager.createVariantDataForProductFlavors(VariantManager.java:750)
+	at com.android.build.gradle.internal.VariantManager.populateVariantDataList(VariantManager.java:459)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:263)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:260)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:259)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:657)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:654)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:653)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:572)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:569)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:568)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:565)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	... 52 more
 
 
 BUILD FAILED
 
-Total time: 6.832 secs
+Total time: 6.083 secs
 
-2018-10-15 17:49:07,699 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 17:49:07,699 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 17:49:14,351 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 17:49:14,352 INFO  ProjectTaskService - Detected possible tasks: 4
-2018-10-15 17:49:14,352 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2018-10-15 17:49:14,352 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600513920-0/src/ClickNumberPicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2018-10-15 17:49:21,793 ERROR SysUtils - Could not process external command
+2019-04-13 21:31:37,160 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 21:31:37,160 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 21:31:43,482 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 21:31:43,482 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-04-13 21:31:43,483 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-04-13 21:31:43,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165865359-0/src/ClickNumberPicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-04-13 21:31:49,831 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -401,18 +457,18 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 17:49:21,793 INFO  SysUtils - Configuration on demand is an incubating feature.
-Incremental java compilation is an incubating feature.
+2019-04-13 21:31:49,831 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
-
-* Where:
-Script 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle' line: 48
 
 * What went wrong:
 A problem occurred configuring project ':app'.
 > A problem occurred configuring project ':library'.
-   > No such property: GROUP for class: org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer
+   > Failed to notify project evaluation listener.
+      > Could not find support-compat.aar (com.android.support:support-compat:24.2.1).
+        Searched in the following locations:
+            https://jcenter.bintray.com/com/android/support/support-compat/24.2.1/support-compat-24.2.1.aar
+      > No such property: GROUP for class: org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer
 
 * Try:
 Run with --info or --debug option to get more log output.
@@ -510,57 +566,85 @@ Caused by: org.gradle.api.ProjectConfigurationException: A problem occurred conf
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 48 more
-Caused by: groovy.lang.MissingPropertyException: No such property: GROUP for class: org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer
-	at gradle_mvn_push_3q1rso86jrk838uxdilm97epv$_run_closure1$_closure2$_closure8$_closure9.doCall(https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle:48)
-	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
-	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.addRepository(DefaultArtifactRepositoryContainer.java:87)
-	at org.gradle.api.publication.maven.internal.DefaultMavenRepositoryHandlerConvention.mavenDeployer(DefaultMavenRepositoryHandlerConvention.java:43)
-	at org.gradle.api.internal.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:236)
-	at org.gradle.api.internal.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:130)
-	at org.gradle.api.internal.plugins.DefaultConvention$ExtensionsDynamicObject.invokeMethod(DefaultConvention.java:212)
-	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
-	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
-	at org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler_Decorated.invokeMethod(Unknown Source)
-	at gradle_mvn_push_3q1rso86jrk838uxdilm97epv$_run_closure1$_closure2$_closure8.doCall(https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle:45)
-	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
-	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.configure(DefaultArtifactRepositoryContainer.java:66)
-	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.configure(DefaultArtifactRepositoryContainer.java:33)
-	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:59)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
-	at org.gradle.api.tasks.Upload.repositories(Upload.java:118)
-	at gradle_mvn_push_3q1rso86jrk838uxdilm97epv$_run_closure1$_closure2.doCall(https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle:44)
-	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
-	at org.gradle.api.internal.AbstractTask.configure(AbstractTask.java:488)
-	at org.gradle.api.internal.AbstractTask.configure(AbstractTask.java:58)
-	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:59)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
-	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
-	at org.gradle.api.internal.DefaultNamedDomainObjectCollection$ContainerElementsDynamicObject.invokeMethod(DefaultNamedDomainObjectCollection.java:341)
-	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
-	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
-	at gradle_mvn_push_3q1rso86jrk838uxdilm97epv$_run_closure1.doCall(https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle:43)
-	at org.gradle.listener.ClosureBackedMethodInvocationDispatch.dispatch(ClosureBackedMethodInvocationDispatch.java:40)
-	at org.gradle.listener.ClosureBackedMethodInvocationDispatch.dispatch(ClosureBackedMethodInvocationDispatch.java:25)
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+Caused by: org.gradle.internal.event.ListenerNotificationException: Failed to notify project evaluation listener.
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:55)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 88 more
+Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find support-compat.aar (com.android.support:support-compat:24.2.1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-compat/24.2.1/support-compat-24.2.1.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:38)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:260)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:244)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:54)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:82)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:116)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:63)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:98)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$3.execute(ContextualArtifactResolver.java:61)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$3.execute(ContextualArtifactResolver.java:59)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:137)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:61)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$4.run(ContextualArtifactResolver.java:69)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:192)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:175)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.useCache(DefaultPersistentDirectoryStore.java:106)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.useCache(DefaultCacheFactory.java:187)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.useCache(DefaultCacheLockingManager.java:64)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver.executeInContext(ContextualArtifactResolver.java:67)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver.resolveArtifact(ContextualArtifactResolver.java:59)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:53)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:93)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:80)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:90)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:911)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:855)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:855)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencyForConfig(DependencyManager.java:276)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencies(DependencyManager.java:139)
+	at com.android.build.gradle.internal.TaskManager.resolveDependencies(TaskManager.java:356)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:597)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:594)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:51)
+	at com.android.build.gradle.internal.VariantManager.createVariantData(VariantManager.java:593)
+	at com.android.build.gradle.internal.VariantManager.createVariantDataForProductFlavors(VariantManager.java:750)
+	at com.android.build.gradle.internal.VariantManager.populateVariantDataList(VariantManager.java:459)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:263)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:260)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:259)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:657)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:654)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:653)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:572)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:569)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:568)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:565)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	... 93 more
 
 
 BUILD FAILED
 
-Total time: 6.918 secs
+Total time: 5.858 secs
 
-2018-10-15 17:49:21,796 ERROR FullProcessService - Project build has not produced APK file
-2018-10-15 17:49:21,799 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-13 21:31:49,835 ERROR FullProcessService - Project build has not produced APK file
+2019-04-13 21:31:49,839 ERROR FullProcessService - Could not find generated or existed APK file

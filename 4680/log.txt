@@ -1,34 +1,34 @@
-2018-10-15 19:50:58,336 INFO  DownloadService - Downloading "https://github.com/fccaikai/AutoScrollViewPager/archive/master.zip", attempt 3
-2018-10-15 19:50:58,831 INFO  DownloadService - Downloaded https://github.com/fccaikai/AutoScrollViewPager/archive/master.zip, attempt 3
-2018-10-15 19:50:58,831 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/master.zip": 149 KB
-2018-10-15 19:50:58,831 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-15 19:50:58,837 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/master.zip: true
-2018-10-15 19:50:58,838 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src'.
-2018-10-15 19:50:58,859 INFO  FullProcessService - Size of directory with sources: 164 KB
-2018-10-15 19:50:58,859 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src]
-2018-10-15 19:50:58,875 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/.git/
+2019-04-13 21:48:54,392 INFO  DownloadService - Downloading "https://github.com/fccaikai/AutoScrollViewPager/archive/master.zip", attempt 3
+2019-04-13 21:48:55,001 INFO  DownloadService - Downloaded https://github.com/fccaikai/AutoScrollViewPager/archive/master.zip, attempt 3
+2019-04-13 21:48:55,001 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/master.zip": 149 KB
+2019-04-13 21:48:55,001 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-13 21:48:55,007 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/master.zip: true
+2019-04-13 21:48:55,007 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src'.
+2019-04-13 21:48:55,032 INFO  FullProcessService - Size of directory with sources: 164 KB
+2019-04-13 21:48:55,033 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src]
+2019-04-13 21:48:55,051 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/.git/
 
-2018-10-15 19:50:58,878 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/gradlew
-2018-10-15 19:50:58,881 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/autoScrollViewPager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/build.gradle
-2018-10-15 19:50:58,884 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/autoScrollViewPager/build.gradle
-2018-10-15 19:50:58,884 INFO  ProjectBuildService - Remote scripts: none
-2018-10-15 19:50:58,884 INFO  ProjectFixService - Fixing project...
-2018-10-15 19:50:58,891 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/app/local.properties
-2018-10-15 19:50:58,891 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-10-15 19:50:58,891 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/autoScrollViewPager/local.properties
-2018-10-15 19:50:58,891 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/autoScrollViewPager/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-10-15 19:50:58,892 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/local.properties
-2018-10-15 19:50:58,892 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-15 19:50:58,892 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-15 19:50:58,893 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-10-15 19:50:58,893 INFO  ProjectFixService - Project was maybe fixed
-2018-10-15 19:50:58,893 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 19:50:58,893 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 19:51:09,483 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 19:51:09,483 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 19:51:09,483 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 19:51:09,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 19:51:15,516 ERROR SysUtils - Could not process external command
+2019-04-13 21:48:55,055 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/gradlew
+2019-04-13 21:48:55,059 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/autoScrollViewPager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/build.gradle
+2019-04-13 21:48:55,062 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/autoScrollViewPager/build.gradle
+2019-04-13 21:48:55,062 INFO  ProjectBuildService - Remote scripts: none
+2019-04-13 21:48:55,062 INFO  ProjectFixService - Fixing project...
+2019-04-13 21:48:55,070 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/app/local.properties
+2019-04-13 21:48:55,071 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-04-13 21:48:55,071 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/autoScrollViewPager/local.properties
+2019-04-13 21:48:55,071 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/autoScrollViewPager/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-04-13 21:48:55,072 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/local.properties
+2019-04-13 21:48:55,072 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-13 21:48:55,072 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-13 21:48:55,073 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-04-13 21:48:55,073 INFO  ProjectFixService - Project was maybe fixed
+2019-04-13 21:48:55,073 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 21:48:55,073 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 21:49:01,302 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 21:49:01,302 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 21:49:01,302 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 21:49:01,302 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 21:49:07,452 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 19:51:15,516 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 21:49:07,452 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -159,22 +159,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 5.345 secs
+Total time: 5.527 secs
 
-2018-10-15 19:51:15,520 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 19:51:15,520 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/autoScrollViewPager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 20:36:34,732 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 20:36:34,732 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 20:36:34,732 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 20:36:34,732 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/autoScrollViewPager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 20:37:11,727 ERROR SysUtils - Could not process external command
+2019-04-13 21:49:07,457 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 21:49:07,457 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/autoScrollViewPager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 21:49:13,783 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 21:49:13,783 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 21:49:13,783 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 21:49:13,784 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/autoScrollViewPager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 21:49:24,643 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -201,7 +201,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 20:37:11,728 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 21:49:24,643 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :autoScrollViewPager:preBuild UP-TO-DATE
 :autoScrollViewPager:preDebugBuild UP-TO-DATE
@@ -235,7 +235,7 @@ Incremental java compilation is an incubating feature.
 :autoScrollViewPager:incrementalDebugJavaCompilationSafeguard
 :autoScrollViewPager:compileDebugJavaWithJavac
 :autoScrollViewPager:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/autoScrollViewPager/src/main/java/com/kcode/autoscrollviewpager/view/BaseViewPagerAdapter.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/autoScrollViewPager/src/main/java/com/kcode/autoscrollviewpager/view/BaseViewPagerAdapter.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :autoScrollViewPager:extractDebugAnnotations
 :autoScrollViewPager:mergeDebugShaders
@@ -270,7 +270,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :autoScrollViewPager:incrementalReleaseJavaCompilationSafeguard
 :autoScrollViewPager:compileReleaseJavaWithJavac
 :autoScrollViewPager:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/autoScrollViewPager/src/main/java/com/kcode/autoscrollviewpager/view/BaseViewPagerAdapter.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/autoScrollViewPager/src/main/java/com/kcode/autoscrollviewpager/view/BaseViewPagerAdapter.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :autoScrollViewPager:extractReleaseAnnotations
 :autoScrollViewPager:mergeReleaseShaders
@@ -386,15 +386,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 36.022 secs
+Total time: 10.237 secs
 
-2018-10-15 20:37:11,957 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 20:37:11,958 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 20:37:35,621 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 20:37:35,622 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 20:37:35,623 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 20:37:35,623 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607858328-0/src/AutoScrollViewPager-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 20:37:59,633 ERROR SysUtils - Could not process external command
+2019-04-13 21:49:24,707 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 21:49:24,707 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 21:49:30,973 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 21:49:30,973 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 21:49:30,973 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 21:49:30,973 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166934383-0/src/AutoScrollViewPager-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 21:49:38,037 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -421,7 +421,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 20:37:59,633 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 21:49:38,037 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -532,7 +532,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 22.778 secs
+Total time: 6.451 secs
 
-2018-10-15 20:37:59,864 ERROR FullProcessService - Project build has not produced APK file
-2018-10-15 20:38:00,093 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-13 21:49:38,116 ERROR FullProcessService - Project build has not produced APK file
+2019-04-13 21:49:38,185 ERROR FullProcessService - Could not find generated or existed APK file

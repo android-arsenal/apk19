@@ -1,38 +1,38 @@
-2019-01-20 18:10:20,939 INFO  DownloadService - Downloading "https://github.com/marverenic/Jockey/archive/master.zip", attempt 3
-2019-01-20 18:10:32,872 INFO  DownloadService - Downloaded https://github.com/marverenic/Jockey/archive/master.zip, attempt 3
-2019-01-20 18:10:32,873 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/master.zip": 27 MB
-2019-01-20 18:10:32,873 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-20 18:10:32,875 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/master.zip: true
-2019-01-20 18:10:32,876 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src'.
-2019-01-20 18:10:33,293 INFO  FullProcessService - Size of directory with sources: 33 MB
-2019-01-20 18:10:33,293 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src]
-2019-01-20 18:10:33,316 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/.git/
+2019-04-13 21:42:53,348 INFO  DownloadService - Downloading "https://github.com/marverenic/Jockey/archive/master.zip", attempt 3
+2019-04-13 21:43:06,963 INFO  DownloadService - Downloaded https://github.com/marverenic/Jockey/archive/master.zip, attempt 3
+2019-04-13 21:43:06,963 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/master.zip": 27 MB
+2019-04-13 21:43:06,964 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-13 21:43:06,965 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/master.zip: true
+2019-04-13 21:43:06,965 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src'.
+2019-04-13 21:43:07,363 INFO  FullProcessService - Size of directory with sources: 33 MB
+2019-04-13 21:43:07,363 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src]
+2019-04-13 21:43:07,382 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/.git/
 
-2019-01-20 18:10:33,337 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/gradlew
-2019-01-20 18:10:33,357 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/exoplayer-flac/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/seekarc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/build.gradle
-2019-01-20 18:10:33,376 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/seekarc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/exoplayer-flac/build.gradle
-2019-01-20 18:10:33,376 INFO  ProjectBuildService - Remote scripts: none
-2019-01-20 18:10:33,377 INFO  ProjectFixService - Fixing project...
-2019-01-20 18:10:33,419 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/app/local.properties
-2019-01-20 18:10:33,423 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=27]
-2019-01-20 18:10:33,423 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
-2019-01-20 18:10:33,424 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/exoplayer-flac/local.properties
-2019-01-20 18:10:33,427 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/exoplayer-flac/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=27]
-2019-01-20 18:10:33,427 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/exoplayer-flac/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
-2019-01-20 18:10:33,429 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/seekarc/local.properties
-2019-01-20 18:10:33,433 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/seekarc/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=27]
-2019-01-20 18:10:33,433 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/seekarc/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-01-20 18:10:33,434 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/local.properties
-2019-01-20 18:10:33,435 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-bin.zip
-2019-01-20 18:10:33,437 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=27]
-2019-01-20 18:10:33,437 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
-2019-01-20 18:10:33,438 INFO  ProjectFixService - Project was maybe fixed
-2019-01-20 18:10:33,438 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-20 18:10:33,438 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-20 18:10:43,683 INFO  ProjectTaskService - Detected possible tasks: 93
-2019-01-20 18:10:43,683 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
-2019-01-20 18:10:43,683 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
-2019-01-20 18:12:19,983 ERROR SysUtils - Could not process external command
+2019-04-13 21:43:07,399 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/gradlew
+2019-04-13 21:43:07,416 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/exoplayer-flac/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/seekarc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/build.gradle
+2019-04-13 21:43:07,434 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/seekarc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/exoplayer-flac/build.gradle
+2019-04-13 21:43:07,434 INFO  ProjectBuildService - Remote scripts: none
+2019-04-13 21:43:07,434 INFO  ProjectFixService - Fixing project...
+2019-04-13 21:43:07,470 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/app/local.properties
+2019-04-13 21:43:07,472 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=27]
+2019-04-13 21:43:07,472 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
+2019-04-13 21:43:07,473 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/exoplayer-flac/local.properties
+2019-04-13 21:43:07,475 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/exoplayer-flac/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=27]
+2019-04-13 21:43:07,475 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/exoplayer-flac/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
+2019-04-13 21:43:07,476 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/seekarc/local.properties
+2019-04-13 21:43:07,477 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/seekarc/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=27]
+2019-04-13 21:43:07,477 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/seekarc/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-04-13 21:43:07,478 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/local.properties
+2019-04-13 21:43:07,479 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-bin.zip
+2019-04-13 21:43:07,480 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=27]
+2019-04-13 21:43:07,481 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
+2019-04-13 21:43:07,481 INFO  ProjectFixService - Project was maybe fixed
+2019-04-13 21:43:07,481 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 21:43:07,482 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 21:43:17,836 INFO  ProjectTaskService - Detected possible tasks: 90
+2019-04-13 21:43:17,836 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2019-04-13 21:43:17,836 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2019-04-13 21:44:36,722 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -45,53 +45,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-20 18:12:19,984 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :app
-WARNING: API 'variant.getAssemble()' is obsolete and has been replaced with 'variant.getAssembleProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getAssemble(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
-WARNING: API 'variantOutput.getProcessResources()' is obsolete and has been replaced with 'variantOutput.getProcessResourcesProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variantOutput.getProcessResources(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
-WARNING: API 'variantOutput.getProcessManifest()' is obsolete and has been replaced with 'variantOutput.getProcessManifestProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variantOutput.getProcessManifest(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
-WARNING: API 'variant.getMergeResources()' is obsolete and has been replaced with 'variant.getMergeResourcesProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getMergeResources(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
-WARNING: API 'variant.getMergeAssets()' is obsolete and has been replaced with 'variant.getMergeAssetsProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getMergeAssets(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
-WARNING: API 'variant.getPackageApplication()' is obsolete and has been replaced with 'variant.getPackageApplicationProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageApplication(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
-WARNING: API 'variant.getExternalNativeBuildTasks()' is obsolete and has been replaced with 'variant.getExternalNativeBuildProviders()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getExternalNativeBuildTasks(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
-
+2019-04-13 21:44:36,727 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :exoplayer-flac:preBuild UP-TO-DATE
 > Task :exoplayer-flac:preDebugBuild UP-TO-DATE
@@ -106,19 +74,19 @@ To determine what is calling variant.getExternalNativeBuildTasks(), use -Pandroi
 > Task :seekarc:compileDebugAidl NO-SOURCE
 
 > Task :app:compileHathorDebugAidl
-aidl E 01-20 18:11:04 83091 3148880 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:43:31 10023 1714766 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
-aidl E 01-20 18:11:04 83092 3148885 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:43:31 10024 1714773 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
-aidl E 01-20 18:11:04 83094 3148889 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:43:31 10026 1714777 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
-aidl E 01-20 18:11:04 83095 3148892 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:43:31 10028 1714789 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
-aidl E 01-20 18:11:04 83097 3148896 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:43:31 10029 1714791 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
-aidl E 01-20 18:11:04 83098 3148898 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:43:31 10030 1714793 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
-aidl E 01-20 18:11:04 83099 3148903 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:43:31 10031 1714795 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
 
 > Task :exoplayer-flac:packageDebugRenderscript NO-SOURCE
@@ -167,7 +135,7 @@ aidl E 01-20 18:11:04 83099 3148903 aidl.cpp:581] refusing to generate code from
 > Task :app:processHathorDebugResources
 
 > Task :app:compileHathorDebugJavaWithJavac
-Gradle may disable incremental compilation as the following annotation processors are not incremental: compiler-1.1.0.jar (android.arch.persistence.room:compiler:1.1.0), dagger-compiler-2.6.jar (com.google.dagger:dagger-compiler:2.6), databinding-compiler-3.3.0.jar (androidx.databinding:databinding-compiler:3.3.0).
+Gradle may disable incremental compilation as the following annotation processors are not incremental: compiler-1.1.0.jar (android.arch.persistence.room:compiler:1.1.0), dagger-compiler-2.6.jar (com.google.dagger:dagger-compiler:2.6), databinding-compiler-3.3.1.jar (androidx.databinding:databinding-compiler:3.3.1).
 Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
 Note: Generating a MembersInjector for com.marverenic.music.ui.BaseLibraryActivity. Prefer to run the dagger processor over that class instead.
 Note: Generating a MembersInjector for com.marverenic.music.ui.BaseActivity. Prefer to run the dagger processor over that class instead.
@@ -192,7 +160,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:mergeHathorDebugAssets
 > Task :app:validateSigningHathorDebug
 > Task :app:signingConfigWriterHathorDebug
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f4228a048daf8c1610ee15d2cd1f02f8/jars/classes.jar: D8: Type `android.arch.paging.PositionalDataSource` was not found, it is required for default or static interface methods desugaring of `boolean android.arch.persistence.room.paging.LimitOffsetDataSource.isInvalid()`
+/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/dec9186e777220a4c2ddf4c37d9493e8/jars/classes.jar: D8: Type `android.arch.paging.PositionalDataSource` was not found, it is required for default or static interface methods desugaring of `boolean android.arch.persistence.room.paging.LimitOffsetDataSource.isInvalid()`
 > Task :app:transformClassesWithDexBuilderForHathorDebug
 > Task :app:transformDexArchiveWithExternalLibsDexMergerForHathorDebug
 > Task :app:transformDexArchiveWithDexMergerForHathorDebug
@@ -202,7 +170,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :exoplayer-flac:transformNativeLibsWithMergeJniLibsForDebug
 
 > Task :exoplayer-flac:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/exoplayer-flac/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libflacJNI.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/exoplayer-flac/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libflacJNI.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 
 > Task :exoplayer-flac:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :seekarc:compileDebugNdk NO-SOURCE
@@ -213,7 +181,7 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 > Task :app:transformNativeLibsWithMergeJniLibsForHathorDebug
 
 > Task :app:transformNativeLibsWithStripDebugSymbolForHathorDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/app/build/intermediates/transforms/mergeJniLibs/hathor/debug/0/lib/armeabi/libflacJNI.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/app/build/intermediates/transforms/mergeJniLibs/hathor/debug/0/lib/armeabi/libflacJNI.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 
 > Task :app:processHathorDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForHathorDebug
@@ -222,19 +190,19 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 > Task :app:preMarketingDebugBuild
 
 > Task :app:compileMarketingDebugAidl
-aidl E 01-20 18:11:56 83156 3149438 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:44:19 10057 1715282 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
-aidl E 01-20 18:11:56 83157 3149441 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:44:19 10058 1715284 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
-aidl E 01-20 18:11:56 83160 3149452 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:44:19 10060 1715288 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
-aidl E 01-20 18:11:56 83161 3149454 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:44:19 10061 1715290 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
-aidl E 01-20 18:11:56 83162 3149456 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:44:19 10062 1715292 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
-aidl E 01-20 18:11:56 83163 3149458 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:44:19 10063 1715294 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
-aidl E 01-20 18:11:56 83164 3149460 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:44:19 10064 1715296 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
 
 > Task :app:compileMarketingDebugRenderscript
@@ -256,7 +224,7 @@ aidl E 01-20 18:11:56 83164 3149460 aidl.cpp:581] refusing to generate code from
 > Task :app:processMarketingDebugResources
 
 > Task :app:compileMarketingDebugJavaWithJavac
-Gradle may disable incremental compilation as the following annotation processors are not incremental: compiler-1.1.0.jar (android.arch.persistence.room:compiler:1.1.0), dagger-compiler-2.6.jar (com.google.dagger:dagger-compiler:2.6), databinding-compiler-3.3.0.jar (androidx.databinding:databinding-compiler:3.3.0).
+Gradle may disable incremental compilation as the following annotation processors are not incremental: compiler-1.1.0.jar (android.arch.persistence.room:compiler:1.1.0), dagger-compiler-2.6.jar (com.google.dagger:dagger-compiler:2.6), databinding-compiler-3.3.1.jar (androidx.databinding:databinding-compiler:3.3.1).
 Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
 Note: Generating a MembersInjector for com.marverenic.music.ui.BaseLibraryActivity. Prefer to run the dagger processor over that class instead.
 Note: Generating a MembersInjector for com.marverenic.music.ui.BaseActivity. Prefer to run the dagger processor over that class instead.
@@ -280,7 +248,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:transformNativeLibsWithMergeJniLibsForMarketingDebug
 
 > Task :app:transformNativeLibsWithStripDebugSymbolForMarketingDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/app/build/intermediates/transforms/mergeJniLibs/marketing/debug/0/lib/armeabi/libflacJNI.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/app/build/intermediates/transforms/mergeJniLibs/marketing/debug/0/lib/armeabi/libflacJNI.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 
 > Task :app:processMarketingDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForMarketingDebug
@@ -299,19 +267,19 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 > Task :seekarc:compileReleaseAidl NO-SOURCE
 
 > Task :app:compileHathorReleaseAidl
-aidl E 01-20 18:12:18 83174 3149632 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:44:35 10070 1715360 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
-aidl E 01-20 18:12:18 83175 3149634 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:44:35 10071 1715362 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
-aidl E 01-20 18:12:18 83177 3149639 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:44:35 10073 1715366 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
-aidl E 01-20 18:12:18 83178 3149641 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:44:35 10074 1715368 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
-aidl E 01-20 18:12:18 83179 3149643 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:44:35 10075 1715370 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
-aidl E 01-20 18:12:18 83180 3149645 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:44:35 10076 1715372 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
-aidl E 01-20 18:12:18 83181 3149647 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
+aidl E 04-13 21:44:35 10078 1715375 aidl.cpp:581] refusing to generate code from aidl file defining parcelable
 
 
 > Task :exoplayer-flac:packageReleaseRenderscript NO-SOURCE
@@ -503,7 +471,7 @@ Contact support@fabric.io for assistance.
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 1m 35s
+BUILD FAILED in 1m 18s
 125 actionable tasks: 125 executed
 
-2019-01-20 18:12:20,280 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982620935-0/src/Jockey-master/app/build/outputs/apk/marketing/debug/app-marketing-debug.apk
+2019-04-13 21:44:37,001 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166573346-0/src/Jockey-master/app/build/outputs/apk/marketing/debug/app-marketing-debug.apk

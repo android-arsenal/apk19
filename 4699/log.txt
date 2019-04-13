@@ -1,32 +1,32 @@
-2018-10-15 17:50:41,104 INFO  DownloadService - Downloading "https://github.com/jineshfrancs/AwesomeToggle/archive/master.zip", attempt 3
-2018-10-15 17:50:43,438 INFO  DownloadService - Downloaded https://github.com/jineshfrancs/AwesomeToggle/archive/master.zip, attempt 3
-2018-10-15 17:50:43,438 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/master.zip": 134 KB
-2018-10-15 17:50:43,438 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-15 17:50:43,444 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/master.zip: true
-2018-10-15 17:50:43,444 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src'.
-2018-10-15 17:50:43,461 INFO  FullProcessService - Size of directory with sources: 147 KB
-2018-10-15 17:50:43,461 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src]
-2018-10-15 17:50:43,485 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src/.git/
+2019-04-13 21:33:28,696 INFO  DownloadService - Downloading "https://github.com/jineshfrancs/AwesomeToggle/archive/master.zip", attempt 3
+2019-04-13 21:33:30,872 INFO  DownloadService - Downloaded https://github.com/jineshfrancs/AwesomeToggle/archive/master.zip, attempt 3
+2019-04-13 21:33:30,872 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/master.zip": 134 KB
+2019-04-13 21:33:30,872 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-13 21:33:30,873 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/master.zip: true
+2019-04-13 21:33:30,873 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src'.
+2019-04-13 21:33:30,891 INFO  FullProcessService - Size of directory with sources: 147 KB
+2019-04-13 21:33:30,891 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src]
+2019-04-13 21:33:30,914 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src/.git/
 
-2018-10-15 17:50:43,487 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src/AwesomeToggle-master/gradlew
-2018-10-15 17:50:43,489 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src/AwesomeToggle-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src/AwesomeToggle-master/build.gradle
-2018-10-15 17:50:43,491 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src/AwesomeToggle-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src/AwesomeToggle-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src/AwesomeToggle-master/settings.gradle
-2018-10-15 17:50:43,492 INFO  ProjectBuildService - Remote scripts: none
-2018-10-15 17:50:43,492 INFO  ProjectFixService - Fixing project...
-2018-10-15 17:50:43,497 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src/AwesomeToggle-master/app/local.properties
-2018-10-15 17:50:43,497 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src/AwesomeToggle-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-10-15 17:50:43,498 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src/AwesomeToggle-master/local.properties
-2018-10-15 17:50:43,498 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-15 17:50:43,498 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-15 17:50:43,499 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src/AwesomeToggle-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-10-15 17:50:43,499 INFO  ProjectFixService - Project was maybe fixed
-2018-10-15 17:50:43,499 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 17:50:43,499 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src/AwesomeToggle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src/AwesomeToggle-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 17:50:49,408 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 17:50:49,408 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 17:50:49,408 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 17:50:49,409 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src/AwesomeToggle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src/AwesomeToggle-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 17:50:55,010 ERROR SysUtils - Could not process external command
+2019-04-13 21:33:30,917 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src/AwesomeToggle-master/gradlew
+2019-04-13 21:33:30,920 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src/AwesomeToggle-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src/AwesomeToggle-master/build.gradle
+2019-04-13 21:33:30,924 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src/AwesomeToggle-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src/AwesomeToggle-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src/AwesomeToggle-master/settings.gradle
+2019-04-13 21:33:30,925 INFO  ProjectBuildService - Remote scripts: none
+2019-04-13 21:33:30,925 INFO  ProjectFixService - Fixing project...
+2019-04-13 21:33:30,932 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src/AwesomeToggle-master/app/local.properties
+2019-04-13 21:33:30,933 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src/AwesomeToggle-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-04-13 21:33:30,933 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src/AwesomeToggle-master/local.properties
+2019-04-13 21:33:30,934 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-13 21:33:30,934 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-13 21:33:30,935 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src/AwesomeToggle-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-04-13 21:33:30,935 INFO  ProjectFixService - Project was maybe fixed
+2019-04-13 21:33:30,935 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 21:33:30,935 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src/AwesomeToggle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src/AwesomeToggle-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 21:33:37,269 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 21:33:37,269 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 21:33:37,269 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 21:33:37,269 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src/AwesomeToggle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src/AwesomeToggle-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 21:33:44,555 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -54,7 +54,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 17:50:55,010 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 21:33:44,555 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -158,22 +158,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 4.991 secs
+Total time: 6.678 secs
 
-2018-10-15 17:50:55,013 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 17:50:55,013 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src/AwesomeToggle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src/AwesomeToggle-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 17:51:00,564 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 17:51:00,565 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 17:51:00,565 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 17:51:00,565 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src/AwesomeToggle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539600641096-0/src/AwesomeToggle-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 17:51:06,083 ERROR SysUtils - Could not process external command
+2019-04-13 21:33:44,558 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 21:33:44,558 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src/AwesomeToggle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src/AwesomeToggle-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 21:33:50,963 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 21:33:50,963 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 21:33:50,963 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 21:33:50,963 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src/AwesomeToggle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166008691-0/src/AwesomeToggle-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 21:33:58,099 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -201,7 +201,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 17:51:06,083 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 21:33:58,099 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -305,14 +305,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 4.925 secs
+Total time: 6.513 secs
 
-2018-10-15 17:51:06,086 ERROR FullProcessService - Project build has not produced APK file
-2018-10-15 17:51:06,089 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-13 21:33:58,103 ERROR FullProcessService - Project build has not produced APK file
+2019-04-13 21:33:58,106 ERROR FullProcessService - Could not find generated or existed APK file

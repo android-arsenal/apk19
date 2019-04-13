@@ -1,34 +1,34 @@
-2018-10-15 19:50:14,627 INFO  DownloadService - Downloading "https://github.com/Kyson/MemoryMonitor/archive/master.zip", attempt 3
-2018-10-15 19:50:15,619 INFO  DownloadService - Downloaded https://github.com/Kyson/MemoryMonitor/archive/master.zip, attempt 3
-2018-10-15 19:50:15,619 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/master.zip": 379 KB
-2018-10-15 19:50:15,619 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-15 19:50:15,625 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/master.zip: true
-2018-10-15 19:50:15,625 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src'.
-2018-10-15 19:50:15,649 INFO  FullProcessService - Size of directory with sources: 418 KB
-2018-10-15 19:50:15,649 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src]
-2018-10-15 19:50:15,664 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/.git/
+2019-04-13 21:48:10,146 INFO  DownloadService - Downloading "https://github.com/Kyson/MemoryMonitor/archive/master.zip", attempt 3
+2019-04-13 21:48:10,980 INFO  DownloadService - Downloaded https://github.com/Kyson/MemoryMonitor/archive/master.zip, attempt 3
+2019-04-13 21:48:10,980 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/master.zip": 379 KB
+2019-04-13 21:48:10,980 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-13 21:48:10,981 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/master.zip: true
+2019-04-13 21:48:10,981 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src'.
+2019-04-13 21:48:11,006 INFO  FullProcessService - Size of directory with sources: 418 KB
+2019-04-13 21:48:11,006 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src]
+2019-04-13 21:48:11,024 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/.git/
 
-2018-10-15 19:50:15,667 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/gradlew
-2018-10-15 19:50:15,670 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/memorymonitorlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/build.gradle
-2018-10-15 19:50:15,673 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/memorymonitorlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/settings.gradle
-2018-10-15 19:50:15,673 INFO  ProjectBuildService - Remote scripts: none
-2018-10-15 19:50:15,673 INFO  ProjectFixService - Fixing project...
-2018-10-15 19:50:15,680 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/app/local.properties
-2018-10-15 19:50:15,680 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-15 19:50:15,681 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/memorymonitorlib/local.properties
-2018-10-15 19:50:15,681 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/memorymonitorlib/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-15 19:50:15,682 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/local.properties
-2018-10-15 19:50:15,682 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-15 19:50:15,682 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-15 19:50:15,683 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-15 19:50:15,683 INFO  ProjectFixService - Project was maybe fixed
-2018-10-15 19:50:15,683 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 19:50:15,683 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 19:50:21,761 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 19:50:21,761 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 19:50:21,761 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 19:50:21,762 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 19:50:28,003 ERROR SysUtils - Could not process external command
+2019-04-13 21:48:11,027 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/gradlew
+2019-04-13 21:48:11,031 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/memorymonitorlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/build.gradle
+2019-04-13 21:48:11,035 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/memorymonitorlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/settings.gradle
+2019-04-13 21:48:11,035 INFO  ProjectBuildService - Remote scripts: none
+2019-04-13 21:48:11,035 INFO  ProjectFixService - Fixing project...
+2019-04-13 21:48:11,043 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/app/local.properties
+2019-04-13 21:48:11,044 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-13 21:48:11,044 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/memorymonitorlib/local.properties
+2019-04-13 21:48:11,044 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/memorymonitorlib/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-13 21:48:11,045 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/local.properties
+2019-04-13 21:48:11,045 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-13 21:48:11,045 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-13 21:48:11,046 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-13 21:48:11,046 INFO  ProjectFixService - Project was maybe fixed
+2019-04-13 21:48:11,046 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 21:48:11,046 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 21:48:17,351 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 21:48:17,351 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 21:48:17,351 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 21:48:17,351 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 21:48:23,666 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 19:50:28,003 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 21:48:23,666 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -159,22 +159,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 5.567 secs
+Total time: 5.68 secs
 
-2018-10-15 19:50:28,008 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 19:50:28,008 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/memorymonitorlib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 19:50:34,216 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 19:50:34,216 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 19:50:34,216 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 19:50:34,216 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/memorymonitorlib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 19:50:45,169 ERROR SysUtils - Could not process external command
+2019-04-13 21:48:23,671 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 21:48:23,672 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/memorymonitorlib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 21:48:30,016 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 21:48:30,016 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 21:48:30,016 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 21:48:30,016 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/memorymonitorlib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 21:48:41,150 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -201,7 +201,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 19:50:45,169 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 21:48:41,150 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :memorymonitorlib:preBuild UP-TO-DATE
 :memorymonitorlib:preDebugBuild UP-TO-DATE
@@ -379,15 +379,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 10.296 secs
+Total time: 10.508 secs
 
-2018-10-15 19:50:45,229 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 19:50:45,229 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 19:50:51,290 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 19:50:51,290 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 19:50:51,290 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 19:50:51,291 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539607814618-0/src/MemoryMonitor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 19:50:57,802 ERROR SysUtils - Could not process external command
+2019-04-13 21:48:41,218 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 21:48:41,218 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 21:48:47,699 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 21:48:47,699 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 21:48:47,700 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 21:48:47,700 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555166890143-0/src/MemoryMonitor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 21:48:53,914 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -414,7 +414,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 19:50:57,803 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 21:48:53,914 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -518,14 +518,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 5.843 secs
+Total time: 5.615 secs
 
-2018-10-15 19:50:57,859 ERROR FullProcessService - Project build has not produced APK file
-2018-10-15 19:50:57,914 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-13 21:48:53,975 ERROR FullProcessService - Project build has not produced APK file
+2019-04-13 21:48:54,037 ERROR FullProcessService - Could not find generated or existed APK file
