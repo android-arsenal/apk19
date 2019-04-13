@@ -1,31 +1,31 @@
-2018-10-15 13:19:55,813 INFO  DownloadService - Downloading "https://github.com/Shah-Sahab/CircularProgressBar/archive/master.zip", attempt 3
-2018-10-15 13:19:56,280 INFO  DownloadService - Downloaded https://github.com/Shah-Sahab/CircularProgressBar/archive/master.zip, attempt 3
-2018-10-15 13:19:56,280 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539584395810-0/master.zip": 103 KB
-2018-10-15 13:19:56,280 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-15 13:19:56,286 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539584395810-0/master.zip: true
-2018-10-15 13:19:56,287 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539584395810-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539584395810-0/src'.
-2018-10-15 13:19:56,302 INFO  FullProcessService - Size of directory with sources: 136 KB
-2018-10-15 13:19:56,302 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539584395810-0/src]
-2018-10-15 13:19:56,321 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539584395810-0/src/.git/
+2019-04-13 20:19:07,577 INFO  DownloadService - Downloading "https://github.com/Shah-Sahab/CircularProgressBar/archive/master.zip", attempt 3
+2019-04-13 20:19:08,059 INFO  DownloadService - Downloaded https://github.com/Shah-Sahab/CircularProgressBar/archive/master.zip, attempt 3
+2019-04-13 20:19:08,059 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161547569-0/master.zip": 103 KB
+2019-04-13 20:19:08,059 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-13 20:19:08,064 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161547569-0/master.zip: true
+2019-04-13 20:19:08,065 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161547569-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161547569-0/src'.
+2019-04-13 20:19:08,079 INFO  FullProcessService - Size of directory with sources: 136 KB
+2019-04-13 20:19:08,079 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161547569-0/src]
+2019-04-13 20:19:08,098 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161547569-0/src/.git/
 
-2018-10-15 13:19:56,323 INFO  ProjectBuildService - Gradle wrapper(s): none
-2018-10-15 13:19:56,323 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2018-10-15 13:19:56,326 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539584395810-0/src/CircularProgressBar-master/limitindicatorlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539584395810-0/src/CircularProgressBar-master/mobile/build.gradle
-2018-10-15 13:19:56,328 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539584395810-0/src/CircularProgressBar-master/mobile/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539584395810-0/src/CircularProgressBar-master/limitindicatorlibrary/build.gradle
-2018-10-15 13:19:56,328 INFO  ProjectBuildService - Remote scripts: none
-2018-10-15 13:19:56,328 INFO  ProjectFixService - Fixing project...
-2018-10-15 13:19:56,334 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539584395810-0/src/CircularProgressBar-master/limitindicatorlibrary/local.properties
-2018-10-15 13:19:56,335 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539584395810-0/src/CircularProgressBar-master/limitindicatorlibrary/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
-2018-10-15 13:19:56,335 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539584395810-0/src/CircularProgressBar-master/mobile/local.properties
-2018-10-15 13:19:56,336 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539584395810-0/src/CircularProgressBar-master/mobile/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
-2018-10-15 13:19:56,336 INFO  ProjectFixService - Project was maybe fixed
-2018-10-15 13:19:56,336 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 13:19:56,336 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539584395810-0/src/CircularProgressBar-master/limitindicatorlibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 13:19:56,350 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-10-15 13:19:56,350 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 13:19:56,350 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 13:19:56,350 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539584395810-0/src/CircularProgressBar-master/limitindicatorlibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 13:19:56,354 ERROR SysUtils - Could not process external command
+2019-04-13 20:19:08,101 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-04-13 20:19:08,101 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-04-13 20:19:08,103 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161547569-0/src/CircularProgressBar-master/limitindicatorlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161547569-0/src/CircularProgressBar-master/mobile/build.gradle
+2019-04-13 20:19:08,106 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161547569-0/src/CircularProgressBar-master/mobile/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161547569-0/src/CircularProgressBar-master/limitindicatorlibrary/build.gradle
+2019-04-13 20:19:08,106 INFO  ProjectBuildService - Remote scripts: none
+2019-04-13 20:19:08,106 INFO  ProjectFixService - Fixing project...
+2019-04-13 20:19:08,113 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161547569-0/src/CircularProgressBar-master/limitindicatorlibrary/local.properties
+2019-04-13 20:19:08,113 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161547569-0/src/CircularProgressBar-master/limitindicatorlibrary/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2019-04-13 20:19:08,113 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161547569-0/src/CircularProgressBar-master/mobile/local.properties
+2019-04-13 20:19:08,114 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161547569-0/src/CircularProgressBar-master/mobile/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2019-04-13 20:19:08,114 INFO  ProjectFixService - Project was maybe fixed
+2019-04-13 20:19:08,114 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 20:19:08,114 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161547569-0/src/CircularProgressBar-master/limitindicatorlibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 20:19:08,119 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-04-13 20:19:08,119 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 20:19:08,119 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 20:19:08,119 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161547569-0/src/CircularProgressBar-master/limitindicatorlibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 20:19:08,124 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -42,7 +42,8 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -61,15 +62,15 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
-	... 28 common frames omitted
-2018-10-15 13:19:56,355 INFO  SysUtils - 
-2018-10-15 13:19:56,357 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 13:19:56,357 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539584395810-0/src/CircularProgressBar-master/mobile/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 13:19:56,361 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-10-15 13:19:56,361 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 13:19:56,361 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 13:19:56,361 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539584395810-0/src/CircularProgressBar-master/mobile/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 13:19:56,365 ERROR SysUtils - Could not process external command
+	... 29 common frames omitted
+2019-04-13 20:19:08,124 INFO  SysUtils - 
+2019-04-13 20:19:08,127 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 20:19:08,127 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161547569-0/src/CircularProgressBar-master/mobile/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 20:19:08,132 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-04-13 20:19:08,132 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 20:19:08,132 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 20:19:08,132 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161547569-0/src/CircularProgressBar-master/mobile/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 20:19:08,137 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -86,7 +87,8 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -105,7 +107,7 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
-	... 28 common frames omitted
-2018-10-15 13:19:56,365 INFO  SysUtils - 
-2018-10-15 13:19:56,368 ERROR FullProcessService - Project build has not produced APK file
-2018-10-15 13:19:56,370 ERROR FullProcessService - Could not find generated or existed APK file
+	... 29 common frames omitted
+2019-04-13 20:19:08,137 INFO  SysUtils - 
+2019-04-13 20:19:08,139 ERROR FullProcessService - Project build has not produced APK file
+2019-04-13 20:19:08,142 ERROR FullProcessService - Could not find generated or existed APK file

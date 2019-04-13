@@ -1,37 +1,34 @@
-2018-10-15 14:03:13,605 INFO  DownloadService - Downloading "https://github.com/yongjhih/mismeter/archive/master.zip", attempt 3
-2018-10-15 14:04:14,481 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-15 14:04:15,696 INFO  GithubDownloadService - Default branch of this repository: master
-2018-10-15 14:04:15,697 INFO  DownloadService - Downloading "https://github.com/yongjhih/mismeter/archive/master.zip", attempt 3
-2018-10-15 14:05:17,454 DEBUG FullProcessService - Repository https://github.com/yongjhih/mismeter available: true
-2018-10-15 14:05:17,454 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-15 14:05:17,455 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/yongjhih/mismeter, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src]
-2018-10-15 14:05:19,496 INFO  SysUtils - 
-2018-10-15 14:05:19,504 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/.git": true
-2018-10-15 14:05:19,508 INFO  FullProcessService - Size of directory with sources: 150 KB
-2018-10-15 14:05:19,508 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src]
-2018-10-15 14:05:19,524 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/.git/
+2019-04-13 20:19:57,376 INFO  DownloadService - Downloading "https://github.com/yongjhih/mismeter/archive/master.zip", attempt 3
+2019-04-13 20:19:57,852 INFO  DownloadService - Downloaded https://github.com/yongjhih/mismeter/archive/master.zip, attempt 3
+2019-04-13 20:19:57,852 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/master.zip": 132 KB
+2019-04-13 20:19:57,852 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-13 20:19:57,857 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/master.zip: true
+2019-04-13 20:19:57,857 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src'.
+2019-04-13 20:19:57,878 INFO  FullProcessService - Size of directory with sources: 150 KB
+2019-04-13 20:19:57,878 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src]
+2019-04-13 20:19:57,896 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/.git/
 
-2018-10-15 14:05:19,527 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/gradlew
-2018-10-15 14:05:19,530 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/build.gradle
-2018-10-15 14:05:19,533 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/jacoco-coveralls.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/jacoco-android-coveralls.gradle
-2018-10-15 14:05:19,534 INFO  ProjectBuildService - Remote scripts: none
-2018-10-15 14:05:19,534 INFO  ProjectFixService - Fixing project...
-2018-10-15 14:05:19,542 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/app/local.properties
-2018-10-15 14:05:19,543 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/app/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-10-15 14:05:19,543 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/local.properties
-2018-10-15 14:05:19,544 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-10-15 14:05:19,544 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/local.properties
-2018-10-15 14:05:19,545 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-15 14:05:19,545 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-15 14:05:19,546 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-10-15 14:05:19,546 INFO  ProjectFixService - Project was maybe fixed
-2018-10-15 14:05:19,546 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 14:05:19,546 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 14:05:56,168 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 14:05:56,169 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 14:05:56,169 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 14:05:56,169 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 14:06:10,286 ERROR SysUtils - Could not process external command
+2019-04-13 20:19:57,900 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/gradlew
+2019-04-13 20:19:57,903 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/build.gradle
+2019-04-13 20:19:57,907 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/jacoco-coveralls.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/jacoco-android-coveralls.gradle
+2019-04-13 20:19:57,907 INFO  ProjectBuildService - Remote scripts: none
+2019-04-13 20:19:57,907 INFO  ProjectFixService - Fixing project...
+2019-04-13 20:19:57,917 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/app/local.properties
+2019-04-13 20:19:57,917 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/app/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-04-13 20:19:57,918 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/local.properties
+2019-04-13 20:19:57,919 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-04-13 20:19:57,919 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/local.properties
+2019-04-13 20:19:57,919 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-13 20:19:57,919 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-13 20:19:57,920 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-04-13 20:19:57,920 INFO  ProjectFixService - Project was maybe fixed
+2019-04-13 20:19:57,920 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 20:19:57,920 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 20:20:15,100 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 20:20:15,100 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 20:20:15,100 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 20:20:15,100 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 20:20:28,562 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,7 +56,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 14:06:10,287 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 20:20:28,562 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 File /Users/vbauer/.android/repositories.cfg could not be loaded.
 
@@ -70,18 +67,18 @@ A problem occurred configuring project ':app'.
 > Could not resolve all dependencies for configuration ':app:_debugApkCopy'.
    > Could not find com.android.support:support-v4:26.0.2.
      Required by:
-         src:app:unspecified
-         src:app:unspecified > src:mismeter:unspecified
-         src:app:unspecified > com.android.support:appcompat-v7:24.2.1
+         mismeter-master:app:unspecified
+         mismeter-master:app:unspecified > mismeter-master:mismeter:unspecified
+         mismeter-master:app:unspecified > com.android.support:appcompat-v7:24.2.1
    > Could not find com.android.support:support-v4:26.0.2.
      Required by:
-         src:app:unspecified > com.github.JakeWharton:kotterknife:-SNAPSHOT
+         mismeter-master:app:unspecified > com.github.JakeWharton:kotterknife:-SNAPSHOT
    > Could not find com.android.support:recyclerview-v7:26.0.2.
      Required by:
-         src:app:unspecified > com.github.JakeWharton:kotterknife:-SNAPSHOT
+         mismeter-master:app:unspecified > com.github.JakeWharton:kotterknife:-SNAPSHOT
    > Could not find com.android.support:support-v4:26.0.2.
      Required by:
-         src:app:unspecified > org.adw.library:discrete-seekbar:1.0.1
+         mismeter-master:app:unspecified > org.adw.library:discrete-seekbar:1.0.1
 
 * Try:
 Run with --info or --debug option to get more log output.
@@ -187,14 +184,14 @@ Caused by: org.gradle.api.artifacts.ResolveException: Could not resolve all depe
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 Caused by: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not find com.android.support:support-v4:26.0.2.
 Required by:
-    src:app:unspecified
-    src:app:unspecified > src:mismeter:unspecified
-    src:app:unspecified > com.android.support:appcompat-v7:24.2.1
+    mismeter-master:app:unspecified
+    mismeter-master:app:unspecified > mismeter-master:mismeter:unspecified
+    mismeter-master:app:unspecified > com.android.support:appcompat-v7:24.2.1
 	at org.gradle.internal.resolve.result.DefaultBuildableComponentResolveResult.notFound(DefaultBuildableComponentResolveResult.java:38)
 	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolveModule(RepositoryChainComponentMetaDataResolver.java:88)
 	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolve(RepositoryChainComponentMetaDataResolver.java:59)
@@ -243,15 +240,15 @@ Required by:
 
 BUILD FAILED
 
-Total time: 13.407 secs
+Total time: 12.753 secs
 
-2018-10-15 14:06:10,293 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 14:06:10,294 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 14:06:25,034 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 14:06:25,036 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 14:06:25,036 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 14:06:25,036 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 14:06:38,833 ERROR SysUtils - Could not process external command
+2019-04-13 20:20:28,567 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 20:20:28,568 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 20:20:43,252 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 20:20:43,252 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 20:20:43,252 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 20:20:43,252 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 20:20:57,379 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -279,7 +276,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 14:06:38,834 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 20:20:57,379 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :mismeter:preBuild UP-TO-DATE
 :mismeter:preDebugBuild UP-TO-DATE
@@ -363,78 +360,78 @@ Incremental java compilation is an incubating feature.
 :mismeter:bundleRelease
 :mismeter:compileReleaseSources
 :mismeter:assembleRelease
-:mismeter:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:17: error: package android.support.annotation does not exist
+:mismeter:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:17: error: package android.support.annotation does not exist
 import android.support.annotation.ColorInt;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:18: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:18: error: package android.support.annotation does not exist
 import android.support.annotation.FloatRange;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:19: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:19: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:92: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:92: error: cannot find symbol
     public MisMeter(@NonNull Context context) {
                      ^
   symbol:   class NonNull
   location: class MisMeter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:96: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:96: error: cannot find symbol
     public MisMeter(@NonNull Context context, AttributeSet attrs) {
                      ^
   symbol:   class NonNull
   location: class MisMeter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:100: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:100: error: cannot find symbol
     public MisMeter(@NonNull Context context, AttributeSet attrs, int defStyleAttr) {
                      ^
   symbol:   class NonNull
   location: class MisMeter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:197: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:197: error: cannot find symbol
     protected void onDraw(@NonNull Canvas canvas) {
                            ^
   symbol:   class NonNull
   location: class MisMeter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:208: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:208: error: cannot find symbol
     private void drawRingProgress(@NonNull Canvas canvas) {
                                    ^
   symbol:   class NonNull
   location: class MisMeter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:226: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:226: error: cannot find symbol
     private void drawCenterText(@NonNull Canvas canvas) {
                                  ^
   symbol:   class NonNull
   location: class MisMeter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:247: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:247: error: cannot find symbol
     private void drawMiddleArc(@NonNull Canvas canvas) {
                                 ^
   symbol:   class NonNull
   location: class MisMeter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:288: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:288: error: cannot find symbol
     public void setProgress(@FloatRange(from = 0.0f, to=1.0f) float progress) {
                              ^
   symbol:   class FloatRange
   location: class MisMeter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:306: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:306: error: cannot find symbol
     public void animate(@FloatRange(from = 0.0f, to=1.0f) float progress) {
                          ^
   symbol:   class FloatRange
   location: class MisMeter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:324: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:324: error: cannot find symbol
     public void setTextColor(@ColorInt int color) {
                               ^
   symbol:   class ColorInt
   location: class MisMeter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:265: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:265: warning: no description for @param
      * @param measureSpec
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:266: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:266: warning: no description for @param
      * @param defaultSize
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:268: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:268: warning: no @return
     public int resolveMeasure(int measureSpec, int defaultSize) {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:298: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:298: warning: no description for @param
      * @param values
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:299: warning: no description for @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/mismeter/src/main/java/com/github/yongjhih/mismeter/MisMeter.java:299: warning: no description for @return
      * @return
        ^
 javadoc: warning - Class NonNull not found.
@@ -545,15 +542,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 13.175 secs
+Total time: 13.55 secs
 
-2018-10-15 14:06:38,899 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 14:06:38,899 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 14:06:53,144 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 14:06:53,144 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 14:06:53,144 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 14:06:53,144 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586993602-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 14:07:07,088 ERROR SysUtils - Could not process external command
+2019-04-13 20:20:57,453 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 20:20:57,453 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 20:21:11,403 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 20:21:11,404 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 20:21:11,404 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 20:21:11,404 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161597371-0/src/mismeter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 20:21:25,343 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -581,7 +578,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 14:07:07,090 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 20:21:25,343 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 File /Users/vbauer/.android/repositories.cfg could not be loaded.
 
@@ -592,18 +589,18 @@ A problem occurred configuring project ':app'.
 > Could not resolve all dependencies for configuration ':app:_debugApkCopy'.
    > Could not find com.android.support:support-v4:26.0.2.
      Required by:
-         src:app:unspecified
-         src:app:unspecified > src:mismeter:unspecified
-         src:app:unspecified > com.android.support:appcompat-v7:24.2.1
+         mismeter-master:app:unspecified
+         mismeter-master:app:unspecified > mismeter-master:mismeter:unspecified
+         mismeter-master:app:unspecified > com.android.support:appcompat-v7:24.2.1
    > Could not find com.android.support:support-v4:26.0.2.
      Required by:
-         src:app:unspecified > com.github.JakeWharton:kotterknife:-SNAPSHOT
+         mismeter-master:app:unspecified > com.github.JakeWharton:kotterknife:-SNAPSHOT
    > Could not find com.android.support:recyclerview-v7:26.0.2.
      Required by:
-         src:app:unspecified > com.github.JakeWharton:kotterknife:-SNAPSHOT
+         mismeter-master:app:unspecified > com.github.JakeWharton:kotterknife:-SNAPSHOT
    > Could not find com.android.support:support-v4:26.0.2.
      Required by:
-         src:app:unspecified > org.adw.library:discrete-seekbar:1.0.1
+         mismeter-master:app:unspecified > org.adw.library:discrete-seekbar:1.0.1
 
 * Try:
 Run with --info or --debug option to get more log output.
@@ -714,9 +711,9 @@ Caused by: org.gradle.api.artifacts.ResolveException: Could not resolve all depe
 	... 57 more
 Caused by: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not find com.android.support:support-v4:26.0.2.
 Required by:
-    src:app:unspecified
-    src:app:unspecified > src:mismeter:unspecified
-    src:app:unspecified > com.android.support:appcompat-v7:24.2.1
+    mismeter-master:app:unspecified
+    mismeter-master:app:unspecified > mismeter-master:mismeter:unspecified
+    mismeter-master:app:unspecified > com.android.support:appcompat-v7:24.2.1
 	at org.gradle.internal.resolve.result.DefaultBuildableComponentResolveResult.notFound(DefaultBuildableComponentResolveResult.java:38)
 	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolveModule(RepositoryChainComponentMetaDataResolver.java:88)
 	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolve(RepositoryChainComponentMetaDataResolver.java:59)
@@ -765,7 +762,7 @@ Required by:
 
 BUILD FAILED
 
-Total time: 13.24 secs
+Total time: 13.203 secs
 
-2018-10-15 14:07:07,152 ERROR FullProcessService - Project build has not produced APK file
-2018-10-15 14:07:07,211 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-13 20:21:25,418 ERROR FullProcessService - Project build has not produced APK file
+2019-04-13 20:21:25,486 ERROR FullProcessService - Could not find generated or existed APK file

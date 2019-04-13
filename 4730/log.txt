@@ -1,37 +1,34 @@
-2018-10-15 14:00:09,948 INFO  DownloadService - Downloading "https://github.com/githubwing/ByeBurger/archive/master.zip", attempt 3
-2018-10-15 14:01:10,857 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-15 14:01:11,801 INFO  GithubDownloadService - Default branch of this repository: master
-2018-10-15 14:01:11,801 INFO  DownloadService - Downloading "https://github.com/githubwing/ByeBurger/archive/master.zip", attempt 3
-2018-10-15 14:02:14,026 DEBUG FullProcessService - Repository https://github.com/githubwing/ByeBurger available: true
-2018-10-15 14:02:14,033 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-15 14:02:14,033 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/githubwing/ByeBurger, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src]
-2018-10-15 14:02:22,227 INFO  SysUtils - 
-2018-10-15 14:02:22,237 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/.git": true
-2018-10-15 14:02:22,242 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-10-15 14:02:22,242 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src]
-2018-10-15 14:02:22,261 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/.git/
+2019-04-13 20:19:08,162 INFO  DownloadService - Downloading "https://github.com/githubwing/ByeBurger/archive/master.zip", attempt 3
+2019-04-13 20:19:09,497 INFO  DownloadService - Downloaded https://github.com/githubwing/ByeBurger/archive/master.zip, attempt 3
+2019-04-13 20:19:09,497 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/master.zip": 1 MB
+2019-04-13 20:19:09,497 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-13 20:19:09,503 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/master.zip: true
+2019-04-13 20:19:09,504 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src'.
+2019-04-13 20:19:09,544 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-04-13 20:19:09,544 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src]
+2019-04-13 20:19:09,561 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/.git/
 
-2018-10-15 14:02:22,265 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/gradlew
-2018-10-15 14:02:22,269 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/build.gradle
-2018-10-15 14:02:22,273 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/settings.gradle
-2018-10-15 14:02:22,274 INFO  ProjectBuildService - Remote scripts: none
-2018-10-15 14:02:22,274 INFO  ProjectFixService - Fixing project...
-2018-10-15 14:02:22,283 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/app/local.properties
-2018-10-15 14:02:22,283 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-15 14:02:22,284 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/library/local.properties
-2018-10-15 14:02:22,284 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/library/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-15 14:02:22,285 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/local.properties
-2018-10-15 14:02:22,285 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-15 14:02:22,286 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-15 14:02:22,286 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-15 14:02:22,286 INFO  ProjectFixService - Project was maybe fixed
-2018-10-15 14:02:22,286 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 14:02:22,287 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 14:02:30,739 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 14:02:30,740 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 14:02:30,740 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 14:02:30,740 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 14:02:37,036 ERROR SysUtils - Could not process external command
+2019-04-13 20:19:09,565 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/gradlew
+2019-04-13 20:19:09,569 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/build.gradle
+2019-04-13 20:19:09,573 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/settings.gradle
+2019-04-13 20:19:09,573 INFO  ProjectBuildService - Remote scripts: none
+2019-04-13 20:19:09,573 INFO  ProjectFixService - Fixing project...
+2019-04-13 20:19:09,583 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/app/local.properties
+2019-04-13 20:19:09,583 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-13 20:19:09,584 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/library/local.properties
+2019-04-13 20:19:09,584 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/library/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-13 20:19:09,584 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/local.properties
+2019-04-13 20:19:09,585 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-13 20:19:09,585 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-13 20:19:09,586 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-13 20:19:09,588 INFO  ProjectFixService - Project was maybe fixed
+2019-04-13 20:19:09,588 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 20:19:09,589 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 20:19:17,152 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 20:19:17,152 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 20:19:17,153 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 20:19:17,153 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 20:19:23,904 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,7 +56,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 14:02:37,036 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 20:19:23,904 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -170,15 +167,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.713 secs
+Total time: 6.146 secs
 
-2018-10-15 14:02:37,040 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 14:02:37,041 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 14:02:43,803 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 14:02:43,803 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 14:02:43,803 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 14:02:43,803 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 14:02:56,367 ERROR SysUtils - Could not process external command
+2019-04-13 20:19:23,910 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 20:19:23,910 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 20:19:30,737 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 20:19:30,737 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 20:19:30,737 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 20:19:30,737 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 20:19:43,179 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -206,7 +203,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 14:02:56,368 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 20:19:43,179 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
@@ -390,15 +387,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 11.878 secs
+Total time: 11.849 secs
 
-2018-10-15 14:02:56,465 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 14:02:56,466 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 14:03:05,269 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 14:03:05,269 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 14:03:05,270 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 14:03:05,270 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539586809943-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 14:03:12,963 ERROR SysUtils - Could not process external command
+2019-04-13 20:19:43,258 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 20:19:43,258 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 20:19:50,002 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 20:19:50,002 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 20:19:50,002 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 20:19:50,003 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161548159-0/src/ByeBurger-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 20:19:56,837 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -426,7 +423,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 14:03:12,965 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 20:19:56,837 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -537,7 +534,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.089 secs
+Total time: 6.227 secs
 
-2018-10-15 14:03:13,049 ERROR FullProcessService - Project build has not produced APK file
-2018-10-15 14:03:13,114 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-13 20:19:56,914 ERROR FullProcessService - Project build has not produced APK file
+2019-04-13 20:19:56,989 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,41 +1,43 @@
-2018-10-15 14:22:19,194 INFO  DownloadService - Downloading "https://github.com/gantonious/ViewCellAdapter/archive/master.zip", attempt 3
-2018-10-15 14:23:19,975 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-15 14:23:20,882 INFO  GithubDownloadService - Default branch of this repository: dev
-2018-10-15 14:23:20,883 INFO  DownloadService - Downloading "https://github.com/gantonious/ViewCellAdapter/archive/dev.zip", attempt 3
-2018-10-15 14:24:22,939 DEBUG FullProcessService - Repository https://github.com/gantonious/ViewCellAdapter available: true
-2018-10-15 14:24:22,939 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-15 14:24:22,939 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/gantonious/ViewCellAdapter, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src]
-2018-10-15 14:24:26,033 INFO  SysUtils - 
-2018-10-15 14:24:26,042 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/.git": true
-2018-10-15 14:24:26,049 INFO  FullProcessService - Size of directory with sources: 331 KB
-2018-10-15 14:24:26,049 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src]
-2018-10-15 14:24:26,065 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/.git/
+2019-04-13 20:23:49,427 INFO  DownloadService - Downloading "https://github.com/gantonious/ViewCellAdapter/archive/master.zip", attempt 3
+2019-04-13 20:23:54,909 INFO  DownloadService - Downloading "https://github.com/gantonious/ViewCellAdapter/archive/master.zip", attempt 2
+2019-04-13 20:24:00,965 INFO  DownloadService - Downloading "https://github.com/gantonious/ViewCellAdapter/archive/master.zip", attempt 1
+2019-04-13 20:25:01,374 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-13 20:25:02,594 INFO  GithubDownloadService - Default branch of this repository: dev
+2019-04-13 20:25:02,594 INFO  DownloadService - Downloading "https://github.com/gantonious/ViewCellAdapter/archive/dev.zip", attempt 3
+2019-04-13 20:26:04,669 DEBUG FullProcessService - Repository https://github.com/gantonious/ViewCellAdapter available: true
+2019-04-13 20:26:04,669 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-13 20:26:04,669 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/gantonious/ViewCellAdapter, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src]
+2019-04-13 20:26:06,372 INFO  SysUtils - 
+2019-04-13 20:26:06,383 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/.git": true
+2019-04-13 20:26:06,391 INFO  FullProcessService - Size of directory with sources: 331 KB
+2019-04-13 20:26:06,392 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src]
+2019-04-13 20:26:06,411 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/.git/
 
-2018-10-15 14:24:26,071 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/gradlew
-2018-10-15 14:24:26,076 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/viewcelladapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/viewcelladapter-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/viewcelladapter-compiler/build.gradle
-2018-10-15 14:24:26,081 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/viewcelladapter-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/viewcelladapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/viewcelladapter-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/settings.gradle
-2018-10-15 14:24:26,081 INFO  ProjectBuildService - Remote scripts: none
-2018-10-15 14:24:26,081 INFO  ProjectFixService - Fixing project...
-2018-10-15 14:24:26,092 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/sample-app/local.properties
-2018-10-15 14:24:26,094 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/sample-app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=18,targetSdkVersion=25]
-2018-10-15 14:24:26,094 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/viewcelladapter/local.properties
-2018-10-15 14:24:26,095 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/viewcelladapter/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-10-15 14:24:26,095 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/local.properties
-2018-10-15 14:24:26,096 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-15 14:24:26,096 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-15 14:24:26,097 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=18,targetSdkVersion=25]
-2018-10-15 14:24:26,097 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/viewcelladapter-annotations/local.properties
-2018-10-15 14:24:26,098 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/viewcelladapter-annotations/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=18,targetSdkVersion=25]
-2018-10-15 14:24:26,099 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/viewcelladapter-compiler/local.properties
-2018-10-15 14:24:26,100 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/viewcelladapter-compiler/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=18,targetSdkVersion=25]
-2018-10-15 14:24:26,100 INFO  ProjectFixService - Project was maybe fixed
-2018-10-15 14:24:26,100 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 14:24:26,100 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 14:24:35,380 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 14:24:35,381 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 14:24:35,381 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 14:24:35,381 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 14:24:41,945 ERROR SysUtils - Could not process external command
+2019-04-13 20:26:06,417 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/gradlew
+2019-04-13 20:26:06,425 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/viewcelladapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/viewcelladapter-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/viewcelladapter-compiler/build.gradle
+2019-04-13 20:26:06,431 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/viewcelladapter-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/viewcelladapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/viewcelladapter-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/settings.gradle
+2019-04-13 20:26:06,431 INFO  ProjectBuildService - Remote scripts: none
+2019-04-13 20:26:06,431 INFO  ProjectFixService - Fixing project...
+2019-04-13 20:26:06,446 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/sample-app/local.properties
+2019-04-13 20:26:06,447 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/sample-app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=18,targetSdkVersion=25]
+2019-04-13 20:26:06,448 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/viewcelladapter/local.properties
+2019-04-13 20:26:06,449 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/viewcelladapter/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-04-13 20:26:06,449 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/local.properties
+2019-04-13 20:26:06,450 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-13 20:26:06,450 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-13 20:26:06,450 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=18,targetSdkVersion=25]
+2019-04-13 20:26:06,451 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/viewcelladapter-annotations/local.properties
+2019-04-13 20:26:06,452 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/viewcelladapter-annotations/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=18,targetSdkVersion=25]
+2019-04-13 20:26:06,453 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/viewcelladapter-compiler/local.properties
+2019-04-13 20:26:06,455 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/viewcelladapter-compiler/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=18,targetSdkVersion=25]
+2019-04-13 20:26:06,455 INFO  ProjectFixService - Project was maybe fixed
+2019-04-13 20:26:06,455 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 20:26:06,455 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 20:26:15,362 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 20:26:15,363 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 20:26:15,363 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 20:26:15,363 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 20:26:23,265 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -48,8 +50,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -63,7 +64,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 14:24:41,945 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 20:26:23,265 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -173,15 +174,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.943 secs
+Total time: 7.272 secs
 
-2018-10-15 14:24:41,952 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 14:24:41,952 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/viewcelladapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 14:24:48,792 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 14:24:48,792 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 14:24:48,792 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 14:24:48,792 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/viewcelladapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 14:25:01,457 ERROR SysUtils - Could not process external command
+2019-04-13 20:26:23,274 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 20:26:23,274 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/viewcelladapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 20:26:30,950 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 20:26:30,951 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 20:26:30,951 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 20:26:30,951 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/viewcelladapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 20:26:46,377 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -194,8 +195,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -209,7 +209,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 14:25:01,457 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 20:26:46,377 INFO  SysUtils - Configuration on demand is an incubating feature.
 :viewcelladapter:preBuild UP-TO-DATE
 :viewcelladapter:preDebugBuild UP-TO-DATE
 :viewcelladapter:checkDebugManifest
@@ -252,7 +252,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :viewcelladapter-compiler:processResources UP-TO-DATE
 :viewcelladapter-compiler:classes
 :viewcelladapter-compiler:jar
-:viewcelladapter:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/viewcelladapter/src/main/java/ca/antonious/viewcelladapter/viewcells/eventhandling/ListenerCollection.java uses unchecked or unsafe operations.
+:viewcelladapter:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/viewcelladapter/src/main/java/ca/antonious/viewcelladapter/viewcells/eventhandling/ListenerCollection.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :viewcelladapter:extractDebugAnnotations
@@ -286,7 +286,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :viewcelladapter:processReleaseResources
 :viewcelladapter:generateReleaseSources
 :viewcelladapter:incrementalReleaseJavaCompilationSafeguard
-:viewcelladapter:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/viewcelladapter/src/main/java/ca/antonious/viewcelladapter/viewcells/eventhandling/ListenerCollection.java uses unchecked or unsafe operations.
+:viewcelladapter:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/viewcelladapter/src/main/java/ca/antonious/viewcelladapter/viewcells/eventhandling/ListenerCollection.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :viewcelladapter:extractReleaseAnnotations
@@ -403,15 +403,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 12.045 secs
+Total time: 14.791 secs
 
-2018-10-15 14:25:01,526 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 14:25:01,526 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 14:25:08,254 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 14:25:08,254 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 14:25:08,254 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 14:25:08,254 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 14:25:15,056 ERROR SysUtils - Could not process external command
+2019-04-13 20:26:46,458 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 20:26:46,459 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 20:26:54,584 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 20:26:54,584 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 20:26:54,584 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 20:26:54,584 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 20:27:02,143 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -424,8 +424,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -439,7 +438,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-15 14:25:15,056 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 20:27:02,143 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -542,22 +541,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 6.2 secs
+Total time: 6.942 secs
 
-2018-10-15 14:25:15,126 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 14:25:15,126 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/viewcelladapter-annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 14:25:22,257 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 14:25:22,257 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 14:25:22,257 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 14:25:22,257 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/viewcelladapter-annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 14:25:26,089 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 20:27:02,225 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 20:27:02,225 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/viewcelladapter-annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 20:27:10,658 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 20:27:10,658 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 20:27:10,658 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 20:27:10,658 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/viewcelladapter-annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 20:27:14,829 INFO  SysUtils - Configuration on demand is an incubating feature.
 :viewcelladapter-annotations:compileJava UP-TO-DATE
 :viewcelladapter-annotations:processResources UP-TO-DATE
 :viewcelladapter-annotations:classes UP-TO-DATE
@@ -572,15 +571,15 @@ Total time: 6.2 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.337 secs
+Total time: 3.69 secs
 
-2018-10-15 14:25:26,161 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-15 14:25:26,161 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/viewcelladapter-compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-15 14:25:33,558 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-15 14:25:33,558 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-15 14:25:33,558 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-15 14:25:33,558 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539588139189-0/src/viewcelladapter-compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-15 14:25:37,406 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 20:27:14,909 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 20:27:14,909 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/viewcelladapter-compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 20:27:23,931 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 20:27:23,931 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 20:27:23,931 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 20:27:23,931 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161829423-0/src/viewcelladapter-compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 20:27:28,296 INFO  SysUtils - Configuration on demand is an incubating feature.
 :viewcelladapter-annotations:compileJava UP-TO-DATE
 :viewcelladapter-annotations:processResources UP-TO-DATE
 :viewcelladapter-annotations:classes UP-TO-DATE
@@ -599,7 +598,7 @@ Total time: 3.337 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.35 secs
+Total time: 3.883 secs
 
-2018-10-15 14:25:37,477 ERROR FullProcessService - Project build has not produced APK file
-2018-10-15 14:25:37,537 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-13 20:27:28,377 ERROR FullProcessService - Project build has not produced APK file
+2019-04-13 20:27:28,455 ERROR FullProcessService - Could not find generated or existed APK file

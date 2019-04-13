@@ -1,36 +1,39 @@
-2018-12-16 19:41:58,338 INFO  DownloadService - Downloading "https://github.com/smart-fun/smartGL/archive/master.zip", attempt 3
-2018-12-16 19:42:01,514 INFO  DownloadService - Downloaded https://github.com/smart-fun/smartGL/archive/master.zip, attempt 3
-2018-12-16 19:42:01,514 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/master.zip": 2 MB
-2018-12-16 19:42:01,514 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-16 19:42:01,521 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/master.zip: true
-2018-12-16 19:42:01,521 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src'.
-2018-12-16 19:42:01,582 INFO  FullProcessService - Size of directory with sources: 3 MB
-2018-12-16 19:42:01,583 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src]
-2018-12-16 19:42:01,605 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/.git/
+2019-04-13 20:33:10,526 INFO  DownloadService - Downloading "https://github.com/smart-fun/smartGL/archive/master.zip", attempt 3
+2019-04-13 20:34:11,371 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-13 20:34:12,367 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-13 20:34:12,367 INFO  DownloadService - Downloading "https://github.com/smart-fun/smartGL/archive/master.zip", attempt 3
+2019-04-13 20:35:14,225 DEBUG FullProcessService - Repository https://github.com/smart-fun/smartGL available: true
+2019-04-13 20:35:14,225 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-13 20:35:14,225 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/smart-fun/smartGL, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src]
+2019-04-13 20:35:17,477 INFO  SysUtils - 
+2019-04-13 20:35:17,486 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/.git": true
+2019-04-13 20:35:17,492 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-04-13 20:35:17,492 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src]
+2019-04-13 20:35:17,510 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/.git/
 
-2018-12-16 19:42:01,611 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/gradlew
-2018-12-16 19:42:01,617 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/smartgl/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/smartglapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/build.gradle
-2018-12-16 19:42:01,622 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/smartglapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/smartgl/build.gradle
-2018-12-16 19:42:01,623 INFO  ProjectBuildService - Remote scripts: none
-2018-12-16 19:42:01,623 INFO  ProjectFixService - Fixing project...
-2018-12-16 19:42:01,634 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/app/local.properties
-2018-12-16 19:42:01,635 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-12-16 19:42:01,635 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/smartgl/local.properties
-2018-12-16 19:42:01,636 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/smartgl/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 19:42:01,636 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/smartglapp/local.properties
-2018-12-16 19:42:01,637 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/smartglapp/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 19:42:01,637 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/local.properties
-2018-12-16 19:42:01,637 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-12-16 19:42:01,638 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-12-16 19:42:01,638 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-12-16 19:42:01,639 INFO  ProjectFixService - Project was maybe fixed
-2018-12-16 19:42:01,639 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 19:42:01,639 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 19:42:04,513 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-16 19:42:04,513 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-16 19:42:04,513 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-16 19:42:04,513 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-16 19:42:06,502 ERROR SysUtils - Could not process external command
+2019-04-13 20:35:17,515 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/gradlew
+2019-04-13 20:35:17,520 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/smartgl/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/smartglapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/build.gradle
+2019-04-13 20:35:17,524 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/smartglapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/smartgl/build.gradle
+2019-04-13 20:35:17,525 INFO  ProjectBuildService - Remote scripts: none
+2019-04-13 20:35:17,525 INFO  ProjectFixService - Fixing project...
+2019-04-13 20:35:17,536 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/app/local.properties
+2019-04-13 20:35:17,536 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-04-13 20:35:17,536 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/smartgl/local.properties
+2019-04-13 20:35:17,537 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/smartgl/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-13 20:35:17,537 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/smartglapp/local.properties
+2019-04-13 20:35:17,537 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/smartglapp/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-13 20:35:17,538 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/local.properties
+2019-04-13 20:35:17,538 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-04-13 20:35:17,538 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-04-13 20:35:17,539 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-04-13 20:35:17,539 INFO  ProjectFixService - Project was maybe fixed
+2019-04-13 20:35:17,539 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 20:35:17,539 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 20:35:20,353 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-13 20:35:20,353 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-13 20:35:20,353 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-13 20:35:20,353 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-13 20:35:22,324 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -43,27 +46,26 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-16 19:42:06,503 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 20:35:22,324 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/app/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/app/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating root project 'app'.
@@ -165,7 +167,7 @@ Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.an
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
-	at build_872w2uvqn40hyynnmh8xgmbik.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/app/build.gradle:1)
+	at build_8j1w3rlikod0yuo6xvkcbwd35.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/app/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 81 more
 
@@ -177,12 +179,12 @@ See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:comman
 
 BUILD FAILED in 1s
 
-2018-12-16 19:42:06,509 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 19:42:06,509 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/smartgl/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 19:42:13,199 INFO  ProjectTaskService - Detected possible tasks: 65
-2018-12-16 19:42:13,199 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-16 19:42:13,200 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/smartgl/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-16 19:42:23,103 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 20:35:22,331 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 20:35:22,331 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/smartgl/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 20:35:28,815 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-04-13 20:35:28,815 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-13 20:35:28,815 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/smartgl/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-13 20:35:38,890 INFO  SysUtils - Configuration on demand is an incubating feature.
 :smartgl:preBuild UP-TO-DATE
 :smartgl:preDebugBuild UP-TO-DATE
 :smartgl:compileDebugAidl NO-SOURCE
@@ -255,12 +257,12 @@ BUILD FAILED in 1s
 BUILD SUCCESSFUL in 9s
 45 actionable tasks: 45 executed
 
-2018-12-16 19:42:23,125 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 19:42:23,125 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/smartglapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 19:42:29,181 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-16 19:42:29,182 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-16 19:42:29,182 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/smartglapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-16 19:42:44,417 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 20:35:38,908 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 20:35:38,908 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/smartglapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 20:35:44,907 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-04-13 20:35:44,907 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-13 20:35:44,907 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/smartglapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-13 20:36:00,008 INFO  SysUtils - Configuration on demand is an incubating feature.
 :smartgl:preBuild UP-TO-DATE
 :smartgl:preDebugBuild UP-TO-DATE
 :smartgl:compileDebugAidl NO-SOURCE
@@ -297,7 +299,7 @@ BUILD SUCCESSFUL in 9s
 :smartglapp:processDebugResources
 :smartglapp:generateDebugSources
 :smartglapp:javaPreCompileDebug
-:smartglapp:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/smartglapp/src/main/java/fr/arnaudguyon/smartglapp/MainGLFragment.java uses or overrides a deprecated API.
+:smartglapp:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/smartglapp/src/main/java/fr/arnaudguyon/smartglapp/MainGLFragment.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :smartglapp:compileDebugNdk NO-SOURCE
@@ -359,7 +361,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :smartglapp:processReleaseResources
 :smartglapp:generateReleaseSources
 :smartglapp:javaPreCompileRelease
-:smartglapp:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/smartglapp/src/main/java/fr/arnaudguyon/smartglapp/MainGLFragment.java uses or overrides a deprecated API.
+:smartglapp:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/smartglapp/src/main/java/fr/arnaudguyon/smartglapp/MainGLFragment.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :smartglapp:compileReleaseNdk NO-SOURCE
@@ -395,4 +397,4 @@ Note: Recompile with -Xlint:deprecation for details.
 BUILD SUCCESSFUL in 14s
 90 actionable tasks: 59 executed, 31 up-to-date
 
-2018-12-16 19:42:44,451 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544964118329-0/src/smartGL-master/smartglapp/build/outputs/apk/release/smartglapp-release-unsigned.apk
+2019-04-13 20:36:00,044 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555162390523-0/src/smartglapp/build/outputs/apk/release/smartglapp-release-unsigned.apk

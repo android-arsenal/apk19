@@ -31,8 +31,8 @@
   "dexClasses" : 1512,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.siimkinks.sqlitemagic.sample\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0f0006\" android:label=\"TODO\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.siimkinks.sqlitemagic.sample.SampleApp\" android:debuggable=\"true\" android:allowBackup=\"true\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:theme=\"resourceId:0x7f0f0008\" android:label=\"TODO\" android:name=\"com.siimkinks.sqlitemagic.sample.ui.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0f0008\" android:label=\"ListActivity\" android:name=\"com.siimkinks.sqlitemagic.sample.ui.ListActivity\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 1728414,
-  "crc32" : 2138039974,
-  "sha256" : "3164310176b8d3b2e5d9c9e0b5494070621310b2015abbc15a13d8d6bf1a2a85",
-  "buildTime" : 1547984975000
+  "fileSize" : 1728350,
+  "crc32" : 2283680174,
+  "sha256" : "fd63f8b16c6291324305b10326eab19996f69be30235196064d202c41930104b",
+  "buildTime" : 1555162744000
 }
