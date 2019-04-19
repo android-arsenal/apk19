@@ -1,33 +1,37 @@
-2018-10-16 14:02:20,149 INFO  DownloadService - Downloading "https://github.com/rameshvoltella/WoocommerceAndroidOAuth1/archive/master.zip", attempt 3
-2018-10-16 14:02:21,012 INFO  DownloadService - Downloaded https://github.com/rameshvoltella/WoocommerceAndroidOAuth1/archive/master.zip, attempt 3
-2018-10-16 14:02:21,012 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/master.zip": 137 KB
-2018-10-16 14:02:21,012 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-16 14:02:21,018 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/master.zip: true
-2018-10-16 14:02:21,018 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src'.
-2018-10-16 14:02:21,045 INFO  FullProcessService - Size of directory with sources: 355 KB
-2018-10-16 14:02:21,045 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src]
-2018-10-16 14:02:21,062 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/.git/
+2019-04-18 16:52:59,076 INFO  DownloadService - Downloading "https://github.com/rameshvoltella/WoocommerceAndroidOAuth1/archive/master.zip", attempt 3
+2019-04-18 16:53:59,959 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 16:54:01,495 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 16:54:01,496 INFO  DownloadService - Downloading "https://github.com/rameshvoltella/WoocommerceAndroidOAuth1/archive/master.zip", attempt 3
+2019-04-18 16:59:13,553 DEBUG FullProcessService - Repository https://github.com/rameshvoltella/WoocommerceAndroidOAuth1 available: true
+2019-04-18 16:59:13,553 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 16:59:13,553 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/rameshvoltella/WoocommerceAndroidOAuth1, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src]
+2019-04-18 16:59:15,791 INFO  SysUtils - 
+2019-04-18 16:59:15,799 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/.git": true
+2019-04-18 16:59:15,803 INFO  FullProcessService - Size of directory with sources: 355 KB
+2019-04-18 16:59:15,803 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src]
+2019-04-18 16:59:15,819 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/.git/
 
-2018-10-16 14:02:21,065 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/gradlew
-2018-10-16 14:02:21,068 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/woocommerseandroidoauth1library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/build.gradle
-2018-10-16 14:02:21,071 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/woocommerseandroidoauth1library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/settings.gradle
-2018-10-16 14:02:21,072 INFO  ProjectBuildService - Remote scripts: none
-2018-10-16 14:02:21,072 INFO  ProjectFixService - Fixing project...
-2018-10-16 14:02:21,079 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/app/local.properties
-2018-10-16 14:02:21,079 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=8,targetSdkVersion=24]
-2018-10-16 14:02:21,079 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/woocommerseandroidoauth1library/local.properties
-2018-10-16 14:02:21,080 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/woocommerseandroidoauth1library/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=8,targetSdkVersion=24]
-2018-10-16 14:02:21,080 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/local.properties
-2018-10-16 14:02:21,081 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-10-16 14:02:21,081 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-10-16 14:02:21,082 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=8,targetSdkVersion=24]
-2018-10-16 14:02:21,082 INFO  ProjectFixService - Project was maybe fixed
-2018-10-16 14:02:21,082 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 14:02:21,082 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 14:02:27,646 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-10-16 14:02:27,646 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-16 14:02:27,646 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-16 14:02:38,677 ERROR SysUtils - Could not process external command
+2019-04-18 16:59:15,823 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/gradlew
+2019-04-18 16:59:15,827 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/woocommerseandroidoauth1library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/build.gradle
+2019-04-18 16:59:15,831 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/woocommerseandroidoauth1library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/settings.gradle
+2019-04-18 16:59:15,831 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 16:59:15,831 INFO  ProjectFixService - Fixing project...
+2019-04-18 16:59:15,839 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/app/local.properties
+2019-04-18 16:59:15,840 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=8,targetSdkVersion=24]
+2019-04-18 16:59:15,840 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/woocommerseandroidoauth1library/local.properties
+2019-04-18 16:59:15,840 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/woocommerseandroidoauth1library/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=8,targetSdkVersion=24]
+2019-04-18 16:59:15,840 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/local.properties
+2019-04-18 16:59:15,841 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-04-18 16:59:15,841 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-04-18 16:59:15,842 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=8,targetSdkVersion=24]
+2019-04-18 16:59:15,842 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 16:59:15,842 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 16:59:15,842 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 16:59:24,071 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 16:59:24,071 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 16:59:24,071 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 16:59:24,072 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 16:59:28,422 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -40,8 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -55,128 +58,47 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 14:02:38,677 INFO  SysUtils - Configuration on demand is an incubating feature.
-Incremental java compilation is an incubating feature.
-:app:preBuild UP-TO-DATE
-:app:preDebugBuild UP-TO-DATE
-:app:checkDebugManifest
-:app:preReleaseBuild UP-TO-DATE
-:woocommerseandroidoauth1library:preBuild UP-TO-DATE
-:woocommerseandroidoauth1library:preReleaseBuild UP-TO-DATE
-:woocommerseandroidoauth1library:compileReleaseNdk UP-TO-DATE
-:woocommerseandroidoauth1library:compileLint
-:woocommerseandroidoauth1library:copyReleaseLint UP-TO-DATE
-:woocommerseandroidoauth1library:checkReleaseManifest
-:woocommerseandroidoauth1library:preDebugAndroidTestBuild UP-TO-DATE
-:woocommerseandroidoauth1library:preDebugBuild UP-TO-DATE
-:woocommerseandroidoauth1library:preDebugUnitTestBuild UP-TO-DATE
-:woocommerseandroidoauth1library:preReleaseUnitTestBuild UP-TO-DATE
-:woocommerseandroidoauth1library:prepareComAndroidSupportAnimatedVectorDrawable2421Library
-:woocommerseandroidoauth1library:prepareComAndroidSupportAppcompatV72421Library
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportCompat2421Library
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportCoreUi2421Library
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportCoreUtils2421Library
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportFragment2421Library
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportMediaCompat2421Library
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportV42421Library
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportVectorDrawable2421Library
-:woocommerseandroidoauth1library:prepareReleaseDependencies
-:woocommerseandroidoauth1library:compileReleaseAidl
-:woocommerseandroidoauth1library:compileReleaseRenderscript
-:woocommerseandroidoauth1library:generateReleaseBuildConfig
-:woocommerseandroidoauth1library:mergeReleaseShaders
-:woocommerseandroidoauth1library:compileReleaseShaders
-:woocommerseandroidoauth1library:generateReleaseAssets
-:woocommerseandroidoauth1library:mergeReleaseAssets
-:woocommerseandroidoauth1library:generateReleaseResValues
-:woocommerseandroidoauth1library:generateReleaseResources
-:woocommerseandroidoauth1library:mergeReleaseResources
-:woocommerseandroidoauth1library:processReleaseManifest
-:woocommerseandroidoauth1library:processReleaseResources
-:woocommerseandroidoauth1library:generateReleaseSources
-:woocommerseandroidoauth1library:incrementalReleaseJavaCompilationSafeguard
-:woocommerseandroidoauth1library:compileReleaseJavaWithJavac
-:woocommerseandroidoauth1library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-:woocommerseandroidoauth1library:extractReleaseAnnotations
-:woocommerseandroidoauth1library:mergeReleaseProguardFiles
-:woocommerseandroidoauth1library:packageReleaseRenderscript UP-TO-DATE
-:woocommerseandroidoauth1library:packageReleaseResources
-:woocommerseandroidoauth1library:processReleaseJavaRes UP-TO-DATE
-:woocommerseandroidoauth1library:transformResourcesWithMergeJavaResForRelease
-:woocommerseandroidoauth1library:transformClassesAndResourcesWithSyncLibJarsForRelease
-:woocommerseandroidoauth1library:mergeReleaseJniLibFolders
-:woocommerseandroidoauth1library:transformNative_libsWithMergeJniLibsForRelease
-:woocommerseandroidoauth1library:transformNative_libsWithSyncJniLibsForRelease
-:woocommerseandroidoauth1library:bundleRelease
-:app:prepareComAndroidSupportAnimatedVectorDrawable2421Library
-:app:prepareComAndroidSupportAppcompatV72421Library
-:app:prepareComAndroidSupportSupportCompat2421Library
-:app:prepareComAndroidSupportSupportCoreUi2421Library
-:app:prepareComAndroidSupportSupportCoreUtils2421Library
-:app:prepareComAndroidSupportSupportFragment2421Library
-:app:prepareComAndroidSupportSupportMediaCompat2421Library
-:app:prepareComAndroidSupportSupportV42421Library
-:app:prepareComAndroidSupportSupportVectorDrawable2421Library
-:app:prepareWoocommerceAndroidOAuth1MasterWoocommerseandroidoauth1libraryUnspecifiedLibrary
-:app:prepareDebugDependencies
-:app:compileDebugAidl
-:app:compileDebugRenderscript
-:app:generateDebugBuildConfig
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:app:mergeDebugAssets
-:app:generateDebugResValues
-:app:generateDebugResources
-:app:mergeDebugResources
-:app:processDebugManifest/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/app/src/main/AndroidManifest.xml Error:
-	uses-sdk:minSdkVersion 8 cannot be smaller than version 9 declared in library [com.android.support:appcompat-v7:24.2.1] /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml
-	Suggestion: use tools:overrideLibrary="android.support.v7.appcompat" to force usage
-
-
-See http://g.co/androidstudio/manifest-merger for more information about the manifest merger.
-
-:app:processDebugManifest FAILED
+2019-04-18 16:59:28,422 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Execution failed for task ':app:processDebugManifest'.
-> Manifest merger failed : uses-sdk:minSdkVersion 8 cannot be smaller than version 9 declared in library [com.android.support:appcompat-v7:24.2.1] /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml
-  	Suggestion: use tools:overrideLibrary="android.support.v7.appcompat" to force usage
+A problem occurred configuring project ':app'.
+> A problem occurred configuring project ':woocommerseandroidoauth1library'.
+   > Could not find support-compat.aar (com.android.support:support-compat:24.2.1).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/support/support-compat/24.2.1/support-compat-24.2.1.aar
 
 * Try:
 Run with --info or --debug option to get more log output.
 
 * Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:processDebugManifest'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
-	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
-	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
-	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
-	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
-	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':app'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:74)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:90)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:42)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:143)
 	at org.gradle.internal.Factories$1.create(Factories.java:22)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:140)
 	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
 	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
 	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
@@ -211,32 +133,131 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:pro
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.lang.RuntimeException: Manifest merger failed : uses-sdk:minSdkVersion 8 cannot be smaller than version 9 declared in library [com.android.support:appcompat-v7:24.2.1] /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml
-	Suggestion: use tools:overrideLibrary="android.support.v7.appcompat" to force usage
-	at com.android.builder.core.AndroidBuilder.mergeManifests(AndroidBuilder.java:686)
-	at com.android.build.gradle.tasks.MergeManifests.doFullTaskAction(MergeManifests.java:65)
-	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.java:82)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:244)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:231)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
-	... 60 more
+Caused by: org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':woocommerseandroidoauth1library'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:74)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
+	at org.gradle.api.internal.project.AbstractProject.evaluationDependsOn(AbstractProject.java:578)
+	at org.gradle.api.internal.project.AbstractProject.evaluationDependsOn(AbstractProject.java:570)
+	at com.android.build.gradle.internal.DependencyManager.ensureConfigured(DependencyManager.java:724)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencyForConfig(DependencyManager.java:240)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencies(DependencyManager.java:139)
+	at com.android.build.gradle.internal.TaskManager.resolveDependencies(TaskManager.java:356)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:597)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:594)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:51)
+	at com.android.build.gradle.internal.VariantManager.createVariantData(VariantManager.java:593)
+	at com.android.build.gradle.internal.VariantManager.createVariantDataForProductFlavors(VariantManager.java:750)
+	at com.android.build.gradle.internal.VariantManager.populateVariantDataList(VariantManager.java:459)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:263)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:260)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:259)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:657)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:654)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:653)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:572)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:569)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:568)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:565)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
+	... 57 more
+Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find support-compat.aar (com.android.support:support-compat:24.2.1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-compat/24.2.1/support-compat-24.2.1.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:38)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:260)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:244)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:54)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:82)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:116)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:63)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:98)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$3.execute(ContextualArtifactResolver.java:61)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$3.execute(ContextualArtifactResolver.java:59)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:137)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:61)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$4.run(ContextualArtifactResolver.java:69)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:192)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:175)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.useCache(DefaultPersistentDirectoryStore.java:106)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.useCache(DefaultCacheFactory.java:187)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.useCache(DefaultCacheLockingManager.java:64)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver.executeInContext(ContextualArtifactResolver.java:67)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver.resolveArtifact(ContextualArtifactResolver.java:59)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:53)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:93)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:80)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:90)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:911)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:855)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:855)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencyForConfig(DependencyManager.java:276)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencies(DependencyManager.java:139)
+	at com.android.build.gradle.internal.TaskManager.resolveDependencies(TaskManager.java:356)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:597)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:594)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:51)
+	at com.android.build.gradle.internal.VariantManager.createVariantData(VariantManager.java:593)
+	at com.android.build.gradle.internal.VariantManager.createVariantDataForProductFlavors(VariantManager.java:750)
+	at com.android.build.gradle.internal.VariantManager.populateVariantDataList(VariantManager.java:459)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:263)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:260)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:259)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:657)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:654)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:653)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:572)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:569)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:568)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:565)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
+	... 97 more
 
 
 BUILD FAILED
 
-Total time: 10.522 secs
+Total time: 3.847 secs
 
-2018-10-16 14:02:38,745 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 14:02:38,745 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/woocommerseandroidoauth1library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 14:02:44,767 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-16 14:02:44,768 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-16 14:02:44,768 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-16 14:02:44,768 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/woocommerseandroidoauth1library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-16 14:02:53,932 ERROR SysUtils - Could not process external command
+2019-04-18 16:59:28,427 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 16:59:28,427 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/woocommerseandroidoauth1library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 16:59:32,858 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 16:59:32,858 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 16:59:32,858 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 16:59:32,859 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/woocommerseandroidoauth1library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 16:59:37,667 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -249,8 +270,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -264,130 +284,46 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 14:02:53,933 INFO  SysUtils - Configuration on demand is an incubating feature.
-Incremental java compilation is an incubating feature.
-:woocommerseandroidoauth1library:preBuild UP-TO-DATE
-:woocommerseandroidoauth1library:preDebugBuild UP-TO-DATE
-:woocommerseandroidoauth1library:compileDebugNdk UP-TO-DATE
-:woocommerseandroidoauth1library:compileLint
-:woocommerseandroidoauth1library:copyDebugLint UP-TO-DATE
-:woocommerseandroidoauth1library:checkDebugManifest
-:woocommerseandroidoauth1library:preDebugAndroidTestBuild UP-TO-DATE
-:woocommerseandroidoauth1library:preDebugUnitTestBuild UP-TO-DATE
-:woocommerseandroidoauth1library:preReleaseBuild UP-TO-DATE
-:woocommerseandroidoauth1library:preReleaseUnitTestBuild UP-TO-DATE
-:woocommerseandroidoauth1library:prepareComAndroidSupportAnimatedVectorDrawable2421Library UP-TO-DATE
-:woocommerseandroidoauth1library:prepareComAndroidSupportAppcompatV72421Library UP-TO-DATE
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportCompat2421Library UP-TO-DATE
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportCoreUi2421Library UP-TO-DATE
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportCoreUtils2421Library UP-TO-DATE
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportFragment2421Library UP-TO-DATE
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportMediaCompat2421Library UP-TO-DATE
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportV42421Library UP-TO-DATE
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportVectorDrawable2421Library UP-TO-DATE
-:woocommerseandroidoauth1library:prepareDebugDependencies
-:woocommerseandroidoauth1library:compileDebugAidl
-:woocommerseandroidoauth1library:compileDebugRenderscript
-:woocommerseandroidoauth1library:generateDebugBuildConfig
-:woocommerseandroidoauth1library:mergeDebugShaders
-:woocommerseandroidoauth1library:compileDebugShaders
-:woocommerseandroidoauth1library:generateDebugAssets
-:woocommerseandroidoauth1library:mergeDebugAssets
-:woocommerseandroidoauth1library:generateDebugResValues
-:woocommerseandroidoauth1library:generateDebugResources
-:woocommerseandroidoauth1library:mergeDebugResources
-:woocommerseandroidoauth1library:processDebugManifest
-:woocommerseandroidoauth1library:processDebugResources
-:woocommerseandroidoauth1library:generateDebugSources
-:woocommerseandroidoauth1library:incrementalDebugJavaCompilationSafeguard
-:woocommerseandroidoauth1library:compileDebugJavaWithJavac
-:woocommerseandroidoauth1library:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-:woocommerseandroidoauth1library:extractDebugAnnotations
-:woocommerseandroidoauth1library:mergeDebugProguardFiles
-:woocommerseandroidoauth1library:packageDebugRenderscript UP-TO-DATE
-:woocommerseandroidoauth1library:packageDebugResources
-:woocommerseandroidoauth1library:processDebugJavaRes UP-TO-DATE
-:woocommerseandroidoauth1library:transformResourcesWithMergeJavaResForDebug
-:woocommerseandroidoauth1library:transformClassesAndResourcesWithSyncLibJarsForDebug
-:woocommerseandroidoauth1library:mergeDebugJniLibFolders
-:woocommerseandroidoauth1library:transformNative_libsWithMergeJniLibsForDebug
-:woocommerseandroidoauth1library:transformNative_libsWithSyncJniLibsForDebug
-:woocommerseandroidoauth1library:bundleDebug
-:woocommerseandroidoauth1library:compileDebugSources
-:woocommerseandroidoauth1library:assembleDebug
-:woocommerseandroidoauth1library:compileReleaseNdk UP-TO-DATE
-:woocommerseandroidoauth1library:copyReleaseLint UP-TO-DATE
-:woocommerseandroidoauth1library:checkReleaseManifest
-:woocommerseandroidoauth1library:prepareReleaseDependencies
-:woocommerseandroidoauth1library:compileReleaseAidl UP-TO-DATE
-:woocommerseandroidoauth1library:compileReleaseRenderscript UP-TO-DATE
-:woocommerseandroidoauth1library:generateReleaseBuildConfig UP-TO-DATE
-:woocommerseandroidoauth1library:mergeReleaseShaders UP-TO-DATE
-:woocommerseandroidoauth1library:compileReleaseShaders UP-TO-DATE
-:woocommerseandroidoauth1library:generateReleaseAssets UP-TO-DATE
-:woocommerseandroidoauth1library:mergeReleaseAssets UP-TO-DATE
-:woocommerseandroidoauth1library:generateReleaseResValues UP-TO-DATE
-:woocommerseandroidoauth1library:generateReleaseResources UP-TO-DATE
-:woocommerseandroidoauth1library:mergeReleaseResources UP-TO-DATE
-:woocommerseandroidoauth1library:processReleaseManifest UP-TO-DATE
-:woocommerseandroidoauth1library:processReleaseResources UP-TO-DATE
-:woocommerseandroidoauth1library:generateReleaseSources UP-TO-DATE
-:woocommerseandroidoauth1library:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
-:woocommerseandroidoauth1library:compileReleaseJavaWithJavac UP-TO-DATE
-:woocommerseandroidoauth1library:extractReleaseAnnotations UP-TO-DATE
-:woocommerseandroidoauth1library:mergeReleaseProguardFiles UP-TO-DATE
-:woocommerseandroidoauth1library:packageReleaseRenderscript UP-TO-DATE
-:woocommerseandroidoauth1library:packageReleaseResources UP-TO-DATE
-:woocommerseandroidoauth1library:processReleaseJavaRes UP-TO-DATE
-:woocommerseandroidoauth1library:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
-:woocommerseandroidoauth1library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
-:woocommerseandroidoauth1library:mergeReleaseJniLibFolders UP-TO-DATE
-:woocommerseandroidoauth1library:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
-:woocommerseandroidoauth1library:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
-:woocommerseandroidoauth1library:bundleRelease UP-TO-DATE
-:woocommerseandroidoauth1library:compileReleaseSources UP-TO-DATE
-:woocommerseandroidoauth1library:assembleRelease UP-TO-DATE
-:woocommerseandroidoauth1library:assemble
-:woocommerseandroidoauth1library:lint FAILED
+2019-04-18 16:59:37,667 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Execution failed for task ':woocommerseandroidoauth1library:lint'.
-> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+A problem occurred configuring project ':woocommerseandroidoauth1library'.
+> Could not find support-compat.aar (com.android.support:support-compat:24.2.1).
+  Searched in the following locations:
+      https://jcenter.bintray.com/com/android/support/support-compat/24.2.1/support-compat-24.2.1.aar
 
 * Try:
 Run with --info or --debug option to get more log output.
 
 * Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':woocommerseandroidoauth1library:lint'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
-	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
-	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
-	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
-	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
-	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':woocommerseandroidoauth1library'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:74)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:90)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:42)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:143)
 	at org.gradle.internal.Factories$1.create(Factories.java:22)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:140)
 	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
 	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
 	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
@@ -422,36 +358,87 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':woocomm
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
-	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:375)
-	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:273)
-	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:461)
-	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
-	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
-	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
-	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
-	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
-	... 60 more
+Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find support-compat.aar (com.android.support:support-compat:24.2.1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-compat/24.2.1/support-compat-24.2.1.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:38)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:260)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:244)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:54)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:82)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:116)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:63)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:98)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$3.execute(ContextualArtifactResolver.java:61)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$3.execute(ContextualArtifactResolver.java:59)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:137)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:61)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$4.run(ContextualArtifactResolver.java:69)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:192)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:175)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.useCache(DefaultPersistentDirectoryStore.java:106)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.useCache(DefaultCacheFactory.java:187)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.useCache(DefaultCacheLockingManager.java:64)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver.executeInContext(ContextualArtifactResolver.java:67)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver.resolveArtifact(ContextualArtifactResolver.java:59)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:53)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:93)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:80)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:90)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:911)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:855)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:855)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencyForConfig(DependencyManager.java:276)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencies(DependencyManager.java:139)
+	at com.android.build.gradle.internal.TaskManager.resolveDependencies(TaskManager.java:356)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:597)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:594)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:51)
+	at com.android.build.gradle.internal.VariantManager.createVariantData(VariantManager.java:593)
+	at com.android.build.gradle.internal.VariantManager.createVariantDataForProductFlavors(VariantManager.java:750)
+	at com.android.build.gradle.internal.VariantManager.populateVariantDataList(VariantManager.java:459)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:263)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:260)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:259)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:657)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:654)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:653)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:572)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:569)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:568)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:565)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
+	... 57 more
 
 
 BUILD FAILED
 
-Total time: 8.645 secs
+Total time: 4.302 secs
 
-2018-10-16 14:02:54,013 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 14:02:54,013 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 14:03:00,688 INFO  ProjectTaskService - Detected possible tasks: 72
-2018-10-16 14:03:00,688 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-16 14:03:00,688 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-16 14:03:07,479 ERROR SysUtils - Could not process external command
+2019-04-18 16:59:37,670 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 16:59:37,670 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 16:59:41,969 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 16:59:41,969 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 16:59:41,969 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 16:59:41,969 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581179074-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 16:59:46,121 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -464,8 +451,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -479,127 +465,47 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 14:03:07,480 INFO  SysUtils - Configuration on demand is an incubating feature.
-Incremental java compilation is an incubating feature.
-:app:preBuild UP-TO-DATE
-:app:preDebugBuild UP-TO-DATE
-:app:checkDebugManifest
-:app:preReleaseBuild UP-TO-DATE
-:woocommerseandroidoauth1library:preBuild UP-TO-DATE
-:woocommerseandroidoauth1library:preReleaseBuild UP-TO-DATE
-:woocommerseandroidoauth1library:compileReleaseNdk UP-TO-DATE
-:woocommerseandroidoauth1library:compileLint
-:woocommerseandroidoauth1library:copyReleaseLint UP-TO-DATE
-:woocommerseandroidoauth1library:checkReleaseManifest
-:woocommerseandroidoauth1library:preDebugAndroidTestBuild UP-TO-DATE
-:woocommerseandroidoauth1library:preDebugBuild UP-TO-DATE
-:woocommerseandroidoauth1library:preDebugUnitTestBuild UP-TO-DATE
-:woocommerseandroidoauth1library:preReleaseUnitTestBuild UP-TO-DATE
-:woocommerseandroidoauth1library:prepareComAndroidSupportAnimatedVectorDrawable2421Library UP-TO-DATE
-:woocommerseandroidoauth1library:prepareComAndroidSupportAppcompatV72421Library UP-TO-DATE
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportCompat2421Library UP-TO-DATE
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportCoreUi2421Library UP-TO-DATE
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportCoreUtils2421Library UP-TO-DATE
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportFragment2421Library UP-TO-DATE
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportMediaCompat2421Library UP-TO-DATE
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportV42421Library UP-TO-DATE
-:woocommerseandroidoauth1library:prepareComAndroidSupportSupportVectorDrawable2421Library UP-TO-DATE
-:woocommerseandroidoauth1library:prepareReleaseDependencies
-:woocommerseandroidoauth1library:compileReleaseAidl UP-TO-DATE
-:woocommerseandroidoauth1library:compileReleaseRenderscript UP-TO-DATE
-:woocommerseandroidoauth1library:generateReleaseBuildConfig UP-TO-DATE
-:woocommerseandroidoauth1library:mergeReleaseShaders UP-TO-DATE
-:woocommerseandroidoauth1library:compileReleaseShaders UP-TO-DATE
-:woocommerseandroidoauth1library:generateReleaseAssets UP-TO-DATE
-:woocommerseandroidoauth1library:mergeReleaseAssets UP-TO-DATE
-:woocommerseandroidoauth1library:generateReleaseResValues UP-TO-DATE
-:woocommerseandroidoauth1library:generateReleaseResources UP-TO-DATE
-:woocommerseandroidoauth1library:mergeReleaseResources UP-TO-DATE
-:woocommerseandroidoauth1library:processReleaseManifest UP-TO-DATE
-:woocommerseandroidoauth1library:processReleaseResources UP-TO-DATE
-:woocommerseandroidoauth1library:generateReleaseSources UP-TO-DATE
-:woocommerseandroidoauth1library:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
-:woocommerseandroidoauth1library:compileReleaseJavaWithJavac UP-TO-DATE
-:woocommerseandroidoauth1library:extractReleaseAnnotations UP-TO-DATE
-:woocommerseandroidoauth1library:mergeReleaseProguardFiles UP-TO-DATE
-:woocommerseandroidoauth1library:packageReleaseRenderscript UP-TO-DATE
-:woocommerseandroidoauth1library:packageReleaseResources UP-TO-DATE
-:woocommerseandroidoauth1library:processReleaseJavaRes UP-TO-DATE
-:woocommerseandroidoauth1library:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
-:woocommerseandroidoauth1library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
-:woocommerseandroidoauth1library:mergeReleaseJniLibFolders UP-TO-DATE
-:woocommerseandroidoauth1library:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
-:woocommerseandroidoauth1library:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
-:woocommerseandroidoauth1library:bundleRelease UP-TO-DATE
-:app:prepareComAndroidSupportAnimatedVectorDrawable2421Library UP-TO-DATE
-:app:prepareComAndroidSupportAppcompatV72421Library UP-TO-DATE
-:app:prepareComAndroidSupportSupportCompat2421Library UP-TO-DATE
-:app:prepareComAndroidSupportSupportCoreUi2421Library UP-TO-DATE
-:app:prepareComAndroidSupportSupportCoreUtils2421Library UP-TO-DATE
-:app:prepareComAndroidSupportSupportFragment2421Library UP-TO-DATE
-:app:prepareComAndroidSupportSupportMediaCompat2421Library UP-TO-DATE
-:app:prepareComAndroidSupportSupportV42421Library UP-TO-DATE
-:app:prepareComAndroidSupportSupportVectorDrawable2421Library UP-TO-DATE
-:app:prepareWoocommerceAndroidOAuth1MasterWoocommerseandroidoauth1libraryUnspecifiedLibrary UP-TO-DATE
-:app:prepareDebugDependencies
-:app:compileDebugAidl UP-TO-DATE
-:app:compileDebugRenderscript UP-TO-DATE
-:app:generateDebugBuildConfig UP-TO-DATE
-:app:mergeDebugShaders UP-TO-DATE
-:app:compileDebugShaders UP-TO-DATE
-:app:generateDebugAssets UP-TO-DATE
-:app:mergeDebugAssets UP-TO-DATE
-:app:generateDebugResValues UP-TO-DATE
-:app:generateDebugResources UP-TO-DATE
-:app:mergeDebugResources UP-TO-DATE
-:app:processDebugManifest/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/app/src/main/AndroidManifest.xml Error:
-	uses-sdk:minSdkVersion 8 cannot be smaller than version 9 declared in library [com.android.support:appcompat-v7:24.2.1] /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml
-	Suggestion: use tools:overrideLibrary="android.support.v7.appcompat" to force usage
-
-
-See http://g.co/androidstudio/manifest-merger for more information about the manifest merger.
-
-:app:processDebugManifest FAILED
+2019-04-18 16:59:46,121 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Execution failed for task ':app:processDebugManifest'.
-> Manifest merger failed : uses-sdk:minSdkVersion 8 cannot be smaller than version 9 declared in library [com.android.support:appcompat-v7:24.2.1] /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml
-  	Suggestion: use tools:overrideLibrary="android.support.v7.appcompat" to force usage
+A problem occurred configuring project ':app'.
+> A problem occurred configuring project ':woocommerseandroidoauth1library'.
+   > Could not find support-compat.aar (com.android.support:support-compat:24.2.1).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/support/support-compat/24.2.1/support-compat-24.2.1.aar
 
 * Try:
 Run with --info or --debug option to get more log output.
 
 * Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:processDebugManifest'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
-	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
-	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
-	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
-	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
-	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':app'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:74)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:90)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:47)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:143)
 	at org.gradle.internal.Factories$1.create(Factories.java:22)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:140)
 	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
 	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
 	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
@@ -634,24 +540,123 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:pro
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.lang.RuntimeException: Manifest merger failed : uses-sdk:minSdkVersion 8 cannot be smaller than version 9 declared in library [com.android.support:appcompat-v7:24.2.1] /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673340145-0/src/WoocommerceAndroidOAuth1-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml
-	Suggestion: use tools:overrideLibrary="android.support.v7.appcompat" to force usage
-	at com.android.builder.core.AndroidBuilder.mergeManifests(AndroidBuilder.java:686)
-	at com.android.build.gradle.tasks.MergeManifests.doFullTaskAction(MergeManifests.java:65)
-	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.java:82)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:244)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:231)
-	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
-	... 60 more
+Caused by: org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':woocommerseandroidoauth1library'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:74)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
+	at org.gradle.api.internal.project.AbstractProject.evaluationDependsOn(AbstractProject.java:578)
+	at org.gradle.api.internal.project.AbstractProject.evaluationDependsOn(AbstractProject.java:570)
+	at com.android.build.gradle.internal.DependencyManager.ensureConfigured(DependencyManager.java:724)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencyForConfig(DependencyManager.java:240)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencies(DependencyManager.java:139)
+	at com.android.build.gradle.internal.TaskManager.resolveDependencies(TaskManager.java:356)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:597)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:594)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:51)
+	at com.android.build.gradle.internal.VariantManager.createVariantData(VariantManager.java:593)
+	at com.android.build.gradle.internal.VariantManager.createVariantDataForProductFlavors(VariantManager.java:750)
+	at com.android.build.gradle.internal.VariantManager.populateVariantDataList(VariantManager.java:459)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:263)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:260)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:259)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:657)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:654)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:653)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:572)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:569)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:568)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:565)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
+	... 57 more
+Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find support-compat.aar (com.android.support:support-compat:24.2.1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-compat/24.2.1/support-compat-24.2.1.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:38)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:260)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:244)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:54)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:82)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:116)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:63)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:98)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$3.execute(ContextualArtifactResolver.java:61)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$3.execute(ContextualArtifactResolver.java:59)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:137)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:61)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver$4.run(ContextualArtifactResolver.java:69)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:192)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:175)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.useCache(DefaultPersistentDirectoryStore.java:106)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.useCache(DefaultCacheFactory.java:187)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.useCache(DefaultCacheLockingManager.java:64)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver.executeInContext(ContextualArtifactResolver.java:67)
+	at org.gradle.api.internal.artifacts.ivyservice.ContextualArtifactResolver.resolveArtifact(ContextualArtifactResolver.java:59)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:53)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:93)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:80)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:90)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:911)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:855)
+	at com.android.build.gradle.internal.DependencyManager.addDependency(DependencyManager.java:855)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencyForConfig(DependencyManager.java:276)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencies(DependencyManager.java:139)
+	at com.android.build.gradle.internal.TaskManager.resolveDependencies(TaskManager.java:356)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:597)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:594)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:51)
+	at com.android.build.gradle.internal.VariantManager.createVariantData(VariantManager.java:593)
+	at com.android.build.gradle.internal.VariantManager.createVariantDataForProductFlavors(VariantManager.java:750)
+	at com.android.build.gradle.internal.VariantManager.populateVariantDataList(VariantManager.java:459)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:263)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:260)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:259)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:657)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:654)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:653)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:572)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:569)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:568)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:565)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
+	... 97 more
 
 
 BUILD FAILED
 
-Total time: 6.279 secs
+Total time: 3.645 secs
 
-2018-10-16 14:03:07,560 ERROR FullProcessService - Project build has not produced APK file
-2018-10-16 14:03:07,641 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-18 16:59:46,126 ERROR FullProcessService - Project build has not produced APK file
+2019-04-18 16:59:46,131 ERROR FullProcessService - Could not find generated or existed APK file

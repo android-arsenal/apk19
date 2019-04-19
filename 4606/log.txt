@@ -1,32 +1,35 @@
-2018-10-16 14:09:48,392 INFO  DownloadService - Downloading "https://github.com/andremion/Villains-and-Heroes/archive/master.zip", attempt 3
-2018-10-16 14:10:21,572 INFO  DownloadService - Downloaded https://github.com/andremion/Villains-and-Heroes/archive/master.zip, attempt 3
-2018-10-16 14:10:21,572 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/master.zip": 24 MB
-2018-10-16 14:10:21,572 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-16 14:10:21,575 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/master.zip: true
-2018-10-16 14:10:21,576 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src'.
-2018-10-16 14:10:21,835 INFO  FullProcessService - Size of directory with sources: 25 MB
-2018-10-16 14:10:21,835 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src]
-2018-10-16 14:10:21,854 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/.git/
+2019-04-18 17:21:42,805 INFO  DownloadService - Downloading "https://github.com/andremion/Villains-and-Heroes/archive/master.zip", attempt 3
+2019-04-18 17:22:43,687 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 17:22:44,823 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 17:22:44,823 INFO  DownloadService - Downloading "https://github.com/andremion/Villains-and-Heroes/archive/master.zip", attempt 3
+2019-04-18 17:23:46,786 DEBUG FullProcessService - Repository https://github.com/andremion/Villains-and-Heroes available: true
+2019-04-18 17:23:46,786 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 17:23:46,786 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/andremion/Villains-and-Heroes, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src]
+2019-04-18 17:24:12,916 INFO  SysUtils - 
+2019-04-18 17:24:12,928 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/.git": true
+2019-04-18 17:24:12,934 INFO  FullProcessService - Size of directory with sources: 25 MB
+2019-04-18 17:24:12,934 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src]
+2019-04-18 17:24:12,951 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/.git/
 
-2018-10-16 14:10:21,858 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/gradlew
-2018-10-16 14:10:21,863 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/build.gradle
-2018-10-16 14:10:21,867 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/settings.gradle
-2018-10-16 14:10:21,868 INFO  ProjectBuildService - Remote scripts: none
-2018-10-16 14:10:21,868 INFO  ProjectFixService - Fixing project...
-2018-10-16 14:10:21,877 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/app/local.properties
-2018-10-16 14:10:21,878 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-10-16 14:10:21,878 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/local.properties
-2018-10-16 14:10:21,879 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-10-16 14:10:21,879 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-10-16 14:10:21,879 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-10-16 14:10:21,880 INFO  ProjectFixService - Project was maybe fixed
-2018-10-16 14:10:21,880 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 14:10:21,880 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 14:10:28,457 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-16 14:10:28,457 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-16 14:10:28,457 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-16 14:10:28,457 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-16 14:10:33,308 ERROR SysUtils - Could not process external command
+2019-04-18 17:24:12,956 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/gradlew
+2019-04-18 17:24:12,961 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/build.gradle
+2019-04-18 17:24:12,965 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/settings.gradle
+2019-04-18 17:24:12,966 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 17:24:12,966 INFO  ProjectFixService - Fixing project...
+2019-04-18 17:24:12,975 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/app/local.properties
+2019-04-18 17:24:12,975 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-04-18 17:24:12,976 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/local.properties
+2019-04-18 17:24:12,976 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-04-18 17:24:12,976 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-04-18 17:24:12,977 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-04-18 17:24:12,977 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 17:24:12,977 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 17:24:12,977 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 17:24:18,736 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 17:24:18,736 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 17:24:18,736 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 17:24:18,736 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 17:24:23,785 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -39,7 +42,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -53,12 +56,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 14:10:33,308 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 17:24:23,785 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/app/build.gradle' line: 32
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/app/build.gradle' line: 32
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -142,22 +145,22 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:62)
 	at org.gradle.groovy.scripts.BasicScript.propertyMissing(BasicScript.java:70)
 	at org.gradle.groovy.scripts.Script.getProperty(Script.java:56)
-	at build_3d8dq0plbwe7l9mu8mrmezndk.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/app/build.gradle:32)
+	at build_7cewgqmxdlbvpmzggsv0l6ffp.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/app/build.gradle:32)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 67 more
 
 
 BUILD FAILED
 
-Total time: 4.601 secs
+Total time: 4.761 secs
 
-2018-10-16 14:10:33,314 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 14:10:33,314 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 14:10:38,418 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-16 14:10:38,418 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-16 14:10:38,418 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-16 14:10:38,418 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-16 14:10:43,529 ERROR SysUtils - Could not process external command
+2019-04-18 17:24:23,792 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 17:24:23,792 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 17:24:28,729 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 17:24:28,729 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 17:24:28,729 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 17:24:28,729 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 17:24:33,740 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -170,7 +173,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -184,12 +187,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 14:10:43,529 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 17:24:33,741 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/app/build.gradle' line: 32
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/app/build.gradle' line: 32
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -273,14 +276,14 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:62)
 	at org.gradle.groovy.scripts.BasicScript.propertyMissing(BasicScript.java:70)
 	at org.gradle.groovy.scripts.Script.getProperty(Script.java:56)
-	at build_3d8dq0plbwe7l9mu8mrmezndk.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673788389-0/src/Villains-and-Heroes-master/app/build.gradle:32)
+	at build_7cewgqmxdlbvpmzggsv0l6ffp.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582902801-0/src/app/build.gradle:32)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 67 more
 
 
 BUILD FAILED
 
-Total time: 4.845 secs
+Total time: 4.713 secs
 
-2018-10-16 14:10:43,534 ERROR FullProcessService - Project build has not produced APK file
-2018-10-16 14:10:43,538 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-18 17:24:33,747 ERROR FullProcessService - Project build has not produced APK file
+2019-04-18 17:24:33,754 ERROR FullProcessService - Could not find generated or existed APK file

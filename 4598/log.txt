@@ -1,34 +1,37 @@
-2018-10-16 22:37:53,049 INFO  DownloadService - Downloading "https://github.com/kevalpatel2106/Prevent-Screen-Off/archive/master.zip", attempt 3
-2018-10-16 22:37:54,216 INFO  DownloadService - Downloaded https://github.com/kevalpatel2106/Prevent-Screen-Off/archive/master.zip, attempt 3
-2018-10-16 22:37:54,216 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/master.zip": 2 MB
-2018-10-16 22:37:54,216 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-16 22:37:54,221 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/master.zip: true
-2018-10-16 22:37:54,222 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src'.
-2018-10-16 22:37:54,258 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-10-16 22:37:54,258 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src]
-2018-10-16 22:37:54,275 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src/.git/
+2019-04-18 17:43:21,008 INFO  DownloadService - Downloading "https://github.com/kevalpatel2106/Prevent-Screen-Off/archive/master.zip", attempt 3
+2019-04-18 17:44:21,885 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 17:44:23,127 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 17:44:23,128 INFO  DownloadService - Downloading "https://github.com/kevalpatel2106/Prevent-Screen-Off/archive/master.zip", attempt 3
+2019-04-18 17:45:25,076 DEBUG FullProcessService - Repository https://github.com/kevalpatel2106/Prevent-Screen-Off available: true
+2019-04-18 17:45:25,077 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 17:45:25,077 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/kevalpatel2106/Prevent-Screen-Off, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src]
+2019-04-18 17:45:30,195 INFO  SysUtils - 
+2019-04-18 17:45:30,203 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/.git": true
+2019-04-18 17:45:30,206 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-04-18 17:45:30,206 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src]
+2019-04-18 17:45:30,224 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/.git/
 
-2018-10-16 22:37:54,278 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src/Prevent-Screen-Off-master/gradlew
-2018-10-16 22:37:54,281 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src/Prevent-Screen-Off-master/prevent-screen-off/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src/Prevent-Screen-Off-master/smaple/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src/Prevent-Screen-Off-master/build.gradle
-2018-10-16 22:37:54,284 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src/Prevent-Screen-Off-master/prevent-screen-off/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src/Prevent-Screen-Off-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src/Prevent-Screen-Off-master/smaple/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src/Prevent-Screen-Off-master/settings.gradle
-2018-10-16 22:37:54,284 INFO  ProjectBuildService - Remote scripts: none
-2018-10-16 22:37:54,284 INFO  ProjectFixService - Fixing project...
-2018-10-16 22:37:54,293 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src/Prevent-Screen-Off-master/prevent-screen-off/local.properties
-2018-10-16 22:37:54,293 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src/Prevent-Screen-Off-master/prevent-screen-off/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-10-16 22:37:54,294 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src/Prevent-Screen-Off-master/smaple/local.properties
-2018-10-16 22:37:54,294 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src/Prevent-Screen-Off-master/smaple/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-10-16 22:37:54,295 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src/Prevent-Screen-Off-master/local.properties
-2018-10-16 22:37:54,295 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-16 22:37:54,295 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-16 22:37:54,296 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src/Prevent-Screen-Off-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-10-16 22:37:54,296 INFO  ProjectFixService - Project was maybe fixed
-2018-10-16 22:37:54,296 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 22:37:54,297 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src/Prevent-Screen-Off-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src/Prevent-Screen-Off-master/prevent-screen-off/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 22:38:04,530 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-16 22:38:04,530 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-16 22:38:04,530 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-16 22:38:04,530 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src/Prevent-Screen-Off-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src/Prevent-Screen-Off-master/prevent-screen-off/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-16 22:38:18,538 ERROR SysUtils - Could not process external command
+2019-04-18 17:45:30,227 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/gradlew
+2019-04-18 17:45:30,230 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/prevent-screen-off/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/smaple/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/build.gradle
+2019-04-18 17:45:30,233 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/prevent-screen-off/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/smaple/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/settings.gradle
+2019-04-18 17:45:30,233 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 17:45:30,233 INFO  ProjectFixService - Fixing project...
+2019-04-18 17:45:30,240 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/prevent-screen-off/local.properties
+2019-04-18 17:45:30,241 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/prevent-screen-off/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2019-04-18 17:45:30,241 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/smaple/local.properties
+2019-04-18 17:45:30,241 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/smaple/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2019-04-18 17:45:30,241 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/local.properties
+2019-04-18 17:45:30,242 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-18 17:45:30,242 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-18 17:45:30,243 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2019-04-18 17:45:30,243 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 17:45:30,243 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 17:45:30,243 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/prevent-screen-off/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 17:45:38,423 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 17:45:38,423 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 17:45:38,423 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 17:45:38,423 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/prevent-screen-off/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 17:45:51,320 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,8 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -56,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 22:38:18,538 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 17:45:51,320 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :prevent-screen-off:preBuild UP-TO-DATE
 :prevent-screen-off:preDebugBuild UP-TO-DATE
@@ -248,6 +250,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 13.384 secs
+Total time: 12.244 secs
 
-2018-10-16 22:38:18,630 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539704273045-0/src/Prevent-Screen-Off-master/apk/sample.apk
+2019-04-18 17:45:51,410 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584201005-0/src/apk/sample.apk

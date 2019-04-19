@@ -6,6 +6,7 @@
   "org.acra.log" : [ "ACRALog", "AndroidLogDelegate" ],
   "org.acra.sender" : [ "EmailIntentSender", "GoogleFormSender", "GoogleFormSender$1", "HttpSender", "HttpSender$1", "HttpSender$Method", "HttpSender$Type", "HttpSender$Type$1", "HttpSender$Type$2", "ReportSender", "ReportSenderException" ],
   "org.acra.util" : [ "BoundedLinkedList", "FakeSocketFactory", "HttpRequest", "HttpRequest$1", "HttpRequest$SocketTimeOutRetryHandler", "Installation", "JSONReportBuilder", "JSONReportBuilder$JSONReportException", "NaiveTrustManager", "PackageManagerWrapper", "ReportUtils", "ToastSender" ],
-  "proguard.acra" : [ "BuildConfig" ],
-  "proguard.acra.app" : [ "BuildConfig" ]
+  "org.json" : [ "CDL", "Cookie", "CookieList", "HTTP", "HTTPTokener", "JSONArray", "JSONException", "JSONML", "JSONObject", "JSONObject$1", "JSONObject$Null", "JSONString", "JSONStringer", "JSONTokener", "JSONWriter", "XML", "XMLTokener" ],
+  "proguard.acra" : [ "BuildConfig", "R" ],
+  "proguard.acra.app" : [ "BuildConfig", "R" ]
 }

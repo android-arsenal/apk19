@@ -1,34 +1,37 @@
-2018-10-18 12:56:58,235 INFO  DownloadService - Downloading "https://github.com/devendroid/AutoCrashReporter/archive/master.zip", attempt 3
-2018-10-18 12:57:17,609 INFO  DownloadService - Downloaded https://github.com/devendroid/AutoCrashReporter/archive/master.zip, attempt 3
-2018-10-18 12:57:17,610 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/master.zip": 14 MB
-2018-10-18 12:57:17,610 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-18 12:57:17,611 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/master.zip: true
-2018-10-18 12:57:17,611 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src'.
-2018-10-18 12:57:17,816 INFO  FullProcessService - Size of directory with sources: 23 MB
-2018-10-18 12:57:17,816 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src]
-2018-10-18 12:57:17,834 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/.git/
+2019-04-18 21:29:17,959 INFO  DownloadService - Downloading "https://github.com/devendroid/AutoCrashReporter/archive/master.zip", attempt 3
+2019-04-18 21:30:18,570 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 21:30:19,917 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 21:30:19,917 INFO  DownloadService - Downloading "https://github.com/devendroid/AutoCrashReporter/archive/master.zip", attempt 3
+2019-04-18 21:31:21,752 DEBUG FullProcessService - Repository https://github.com/devendroid/AutoCrashReporter available: true
+2019-04-18 21:31:21,752 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 21:31:21,752 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/devendroid/AutoCrashReporter, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src]
+2019-04-18 21:31:30,606 INFO  SysUtils - 
+2019-04-18 21:31:30,619 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/.git": true
+2019-04-18 21:31:30,624 INFO  FullProcessService - Size of directory with sources: 23 MB
+2019-04-18 21:31:30,624 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src]
+2019-04-18 21:31:30,644 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/.git/
 
-2018-10-18 12:57:17,838 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/gradlew
-2018-10-18 12:57:17,843 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/acr/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/build.gradle
-2018-10-18 12:57:17,846 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/acr/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/settings.gradle
-2018-10-18 12:57:17,847 INFO  ProjectBuildService - Remote scripts: none
-2018-10-18 12:57:17,847 INFO  ProjectFixService - Fixing project...
-2018-10-18 12:57:17,856 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/acr/local.properties
-2018-10-18 12:57:17,856 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/acr/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=21]
-2018-10-18 12:57:17,856 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/app/local.properties
-2018-10-18 12:57:17,857 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-10-18 12:57:17,857 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/local.properties
-2018-10-18 12:57:17,858 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-18 12:57:17,858 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-18 12:57:17,859 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-10-18 12:57:17,860 INFO  ProjectFixService - Project was maybe fixed
-2018-10-18 12:57:17,860 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 12:57:17,860 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/acr/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 12:57:27,618 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-18 12:57:27,620 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-18 12:57:27,620 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-18 12:57:27,621 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/acr/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-18 12:57:37,288 ERROR SysUtils - Could not process external command
+2019-04-18 21:31:30,649 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/gradlew
+2019-04-18 21:31:30,654 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/acr/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/build.gradle
+2019-04-18 21:31:30,659 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/acr/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/settings.gradle
+2019-04-18 21:31:30,659 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 21:31:30,659 INFO  ProjectFixService - Fixing project...
+2019-04-18 21:31:30,672 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/acr/local.properties
+2019-04-18 21:31:30,672 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/acr/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=21]
+2019-04-18 21:31:30,673 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/app/local.properties
+2019-04-18 21:31:30,673 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-04-18 21:31:30,674 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/local.properties
+2019-04-18 21:31:30,674 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-18 21:31:30,674 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-18 21:31:30,675 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-04-18 21:31:30,675 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 21:31:30,675 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 21:31:30,675 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/acr/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 21:31:41,024 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 21:31:41,024 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 21:31:41,024 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 21:31:41,024 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/acr/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 21:31:53,548 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,8 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -56,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 12:57:37,290 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 21:31:53,548 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :acr:preBuild UP-TO-DATE
 :acr:preDebugBuild UP-TO-DATE
@@ -83,7 +85,7 @@ Incremental java compilation is an incubating feature.
 :acr:incrementalDebugJavaCompilationSafeguard
 :acr:compileDebugJavaWithJavac
 :acr:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/acr/src/main/java/com/devs/acr/AutoErrorReporter.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/acr/src/main/java/com/devs/acr/AutoErrorReporter.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :acr:processDebugJavaRes UP-TO-DATE
 :acr:transformResourcesWithMergeJavaResForDebug
@@ -117,7 +119,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :acr:incrementalReleaseJavaCompilationSafeguard
 :acr:compileReleaseJavaWithJavac
 :acr:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/acr/src/main/java/com/devs/acr/AutoErrorReporter.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/acr/src/main/java/com/devs/acr/AutoErrorReporter.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :acr:processReleaseJavaRes UP-TO-DATE
 :acr:transformResourcesWithMergeJavaResForRelease
@@ -228,15 +230,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 9.055 secs
+Total time: 11.896 secs
 
-2018-10-18 12:57:37,304 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 12:57:37,304 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 12:57:43,755 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-18 12:57:43,755 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-18 12:57:43,755 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-18 12:57:43,755 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-18 12:57:49,604 ERROR SysUtils - Could not process external command
+2019-04-18 21:31:53,563 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 21:31:53,563 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 21:31:59,719 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 21:31:59,719 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 21:31:59,719 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 21:31:59,719 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 21:32:06,064 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -249,8 +251,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -264,7 +265,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 12:57:49,604 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 21:32:06,064 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -375,15 +376,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.252 secs
+Total time: 5.77 secs
 
-2018-10-18 12:57:49,616 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 12:57:49,617 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 12:57:56,584 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-18 12:57:56,585 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-18 12:57:56,585 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-18 12:57:56,585 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842218232-0/src/AutoCrashReporter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-18 12:58:03,732 ERROR SysUtils - Could not process external command
+2019-04-18 21:32:06,080 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 21:32:06,080 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 21:32:14,036 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 21:32:14,036 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 21:32:14,036 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 21:32:14,036 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597757955-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 21:32:20,714 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -396,8 +397,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -411,7 +411,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 12:58:03,732 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 21:32:20,714 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -522,7 +522,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.519 secs
+Total time: 6.112 secs
 
-2018-10-18 12:58:03,745 ERROR FullProcessService - Project build has not produced APK file
-2018-10-18 12:58:03,757 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-18 21:32:20,729 ERROR FullProcessService - Project build has not produced APK file
+2019-04-18 21:32:20,741 ERROR FullProcessService - Could not find generated or existed APK file

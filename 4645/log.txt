@@ -1,34 +1,37 @@
-2018-10-16 12:48:10,051 INFO  DownloadService - Downloading "https://github.com/paulyung541/ActionAnimatorSet/archive/master.zip", attempt 3
-2018-10-16 12:48:10,913 INFO  DownloadService - Downloaded https://github.com/paulyung541/ActionAnimatorSet/archive/master.zip, attempt 3
-2018-10-16 12:48:10,913 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/master.zip": 327 KB
-2018-10-16 12:48:10,913 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-16 12:48:10,919 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/master.zip: true
-2018-10-16 12:48:10,919 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src'.
-2018-10-16 12:48:10,943 INFO  FullProcessService - Size of directory with sources: 439 KB
-2018-10-16 12:48:10,943 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src]
-2018-10-16 12:48:10,960 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/.git/
+2019-04-18 14:52:27,354 INFO  DownloadService - Downloading "https://github.com/paulyung541/ActionAnimatorSet/archive/master.zip", attempt 3
+2019-04-18 14:53:28,195 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 14:53:29,315 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 14:53:29,315 INFO  DownloadService - Downloading "https://github.com/paulyung541/ActionAnimatorSet/archive/master.zip", attempt 3
+2019-04-18 14:54:31,391 DEBUG FullProcessService - Repository https://github.com/paulyung541/ActionAnimatorSet available: true
+2019-04-18 14:54:31,391 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 14:54:31,391 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/paulyung541/ActionAnimatorSet, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src]
+2019-04-18 14:54:33,285 INFO  SysUtils - 
+2019-04-18 14:54:33,315 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/.git": true
+2019-04-18 14:54:33,317 INFO  FullProcessService - Size of directory with sources: 439 KB
+2019-04-18 14:54:33,318 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src]
+2019-04-18 14:54:33,334 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/.git/
 
-2018-10-16 12:48:10,963 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/gradlew
-2018-10-16 12:48:10,968 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/actionanimatorset/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/build.gradle
-2018-10-16 12:48:10,971 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/actionanimatorset/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/settings.gradle
-2018-10-16 12:48:10,971 INFO  ProjectBuildService - Remote scripts: none
-2018-10-16 12:48:10,971 INFO  ProjectFixService - Fixing project...
-2018-10-16 12:48:10,978 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/actionanimatorset/local.properties
-2018-10-16 12:48:10,978 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/actionanimatorset/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-10-16 12:48:10,979 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/sample/local.properties
-2018-10-16 12:48:10,979 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/sample/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
-2018-10-16 12:48:10,979 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/local.properties
-2018-10-16 12:48:10,980 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-16 12:48:10,980 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-16 12:48:10,981 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-10-16 12:48:10,981 INFO  ProjectFixService - Project was maybe fixed
-2018-10-16 12:48:10,981 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 12:48:10,981 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/actionanimatorset/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 12:48:18,659 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-16 12:48:18,659 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-16 12:48:18,659 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-16 12:48:18,660 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/actionanimatorset/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-16 12:48:27,819 ERROR SysUtils - Could not process external command
+2019-04-18 14:54:33,337 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/gradlew
+2019-04-18 14:54:33,342 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/actionanimatorset/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/build.gradle
+2019-04-18 14:54:33,345 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/actionanimatorset/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/settings.gradle
+2019-04-18 14:54:33,345 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 14:54:33,345 INFO  ProjectFixService - Fixing project...
+2019-04-18 14:54:33,352 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/actionanimatorset/local.properties
+2019-04-18 14:54:33,352 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/actionanimatorset/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-04-18 14:54:33,352 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/sample/local.properties
+2019-04-18 14:54:33,353 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/sample/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
+2019-04-18 14:54:33,353 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/local.properties
+2019-04-18 14:54:33,353 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-18 14:54:33,354 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-18 14:54:33,354 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-04-18 14:54:33,354 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 14:54:33,354 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 14:54:33,355 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/actionanimatorset/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 14:54:40,059 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 14:54:40,060 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 14:54:40,060 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 14:54:40,060 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/actionanimatorset/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 14:54:48,579 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,8 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -56,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 12:48:27,819 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 14:54:48,579 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :actionanimatorset:preBuild UP-TO-DATE
 :actionanimatorset:preDebugBuild UP-TO-DATE
@@ -83,7 +85,7 @@ Incremental java compilation is an incubating feature.
 :actionanimatorset:incrementalDebugJavaCompilationSafeguard
 :actionanimatorset:compileDebugJavaWithJavac
 :actionanimatorset:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/actionanimatorset/src/main/java/com/paul/actionanimset/TriggerPoint.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/actionanimatorset/src/main/java/com/paul/actionanimset/TriggerPoint.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :actionanimatorset:processDebugJavaRes UP-TO-DATE
 :actionanimatorset:transformResourcesWithMergeJavaResForDebug
@@ -117,7 +119,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :actionanimatorset:incrementalReleaseJavaCompilationSafeguard
 :actionanimatorset:compileReleaseJavaWithJavac
 :actionanimatorset:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/actionanimatorset/src/main/java/com/paul/actionanimset/TriggerPoint.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/actionanimatorset/src/main/java/com/paul/actionanimset/TriggerPoint.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :actionanimatorset:processReleaseJavaRes UP-TO-DATE
 :actionanimatorset:transformResourcesWithMergeJavaResForRelease
@@ -128,9 +130,9 @@ Note: Recompile with -Xlint:unchecked for details.
 :actionanimatorset:bundleRelease
 :actionanimatorset:compileReleaseSources
 :actionanimatorset:assembleRelease
-:actionanimatorset:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/actionanimatorset/src/main/java/com/paul/actionanimset/ActionAnimatorSet.java:102: warning - Tag @see:illegal character: "123" in "{@link TriggerPoint#whenToStart(Object)}"
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/actionanimatorset/src/main/java/com/paul/actionanimset/ActionAnimatorSet.java:102: warning - Tag @see:illegal character: "64" in "{@link TriggerPoint#whenToStart(Object)}"
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/actionanimatorset/src/main/java/com/paul/actionanimset/ActionAnimatorSet.java:102: warning - Tag @see: reference not found: {@link TriggerPoint#whenToStart(Object)}
+:actionanimatorset:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/actionanimatorset/src/main/java/com/paul/actionanimset/ActionAnimatorSet.java:102: warning - Tag @see:illegal character: "123" in "{@link TriggerPoint#whenToStart(Object)}"
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/actionanimatorset/src/main/java/com/paul/actionanimset/ActionAnimatorSet.java:102: warning - Tag @see:illegal character: "64" in "{@link TriggerPoint#whenToStart(Object)}"
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/actionanimatorset/src/main/java/com/paul/actionanimset/ActionAnimatorSet.java:102: warning - Tag @see: reference not found: {@link TriggerPoint#whenToStart(Object)}
 
 3 warnings
 :actionanimatorset:javadocJar
@@ -232,15 +234,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 8.563 secs
+Total time: 7.873 secs
 
-2018-10-16 12:48:27,832 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 12:48:27,832 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 12:48:34,515 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-16 12:48:34,516 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-16 12:48:34,516 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-16 12:48:34,516 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-16 12:48:41,174 ERROR SysUtils - Could not process external command
+2019-04-18 14:54:48,591 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 14:54:48,591 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 14:54:55,007 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 14:54:55,007 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 14:54:55,007 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 14:54:55,007 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 14:55:02,126 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -253,8 +255,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -268,7 +269,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 12:48:41,174 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 14:55:02,127 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -379,15 +380,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.026 secs
+Total time: 6.453 secs
 
-2018-10-16 12:48:41,186 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 12:48:41,186 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 12:48:48,185 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-16 12:48:48,185 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-16 12:48:48,185 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-16 12:48:48,185 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668890046-0/src/ActionAnimatorSet-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-16 12:48:55,295 ERROR SysUtils - Could not process external command
+2019-04-18 14:55:02,139 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 14:55:02,139 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 14:55:08,679 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 14:55:08,679 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 14:55:08,679 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 14:55:08,679 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573947345-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 14:55:15,160 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -400,8 +401,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -415,7 +415,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 12:48:55,295 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 14:55:15,160 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -526,7 +526,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.461 secs
+Total time: 5.845 secs
 
-2018-10-16 12:48:55,306 ERROR FullProcessService - Project build has not produced APK file
-2018-10-16 12:48:55,316 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-18 14:55:15,173 ERROR FullProcessService - Project build has not produced APK file
+2019-04-18 14:55:15,184 ERROR FullProcessService - Could not find generated or existed APK file

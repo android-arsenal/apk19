@@ -1,31 +1,34 @@
-2018-10-16 12:43:35,432 INFO  DownloadService - Downloading "https://github.com/Hitomis/SunBaby/archive/master.zip", attempt 3
-2018-10-16 12:43:37,757 INFO  DownloadService - Downloaded https://github.com/Hitomis/SunBaby/archive/master.zip, attempt 3
-2018-10-16 12:43:37,757 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/master.zip": 389 KB
-2018-10-16 12:43:37,757 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-16 12:43:37,763 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/master.zip: true
-2018-10-16 12:43:37,763 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/src'.
-2018-10-16 12:43:37,782 INFO  FullProcessService - Size of directory with sources: 428 KB
-2018-10-16 12:43:37,782 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/src]
-2018-10-16 12:43:37,836 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/src/.git/
+2019-04-18 14:40:00,125 INFO  DownloadService - Downloading "https://github.com/Hitomis/SunBaby/archive/master.zip", attempt 3
+2019-04-18 14:41:00,963 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 14:41:02,189 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 14:41:02,189 INFO  DownloadService - Downloading "https://github.com/Hitomis/SunBaby/archive/master.zip", attempt 3
+2019-04-18 14:42:04,086 DEBUG FullProcessService - Repository https://github.com/Hitomis/SunBaby available: true
+2019-04-18 14:42:04,086 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 14:42:04,086 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Hitomis/SunBaby, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573200123-0/src]
+2019-04-18 14:42:06,754 INFO  SysUtils - 
+2019-04-18 14:42:06,781 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573200123-0/src/.git": true
+2019-04-18 14:42:06,783 INFO  FullProcessService - Size of directory with sources: 428 KB
+2019-04-18 14:42:06,783 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573200123-0/src]
+2019-04-18 14:42:06,801 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573200123-0/src/.git/
 
-2018-10-16 12:43:37,839 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/src/SunBaby-master/gradlew
-2018-10-16 12:43:37,841 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/src/SunBaby-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/src/SunBaby-master/build.gradle
-2018-10-16 12:43:37,843 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/src/SunBaby-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/src/SunBaby-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/src/SunBaby-master/settings.gradle
-2018-10-16 12:43:37,844 INFO  ProjectBuildService - Remote scripts: none
-2018-10-16 12:43:37,844 INFO  ProjectFixService - Fixing project...
-2018-10-16 12:43:37,849 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/src/SunBaby-master/app/local.properties
-2018-10-16 12:43:37,850 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/src/SunBaby-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-10-16 12:43:37,850 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/src/SunBaby-master/local.properties
-2018-10-16 12:43:37,850 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
-2018-10-16 12:43:37,851 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
-2018-10-16 12:43:37,851 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/src/SunBaby-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-10-16 12:43:37,851 INFO  ProjectFixService - Project was maybe fixed
-2018-10-16 12:43:37,851 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 12:43:37,851 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/src/SunBaby-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/src/SunBaby-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 12:43:43,558 INFO  ProjectTaskService - Detected possible tasks: 67
-2018-10-16 12:43:43,558 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-16 12:43:43,558 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/src/SunBaby-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/src/SunBaby-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-16 12:43:57,057 ERROR SysUtils - Could not process external command
+2019-04-18 14:42:06,803 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573200123-0/src/gradlew
+2019-04-18 14:42:06,805 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573200123-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573200123-0/src/build.gradle
+2019-04-18 14:42:06,808 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573200123-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573200123-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573200123-0/src/settings.gradle
+2019-04-18 14:42:06,808 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 14:42:06,808 INFO  ProjectFixService - Fixing project...
+2019-04-18 14:42:06,814 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573200123-0/src/app/local.properties
+2019-04-18 14:42:06,814 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573200123-0/src/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-04-18 14:42:06,814 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573200123-0/src/local.properties
+2019-04-18 14:42:06,815 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-04-18 14:42:06,815 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-04-18 14:42:06,816 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573200123-0/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-04-18 14:42:06,816 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 14:42:06,816 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 14:42:06,816 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573200123-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573200123-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 14:42:12,633 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-04-18 14:42:12,633 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-18 14:42:12,633 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573200123-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573200123-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-18 14:42:26,433 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -38,8 +41,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -53,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 12:43:57,058 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 14:42:26,433 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
 :app:checkDebugManifest
@@ -197,6 +199,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 12.995 secs
+Total time: 13.285 secs
 
-2018-10-16 12:43:57,105 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539668615424-0/src/SunBaby-master/app/build/outputs/apk/app-debug.apk
+2019-04-18 14:42:26,484 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555573200123-0/src/app/build/outputs/apk/app-debug.apk

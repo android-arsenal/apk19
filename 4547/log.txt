@@ -1,42 +1,52 @@
-2018-10-18 10:51:21,409 INFO  DownloadService - Downloading "https://github.com/L4Digital/RxLoader/archive/master.zip", attempt 3
-2018-10-18 10:51:22,229 INFO  DownloadService - Downloaded https://github.com/L4Digital/RxLoader/archive/master.zip, attempt 3
-2018-10-18 10:51:22,230 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/master.zip": 105 KB
-2018-10-18 10:51:22,230 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-18 10:51:22,230 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/master.zip: true
-2018-10-18 10:51:22,230 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src'.
-2018-10-18 10:51:22,247 INFO  FullProcessService - Size of directory with sources: 125 KB
-2018-10-18 10:51:22,247 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src]
-2018-10-18 10:51:22,269 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/.git/
+2019-04-18 20:21:10,288 INFO  DownloadService - Downloading "https://github.com/L4Digital/RxLoader/archive/master.zip", attempt 3
+2019-04-18 20:22:10,973 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 20:22:12,141 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 20:22:12,142 INFO  DownloadService - Downloading "https://github.com/L4Digital/RxLoader/archive/master.zip", attempt 3
+2019-04-18 20:23:13,554 DEBUG FullProcessService - Repository https://github.com/L4Digital/RxLoader available: true
+2019-04-18 20:23:13,555 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 20:23:13,555 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/L4Digital/RxLoader, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src]
+2019-04-18 20:23:15,561 INFO  SysUtils - 
+2019-04-18 20:23:15,586 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/.git": true
+2019-04-18 20:23:15,588 INFO  FullProcessService - Size of directory with sources: 125 KB
+2019-04-18 20:23:15,588 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src]
+2019-04-18 20:23:15,606 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/.git/
 
-2018-10-18 10:51:22,272 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/gradlew
-2018-10-18 10:51:22,275 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/rxloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/build.gradle
-2018-10-18 10:51:22,277 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/rxloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/settings.gradle
-2018-10-18 10:51:22,278 INFO  ProjectBuildService - Remote scripts: none
-2018-10-18 10:51:22,278 INFO  ProjectFixService - Fixing project...
-2018-10-18 10:51:22,285 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/local.properties
-2018-10-18 10:51:22,287 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2018-10-18 10:51:22,288 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-10-18 10:51:22,289 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/rxloader/local.properties
-2018-10-18 10:51:22,291 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/rxloader/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2018-10-18 10:51:22,291 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/rxloader/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-10-18 10:51:22,293 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/local.properties
-2018-10-18 10:51:22,294 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-10-18 10:51:22,295 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-10-18 10:51:22,299 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2018-10-18 10:51:22,299 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-10-18 10:51:22,300 INFO  ProjectFixService - Project was maybe fixed
-2018-10-18 10:51:22,300 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 10:51:22,300 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 10:51:29,975 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-10-18 10:51:29,975 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-18 10:51:29,976 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-18 10:52:13,716 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 20:23:15,608 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/gradlew
+2019-04-18 20:23:15,610 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/rxloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/build.gradle
+2019-04-18 20:23:15,612 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/rxloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/settings.gradle
+2019-04-18 20:23:15,613 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 20:23:15,613 INFO  ProjectFixService - Fixing project...
+2019-04-18 20:23:15,618 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/example/local.properties
+2019-04-18 20:23:15,620 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-04-18 20:23:15,620 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-04-18 20:23:15,621 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/rxloader/local.properties
+2019-04-18 20:23:15,622 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/rxloader/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-04-18 20:23:15,622 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/rxloader/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-04-18 20:23:15,623 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/local.properties
+2019-04-18 20:23:15,624 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-04-18 20:23:15,624 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-04-18 20:23:15,626 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-04-18 20:23:15,626 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-04-18 20:23:15,626 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 20:23:15,626 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 20:23:15,626 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 20:23:22,595 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-04-18 20:23:22,595 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-18 20:23:22,595 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-18 20:23:55,912 INFO  SysUtils - Configuration on demand is an incubating feature.
 :example:preBuild UP-TO-DATE
 :rxloader:preBuild UP-TO-DATE
 :rxloader:preDebugBuild UP-TO-DATE
 :rxloader:checkDebugManifest
 :rxloader:processDebugManifest
 :example:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/27.0.0/appcompat-v7-27.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/27.0.0/support-core-utils-27.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/27.0.0/support-fragment-27.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/27.0.0/animated-vector-drawable-27.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/27.0.0/support-compat-27.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/27.0.0/support-vector-drawable-27.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/27.0.0/support-core-ui-27.0.0.aar
 :rxloader:compileDebugAidl
 :example:compileDebugAidl
 :rxloader:packageDebugRenderscript NO-SOURCE
@@ -59,6 +69,8 @@
 :rxloader:generateDebugBuildConfig
 :rxloader:prepareLintJar
 :rxloader:javaPreCompileDebug
+Download https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.1/reactive-streams-1.0.1.jar
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.7/rxjava-2.1.7.jar
 :rxloader:processDebugJavaRes NO-SOURCE
 :example:compileDebugNdk NO-SOURCE
 :example:mergeDebugShaders
@@ -166,9 +178,9 @@ Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.reacti
 Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/22314288a32c37bc589d6035fc3b5c53/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/rxloader/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build/intermediates/classes/release] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/rxloader/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/example/build/intermediates/classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/example/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
 Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
@@ -190,16 +202,16 @@ Ignoring unused library classes...
   Final number of library classes:    1064
 Printing kept classes, fields, and methods...
 Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build/outputs/mapping/release/usage.txt]...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/example/build/outputs/mapping/release/usage.txt]...
 Removing unused program classes and class elements...
   Original number of program classes: 2810
   Final number of program classes:    765
 Inlining subroutines...
 Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build/outputs/mapping/release/mapping.txt]...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/example/build/outputs/mapping/release/mapping.txt]...
 Preverifying...
 Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build/intermediates/transforms/proguard/release/0.jar]
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/example/build/intermediates/transforms/proguard/release/0.jar]
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/fcfd9989704c6c69e2c97a0d7344d02d/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.0.aar/12f222c1be92da126a63276e4499bfc4/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/c80d3c6eb776e66b6576da7053deadcf/jars/classes.jar] (filtered)
@@ -214,10 +226,10 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/22314288a32c37bc589d6035fc3b5c53/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/rxloader/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build/intermediates/classes/release] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build/outputs/mapping/release/dump.txt]...
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/rxloader/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/example/build/intermediates/classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/example/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/example/build/outputs/mapping/release/dump.txt]...
 :example:transformClassesWithShrinkResForRelease
 Removed unused resources: Binary resource data reduced from 477KB to 465KB: Removed 2%
 :example:transformClassesWithDexBuilderForRelease
@@ -229,7 +241,7 @@ Removed unused resources: Binary resource data reduced from 477KB to 465KB: Remo
 :example:assemble
 :example:build
 
-BUILD SUCCESSFUL in 43s
+BUILD SUCCESSFUL in 32s
 94 actionable tasks: 94 executed
 
-2018-10-18 10:52:13,810 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834681404-0/src/RxLoader-master/example/build/outputs/apk/release/example-release-unsigned.apk
+2019-04-18 20:23:55,987 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593670284-0/src/example/build/outputs/apk/release/example-release-unsigned.apk

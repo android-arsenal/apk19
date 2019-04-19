@@ -1,7 +1,364 @@
-2018-10-16 23:50:06,869 INFO  DownloadService - Downloading "https://github.com/dotWee/MicroPinner/archive/master.zip", attempt 3
-2018-10-16 23:51:07,492 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-16 23:51:08,447 INFO  GithubDownloadService - Default branch of this repository: master
-2018-10-16 23:51:08,447 INFO  DownloadService - Downloading "https://github.com/dotWee/MicroPinner/archive/master.zip", attempt 3
-2018-10-16 23:52:10,441 DEBUG FullProcessService - Repository https://github.com/dotWee/MicroPinner available: true
-2018-10-16 23:52:10,441 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-16 23:52:10,441 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/dotWee/MicroPinner, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539708606865-0/src]
+2019-04-18 19:00:06,638 INFO  DownloadService - Downloading "https://github.com/dotWee/MicroPinner/archive/master.zip", attempt 3
+2019-04-18 19:01:07,220 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 19:01:08,580 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 19:01:08,580 INFO  DownloadService - Downloading "https://github.com/dotWee/MicroPinner/archive/master.zip", attempt 3
+2019-04-18 19:02:10,198 DEBUG FullProcessService - Repository https://github.com/dotWee/MicroPinner available: true
+2019-04-18 19:02:10,198 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 19:02:10,198 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/dotWee/MicroPinner, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src]
+2019-04-18 19:02:15,031 INFO  SysUtils - 
+2019-04-18 19:02:15,041 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/.git": true
+2019-04-18 19:02:15,044 INFO  FullProcessService - Size of directory with sources: 15 MB
+2019-04-18 19:02:15,044 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src]
+2019-04-18 19:02:15,062 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/.git/
+
+2019-04-18 19:02:15,066 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/gradlew
+2019-04-18 19:02:15,069 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/build.gradle
+2019-04-18 19:02:15,073 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/settings.gradle
+2019-04-18 19:02:15,073 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 19:02:15,073 INFO  ProjectFixService - Fixing project...
+2019-04-18 19:02:15,081 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/local.properties
+2019-04-18 19:02:15,081 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-04-18 19:02:15,081 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/local.properties
+2019-04-18 19:02:15,081 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-04-18 19:02:15,082 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-04-18 19:02:15,082 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-04-18 19:02:15,082 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 19:02:15,082 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 19:02:15,082 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 19:02:22,668 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-04-18 19:02:22,668 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-18 19:02:22,668 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-18 19:03:16,538 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:extractTryWithResourcesSupportJarDebug
+:app:transformClassesWithStackFramesFixerForDebug
+:app:transformClassesWithDesugarForDebug
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:extractProguardFiles
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-intents/3.0.1/espresso-intents-3.0.1.aar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:extractTryWithResourcesSupportJarRelease
+:app:transformClassesWithStackFramesFixerForRelease
+:app:transformClassesWithDesugarForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+ProGuard, version 5.3.3
+Reading input...
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/1.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/2.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/3.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/4.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/5.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/6.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/7.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/8.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/9.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/10.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/11.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/12.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/13.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/14.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/0] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/processing-tools/runtime-deps/release/desugar_try_with_resources.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Note: com.google.devtools.build.android.desugar.runtime.ThrowableExtension accesses a field 'SDK_INT' dynamically
+      Maybe this is library field 'android.os.Build$VERSION { int SDK_INT; }'
+Note: the configuration keeps the entry point 'de.dotwee.micropinner.view.custom.AbstractDialogView { void setMainPresenter(de.dotwee.micropinner.presenter.MainPresenter); }', but not the descriptor class 'de.dotwee.micropinner.presenter.MainPresenter'
+Note: there were 1 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 1 accesses to class members by means of introspection.
+      You should consider explicitly keeping the mentioned class members
+      (using '-keep' or '-keepclassmembers').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
+Ignoring unused library classes...
+  Original number of library classes: 4610
+  Final number of library classes:    1056
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 1295
+  Final number of program classes:    646
+Inlining subroutines...
+Optimizing...
+  Number of finalized classes:                 318
+  Number of unboxed enum classes:              0
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                323
+  Number of staticized methods:                156
+  Number of finalized methods:                 2430
+  Number of removed method parameters:         187
+  Number of inlined constant parameters:       65
+  Number of inlined constant return values:    36
+  Number of inlined short method calls:        620
+  Number of inlined unique method calls:       880
+  Number of inlined tail recursion calls:      6
+  Number of merged code blocks:                34
+  Number of variable peephole optimizations:   3253
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       0   (disabled)
+  Number of field peephole optimizations:      18
+  Number of branch peephole optimizations:     848
+  Number of string peephole optimizations:     256
+  Number of simplified instructions:           380
+  Number of removed instructions:              1828
+  Number of removed local variables:           117
+  Number of removed exception blocks:          39
+  Number of optimized local variable frames:   1059
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 646
+  Final number of program classes:    632
+Optimizing...
+  Number of finalized classes:                 0
+  Number of unboxed enum classes:              0
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                1
+  Number of staticized methods:                3
+  Number of finalized methods:                 29
+  Number of removed method parameters:         84
+  Number of inlined constant parameters:       64
+  Number of inlined constant return values:    10
+  Number of inlined short method calls:        33
+  Number of inlined unique method calls:       13
+  Number of inlined tail recursion calls:      0
+  Number of merged code blocks:                1
+  Number of variable peephole optimizations:   189
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       0   (disabled)
+  Number of field peephole optimizations:      0
+  Number of branch peephole optimizations:     21
+  Number of string peephole optimizations:     0
+  Number of simplified instructions:           88
+  Number of removed instructions:              2685
+  Number of removed local variables:           67
+  Number of removed exception blocks:          0
+  Number of optimized local variable frames:   68
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 632
+  Final number of program classes:    632
+Optimizing...
+  Number of finalized classes:                 0
+  Number of unboxed enum classes:              0
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                0
+  Number of staticized methods:                1
+  Number of finalized methods:                 2
+  Number of removed method parameters:         22
+  Number of inlined constant parameters:       21
+  Number of inlined constant return values:    10
+  Number of inlined short method calls:        0
+  Number of inlined unique method calls:       2
+  Number of inlined tail recursion calls:      0
+  Number of merged code blocks:                0
+  Number of variable peephole optimizations:   33
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       0   (disabled)
+  Number of field peephole optimizations:      0
+  Number of branch peephole optimizations:     5
+  Number of string peephole optimizations:     0
+  Number of simplified instructions:           8
+  Number of removed instructions:              350
+  Number of removed local variables:           1
+  Number of removed exception blocks:          0
+  Number of optimized local variable frames:   6
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 632
+  Final number of program classes:    632
+Optimizing...
+  Number of finalized classes:                 0
+  Number of unboxed enum classes:              0
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                0
+  Number of staticized methods:                0
+  Number of finalized methods:                 1
+  Number of removed method parameters:         6
+  Number of inlined constant parameters:       8
+  Number of inlined constant return values:    10
+  Number of inlined short method calls:        0
+  Number of inlined unique method calls:       0
+  Number of inlined tail recursion calls:      0
+  Number of merged code blocks:                0
+  Number of variable peephole optimizations:   9
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       0   (disabled)
+  Number of field peephole optimizations:      0
+  Number of branch peephole optimizations:     0
+  Number of string peephole optimizations:     0
+  Number of simplified instructions:           4
+  Number of removed instructions:              35
+  Number of removed local variables:           0
+  Number of removed exception blocks:          0
+  Number of optimized local variable frames:   1
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 632
+  Final number of program classes:    632
+Optimizing...
+  Number of finalized classes:                 0
+  Number of unboxed enum classes:              0
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                0
+  Number of staticized methods:                0
+  Number of finalized methods:                 0
+  Number of removed method parameters:         2
+  Number of inlined constant parameters:       4
+  Number of inlined constant return values:    10
+  Number of inlined short method calls:        0
+  Number of inlined unique method calls:       0
+  Number of inlined tail recursion calls:      0
+  Number of merged code blocks:                0
+  Number of variable peephole optimizations:   7
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       0   (disabled)
+  Number of field peephole optimizations:      0
+  Number of branch peephole optimizations:     0
+  Number of string peephole optimizations:     0
+  Number of simplified instructions:           1
+  Number of removed instructions:              9
+  Number of removed local variables:           0
+  Number of removed exception blocks:          0
+  Number of optimized local variable frames:   0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 632
+  Final number of program classes:    632
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/1.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/2.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/3.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/4.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/5.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/6.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/7.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/8.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/9.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/10.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/11.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/12.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/13.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/14.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/desugar/release/0] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/processing-tools/runtime-deps/release/desugar_try_with_resources.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/outputs/mapping/release/dump.txt]...
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 53s
+60 actionable tasks: 60 executed
+
+2019-04-18 19:03:16,613 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555588806634-0/src/app/build/outputs/apk/debug/app-debug.apk

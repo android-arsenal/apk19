@@ -1,34 +1,37 @@
-2018-10-16 13:55:36,471 INFO  DownloadService - Downloading "https://github.com/fobid/webviewer/archive/master.zip", attempt 3
-2018-10-16 13:55:39,790 INFO  DownloadService - Downloaded https://github.com/fobid/webviewer/archive/master.zip, attempt 3
-2018-10-16 13:55:39,790 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/master.zip": 1 MB
-2018-10-16 13:55:39,790 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-16 13:55:39,796 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/master.zip: true
-2018-10-16 13:55:39,796 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src'.
-2018-10-16 13:55:39,839 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-10-16 13:55:39,839 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src]
-2018-10-16 13:55:39,856 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/.git/
+2019-04-18 16:09:52,805 INFO  DownloadService - Downloading "https://github.com/fobidlim/webviewer-android/archive/master.zip", attempt 3
+2019-04-18 16:10:53,758 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 16:10:55,041 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 16:10:55,041 INFO  DownloadService - Downloading "https://github.com/fobidlim/webviewer-android/archive/master.zip", attempt 3
+2019-04-18 16:11:56,905 DEBUG FullProcessService - Repository https://github.com/fobidlim/webviewer-android available: true
+2019-04-18 16:11:56,905 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 16:11:56,905 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/fobidlim/webviewer-android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src]
+2019-04-18 16:12:00,541 INFO  SysUtils - 
+2019-04-18 16:12:00,550 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/.git": true
+2019-04-18 16:12:00,555 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-04-18 16:12:00,555 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src]
+2019-04-18 16:12:00,572 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/.git/
 
-2018-10-16 13:55:39,860 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/gradlew
-2018-10-16 13:55:39,865 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/webviewer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/build.gradle
-2018-10-16 13:55:39,869 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/webviewer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/settings.gradle
-2018-10-16 13:55:39,869 INFO  ProjectBuildService - Remote scripts: none
-2018-10-16 13:55:39,869 INFO  ProjectFixService - Fixing project...
-2018-10-16 13:55:39,878 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/sample/local.properties
-2018-10-16 13:55:39,880 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/sample/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-10-16 13:55:39,880 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/webviewer/local.properties
-2018-10-16 13:55:39,882 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/webviewer/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
-2018-10-16 13:55:39,882 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/local.properties
-2018-10-16 13:55:39,882 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-16 13:55:39,883 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-16 13:55:39,883 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
-2018-10-16 13:55:39,883 INFO  ProjectFixService - Project was maybe fixed
-2018-10-16 13:55:39,884 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 13:55:39,884 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 13:55:48,139 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-16 13:55:48,139 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-16 13:55:48,139 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-16 13:55:48,139 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-16 13:55:52,429 ERROR SysUtils - Could not process external command
+2019-04-18 16:12:00,576 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/gradlew
+2019-04-18 16:12:00,581 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/webviewer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/build.gradle
+2019-04-18 16:12:00,584 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/webviewer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/settings.gradle
+2019-04-18 16:12:00,585 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 16:12:00,585 INFO  ProjectFixService - Fixing project...
+2019-04-18 16:12:00,593 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/sample/local.properties
+2019-04-18 16:12:00,595 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/sample/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-04-18 16:12:00,595 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/webviewer/local.properties
+2019-04-18 16:12:00,596 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/webviewer/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
+2019-04-18 16:12:00,597 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/local.properties
+2019-04-18 16:12:00,597 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-18 16:12:00,597 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-18 16:12:00,597 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
+2019-04-18 16:12:00,597 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 16:12:00,597 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 16:12:00,598 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 16:12:06,236 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 16:12:06,236 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 16:12:06,236 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 16:12:06,236 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 16:12:10,324 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,8 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -56,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 13:55:52,429 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 16:12:10,324 INFO  SysUtils - Configuration on demand is an incubating feature.
 Failed to notify ProjectEvaluationListener.afterEvaluate(), but primary configuration failure takes precedence.
 java.lang.IllegalStateException: buildToolsVersion is not specified.
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:176)
@@ -144,7 +146,7 @@ java.lang.IllegalStateException: buildToolsVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/sample/build.gradle' line: 25
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/sample/build.gradle' line: 25
 
 * What went wrong:
 A problem occurred evaluating project ':sample'.
@@ -223,13 +225,13 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:85)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:62)
 	at com.android.build.gradle.internal.dsl.SigningConfig_Decorated.getProperty(Unknown Source)
-	at build_av5zkockfhdk4w56sunx4p3ln$_run_closure2$_closure5$_closure11.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/sample/build.gradle:25)
+	at build_cidorfk18du7cteit4nrk0sqg$_run_closure2$_closure5$_closure11.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/sample/build.gradle:25)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:60)
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:53)
 	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:40)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:68)
-	at build_av5zkockfhdk4w56sunx4p3ln$_run_closure2$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/sample/build.gradle:23)
+	at build_cidorfk18du7cteit4nrk0sqg$_run_closure2$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/sample/build.gradle:23)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:149)
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:70)
@@ -237,7 +239,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:59)
 	at com.android.build.gradle.BaseExtension.signingConfigs(BaseExtension.java:378)
 	at com.android.build.gradle.AppExtension_Decorated.signingConfigs(Unknown Source)
-	at build_av5zkockfhdk4w56sunx4p3ln$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/sample/build.gradle:22)
+	at build_cidorfk18du7cteit4nrk0sqg$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/sample/build.gradle:22)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:145)
 	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
@@ -246,13 +248,13 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
-	at build_av5zkockfhdk4w56sunx4p3ln.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/sample/build.gradle:21)
+	at build_cidorfk18du7cteit4nrk0sqg.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/sample/build.gradle:21)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 3.773 secs
+Total time: 3.593 secs
 
-2018-10-16 13:55:52,434 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539672936469-0/src/webviewer-android-master/sample/sample-release.apk
+2019-04-18 16:12:10,330 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555578592799-0/src/sample/sample-release.apk

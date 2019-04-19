@@ -1,27 +1,25 @@
-2018-10-18 11:26:31,341 INFO  DownloadService - Downloading "https://github.com/Piasy/SafelyAndroid/archive/master.zip", attempt 3
-2018-10-18 11:27:32,162 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-18 11:27:33,334 INFO  GithubDownloadService - Default branch of this repository: master
-2018-10-18 11:27:33,334 INFO  DownloadService - Downloading "https://github.com/Piasy/SafelyAndroid/archive/master.zip", attempt 3
-2018-10-18 11:28:34,948 DEBUG FullProcessService - Repository https://github.com/Piasy/SafelyAndroid available: true
-2018-10-18 11:28:34,949 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-18 11:28:34,949 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Piasy/SafelyAndroid, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src]
-2018-10-18 11:28:39,691 INFO  SysUtils - 
-2018-10-18 11:28:39,700 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/.git": true
-2018-10-18 11:28:39,703 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-10-18 11:28:39,703 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src]
-2018-10-18 11:28:39,719 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/.git/
+2019-04-18 20:51:49,140 INFO  DownloadService - Downloading "https://github.com/Piasy/SafelyAndroid/archive/master.zip", attempt 3
+2019-04-18 20:52:49,696 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 20:52:50,765 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 20:52:50,766 INFO  DownloadService - Downloading "https://github.com/Piasy/SafelyAndroid/archive/master.zip", attempt 3
+2019-04-18 20:53:52,626 DEBUG FullProcessService - Repository https://github.com/Piasy/SafelyAndroid available: true
+2019-04-18 20:53:52,626 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 20:53:52,626 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Piasy/SafelyAndroid, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src]
+2019-04-18 20:53:55,570 INFO  SysUtils - 
+2019-04-18 20:53:55,578 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/.git": true
+2019-04-18 20:53:55,582 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-04-18 20:53:55,582 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src]
+2019-04-18 20:53:55,599 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/.git/
 
-2018-10-18 11:28:39,722 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/gradlew
-2018-10-18 11:28:39,725 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid-lint/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid-detector/build.gradle
-2018-10-18 11:28:39,728 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid-lint/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid-detector/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/settings.gradle
-2018-10-18 11:28:39,733 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Piasy/BintrayUploadScript/master/bintray.gradle", attempt 3
-2018-10-18 11:28:45,560 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Piasy/BintrayUploadScript/master/bintray.gradle", attempt 2
-2018-10-18 11:28:50,855 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Piasy/BintrayUploadScript/master/bintray.gradle", attempt 1
-2018-10-18 11:29:50,857 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/Piasy/BintrayUploadScript/master/bintray.gradle"
+2019-04-18 20:53:55,603 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/gradlew
+2019-04-18 20:53:55,607 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid-lint/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid-detector/build.gradle
+2019-04-18 20:53:55,610 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid-lint/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid-detector/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/settings.gradle
+2019-04-18 20:53:55,610 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Piasy/BintrayUploadScript/master/bintray.gradle", attempt 3
+2019-04-18 20:54:55,614 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/Piasy/BintrayUploadScript/master/bintray.gradle"
 org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:280)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:190)
 	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
 	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
 	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
@@ -29,10 +27,6 @@ org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connect
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
 	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
-	at com.github.vbauer.apkmaster.service.network.DownloadService.repeatDownload(DownloadService.java:144)
-	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:130)
-	at com.github.vbauer.apkmaster.service.network.DownloadService.repeatDownload(DownloadService.java:144)
-	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:130)
 	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
 	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
 	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
@@ -41,7 +35,7 @@ org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connect
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -55,33 +49,33 @@ org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connect
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 11:29:50,857 INFO  ProjectBuildService - Remote scripts: none
-2018-10-18 11:29:50,857 INFO  ProjectFixService - Fixing project...
-2018-10-18 11:29:50,867 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/example/local.properties
-2018-10-18 11:29:50,869 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=24]
-2018-10-18 11:29:50,869 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=24]
-2018-10-18 11:29:50,870 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid-lint/local.properties
-2018-10-18 11:29:50,872 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid-lint/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=24]
-2018-10-18 11:29:50,872 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid-lint/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=24]
-2018-10-18 11:29:50,873 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid/local.properties
-2018-10-18 11:29:50,875 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=24]
-2018-10-18 11:29:50,875 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=24]
-2018-10-18 11:29:50,876 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/local.properties
-2018-10-18 11:29:50,876 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-18 11:29:50,877 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-18 11:29:50,878 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=24]
-2018-10-18 11:29:50,878 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=24]
-2018-10-18 11:29:50,879 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid-detector/local.properties
-2018-10-18 11:29:50,882 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid-detector/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=24]
-2018-10-18 11:29:50,882 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid-detector/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=24]
-2018-10-18 11:29:50,882 INFO  ProjectFixService - Project was maybe fixed
-2018-10-18 11:29:50,882 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 11:29:50,882 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 11:30:03,839 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-18 11:30:03,839 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-18 11:30:03,839 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-18 11:30:03,839 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-18 11:30:10,085 ERROR SysUtils - Could not process external command
+2019-04-18 20:54:55,614 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 20:54:55,614 INFO  ProjectFixService - Fixing project...
+2019-04-18 20:54:55,625 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/example/local.properties
+2019-04-18 20:54:55,628 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=24]
+2019-04-18 20:54:55,628 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=24]
+2019-04-18 20:54:55,628 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid-lint/local.properties
+2019-04-18 20:54:55,634 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid-lint/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=24]
+2019-04-18 20:54:55,634 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid-lint/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=24]
+2019-04-18 20:54:55,635 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid/local.properties
+2019-04-18 20:54:55,638 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=24]
+2019-04-18 20:54:55,638 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=24]
+2019-04-18 20:54:55,639 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/local.properties
+2019-04-18 20:54:55,639 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-18 20:54:55,639 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-18 20:54:55,641 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=24]
+2019-04-18 20:54:55,641 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=24]
+2019-04-18 20:54:55,642 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid-detector/local.properties
+2019-04-18 20:54:55,645 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid-detector/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=24]
+2019-04-18 20:54:55,645 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid-detector/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=24]
+2019-04-18 20:54:55,645 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 20:54:55,645 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 20:54:55,645 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 20:55:03,712 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 20:55:03,712 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 20:55:03,712 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 20:55:03,712 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 20:55:09,327 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -94,7 +88,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -108,7 +102,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 11:30:10,085 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 20:55:09,327 INFO  SysUtils - Configuration on demand is an incubating feature.
 Failed to notify ProjectEvaluationListener.afterEvaluate(), but primary configuration failure takes precedence.
 java.lang.IllegalStateException: buildToolsVersion is not specified.
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:173)
@@ -268,7 +262,7 @@ java.lang.IllegalStateException: buildToolsVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid/build.gradle' line: 2
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid/build.gradle' line: 2
 
 * What went wrong:
 A problem occurred evaluating project ':safelyandroid'.
@@ -437,22 +431,22 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_11cbtp60dr5mpdk049v3z3yci.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid/build.gradle:2)
+	at build_5ihc9oh8aybivmbu95snn5chv.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid/build.gradle:2)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 136 more
 
 
 BUILD FAILED
 
-Total time: 5.658 secs
+Total time: 4.991 secs
 
-2018-10-18 11:30:10,090 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 11:30:10,090 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid-lint/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 11:30:15,147 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-18 11:30:15,147 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-18 11:30:15,147 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-18 11:30:15,147 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid-lint/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-18 11:30:19,817 ERROR SysUtils - Could not process external command
+2019-04-18 20:55:09,331 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 20:55:09,331 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid-lint/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 20:55:13,586 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 20:55:13,586 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 20:55:13,586 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 20:55:13,586 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid-lint/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 20:55:17,897 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -465,7 +459,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -479,7 +473,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 11:30:19,817 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 20:55:17,898 INFO  SysUtils - Configuration on demand is an incubating feature.
 Failed to notify ProjectEvaluationListener.afterEvaluate(), but primary configuration failure takes precedence.
 java.lang.IllegalStateException: buildToolsVersion is not specified.
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:173)
@@ -566,7 +560,7 @@ java.lang.IllegalStateException: buildToolsVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid-lint/build.gradle' line: 2
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid-lint/build.gradle' line: 2
 
 * What went wrong:
 A problem occurred evaluating project ':safelyandroid-lint'.
@@ -662,22 +656,22 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_873kddf6hztkudfnkzecrzykf.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid-lint/build.gradle:2)
+	at build_6fdnc14vjldywsyzby8knl95h.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid-lint/build.gradle:2)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 4.1 secs
+Total time: 3.716 secs
 
-2018-10-18 11:30:19,821 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 11:30:19,822 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 11:30:24,688 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-18 11:30:24,688 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-18 11:30:24,688 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-18 11:30:24,688 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-18 11:30:29,361 ERROR SysUtils - Could not process external command
+2019-04-18 20:55:17,902 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 20:55:17,902 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 20:55:22,159 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 20:55:22,159 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 20:55:22,159 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 20:55:22,159 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 20:55:26,416 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -690,7 +684,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -704,7 +698,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 11:30:29,361 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 20:55:26,416 INFO  SysUtils - Configuration on demand is an incubating feature.
 Failed to notify ProjectEvaluationListener.afterEvaluate(), but primary configuration failure takes precedence.
 java.lang.IllegalStateException: buildToolsVersion is not specified.
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:173)
@@ -720,7 +714,7 @@ java.lang.IllegalStateException: buildToolsVersion is not specified.
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:540)
@@ -791,7 +785,7 @@ java.lang.IllegalStateException: buildToolsVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid/build.gradle' line: 2
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid/build.gradle' line: 2
 
 * What went wrong:
 A problem occurred evaluating project ':safelyandroid'.
@@ -887,22 +881,22 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_11cbtp60dr5mpdk049v3z3yci.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid/build.gradle:2)
+	at build_5ihc9oh8aybivmbu95snn5chv.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid/build.gradle:2)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 4.111 secs
+Total time: 3.65 secs
 
-2018-10-18 11:30:29,367 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 11:30:29,367 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 11:30:35,496 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-18 11:30:35,496 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-18 11:30:35,496 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-18 11:30:35,496 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-18 11:30:42,306 ERROR SysUtils - Could not process external command
+2019-04-18 20:55:26,421 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 20:55:26,421 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 20:55:32,158 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 20:55:32,158 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 20:55:32,158 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 20:55:32,158 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 20:55:37,768 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -915,7 +909,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -929,7 +923,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 11:30:42,307 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 20:55:37,768 INFO  SysUtils - Configuration on demand is an incubating feature.
 Failed to notify ProjectEvaluationListener.afterEvaluate(), but primary configuration failure takes precedence.
 java.lang.IllegalStateException: buildToolsVersion is not specified.
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:173)
@@ -1089,7 +1083,7 @@ java.lang.IllegalStateException: buildToolsVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid/build.gradle' line: 2
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid/build.gradle' line: 2
 
 * What went wrong:
 A problem occurred evaluating project ':safelyandroid'.
@@ -1258,22 +1252,22 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_11cbtp60dr5mpdk049v3z3yci.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid/build.gradle:2)
+	at build_5ihc9oh8aybivmbu95snn5chv.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid/build.gradle:2)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 136 more
 
 
 BUILD FAILED
 
-Total time: 6.222 secs
+Total time: 4.995 secs
 
-2018-10-18 11:30:42,311 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 11:30:42,311 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid-detector/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 11:30:47,477 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-18 11:30:47,477 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-18 11:30:47,477 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-18 11:30:47,477 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid-detector/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-18 11:30:51,716 ERROR SysUtils - Could not process external command
+2019-04-18 20:55:37,773 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 20:55:37,773 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid-detector/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 20:55:41,739 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 20:55:41,739 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 20:55:41,739 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 20:55:41,739 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid-detector/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 20:55:45,839 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1286,7 +1280,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -1300,12 +1294,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 11:30:51,716 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 20:55:45,839 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid-detector/build.gradle' line: 2
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid-detector/build.gradle' line: 2
 
 * What went wrong:
 A problem occurred evaluating project ':safelyandroid-detector'.
@@ -1401,14 +1395,14 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_96ohm2cywxk74hc0zbirzi1hq.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539836791336-0/src/safelyandroid-detector/build.gradle:2)
+	at build_3a2xwtzwdri2ckxh0guj276yi.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595509138-0/src/safelyandroid-detector/build.gradle:2)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 3.75 secs
+Total time: 3.592 secs
 
-2018-10-18 11:30:51,720 ERROR FullProcessService - Project build has not produced APK file
-2018-10-18 11:30:51,723 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-18 20:55:45,844 ERROR FullProcessService - Project build has not produced APK file
+2019-04-18 20:55:45,848 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,34 +1,37 @@
-2018-10-16 14:01:26,449 INFO  DownloadService - Downloading "https://github.com/inloop/LocalMessageManager/archive/master.zip", attempt 3
-2018-10-16 14:01:28,291 INFO  DownloadService - Downloaded https://github.com/inloop/LocalMessageManager/archive/master.zip, attempt 3
-2018-10-16 14:01:28,291 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/master.zip": 139 KB
-2018-10-16 14:01:28,291 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-16 14:01:28,297 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/master.zip: true
-2018-10-16 14:01:28,297 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src'.
-2018-10-16 14:01:28,316 INFO  FullProcessService - Size of directory with sources: 165 KB
-2018-10-16 14:01:28,316 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src]
-2018-10-16 14:01:28,333 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/.git/
+2019-04-18 16:50:06,699 INFO  DownloadService - Downloading "https://github.com/inloop/LocalMessageManager/archive/master.zip", attempt 3
+2019-04-18 16:51:07,694 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 16:51:08,983 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 16:51:08,983 INFO  DownloadService - Downloading "https://github.com/inloop/LocalMessageManager/archive/master.zip", attempt 3
+2019-04-18 16:52:10,988 DEBUG FullProcessService - Repository https://github.com/inloop/LocalMessageManager available: true
+2019-04-18 16:52:10,988 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 16:52:10,988 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/inloop/LocalMessageManager, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src]
+2019-04-18 16:52:12,797 INFO  SysUtils - 
+2019-04-18 16:52:12,829 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/.git": true
+2019-04-18 16:52:12,831 INFO  FullProcessService - Size of directory with sources: 165 KB
+2019-04-18 16:52:12,832 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src]
+2019-04-18 16:52:12,848 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/.git/
 
-2018-10-16 14:01:28,336 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/gradlew
-2018-10-16 14:01:28,339 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/build.gradle
-2018-10-16 14:01:28,341 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/settings.gradle
-2018-10-16 14:01:28,341 INFO  ProjectBuildService - Remote scripts: none
-2018-10-16 14:01:28,341 INFO  ProjectFixService - Fixing project...
-2018-10-16 14:01:28,347 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/local.properties
-2018-10-16 14:01:28,348 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-16 14:01:28,348 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/sample/local.properties
-2018-10-16 14:01:28,349 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/sample/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-16 14:01:28,349 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/local.properties
-2018-10-16 14:01:28,349 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-16 14:01:28,350 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-16 14:01:28,350 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-16 14:01:28,350 INFO  ProjectFixService - Project was maybe fixed
-2018-10-16 14:01:28,351 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 14:01:28,351 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 14:01:40,646 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-16 14:01:40,646 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-16 14:01:40,646 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-16 14:01:40,646 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-16 14:01:52,413 ERROR SysUtils - Could not process external command
+2019-04-18 16:52:12,851 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/gradlew
+2019-04-18 16:52:12,854 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/build.gradle
+2019-04-18 16:52:12,856 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/settings.gradle
+2019-04-18 16:52:12,857 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 16:52:12,857 INFO  ProjectFixService - Fixing project...
+2019-04-18 16:52:12,863 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/local.properties
+2019-04-18 16:52:12,864 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-18 16:52:12,864 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/sample/local.properties
+2019-04-18 16:52:12,864 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/sample/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-18 16:52:12,864 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/local.properties
+2019-04-18 16:52:12,865 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-18 16:52:12,865 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-18 16:52:12,866 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-18 16:52:12,866 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 16:52:12,866 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 16:52:12,866 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 16:52:22,072 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 16:52:22,072 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 16:52:22,072 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 16:52:22,072 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 16:52:33,928 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,8 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -56,153 +58,153 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 14:01:52,413 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 16:52:33,928 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
-:library:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:8: error: package android.support.annotation does not exist
+:library:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:8: error: package android.support.annotation does not exist
 import android.support.annotation.AnyThread;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:9: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:9: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:10: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:10: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:18: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:18: error: cannot find symbol
 @AnyThread
  ^
   symbol: class AnyThread
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageCallback.java:3: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageCallback.java:3: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:6: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:6: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:7: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:7: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:21: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:21: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class LocalMessageManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:26: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class LocalMessageManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:29: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class LocalMessageManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:32: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:32: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class LocalMessageManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:35: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:35: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class LocalMessageManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:38: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class LocalMessageManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:41: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:41: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class LocalMessageManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:44: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:44: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class LocalMessageManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:85: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:85: error: cannot find symbol
     public final void send(final int id, @NonNull final Object payload) {
                                           ^
   symbol:   class NonNull
   location: class LocalMessageManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:116: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:116: error: cannot find symbol
     public final void send(final int id, @NonNull final Bundle bundle) {
                                           ^
   symbol:   class NonNull
   location: class LocalMessageManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:128: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:128: error: cannot find symbol
     public void addListener(int id, @NonNull final LocalMessageCallback listener) {
                                      ^
   symbol:   class NonNull
   location: class LocalMessageManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:146: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:146: error: cannot find symbol
     public void addListener(@NonNull final LocalMessageCallback listener) {
                              ^
   symbol:   class NonNull
   location: class LocalMessageManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:163: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:163: error: cannot find symbol
     public void removeListener(@NonNull final LocalMessageCallback listener) {
                                 ^
   symbol:   class NonNull
   location: class LocalMessageManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:199: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:199: error: cannot find symbol
     public void removeListener(final int id, @NonNull final LocalMessageCallback listener) {
                                               ^
   symbol:   class NonNull
   location: class LocalMessageManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:219: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:219: error: cannot find symbol
     public boolean handleMessage(@NonNull final Message msg) {
                                   ^
   symbol:   class NonNull
   location: class LocalMessageManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:258: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageManager.java:258: error: cannot find symbol
     private void logMessageHandling(@NonNull final LocalMessage msg) {
                                      ^
   symbol:   class NonNull
   location: class LocalMessageManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageCallback.java:11: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessageCallback.java:11: error: cannot find symbol
     void handleMessage(@NonNull LocalMessage localMessage);
                         ^
   symbol:   class NonNull
   location: interface LocalMessageCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:12: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:12: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class LocalMessage
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:15: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:15: error: cannot find symbol
     LocalMessage(@Nullable final Message message) {
                   ^
   symbol:   class Nullable
   location: class LocalMessage
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:19: error: cannot find symbol
     void setMessage(@Nullable final Message message) {
                      ^
   symbol:   class Nullable
   location: class LocalMessage
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:55: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:55: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class LocalMessage
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:65: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:65: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class LocalMessage
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:27: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:27: warning: no @return
     public int getId() {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:37: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:37: warning: no @return
     public int getArg1() {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:47: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:47: warning: no @return
     public int getArg2() {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:56: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:56: warning: no @return
     public Object getObject() {
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:66: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/library/src/main/java/eu/inloop/localmessagemanager/LocalMessage.java:66: warning: no @return
     public Bundle getData() {
                   ^
 javadoc: warning - Class NonNull not found.
@@ -454,15 +456,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 11.162 secs
+Total time: 11.263 secs
 
-2018-10-16 14:01:52,478 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 14:01:52,478 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 14:01:58,793 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-16 14:01:58,793 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-16 14:01:58,793 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-16 14:01:58,793 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-16 14:02:05,829 ERROR SysUtils - Could not process external command
+2019-04-18 16:52:34,000 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 16:52:34,001 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 16:52:39,999 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 16:52:39,999 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 16:52:39,999 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 16:52:39,999 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 16:52:46,108 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -475,8 +477,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -490,7 +491,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 14:02:05,829 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 16:52:46,109 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -594,22 +595,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 6.442 secs
+Total time: 5.519 secs
 
-2018-10-16 14:02:05,900 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 14:02:05,901 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 14:02:12,587 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-16 14:02:12,587 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-16 14:02:12,587 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-16 14:02:12,587 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673286441-0/src/LocalMessageManager-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-16 14:02:19,579 ERROR SysUtils - Could not process external command
+2019-04-18 16:52:46,169 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 16:52:46,169 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 16:52:52,388 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 16:52:52,388 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 16:52:52,388 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 16:52:52,388 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555581006692-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 16:52:58,596 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -622,8 +623,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -637,7 +637,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 14:02:19,579 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 16:52:58,596 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -741,14 +741,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 6.418 secs
+Total time: 5.609 secs
 
-2018-10-16 14:02:19,645 ERROR FullProcessService - Project build has not produced APK file
-2018-10-16 14:02:19,704 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-18 16:52:58,665 ERROR FullProcessService - Project build has not produced APK file
+2019-04-18 16:52:58,725 ERROR FullProcessService - Could not find generated or existed APK file

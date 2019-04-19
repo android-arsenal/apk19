@@ -1,32 +1,35 @@
-2018-10-18 10:43:03,725 INFO  DownloadService - Downloading "https://github.com/TakeoffAndroid/AndroidMVPAuthenticationBoilerPlate/archive/master.zip", attempt 3
-2018-10-18 10:43:04,409 INFO  DownloadService - Downloaded https://github.com/TakeoffAndroid/AndroidMVPAuthenticationBoilerPlate/archive/master.zip, attempt 3
-2018-10-18 10:43:04,409 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/master.zip": 230 KB
-2018-10-18 10:43:04,409 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-18 10:43:04,410 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/master.zip: true
-2018-10-18 10:43:04,410 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src'.
-2018-10-18 10:43:04,444 INFO  FullProcessService - Size of directory with sources: 314 KB
-2018-10-18 10:43:04,445 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src]
-2018-10-18 10:43:04,469 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src/.git/
+2019-04-18 19:59:00,392 INFO  DownloadService - Downloading "https://github.com/TakeoffAndroid/AndroidMVPAuthenticationBoilerPlate/archive/master.zip", attempt 3
+2019-04-18 20:00:01,126 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 20:00:02,230 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 20:00:02,230 INFO  DownloadService - Downloading "https://github.com/TakeoffAndroid/AndroidMVPAuthenticationBoilerPlate/archive/master.zip", attempt 3
+2019-04-18 20:01:03,709 DEBUG FullProcessService - Repository https://github.com/TakeoffAndroid/AndroidMVPAuthenticationBoilerPlate available: true
+2019-04-18 20:01:03,709 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 20:01:03,709 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/TakeoffAndroid/AndroidMVPAuthenticationBoilerPlate, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src]
+2019-04-18 20:01:06,779 INFO  SysUtils - 
+2019-04-18 20:01:06,787 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src/.git": true
+2019-04-18 20:01:06,791 INFO  FullProcessService - Size of directory with sources: 314 KB
+2019-04-18 20:01:06,791 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src]
+2019-04-18 20:01:06,808 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src/.git/
 
-2018-10-18 10:43:04,473 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src/AndroidMVPAuthenticationBoilerPlate-master/gradlew
-2018-10-18 10:43:04,477 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src/AndroidMVPAuthenticationBoilerPlate-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src/AndroidMVPAuthenticationBoilerPlate-master/build.gradle
-2018-10-18 10:43:04,481 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src/AndroidMVPAuthenticationBoilerPlate-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src/AndroidMVPAuthenticationBoilerPlate-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src/AndroidMVPAuthenticationBoilerPlate-master/settings.gradle
-2018-10-18 10:43:04,482 INFO  ProjectBuildService - Remote scripts: none
-2018-10-18 10:43:04,482 INFO  ProjectFixService - Fixing project...
-2018-10-18 10:43:04,491 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src/AndroidMVPAuthenticationBoilerPlate-master/app/local.properties
-2018-10-18 10:43:04,492 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src/AndroidMVPAuthenticationBoilerPlate-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
-2018-10-18 10:43:04,492 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src/AndroidMVPAuthenticationBoilerPlate-master/local.properties
-2018-10-18 10:43:04,493 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.5-all.zip
-2018-10-18 10:43:04,493 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.5-bin.zip)
-2018-10-18 10:43:04,495 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src/AndroidMVPAuthenticationBoilerPlate-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
-2018-10-18 10:43:04,495 INFO  ProjectFixService - Project was maybe fixed
-2018-10-18 10:43:04,495 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 10:43:04,495 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src/AndroidMVPAuthenticationBoilerPlate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src/AndroidMVPAuthenticationBoilerPlate-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 10:43:31,681 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-18 10:43:31,681 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-18 10:43:31,681 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-18 10:43:31,682 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src/AndroidMVPAuthenticationBoilerPlate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src/AndroidMVPAuthenticationBoilerPlate-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-18 10:43:37,711 ERROR SysUtils - Could not process external command
+2019-04-18 20:01:06,812 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src/gradlew
+2019-04-18 20:01:06,815 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src/build.gradle
+2019-04-18 20:01:06,819 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src/settings.gradle
+2019-04-18 20:01:06,819 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 20:01:06,819 INFO  ProjectFixService - Fixing project...
+2019-04-18 20:01:06,833 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src/app/local.properties
+2019-04-18 20:01:06,834 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2019-04-18 20:01:06,834 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src/local.properties
+2019-04-18 20:01:06,834 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.5-all.zip
+2019-04-18 20:01:06,834 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.5-bin.zip)
+2019-04-18 20:01:06,835 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2019-04-18 20:01:06,835 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 20:01:06,835 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 20:01:06,835 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 20:01:15,100 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 20:01:15,100 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 20:01:15,100 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 20:01:15,100 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 20:01:20,105 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -39,8 +42,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -54,7 +56,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 10:43:37,712 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 20:01:20,105 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: The `android.dexOptions.incremental` property is deprecated and it has no effect on the build process.
 
 FAILURE: Build failed with an exception.
@@ -167,15 +169,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.753 secs
+Total time: 4.739 secs
 
-2018-10-18 10:43:37,717 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 10:43:37,717 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src/AndroidMVPAuthenticationBoilerPlate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src/AndroidMVPAuthenticationBoilerPlate-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 10:43:44,561 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-18 10:43:44,561 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-18 10:43:44,562 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-18 10:43:44,562 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src/AndroidMVPAuthenticationBoilerPlate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834183721-0/src/AndroidMVPAuthenticationBoilerPlate-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-18 10:43:51,321 ERROR SysUtils - Could not process external command
+2019-04-18 20:01:20,111 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 20:01:20,111 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 20:01:25,022 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 20:01:25,022 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 20:01:25,022 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 20:01:25,022 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555592340390-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 20:01:30,053 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -188,8 +190,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -203,7 +204,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 10:43:51,322 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 20:01:30,053 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: The `android.dexOptions.incremental` property is deprecated and it has no effect on the build process.
 
 FAILURE: Build failed with an exception.
@@ -316,7 +317,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.399 secs
+Total time: 4.72 secs
 
-2018-10-18 10:43:51,327 ERROR FullProcessService - Project build has not produced APK file
-2018-10-18 10:43:51,332 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-18 20:01:30,059 ERROR FullProcessService - Project build has not produced APK file
+2019-04-18 20:01:30,063 ERROR FullProcessService - Could not find generated or existed APK file

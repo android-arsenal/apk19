@@ -1,37 +1,37 @@
-2018-10-17 00:06:46,317 INFO  DownloadService - Downloading "https://github.com/armcha/Vertical-Intro/archive/master.zip", attempt 3
-2018-10-17 00:07:47,183 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-17 00:07:48,083 INFO  GithubDownloadService - Default branch of this repository: master
-2018-10-17 00:07:48,083 INFO  DownloadService - Downloading "https://github.com/armcha/Vertical-Intro/archive/master.zip", attempt 3
-2018-10-17 00:08:49,734 DEBUG FullProcessService - Repository https://github.com/armcha/Vertical-Intro available: true
-2018-10-17 00:08:49,734 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-17 00:08:49,734 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/armcha/Vertical-Intro, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src]
-2018-10-17 00:08:53,591 INFO  SysUtils - 
-2018-10-17 00:08:53,601 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/.git": true
-2018-10-17 00:08:53,606 INFO  FullProcessService - Size of directory with sources: 5 MB
-2018-10-17 00:08:53,606 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src]
-2018-10-17 00:08:53,624 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/.git/
+2019-04-18 19:14:47,903 INFO  DownloadService - Downloading "https://github.com/armcha/Vertical-Intro/archive/master.zip", attempt 3
+2019-04-18 19:15:48,523 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 19:15:49,700 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 19:15:49,700 INFO  DownloadService - Downloading "https://github.com/armcha/Vertical-Intro/archive/master.zip", attempt 3
+2019-04-18 19:16:51,095 DEBUG FullProcessService - Repository https://github.com/armcha/Vertical-Intro available: true
+2019-04-18 19:16:51,095 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 19:16:51,095 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/armcha/Vertical-Intro, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src]
+2019-04-18 19:16:55,043 INFO  SysUtils - 
+2019-04-18 19:16:55,052 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/.git": true
+2019-04-18 19:16:55,056 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-04-18 19:16:55,056 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src]
+2019-04-18 19:16:55,074 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/.git/
 
-2018-10-17 00:08:53,628 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/gradlew
-2018-10-17 00:08:53,632 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/verticalintrolibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/build.gradle
-2018-10-17 00:08:53,635 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/verticalintrolibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/settings.gradle
-2018-10-17 00:08:53,636 INFO  ProjectBuildService - Remote scripts: none
-2018-10-17 00:08:53,636 INFO  ProjectFixService - Fixing project...
-2018-10-17 00:08:53,646 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/app/local.properties
-2018-10-17 00:08:53,646 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2018-10-17 00:08:53,647 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/verticalintrolibrary/local.properties
-2018-10-17 00:08:53,647 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/verticalintrolibrary/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2018-10-17 00:08:53,648 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/local.properties
-2018-10-17 00:08:53,648 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.0-rc-1-all.zip
-2018-10-17 00:08:53,649 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.0-bin.zip)
-2018-10-17 00:08:53,649 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2018-10-17 00:08:53,650 INFO  ProjectFixService - Project was maybe fixed
-2018-10-17 00:08:53,650 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-17 00:08:53,650 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-17 00:09:02,876 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-17 00:09:02,876 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-17 00:09:02,876 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-17 00:09:02,876 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-17 00:09:08,933 ERROR SysUtils - Could not process external command
+2019-04-18 19:16:55,077 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/gradlew
+2019-04-18 19:16:55,081 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/verticalintrolibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/build.gradle
+2019-04-18 19:16:55,085 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/verticalintrolibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/settings.gradle
+2019-04-18 19:16:55,085 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 19:16:55,085 INFO  ProjectFixService - Fixing project...
+2019-04-18 19:16:55,093 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/app/local.properties
+2019-04-18 19:16:55,094 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-04-18 19:16:55,094 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/verticalintrolibrary/local.properties
+2019-04-18 19:16:55,094 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/verticalintrolibrary/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-04-18 19:16:55,095 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/local.properties
+2019-04-18 19:16:55,095 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.0-rc-1-all.zip
+2019-04-18 19:16:55,095 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.0-bin.zip)
+2019-04-18 19:16:55,096 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-04-18 19:16:55,096 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 19:16:55,096 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 19:16:55,096 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 19:17:17,279 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 19:17:17,279 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 19:17:17,279 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 19:17:17,279 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 19:17:24,486 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,7 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -58,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-17 00:09:08,933 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 19:17:24,488 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -263,6 +263,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	... 146 more
 
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2018-10-17 00:09:08,940 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539709606312-0/src/screens/verticalIntro.apk
+2019-04-18 19:17:24,493 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555589687901-0/src/screens/verticalIntro.apk

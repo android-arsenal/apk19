@@ -1,33 +1,36 @@
-2018-10-16 13:59:19,708 INFO  DownloadService - Downloading "https://github.com/Vibinreji/VibWifi/archive/master.zip", attempt 3
-2018-10-16 13:59:21,754 INFO  DownloadService - Downloaded https://github.com/Vibinreji/VibWifi/archive/master.zip, attempt 3
-2018-10-16 13:59:21,755 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/master.zip": 134 KB
-2018-10-16 13:59:21,755 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-16 13:59:21,755 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/master.zip: true
-2018-10-16 13:59:21,755 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src'.
-2018-10-16 13:59:21,783 INFO  FullProcessService - Size of directory with sources: 158 KB
-2018-10-16 13:59:21,783 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src]
-2018-10-16 13:59:21,804 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/.git/
+2019-04-18 16:29:23,555 INFO  DownloadService - Downloading "https://github.com/Vibinreji/VibWifi/archive/master.zip", attempt 3
+2019-04-18 16:30:24,430 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 16:30:25,619 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 16:30:25,619 INFO  DownloadService - Downloading "https://github.com/Vibinreji/VibWifi/archive/master.zip", attempt 3
+2019-04-18 16:31:27,508 DEBUG FullProcessService - Repository https://github.com/Vibinreji/VibWifi available: true
+2019-04-18 16:31:27,508 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 16:31:27,508 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Vibinreji/VibWifi, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src]
+2019-04-18 16:31:29,224 INFO  SysUtils - 
+2019-04-18 16:31:29,232 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/.git": true
+2019-04-18 16:31:29,235 INFO  FullProcessService - Size of directory with sources: 158 KB
+2019-04-18 16:31:29,235 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src]
+2019-04-18 16:31:29,253 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/.git/
 
-2018-10-16 13:59:21,807 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/gradlew
-2018-10-16 13:59:21,810 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/vibwifi_lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/build.gradle
-2018-10-16 13:59:21,813 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/vibwifi_lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/settings.gradle
-2018-10-16 13:59:21,813 INFO  ProjectBuildService - Remote scripts: none
-2018-10-16 13:59:21,813 INFO  ProjectFixService - Fixing project...
-2018-10-16 13:59:21,820 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/app/local.properties
-2018-10-16 13:59:21,820 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-10-16 13:59:21,821 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/vibwifi_lib/local.properties
-2018-10-16 13:59:21,821 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/vibwifi_lib/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-10-16 13:59:21,821 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/local.properties
-2018-10-16 13:59:21,821 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-10-16 13:59:21,822 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-10-16 13:59:21,822 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-10-16 13:59:21,822 INFO  ProjectFixService - Project was maybe fixed
-2018-10-16 13:59:21,822 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 13:59:21,823 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 13:59:29,260 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-10-16 13:59:29,260 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-16 13:59:29,260 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-16 13:59:45,414 ERROR SysUtils - Could not process external command
+2019-04-18 16:31:29,256 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/gradlew
+2019-04-18 16:31:29,259 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/vibwifi_lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/build.gradle
+2019-04-18 16:31:29,262 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/vibwifi_lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/settings.gradle
+2019-04-18 16:31:29,263 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 16:31:29,263 INFO  ProjectFixService - Fixing project...
+2019-04-18 16:31:29,270 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/app/local.properties
+2019-04-18 16:31:29,271 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-04-18 16:31:29,271 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/vibwifi_lib/local.properties
+2019-04-18 16:31:29,271 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/vibwifi_lib/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-04-18 16:31:29,272 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/local.properties
+2019-04-18 16:31:29,272 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-04-18 16:31:29,272 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-04-18 16:31:29,273 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-04-18 16:31:29,273 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 16:31:29,273 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 16:31:29,273 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 16:31:36,103 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-04-18 16:31:36,103 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-18 16:31:36,103 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-18 16:46:20,074 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -40,8 +43,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -55,7 +57,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 13:59:45,414 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 16:46:20,074 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -111,7 +113,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:prepareComAndroidSupportRecyclerviewV72340Library
 :app:prepareComAndroidSupportSupportV42340Library
 :app:prepareComAndroidSupportSupportVectorDrawable2340Library
-:app:prepareVibWifiMasterVibwifi_libUnspecifiedLibrary
+:app:prepareSrcVibwifi_libUnspecifiedLibrary
 :app:prepareDebugDependencies
 :app:compileDebugAidl
 :app:compileDebugRenderscript
@@ -129,21 +131,21 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:incrementalDebugJavaCompilationSafeguard
 :app:compileDebugJavaWithJavac
 :app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/app/src/main/java/techibi/vibwifi/MainActivity.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/app/src/main/java/techibi/vibwifi/MainActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :app:compileDebugNdk UP-TO-DATE
 :app:compileDebugSources
 :app:prePackageMarkerForDebug
 :app:transformClassesWithDexForDebug
-Merged dex #1 (8 defs/9.1KiB)
-Merged dex #2 (5 defs/15.3KiB)
-Merged dex #3 (330 defs/538.0KiB)
-Merged dex #4 (182 defs/256.4KiB)
-Merged dex #5 (134 defs/303.8KiB)
-Merged dex #6 (770 defs/937.1KiB)
-Merged dex #7 (17 defs/48.5KiB)
-Merged dex #8 (68 defs/152.5KiB)
-Merged dex #9 (335 defs/262.9KiB)
+Merged dex #1 (5 defs/15.3KiB)
+Merged dex #2 (330 defs/538.0KiB)
+Merged dex #3 (182 defs/256.4KiB)
+Merged dex #4 (134 defs/303.8KiB)
+Merged dex #5 (770 defs/937.1KiB)
+Merged dex #6 (17 defs/48.5KiB)
+Merged dex #7 (68 defs/152.5KiB)
+Merged dex #8 (335 defs/262.9KiB)
+Merged dex #9 (8 defs/9.1KiB)
 Merged dex #10 (41 defs/6.5KiB)
 Result is 1890 defs/3073.0KiB. Took 0.3s
 :app:mergeDebugJniLibFolders
@@ -172,7 +174,7 @@ Result is 1890 defs/3073.0KiB. Took 0.3s
 :app:incrementalReleaseJavaCompilationSafeguard
 :app:compileReleaseJavaWithJavac
 :app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/app/src/main/java/techibi/vibwifi/MainActivity.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/app/src/main/java/techibi/vibwifi/MainActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :app:compileReleaseNdk UP-TO-DATE
 :app:compileReleaseSources
@@ -272,6 +274,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 15.59 secs
+Total time: 14 mins 43.415 secs
 
-2018-10-16 13:59:45,503 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673159704-0/src/VibWifi-master/app/build/outputs/apk/app-debug.apk
+2019-04-18 16:46:20,168 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555579763553-0/src/app/build/outputs/apk/app-debug.apk

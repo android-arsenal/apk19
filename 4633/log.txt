@@ -1,22 +1,25 @@
-2018-10-16 13:27:39,302 INFO  DownloadService - Downloading "https://github.com/WassimBenltaief/ReactiveFB/archive/master.zip", attempt 3
-2018-10-16 13:27:39,785 INFO  DownloadService - Downloaded https://github.com/WassimBenltaief/ReactiveFB/archive/master.zip, attempt 3
-2018-10-16 13:27:39,785 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/master.zip": 167 KB
-2018-10-16 13:27:39,785 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-16 13:27:39,791 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/master.zip: true
-2018-10-16 13:27:39,791 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src'.
-2018-10-16 13:27:39,825 INFO  FullProcessService - Size of directory with sources: 308 KB
-2018-10-16 13:27:39,825 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src]
-2018-10-16 13:27:39,841 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/.git/
+2019-04-18 15:41:06,024 INFO  DownloadService - Downloading "https://github.com/WassimBenltaief/ReactiveFB/archive/master.zip", attempt 3
+2019-04-18 15:42:06,853 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 15:42:08,126 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 15:42:08,126 INFO  DownloadService - Downloading "https://github.com/WassimBenltaief/ReactiveFB/archive/master.zip", attempt 3
+2019-04-18 15:43:10,013 DEBUG FullProcessService - Repository https://github.com/WassimBenltaief/ReactiveFB available: true
+2019-04-18 15:43:10,013 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 15:43:10,013 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/WassimBenltaief/ReactiveFB, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src]
+2019-04-18 15:43:12,853 INFO  SysUtils - 
+2019-04-18 15:43:12,862 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/.git": true
+2019-04-18 15:43:12,866 INFO  FullProcessService - Size of directory with sources: 308 KB
+2019-04-18 15:43:12,866 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src]
+2019-04-18 15:43:12,883 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/.git/
 
-2018-10-16 13:27:39,845 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/gradlew
-2018-10-16 13:27:39,848 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/build.gradle
-2018-10-16 13:27:39,852 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/settings.gradle
-2018-10-16 13:27:39,852 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-10-16 13:28:39,853 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle"
+2019-04-18 15:43:12,887 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/gradlew
+2019-04-18 15:43:12,891 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/build.gradle
+2019-04-18 15:43:12,894 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/settings.gradle
+2019-04-18 15:43:12,895 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-04-18 15:44:12,899 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle"
 org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:280)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:190)
 	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
 	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
 	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
@@ -32,7 +35,7 @@ org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connect
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -46,12 +49,12 @@ org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connect
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 13:28:39,853 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-10-16 13:29:39,857 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle"
+2019-04-18 15:44:12,900 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-04-18 15:45:12,901 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle"
 org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:280)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:190)
 	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
 	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
 	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
@@ -67,7 +70,7 @@ org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connect
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -81,24 +84,24 @@ org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connect
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 13:29:39,857 INFO  ProjectBuildService - Remote scripts: none
-2018-10-16 13:29:39,857 INFO  ProjectFixService - Fixing project...
-2018-10-16 13:29:39,869 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/app/local.properties
-2018-10-16 13:29:39,869 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-16 13:29:39,870 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/local.properties
-2018-10-16 13:29:39,870 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-16 13:29:39,870 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/local.properties
-2018-10-16 13:29:39,871 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-16 13:29:39,871 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-16 13:29:39,872 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-16 13:29:39,872 INFO  ProjectFixService - Project was maybe fixed
-2018-10-16 13:29:39,872 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 13:29:39,872 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 13:29:58,535 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-16 13:29:58,536 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-16 13:29:58,536 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-16 13:29:58,536 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-16 13:30:06,303 ERROR SysUtils - Could not process external command
+2019-04-18 15:45:12,901 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 15:45:12,901 INFO  ProjectFixService - Fixing project...
+2019-04-18 15:45:12,913 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/app/local.properties
+2019-04-18 15:45:12,914 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-18 15:45:12,914 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/local.properties
+2019-04-18 15:45:12,914 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-18 15:45:12,915 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/local.properties
+2019-04-18 15:45:12,915 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-18 15:45:12,915 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-18 15:45:12,916 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-18 15:45:12,916 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 15:45:12,916 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 15:45:12,916 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 15:45:23,022 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 15:45:23,023 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 15:45:23,023 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 15:45:23,023 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 15:45:29,185 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -111,7 +114,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -125,7 +128,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 13:30:06,303 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 15:45:29,185 INFO  SysUtils - Configuration on demand is an incubating feature.
 Jack is disabled, but one of the plugins you are using supports Java 8 language features.
 
 FAILURE: Build failed with an exception.
@@ -229,22 +232,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 7.112 secs
+Total time: 5.593 secs
 
-2018-10-16 13:30:06,308 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 13:30:06,308 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 13:30:23,580 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-16 13:30:23,580 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-16 13:30:23,580 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-16 13:30:23,581 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-16 13:30:47,406 ERROR SysUtils - Could not process external command
+2019-04-18 15:45:29,190 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 15:45:29,190 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 15:45:37,740 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 15:45:37,740 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 15:45:37,740 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 15:45:37,740 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 15:45:49,836 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -257,7 +260,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -271,7 +274,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 13:30:47,406 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 15:45:49,836 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :reactivefb:preBuild UP-TO-DATE
 :reactivefb:preDebugBuild UP-TO-DATE
@@ -351,444 +354,444 @@ Incremental java compilation is an incubating feature.
 :reactivefb:bundleRelease
 :reactivefb:compileReleaseSources
 :reactivefb:assembleRelease
-:reactivefb:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:4: error: package com.facebook.internal does not exist
+:reactivefb:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:4: error: package com.facebook.internal does not exist
 import com.facebook.internal.ServerProtocol;
                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:5: error: package com.facebook.login does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:5: error: package com.facebook.login does not exist
 import com.facebook.login.DefaultAudience;
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:6: error: package com.facebook.login does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:6: error: package com.facebook.login does not exist
 import com.facebook.login.LoginBehavior;
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:17: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:17: error: cannot find symbol
     private DefaultAudience mDefaultAudience = null;
             ^
   symbol:   class DefaultAudience
   location: class SimpleFacebookConfiguration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:18: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:18: error: cannot find symbol
     private LoginBehavior mLoginBehavior = null;
             ^
   symbol:   class LoginBehavior
   location: class SimpleFacebookConfiguration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:89: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:89: error: cannot find symbol
     LoginBehavior getLoginBehavior() {
     ^
   symbol:   class LoginBehavior
   location: class SimpleFacebookConfiguration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:98: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:98: error: cannot find symbol
     DefaultAudience getDefaultAudience() {
     ^
   symbol:   class DefaultAudience
   location: class SimpleFacebookConfiguration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:162: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:162: error: cannot find symbol
         DefaultAudience mDefaultAudience = DefaultAudience.FRIENDS;
         ^
   symbol:   class DefaultAudience
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:163: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:163: error: cannot find symbol
         LoginBehavior mLoginBehavior = LoginBehavior.NATIVE_WITH_FALLBACK;
         ^
   symbol:   class LoginBehavior
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:221: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:221: error: cannot find symbol
         public Builder setDefaultAudience(DefaultAudience defaultAudience) {
                                           ^
   symbol:   class DefaultAudience
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:230: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SimpleFacebookConfiguration.java:230: error: cannot find symbol
         public Builder setLoginBehavior(LoginBehavior loginBehavior) {
                                         ^
   symbol:   class LoginBehavior
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:11: error: package com.facebook does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:11: error: package com.facebook does not exist
 import com.facebook.AccessToken;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:12: error: package com.facebook does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:12: error: package com.facebook does not exist
 import com.facebook.FacebookAuthorizationException;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:13: error: package com.facebook does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:13: error: package com.facebook does not exist
 import com.facebook.FacebookGraphResponseException;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:14: error: package com.facebook does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:14: error: package com.facebook does not exist
 import com.facebook.FacebookRequestError;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:15: error: package com.facebook does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:15: error: package com.facebook does not exist
 import com.facebook.GraphRequest;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:16: error: package com.facebook does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:16: error: package com.facebook does not exist
 import com.facebook.GraphRequestAsyncTask;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:17: error: package com.facebook does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:17: error: package com.facebook does not exist
 import com.facebook.GraphResponse;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:18: error: package com.facebook does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:18: error: package com.facebook does not exist
 import com.facebook.HttpMethod;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:20: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:20: error: package io.reactivex does not exist
 import io.reactivex.SingleEmitter;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:30: error: cannot find symbol
     SingleEmitter<GraphResponse> mSingleEmitter = null;
     ^
   symbol:   class SingleEmitter
   location: class RequestAction
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:30: error: cannot find symbol
     SingleEmitter<GraphResponse> mSingleEmitter = null;
                   ^
   symbol:   class GraphResponse
   location: class RequestAction
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:7: error: package com.facebook does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:7: error: package com.facebook does not exist
 import com.facebook.AccessToken;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:8: error: package com.facebook does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:8: error: package com.facebook does not exist
 import com.facebook.CallbackManager;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:9: error: package com.facebook.login does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:9: error: package com.facebook.login does not exist
 import com.facebook.login.LoginManager;
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:10: error: package com.facebook.login does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:10: error: package com.facebook.login does not exist
 import com.facebook.login.LoginResult;
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:15: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:15: error: package io.reactivex does not exist
 import io.reactivex.MaybeEmitter;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:16: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:16: error: package io.reactivex does not exist
 import io.reactivex.ObservableEmitter;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:40: error: package GraphRequest does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:40: error: package GraphRequest does not exist
     private GraphRequest.Callback mCallback = new GraphRequest.Callback() {
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:70: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:70: error: cannot find symbol
     public void setSingleEmitter(SingleEmitter<GraphResponse> singleEmitter) {
                                  ^
   symbol:   class SingleEmitter
   location: class RequestAction
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:70: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:70: error: cannot find symbol
     public void setSingleEmitter(SingleEmitter<GraphResponse> singleEmitter) {
                                                ^
   symbol:   class GraphResponse
   location: class RequestAction
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:91: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestAction.java:91: error: cannot find symbol
     private void runRequest(GraphRequest request) {
                             ^
   symbol:   class GraphRequest
   location: class RequestAction
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:25: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:25: error: cannot find symbol
     private final LoginManager mLoginManager;
                   ^
   symbol:   class LoginManager
   location: class SessionManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:3: error: package com.facebook does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:3: error: package com.facebook does not exist
 import com.facebook.FacebookCallback;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:4: error: package com.facebook does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:4: error: package com.facebook does not exist
 import com.facebook.FacebookException;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:8: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:8: error: package io.reactivex does not exist
 import io.reactivex.MaybeEmitter;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:13: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:13: error: cannot find symbol
 public class ReactiveLoginCallback<T> implements FacebookCallback<T> {
                                                  ^
   symbol: class FacebookCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:26: error: cannot find symbol
     private final ReactiveLoginCallback<LoginResult> mLoginCallback = new ReactiveLoginCallback<>();
                                         ^
   symbol:   class LoginResult
   location: class SessionManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:3: error: package com.facebook does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:3: error: package com.facebook does not exist
 import com.facebook.FacebookCallback;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:4: error: package com.facebook does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:4: error: package com.facebook does not exist
 import com.facebook.FacebookException;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:6: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:6: error: package io.reactivex does not exist
 import io.reactivex.ObservableEmitter;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:11: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:11: error: cannot find symbol
 public class ReactiveLoginWithButtonCallback<T> implements FacebookCallback<T> {
                                                            ^
   symbol: class FacebookCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:27: error: cannot find symbol
     private final ReactiveLoginWithButtonCallback<LoginResult> mLoginWithButtonCallback = new ReactiveLoginWithButtonCallback<>();
                                                   ^
   symbol:   class LoginResult
   location: class SessionManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:28: error: cannot find symbol
     private final CallbackManager mCallbackManager = CallbackManager.Factory.create();
                   ^
   symbol:   class CallbackManager
   location: class SessionManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:53: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:53: error: cannot find symbol
     public LoginResult createLastLoginResult() {
            ^
   symbol:   class LoginResult
   location: class SessionManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:57: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:57: error: cannot find symbol
     public ReactiveLoginCallback<LoginResult> getLoginCallback() {
                                  ^
   symbol:   class LoginResult
   location: class SessionManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:70: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:70: error: cannot find symbol
     public AccessToken getAccessToken() {
            ^
   symbol:   class AccessToken
   location: class SessionManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:74: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:74: error: cannot find symbol
     public CallbackManager getCallbackManager() {
            ^
   symbol:   class CallbackManager
   location: class SessionManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:85: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:85: error: cannot find symbol
     public void setCallbackAsLoginWithButton(ObservableEmitter<LoginResult> emitter) {
                                              ^
   symbol:   class ObservableEmitter
   location: class SessionManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:85: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:85: error: cannot find symbol
     public void setCallbackAsLoginWithButton(ObservableEmitter<LoginResult> emitter) {
                                                                ^
   symbol:   class LoginResult
   location: class SessionManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:93: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:93: error: cannot find symbol
     public void setCallbackAsLogin(MaybeEmitter<LoginResult> emitter) {
                                    ^
   symbol:   class MaybeEmitter
   location: class SessionManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:93: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/SessionManager.java:93: error: cannot find symbol
     public void setCallbackAsLogin(MaybeEmitter<LoginResult> emitter) {
                                                 ^
   symbol:   class LoginResult
   location: class SessionManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:15: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:15: error: cannot find symbol
     private MaybeEmitter<T> maybeEmitter;
             ^
   symbol:   class MaybeEmitter
   location: class ReactiveLoginCallback<T>
   where T is a type-variable:
     T extends Object declared in class ReactiveLoginCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:30: error: cannot find symbol
     public void onError(FacebookException error) {
                         ^
   symbol:   class FacebookException
   location: class ReactiveLoginCallback<T>
   where T is a type-variable:
     T extends Object declared in class ReactiveLoginCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:34: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginCallback.java:34: error: cannot find symbol
     public void setEmitter(MaybeEmitter<T> emitter) {
                            ^
   symbol:   class MaybeEmitter
   location: class ReactiveLoginCallback<T>
   where T is a type-variable:
     T extends Object declared in class ReactiveLoginCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:13: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:13: error: cannot find symbol
     private ObservableEmitter<T> maybeEmitter;
             ^
   symbol:   class ObservableEmitter
   location: class ReactiveLoginWithButtonCallback<T>
   where T is a type-variable:
     T extends Object declared in class ReactiveLoginWithButtonCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:26: error: cannot find symbol
     public void onError(FacebookException error) {
                         ^
   symbol:   class FacebookException
   location: class ReactiveLoginWithButtonCallback<T>
   where T is a type-variable:
     T extends Object declared in class ReactiveLoginWithButtonCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/actions/ReactiveLoginWithButtonCallback.java:30: error: cannot find symbol
     public void setEmitter(ObservableEmitter<T> emitter) {
                            ^
   symbol:   class ObservableEmitter
   location: class ReactiveLoginWithButtonCallback<T>
   where T is a type-variable:
     T extends Object declared in class ReactiveLoginWithButtonCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:3: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:3: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:6: error: package com.facebook does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:6: error: package com.facebook does not exist
 import com.facebook.GraphResponse;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:8: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:8: error: package io.reactivex does not exist
 import io.reactivex.SingleEmitter;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:9: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:9: error: package io.reactivex does not exist
 import io.reactivex.SingleOnSubscribe;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:16: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:16: error: cannot find symbol
 class RequestOnSubscribe implements SingleOnSubscribe<GraphResponse> {
                                     ^
   symbol: class SingleOnSubscribe
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:16: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:16: error: cannot find symbol
 class RequestOnSubscribe implements SingleOnSubscribe<GraphResponse> {
                                                       ^
   symbol: class GraphResponse
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:43: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:43: error: cannot find symbol
     public void subscribe(SingleEmitter<GraphResponse> emitter) throws Exception {
                           ^
   symbol:   class SingleEmitter
   location: class RequestOnSubscribe
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:43: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/RequestOnSubscribe.java:43: error: cannot find symbol
     public void subscribe(SingleEmitter<GraphResponse> emitter) throws Exception {
                                         ^
   symbol:   class GraphResponse
   location: class RequestOnSubscribe
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:3: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:3: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:4: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:4: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:8: error: package com.facebook does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:8: error: package com.facebook does not exist
 import com.facebook.GraphResponse;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:10: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:10: error: package io.reactivex does not exist
 import io.reactivex.Single;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:25: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:25: error: cannot find symbol
     public static Single<GraphResponse> getMe() {
                   ^
   symbol:   class Single
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:25: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:25: error: cannot find symbol
     public static Single<GraphResponse> getMe() {
                          ^
   symbol:   class GraphResponse
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:39: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:39: error: cannot find symbol
     public static Single<GraphResponse> getMe(String fields) {
                   ^
   symbol:   class Single
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:39: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:39: error: cannot find symbol
     public static Single<GraphResponse> getMe(String fields) {
                          ^
   symbol:   class GraphResponse
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:51: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:51: error: cannot find symbol
     public static Single<GraphResponse> getFriends() {
                   ^
   symbol:   class Single
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:51: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:51: error: cannot find symbol
     public static Single<GraphResponse> getFriends() {
                          ^
   symbol:   class GraphResponse
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:65: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:65: error: cannot find symbol
     public static Single<GraphResponse> getFriends(String fields) {
                   ^
   symbol:   class Single
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:65: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:65: error: cannot find symbol
     public static Single<GraphResponse> getFriends(String fields) {
                          ^
   symbol:   class GraphResponse
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:80: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:80: error: cannot find symbol
     public static Single<GraphResponse> getFriends(String fields, int limit) {
                   ^
   symbol:   class Single
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:80: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:80: error: cannot find symbol
     public static Single<GraphResponse> getFriends(String fields, int limit) {
                          ^
   symbol:   class GraphResponse
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:93: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:93: error: cannot find symbol
     public static Single<GraphResponse> getProfile(@NonNull String profileId) {
                   ^
   symbol:   class Single
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:93: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:93: error: cannot find symbol
     public static Single<GraphResponse> getProfile(@NonNull String profileId) {
                          ^
   symbol:   class GraphResponse
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:108: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:108: error: cannot find symbol
     public static Single<GraphResponse> getProfile(@Nullable String fields,
                   ^
   symbol:   class Single
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:108: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:108: error: cannot find symbol
     public static Single<GraphResponse> getProfile(@Nullable String fields,
                          ^
   symbol:   class GraphResponse
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:121: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:121: error: cannot find symbol
     public static Single<GraphResponse> getMyAlbums() {
                   ^
   symbol:   class Single
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:121: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:121: error: cannot find symbol
     public static Single<GraphResponse> getMyAlbums() {
                          ^
   symbol:   class GraphResponse
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:135: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:135: error: cannot find symbol
     public static Single<GraphResponse> getMyAlbums(String fields) {
                   ^
   symbol:   class Single
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:135: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:135: error: cannot find symbol
     public static Single<GraphResponse> getMyAlbums(String fields) {
                          ^
   symbol:   class GraphResponse
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:150: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:150: error: cannot find symbol
     public static Single<GraphResponse> getMyAlbums(String fields, int limit) {
                   ^
   symbol:   class Single
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:150: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:150: error: cannot find symbol
     public static Single<GraphResponse> getMyAlbums(String fields, int limit) {
                          ^
   symbol:   class GraphResponse
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:163: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:163: error: cannot find symbol
     public static Single<GraphResponse> getAlbums(String userId) {
                   ^
   symbol:   class Single
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:163: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:163: error: cannot find symbol
     public static Single<GraphResponse> getAlbums(String userId) {
                          ^
   symbol:   class GraphResponse
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:178: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:178: error: cannot find symbol
     public static Single<GraphResponse> getAlbums(String userId, String fields) {
                   ^
   symbol:   class Single
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:178: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:178: error: cannot find symbol
     public static Single<GraphResponse> getAlbums(String userId, String fields) {
                          ^
   symbol:   class GraphResponse
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:194: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:194: error: cannot find symbol
     public static Single<GraphResponse> getAlbums(String userId, String fields, int limit) {
                   ^
   symbol:   class Single
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:194: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:194: error: cannot find symbol
     public static Single<GraphResponse> getAlbums(String userId, String fields, int limit) {
                          ^
   symbol:   class GraphResponse
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:207: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:207: error: cannot find symbol
     public static Single<GraphResponse> getPhoto(String photoId) {
                   ^
   symbol:   class Single
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:207: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:207: error: cannot find symbol
     public static Single<GraphResponse> getPhoto(String photoId) {
                          ^
   symbol:   class GraphResponse
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:222: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:222: error: cannot find symbol
     public static Single<GraphResponse> getPhoto(String photoId, String fields) {
                   ^
   symbol:   class Single
   location: class ReactiveRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:222: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/reactivefb/src/main/java/com/beltaief/reactivefb/requests/ReactiveRequest.java:222: error: cannot find symbol
     public static Single<GraphResponse> getPhoto(String photoId, String fields) {
                          ^
   symbol:   class GraphResponse
@@ -894,15 +897,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 23.172 secs
+Total time: 11.466 secs
 
-2018-10-16 13:30:47,478 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 13:30:47,478 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 13:30:54,278 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-16 13:30:54,278 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-16 13:30:54,278 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-16 13:30:54,278 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671259300-0/src/ReactiveFB-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-16 13:31:00,701 ERROR SysUtils - Could not process external command
+2019-04-18 15:45:49,878 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 15:45:49,878 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 15:45:55,823 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 15:45:55,823 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 15:45:55,823 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 15:45:55,823 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576866021-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 15:46:01,843 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -915,7 +918,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -929,7 +932,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 13:31:00,702 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 15:46:01,844 INFO  SysUtils - Configuration on demand is an incubating feature.
 Jack is disabled, but one of the plugins you are using supports Java 8 language features.
 
 FAILURE: Build failed with an exception.
@@ -1040,7 +1043,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.833 secs
+Total time: 5.411 secs
 
-2018-10-16 13:31:00,777 ERROR FullProcessService - Project build has not produced APK file
-2018-10-16 13:31:00,841 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-18 15:46:01,883 ERROR FullProcessService - Project build has not produced APK file
+2019-04-18 15:46:01,917 ERROR FullProcessService - Could not find generated or existed APK file

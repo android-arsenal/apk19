@@ -1,35 +1,35 @@
-2018-10-18 11:30:51,755 INFO  DownloadService - Downloading "https://github.com/emuneee/premofm/archive/master.zip", attempt 3
-2018-10-18 11:31:52,631 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-18 11:31:53,559 INFO  GithubDownloadService - Default branch of this repository: develop
-2018-10-18 11:31:53,559 INFO  DownloadService - Downloading "https://github.com/emuneee/premofm/archive/develop.zip", attempt 3
-2018-10-18 11:32:55,024 DEBUG FullProcessService - Repository https://github.com/emuneee/premofm available: true
-2018-10-18 11:32:55,024 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-18 11:32:55,024 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/emuneee/premofm, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src]
-2018-10-18 11:32:57,588 INFO  SysUtils - 
-2018-10-18 11:32:57,601 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/.git": true
-2018-10-18 11:32:57,617 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-10-18 11:32:57,617 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src]
-2018-10-18 11:32:57,635 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/.git/
+2019-04-18 20:55:45,877 INFO  DownloadService - Downloading "https://github.com/emuneee/premofm/archive/master.zip", attempt 3
+2019-04-18 20:56:46,525 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 20:56:47,796 INFO  GithubDownloadService - Default branch of this repository: develop
+2019-04-18 20:56:47,796 INFO  DownloadService - Downloading "https://github.com/emuneee/premofm/archive/develop.zip", attempt 3
+2019-04-18 20:57:49,526 DEBUG FullProcessService - Repository https://github.com/emuneee/premofm available: true
+2019-04-18 20:57:49,526 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 20:57:49,526 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/emuneee/premofm, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src]
+2019-04-18 20:57:51,857 INFO  SysUtils - 
+2019-04-18 20:57:51,869 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/.git": true
+2019-04-18 20:57:51,884 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-04-18 20:57:51,884 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src]
+2019-04-18 20:57:51,903 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/.git/
 
-2018-10-18 11:32:57,646 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/gradlew
-2018-10-18 11:32:57,657 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/build.gradle
-2018-10-18 11:32:57,667 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/settings.gradle
-2018-10-18 11:32:57,667 INFO  ProjectBuildService - Remote scripts: none
-2018-10-18 11:32:57,667 INFO  ProjectFixService - Fixing project...
-2018-10-18 11:32:57,690 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/app/local.properties
-2018-10-18 11:32:57,691 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/app/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
-2018-10-18 11:32:57,691 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/local.properties
-2018-10-18 11:32:57,691 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-18 11:32:57,691 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-18 11:32:57,692 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
-2018-10-18 11:32:57,692 INFO  ProjectFixService - Project was maybe fixed
-2018-10-18 11:32:57,692 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 11:32:57,692 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 11:33:07,165 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-18 11:33:07,165 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-18 11:33:07,165 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-18 11:33:07,165 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-18 11:33:13,012 ERROR SysUtils - Could not process external command
+2019-04-18 20:57:51,914 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/gradlew
+2019-04-18 20:57:51,924 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/build.gradle
+2019-04-18 20:57:51,933 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/settings.gradle
+2019-04-18 20:57:51,933 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 20:57:51,933 INFO  ProjectFixService - Fixing project...
+2019-04-18 20:57:51,953 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/app/local.properties
+2019-04-18 20:57:51,953 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/app/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2019-04-18 20:57:51,954 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/local.properties
+2019-04-18 20:57:51,954 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-18 20:57:51,954 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-18 20:57:51,955 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2019-04-18 20:57:51,955 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 20:57:51,955 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 20:57:51,955 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 20:57:59,001 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 20:57:59,002 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 20:57:59,002 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 20:57:59,002 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 20:58:03,945 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -42,7 +42,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -56,16 +56,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 11:33:13,012 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 20:58:03,945 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/app/build.gradle' line: 29
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/app/build.gradle' line: 29
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
-> Neither path nor baseDir may be null or empty string. path='null' basedir='/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/app'
+> Neither path nor baseDir may be null or empty string. path='null' basedir='/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/app'
 
 * Try:
 Run with --info or --debug option to get more log output.
@@ -136,7 +136,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
-Caused by: java.lang.IllegalArgumentException: Neither path nor baseDir may be null or empty string. path='null' basedir='/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/app'
+Caused by: java.lang.IllegalArgumentException: Neither path nor baseDir may be null or empty string. path='null' basedir='/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/app'
 	at org.gradle.api.internal.file.BaseDirFileResolver.doResolve(BaseDirFileResolver.java:67)
 	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:80)
 	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:62)
@@ -147,13 +147,13 @@ Caused by: java.lang.IllegalArgumentException: Neither path nor baseDir may be n
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:397)
 	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:169)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
-	at build_7a9uu2991kmi97agaur5l4oky$_run_closure1$_closure4$_closure9.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/app/build.gradle:29)
+	at build_a9vr905k7qanrov95p2fon8ga$_run_closure1$_closure4$_closure9.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/app/build.gradle:29)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:60)
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:53)
 	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:40)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:68)
-	at build_7a9uu2991kmi97agaur5l4oky$_run_closure1$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/app/build.gradle:26)
+	at build_a9vr905k7qanrov95p2fon8ga$_run_closure1$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/app/build.gradle:26)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:149)
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:70)
@@ -161,7 +161,7 @@ Caused by: java.lang.IllegalArgumentException: Neither path nor baseDir may be n
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:59)
 	at com.android.build.gradle.BaseExtension.signingConfigs(BaseExtension.java:374)
 	at com.android.build.gradle.AppExtension_Decorated.signingConfigs(Unknown Source)
-	at build_7a9uu2991kmi97agaur5l4oky$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/app/build.gradle:25)
+	at build_a9vr905k7qanrov95p2fon8ga$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/app/build.gradle:25)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:145)
 	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
@@ -170,22 +170,22 @@ Caused by: java.lang.IllegalArgumentException: Neither path nor baseDir may be n
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
-	at build_7a9uu2991kmi97agaur5l4oky.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/app/build.gradle:16)
+	at build_a9vr905k7qanrov95p2fon8ga.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/app/build.gradle:16)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 5.256 secs
+Total time: 4.333 secs
 
-2018-10-18 11:33:13,029 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 11:33:13,029 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 11:33:18,747 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-18 11:33:18,747 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-18 11:33:18,747 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-18 11:33:18,747 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-18 11:33:24,797 ERROR SysUtils - Could not process external command
+2019-04-18 20:58:03,959 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 20:58:03,959 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 20:58:08,914 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 20:58:08,914 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 20:58:08,914 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 20:58:08,915 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 20:58:13,919 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -198,7 +198,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -212,16 +212,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 11:33:24,798 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 20:58:13,919 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/app/build.gradle' line: 29
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/app/build.gradle' line: 29
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
-> Neither path nor baseDir may be null or empty string. path='null' basedir='/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/app'
+> Neither path nor baseDir may be null or empty string. path='null' basedir='/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/app'
 
 * Try:
 Run with --info or --debug option to get more log output.
@@ -292,7 +292,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
-Caused by: java.lang.IllegalArgumentException: Neither path nor baseDir may be null or empty string. path='null' basedir='/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/app'
+Caused by: java.lang.IllegalArgumentException: Neither path nor baseDir may be null or empty string. path='null' basedir='/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/app'
 	at org.gradle.api.internal.file.BaseDirFileResolver.doResolve(BaseDirFileResolver.java:67)
 	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:80)
 	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:62)
@@ -303,13 +303,13 @@ Caused by: java.lang.IllegalArgumentException: Neither path nor baseDir may be n
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:397)
 	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:169)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
-	at build_7a9uu2991kmi97agaur5l4oky$_run_closure1$_closure4$_closure9.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/app/build.gradle:29)
+	at build_a9vr905k7qanrov95p2fon8ga$_run_closure1$_closure4$_closure9.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/app/build.gradle:29)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:60)
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:53)
 	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:40)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:68)
-	at build_7a9uu2991kmi97agaur5l4oky$_run_closure1$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/app/build.gradle:26)
+	at build_a9vr905k7qanrov95p2fon8ga$_run_closure1$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/app/build.gradle:26)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:149)
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:70)
@@ -317,7 +317,7 @@ Caused by: java.lang.IllegalArgumentException: Neither path nor baseDir may be n
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:59)
 	at com.android.build.gradle.BaseExtension.signingConfigs(BaseExtension.java:374)
 	at com.android.build.gradle.AppExtension_Decorated.signingConfigs(Unknown Source)
-	at build_7a9uu2991kmi97agaur5l4oky$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/app/build.gradle:25)
+	at build_a9vr905k7qanrov95p2fon8ga$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/app/build.gradle:25)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:145)
 	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
@@ -326,14 +326,14 @@ Caused by: java.lang.IllegalArgumentException: Neither path nor baseDir may be n
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
-	at build_7a9uu2991kmi97agaur5l4oky.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539837051753-0/src/app/build.gradle:16)
+	at build_a9vr905k7qanrov95p2fon8ga.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595745874-0/src/app/build.gradle:16)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 5.485 secs
+Total time: 4.412 secs
 
-2018-10-18 11:33:24,811 ERROR FullProcessService - Project build has not produced APK file
-2018-10-18 11:33:24,823 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-18 20:58:13,930 ERROR FullProcessService - Project build has not produced APK file
+2019-04-18 20:58:13,939 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,46 +1,45 @@
-2018-10-18 10:49:57,220 INFO  DownloadService - Downloading "https://github.com/REggar/auto-value-ignore-hash-equals/archive/master.zip", attempt 3
-2018-10-18 10:49:57,708 INFO  DownloadService - Downloaded https://github.com/REggar/auto-value-ignore-hash-equals/archive/master.zip, attempt 3
-2018-10-18 10:49:57,709 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834597217-0/master.zip": 68 KB
-2018-10-18 10:49:57,709 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-18 10:49:57,709 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834597217-0/master.zip: true
-2018-10-18 10:49:57,709 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834597217-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834597217-0/src'.
-2018-10-18 10:49:57,718 INFO  FullProcessService - Size of directory with sources: 111 KB
-2018-10-18 10:49:57,718 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834597217-0/src]
-2018-10-18 10:49:57,735 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834597217-0/src/.git/
+2019-04-18 20:16:08,039 INFO  DownloadService - Downloading "https://github.com/REggar/auto-value-ignore-hash-equals/archive/master.zip", attempt 3
+2019-04-18 20:17:08,602 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 20:17:12,370 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 20:17:12,370 INFO  DownloadService - Downloading "https://github.com/REggar/auto-value-ignore-hash-equals/archive/master.zip", attempt 3
+2019-04-18 20:18:13,687 DEBUG FullProcessService - Repository https://github.com/REggar/auto-value-ignore-hash-equals available: true
+2019-04-18 20:18:13,687 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 20:18:13,687 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/REggar/auto-value-ignore-hash-equals, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593368037-0/src]
+2019-04-18 20:18:15,736 INFO  SysUtils - 
+2019-04-18 20:18:15,753 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593368037-0/src/.git": true
+2019-04-18 20:18:15,754 INFO  FullProcessService - Size of directory with sources: 113 KB
+2019-04-18 20:18:15,754 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593368037-0/src]
+2019-04-18 20:18:15,771 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593368037-0/src/.git/
 
-2018-10-18 10:49:57,737 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834597217-0/src/auto-value-ignore-hash-equals-master/gradlew
-2018-10-18 10:49:57,739 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834597217-0/src/auto-value-ignore-hash-equals-master/build.gradle
-2018-10-18 10:49:57,740 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834597217-0/src/auto-value-ignore-hash-equals-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834597217-0/src/auto-value-ignore-hash-equals-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834597217-0/src/auto-value-ignore-hash-equals-master/settings.gradle
-2018-10-18 10:49:57,741 INFO  ProjectBuildService - Remote scripts: none
-2018-10-18 10:49:57,741 INFO  ProjectFixService - Fixing project...
-2018-10-18 10:49:57,746 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834597217-0/src/auto-value-ignore-hash-equals-master/local.properties
-2018-10-18 10:49:57,747 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.13-all.zip
-2018-10-18 10:49:57,747 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.13-bin.zip)
-2018-10-18 10:49:57,750 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834597217-0/src/auto-value-ignore-hash-equals-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-18 10:49:57,750 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834597217-0/src/auto-value-ignore-hash-equals-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-18 10:49:57,751 INFO  ProjectFixService - Project was maybe fixed
-2018-10-18 10:49:57,751 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 10:49:57,751 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834597217-0/src/auto-value-ignore-hash-equals-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834597217-0/src/auto-value-ignore-hash-equals-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 10:50:14,822 INFO  ProjectTaskService - Detected possible tasks: 50
-2018-10-18 10:50:14,822 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-10-18 10:50:14,822 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834597217-0/src/auto-value-ignore-hash-equals-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539834597217-0/src/auto-value-ignore-hash-equals-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-10-18 10:50:24,773 INFO  SysUtils - Configuration on demand is an incubating feature.
-:compileJava
-Download https://repo1.maven.org/maven2/com/google/auto/value/auto-value/1.2/auto-value-1.2.pom
-Download https://repo1.maven.org/maven2/com/google/auto/value/auto-value/1.2/auto-value-1.2.jar
-warning: [options] bootstrap class path not set in conjunction with -source 1.7
-:processResources UP-TO-DATE
-:classes
-:jar
-:javadocJar
-:sourcesJar
-:signArchives SKIPPED
-:assemble
-:build
+2019-04-18 20:18:15,773 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593368037-0/src/gradlew
+2019-04-18 20:18:15,775 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593368037-0/src/build.gradle
+2019-04-18 20:18:15,776 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593368037-0/src/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593368037-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593368037-0/src/settings.gradle
+2019-04-18 20:18:15,776 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 20:18:15,776 INFO  ProjectFixService - Fixing project...
+2019-04-18 20:18:15,781 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593368037-0/src/local.properties
+2019-04-18 20:18:15,781 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-all.zip
+2019-04-18 20:18:15,781 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2.1-bin.zip)
+2019-04-18 20:18:15,784 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593368037-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-18 20:18:15,784 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593368037-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-18 20:18:15,784 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 20:18:15,784 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 20:18:15,784 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593368037-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593368037-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 20:18:21,351 INFO  ProjectTaskService - Detected possible tasks: 45
+2019-04-18 20:18:21,351 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-04-18 20:18:21,351 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593368037-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593368037-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-04-18 20:18:30,683 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :jar
+> Task :javadocJar
+> Task :sourcesJar
+> Task :signArchives SKIPPED
+> Task :assemble
+> Task :build
 
-BUILD SUCCESSFUL
+BUILD SUCCESSFUL in 9s
+4 actionable tasks: 4 executed
 
-Total time: 9.464 secs
-
-2018-10-18 10:50:24,777 ERROR FullProcessService - Project build has not produced APK file
-2018-10-18 10:50:24,780 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-18 20:18:30,687 ERROR FullProcessService - Project build has not produced APK file
+2019-04-18 20:18:30,691 ERROR FullProcessService - Could not find generated or existed APK file

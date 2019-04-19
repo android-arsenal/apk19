@@ -1,36 +1,39 @@
-2018-11-19 11:42:42,458 INFO  DownloadService - Downloading "https://github.com/florent37/DiagonalLayout/archive/master.zip", attempt 3
-2018-11-19 11:43:25,025 INFO  DownloadService - Downloaded https://github.com/florent37/DiagonalLayout/archive/master.zip, attempt 3
-2018-11-19 11:43:25,025 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/master.zip": 19 MB
-2018-11-19 11:43:25,026 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-19 11:43:25,031 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/master.zip: true
-2018-11-19 11:43:25,032 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src'.
-2018-11-19 11:43:25,187 INFO  FullProcessService - Size of directory with sources: 19 MB
-2018-11-19 11:43:25,187 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src]
-2018-11-19 11:43:25,207 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/.git/
+2019-04-18 20:58:14,022 INFO  DownloadService - Downloading "https://github.com/florent37/DiagonalLayout/archive/master.zip", attempt 3
+2019-04-18 20:59:14,586 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 20:59:15,759 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 20:59:15,759 INFO  DownloadService - Downloading "https://github.com/florent37/DiagonalLayout/archive/master.zip", attempt 3
+2019-04-18 21:00:17,447 DEBUG FullProcessService - Repository https://github.com/florent37/DiagonalLayout available: true
+2019-04-18 21:00:17,447 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 21:00:17,447 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/florent37/DiagonalLayout, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src]
+2019-04-18 21:00:31,540 INFO  SysUtils - 
+2019-04-18 21:00:31,577 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/.git": true
+2019-04-18 21:00:31,580 INFO  FullProcessService - Size of directory with sources: 19 MB
+2019-04-18 21:00:31,580 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src]
+2019-04-18 21:00:31,597 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/.git/
 
-2018-11-19 11:43:25,210 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/gradlew
-2018-11-19 11:43:25,214 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/diagonallayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/build.gradle
-2018-11-19 11:43:25,217 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/diagonallayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/settings.gradle
-2018-11-19 11:43:25,218 INFO  ProjectBuildService - Remote scripts: none
-2018-11-19 11:43:25,218 INFO  ProjectFixService - Fixing project...
-2018-11-19 11:43:25,226 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/app/local.properties
-2018-11-19 11:43:25,229 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-11-19 11:43:25,229 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-11-19 11:43:25,230 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/diagonallayout/local.properties
-2018-11-19 11:43:25,233 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/diagonallayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-11-19 11:43:25,233 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/diagonallayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-11-19 11:43:25,234 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/local.properties
-2018-11-19 11:43:25,235 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-11-19 11:43:25,235 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-11-19 11:43:25,238 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-11-19 11:43:25,238 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-11-19 11:43:25,238 INFO  ProjectFixService - Project was maybe fixed
-2018-11-19 11:43:25,238 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-19 11:43:25,239 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-19 11:43:31,633 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-11-19 11:43:31,633 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-19 11:43:31,633 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-19 11:43:58,121 ERROR SysUtils - Could not process external command
+2019-04-18 21:00:31,600 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/gradlew
+2019-04-18 21:00:31,602 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/diagonallayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/build.gradle
+2019-04-18 21:00:31,605 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/diagonallayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/settings.gradle
+2019-04-18 21:00:31,605 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 21:00:31,605 INFO  ProjectFixService - Fixing project...
+2019-04-18 21:00:31,612 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/app/local.properties
+2019-04-18 21:00:31,614 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-04-18 21:00:31,614 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-18 21:00:31,615 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/diagonallayout/local.properties
+2019-04-18 21:00:31,618 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/diagonallayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-04-18 21:00:31,618 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/diagonallayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-18 21:00:31,618 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/local.properties
+2019-04-18 21:00:31,619 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-04-18 21:00:31,619 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-04-18 21:00:31,621 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-04-18 21:00:31,621 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-18 21:00:31,621 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 21:00:31,621 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 21:00:31,622 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 21:00:37,345 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-04-18 21:00:37,345 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-18 21:00:37,345 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-18 21:00:57,305 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -43,27 +46,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-19 11:43:58,121 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 21:00:57,305 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
-Download https://jcenter.bintray.com/de/hdodenhof/circleimageview/2.1.0/circleimageview-2.1.0.pom
-Download https://jcenter.bintray.com/com/flaviofaria/kenburnsview/1.0.7/kenburnsview-1.0.7.pom
-Download https://jcenter.bintray.com/de/hdodenhof/circleimageview/2.1.0/circleimageview-2.1.0.aar
-Download https://jcenter.bintray.com/com/flaviofaria/kenburnsview/1.0.7/kenburnsview-1.0.7.jar
 :app:preBuild UP-TO-DATE
 :diagonallayout:preBuild UP-TO-DATE
 :diagonallayout:preDebugBuild UP-TO-DATE
@@ -95,7 +93,7 @@ Download https://jcenter.bintray.com/com/flaviofaria/kenburnsview/1.0.7/kenburns
 :diagonallayout:prepareLintJar
 :diagonallayout:generateDebugSources
 :diagonallayout:javaPreCompileDebug
-:diagonallayout:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/diagonallayout/src/main/java/com/github/florent37/diagonallayout/ShapeOfView.java uses or overrides a deprecated API.
+:diagonallayout:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/diagonallayout/src/main/java/com/github/florent37/diagonallayout/ShapeOfView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :diagonallayout:processDebugJavaRes NO-SOURCE
@@ -157,7 +155,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :diagonallayout:generateReleaseBuildConfig
 :diagonallayout:generateReleaseSources
 :diagonallayout:javaPreCompileRelease
-:diagonallayout:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/diagonallayout/src/main/java/com/github/florent37/diagonallayout/ShapeOfView.java uses or overrides a deprecated API.
+:diagonallayout:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/diagonallayout/src/main/java/com/github/florent37/diagonallayout/ShapeOfView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :diagonallayout:processReleaseJavaRes NO-SOURCE
@@ -166,9 +164,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:compileReleaseJavaWithJavac
 :app:compileReleaseNdk NO-SOURCE
 :app:compileReleaseSources
-:app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/d0253a91e77238aa2eae34a5f26e3ec0/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/app/src/main/res/values-w820dp/dimens.xml:5: Error: The dimen "activity_horizontal_margin" in values-w820dp has no declaration in the base values folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier [MissingDefaultResource]
+:app:lintVitalRelease/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/app/src/main/res/values-w820dp/dimens.xml:5: Error: The dimen "activity_horizontal_margin" in values-w820dp has no declaration in the base values folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier [MissingDefaultResource]
     <dimen name="activity_horizontal_margin">64dp</dimen>
            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -198,7 +194,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
    ExtraTranslation.)
 
 1 errors, 0 warnings
-:app:lintVitalRelease FAILED
+ FAILED
 
 FAILURE: Build failed with an exception.
 
@@ -292,7 +288,7 @@ android {
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 26s
+BUILD FAILED in 19s
 71 actionable tasks: 71 executed
 
-2018-11-19 11:43:58,203 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542602562450-0/src/DiagonalLayout-master/app/build/outputs/apk/debug/app-debug.apk
+2019-04-18 21:00:57,385 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555595894020-0/src/app/build/outputs/apk/debug/app-debug.apk

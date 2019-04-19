@@ -1,52 +1,41 @@
-2018-10-18 13:01:57,622 INFO  DownloadService - Downloading "https://github.com/AnirudhLoya/Kotlin-Android-Permissions-DeviceInfo/archive/master.zip", attempt 3
-2018-10-18 13:02:02,314 INFO  DownloadService - Downloaded https://github.com/AnirudhLoya/Kotlin-Android-Permissions-DeviceInfo/archive/master.zip, attempt 3
-2018-10-18 13:02:02,315 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/master.zip": 2 MB
-2018-10-18 13:02:02,315 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-18 13:02:02,321 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/master.zip: true
-2018-10-18 13:02:02,321 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src'.
-2018-10-18 13:02:02,378 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-10-18 13:02:02,378 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src]
-2018-10-18 13:02:02,395 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/.git/
+2019-04-18 21:40:32,085 INFO  DownloadService - Downloading "https://github.com/AnirudhLoya/Kotlin-Android-Permissions-DeviceInfo/archive/master.zip", attempt 3
+2019-04-18 21:41:32,745 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 21:41:33,911 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 21:41:33,911 INFO  DownloadService - Downloading "https://github.com/AnirudhLoya/Kotlin-Android-Permissions-DeviceInfo/archive/master.zip", attempt 3
+2019-04-18 21:42:35,333 DEBUG FullProcessService - Repository https://github.com/AnirudhLoya/Kotlin-Android-Permissions-DeviceInfo available: true
+2019-04-18 21:42:35,333 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 21:42:35,334 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/AnirudhLoya/Kotlin-Android-Permissions-DeviceInfo, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src]
+2019-04-18 21:42:38,778 INFO  SysUtils - 
+2019-04-18 21:42:38,787 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/.git": true
+2019-04-18 21:42:38,791 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-04-18 21:42:38,791 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src]
+2019-04-18 21:42:38,808 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/.git/
 
-2018-10-18 13:02:02,398 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/gradlew
-2018-10-18 13:02:02,402 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/build.gradle
-2018-10-18 13:02:02,405 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/build.gradle
-2018-10-18 13:02:02,406 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-10-18 13:02:02,507 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-10-18 13:02:02,507 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-10-18 13:02:02,608 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-10-18 13:02:02,609 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-10-18 13:02:02,609 INFO  ProjectFixService - Fixing project...
-2018-10-18 13:02:02,621 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/app/local.properties
-2018-10-18 13:02:02,622 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-18 13:02:02,622 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/local.properties
-2018-10-18 13:02:02,623 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-18 13:02:02,623 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/local.properties
-2018-10-18 13:02:02,624 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-18 13:02:02,624 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-18 13:02:02,625 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-18 13:02:02,625 INFO  ProjectFixService - Project was maybe fixed
-2018-10-18 13:02:02,625 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 13:02:02,625 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 13:02:28,131 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-18 13:02:28,132 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-18 13:02:28,132 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-18 13:02:28,132 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-18 13:02:36,231 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+2019-04-18 21:42:38,812 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/gradlew
+2019-04-18 21:42:38,816 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/build.gradle
+2019-04-18 21:42:38,820 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/build.gradle
+2019-04-18 21:42:38,820 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-04-18 21:43:38,824 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:280)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:190)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -60,7 +49,86 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 13:02:36,231 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 21:43:38,824 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-04-18 21:44:38,826 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:280)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:190)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-18 21:44:38,828 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 21:44:38,828 INFO  ProjectFixService - Fixing project...
+2019-04-18 21:44:38,842 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/app/local.properties
+2019-04-18 21:44:38,842 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-18 21:44:38,843 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/local.properties
+2019-04-18 21:44:38,843 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-18 21:44:38,843 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/local.properties
+2019-04-18 21:44:38,844 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-18 21:44:38,844 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-18 21:44:38,845 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-04-18 21:44:38,845 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 21:44:38,845 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 21:44:38,845 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 21:44:56,969 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 21:44:56,971 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 21:44:56,971 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 21:44:56,971 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 21:45:04,595 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-18 21:45:04,600 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -79,9 +147,19 @@ org.gradle.api.ProjectConfigurationException: A problem occurred configuring pro
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:540)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:93)
-	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
-	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:56)
-	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:42)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
 	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:142)
@@ -156,20 +234,20 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
 	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
-	... 47 more
+	... 57 more
 
 
 BUILD FAILED
 
-Total time: 7.477 secs
+Total time: 7.009 secs
 
-2018-10-18 13:02:36,236 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 13:02:36,236 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 13:02:44,240 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-18 13:02:44,240 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-18 13:02:44,240 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-18 13:02:44,240 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-18 13:03:07,111 ERROR SysUtils - Could not process external command
+2019-04-18 21:45:04,607 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 21:45:04,608 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 21:45:12,462 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 21:45:12,462 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 21:45:12,462 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 21:45:12,462 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 21:45:34,371 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -182,8 +260,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -197,7 +274,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 13:03:07,111 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 21:45:34,371 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :kotlinpermissions:preBuild UP-TO-DATE
 :kotlinpermissions:preDebugBuild UP-TO-DATE
@@ -230,14 +307,14 @@ Incremental java compilation is an incubating feature.
 :kotlinpermissions:generateDebugSources
 :kotlinpermissions:incrementalDebugJavaCompilationSafeguard
 :kotlinpermissions:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (61, 17): Name shadowed: result
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (387, 17): The value 'null' assigned to 'var result: String? defined in io.vrinda.kotlinpermissions.DeviceInfo.Companion.getStringSupported64bitABIS' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (490, 21): Condition 'tm != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (638, 25): Condition 'activeNetwork == null' is always 'false'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (890, 37): 'CPU_ABI: String!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (1076, 40): Condition 'result == null' is always 'false'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (1109, 48): Variable 'final_loc' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (1364, 24): Condition 'netInfo != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (61, 17): Name shadowed: result
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (387, 17): The value 'null' assigned to 'var result: String? defined in io.vrinda.kotlinpermissions.DeviceInfo.Companion.getStringSupported64bitABIS' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (490, 21): Condition 'tm != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (638, 25): Condition 'activeNetwork == null' is always 'false'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (890, 37): 'CPU_ABI: String!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (1076, 40): Condition 'result == null' is always 'false'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (1109, 48): Variable 'final_loc' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (1364, 24): Condition 'netInfo != null' is always 'true'
 :kotlinpermissions:compileDebugJavaWithJavac
 :kotlinpermissions:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
 :kotlinpermissions:extractDebugAnnotations
@@ -272,14 +349,14 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/
 :kotlinpermissions:generateReleaseSources
 :kotlinpermissions:incrementalReleaseJavaCompilationSafeguard
 :kotlinpermissions:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (61, 17): Name shadowed: result
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (387, 17): The value 'null' assigned to 'var result: String? defined in io.vrinda.kotlinpermissions.DeviceInfo.Companion.getStringSupported64bitABIS' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (490, 21): Condition 'tm != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (638, 25): Condition 'activeNetwork == null' is always 'false'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (890, 37): 'CPU_ABI: String!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (1076, 40): Condition 'result == null' is always 'false'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (1109, 48): Variable 'final_loc' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (1364, 24): Condition 'netInfo != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (61, 17): Name shadowed: result
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (387, 17): The value 'null' assigned to 'var result: String? defined in io.vrinda.kotlinpermissions.DeviceInfo.Companion.getStringSupported64bitABIS' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (490, 21): Condition 'tm != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (638, 25): Condition 'activeNetwork == null' is always 'false'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (890, 37): 'CPU_ABI: String!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (1076, 40): Condition 'result == null' is always 'false'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (1109, 48): Variable 'final_loc' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt: (1364, 24): Condition 'netInfo != null' is always 'true'
 :kotlinpermissions:compileReleaseJavaWithJavac
 :kotlinpermissions:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
 :kotlinpermissions:extractReleaseAnnotations
@@ -299,20 +376,26 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/
 :kotlinpermissions:bundleRelease
 :kotlinpermissions:compileReleaseSources
 :kotlinpermissions:assembleRelease
-:kotlinpermissions:assemble
-:kotlinpermissions:lint FAILED
+:kotlinpermissions:javadocjavadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/PermissionsUtil.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/PermissionFragment.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/PermissionsActivity.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/DeviceInfo.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/src/main/java/io/vrinda/kotlinpermissions/PermissionCallBack.kt"
+
+5 errors
+:kotlinpermissions:javadoc FAILED
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Execution failed for task ':kotlinpermissions:lint'.
-> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+Execution failed for task ':kotlinpermissions:javadoc'.
+> Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/build/tmp/javadoc/javadoc.options'
 
 * Try:
 Run with --info or --debug option to get more log output.
 
 * Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':kotlinpermissions:lint'.
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':kotlinpermissions:javadoc'.
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
 	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
@@ -374,15 +457,11 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':kotlinp
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
-	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:330)
-	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:207)
-	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getCCompiler(DefaultNdkInfo.java:263)
-	at com.android.build.gradle.internal.ndk.NdkHandler.getCCompiler(NdkHandler.java:306)
-	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:240)
-	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:175)
-	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.java:288)
-	at com.android.build.gradle.tasks.Lint.lint(Lint.java:105)
+Caused by: org.gradle.api.GradleException: Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/kotlinpermissions/build/tmp/javadoc/javadoc.options'
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:58)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:31)
+	at org.gradle.api.tasks.javadoc.Javadoc.executeExternalJavadoc(Javadoc.java:143)
+	at org.gradle.api.tasks.javadoc.Javadoc.generate(Javadoc.java:131)
 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
 	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:228)
 	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
@@ -392,19 +471,24 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
 	... 60 more
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/bin/javadoc'' finished with non-zero exit value 1
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:367)
+	at org.gradle.process.internal.DefaultExecAction.execute(DefaultExecAction.java:31)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:53)
+	... 71 more
 
 
 BUILD FAILED
 
-Total time: 22.221 secs
+Total time: 21.265 secs
 
-2018-10-18 13:03:07,192 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-18 13:03:07,192 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-18 13:03:15,476 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-18 13:03:15,476 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-18 13:03:15,476 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-18 13:03:15,476 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539842517614-0/src/Kotlin-Android-Permissions-DeviceInfo-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-18 13:03:23,240 ERROR SysUtils - Could not process external command
+2019-04-18 21:45:34,440 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 21:45:34,440 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 21:45:42,301 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 21:45:42,301 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 21:45:42,301 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 21:45:42,301 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598432082-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 21:45:50,014 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -417,8 +501,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -432,7 +515,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-18 13:03:23,240 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 21:45:50,014 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -453,8 +536,17 @@ org.gradle.api.ProjectConfigurationException: A problem occurred configuring pro
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:93)
 	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:47)
 	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
-	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:63)
-	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
 	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:142)
@@ -529,12 +621,12 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
 	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
-	... 48 more
+	... 57 more
 
 
 BUILD FAILED
 
-Total time: 7.152 secs
+Total time: 7.097 secs
 
-2018-10-18 13:03:23,311 ERROR FullProcessService - Project build has not produced APK file
-2018-10-18 13:03:23,375 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-18 21:45:50,084 ERROR FullProcessService - Project build has not produced APK file
+2019-04-18 21:45:50,145 ERROR FullProcessService - Could not find generated or existed APK file

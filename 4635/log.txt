@@ -1,33 +1,36 @@
-2018-10-16 13:26:18,755 INFO  DownloadService - Downloading "https://github.com/Hitomis/ActivitySwitcher/archive/master.zip", attempt 3
-2018-10-16 13:26:26,295 INFO  DownloadService - Downloaded https://github.com/Hitomis/ActivitySwitcher/archive/master.zip, attempt 3
-2018-10-16 13:26:26,296 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/master.zip": 3 MB
-2018-10-16 13:26:26,296 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-16 13:26:26,297 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/master.zip: true
-2018-10-16 13:26:26,297 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src'.
-2018-10-16 13:26:26,354 INFO  FullProcessService - Size of directory with sources: 5 MB
-2018-10-16 13:26:26,355 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src]
-2018-10-16 13:26:26,377 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/.git/
+2019-04-18 15:35:53,928 INFO  DownloadService - Downloading "https://github.com/Hitomis/ActivitySwitcher/archive/master.zip", attempt 3
+2019-04-18 15:36:54,749 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 15:36:55,921 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 15:36:55,921 INFO  DownloadService - Downloading "https://github.com/Hitomis/ActivitySwitcher/archive/master.zip", attempt 3
+2019-04-18 15:37:58,115 DEBUG FullProcessService - Repository https://github.com/Hitomis/ActivitySwitcher available: true
+2019-04-18 15:37:58,115 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 15:37:58,115 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Hitomis/ActivitySwitcher, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src]
+2019-04-18 15:38:02,120 INFO  SysUtils - 
+2019-04-18 15:38:02,152 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/.git": true
+2019-04-18 15:38:02,155 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-04-18 15:38:02,155 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src]
+2019-04-18 15:38:02,172 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/.git/
 
-2018-10-16 13:26:26,380 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/ActivitySwitcher-master/gradlew
-2018-10-16 13:26:26,383 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/ActivitySwitcher-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/ActivitySwitcher-master/aslibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/ActivitySwitcher-master/build.gradle
-2018-10-16 13:26:26,386 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/ActivitySwitcher-master/aslibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/ActivitySwitcher-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/ActivitySwitcher-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/ActivitySwitcher-master/settings.gradle
-2018-10-16 13:26:26,387 INFO  ProjectBuildService - Remote scripts: none
-2018-10-16 13:26:26,387 INFO  ProjectFixService - Fixing project...
-2018-10-16 13:26:26,393 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/ActivitySwitcher-master/app/local.properties
-2018-10-16 13:26:26,393 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/ActivitySwitcher-master/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-10-16 13:26:26,394 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/ActivitySwitcher-master/aslibrary/local.properties
-2018-10-16 13:26:26,394 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/ActivitySwitcher-master/aslibrary/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-10-16 13:26:26,395 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/ActivitySwitcher-master/local.properties
-2018-10-16 13:26:26,395 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-10-16 13:26:26,395 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-10-16 13:26:26,396 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/ActivitySwitcher-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-10-16 13:26:26,396 INFO  ProjectFixService - Project was maybe fixed
-2018-10-16 13:26:26,396 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 13:26:26,396 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/ActivitySwitcher-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/ActivitySwitcher-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 13:26:37,357 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-10-16 13:26:37,357 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-16 13:26:37,357 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/ActivitySwitcher-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/ActivitySwitcher-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-16 13:26:54,456 ERROR SysUtils - Could not process external command
+2019-04-18 15:38:02,175 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/gradlew
+2019-04-18 15:38:02,177 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/aslibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/build.gradle
+2019-04-18 15:38:02,180 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/aslibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/settings.gradle
+2019-04-18 15:38:02,180 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 15:38:02,180 INFO  ProjectFixService - Fixing project...
+2019-04-18 15:38:02,187 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/app/local.properties
+2019-04-18 15:38:02,187 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-04-18 15:38:02,187 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/aslibrary/local.properties
+2019-04-18 15:38:02,188 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/aslibrary/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-04-18 15:38:02,188 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/local.properties
+2019-04-18 15:38:02,188 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-04-18 15:38:02,188 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-04-18 15:38:02,189 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-04-18 15:38:02,189 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 15:38:02,189 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 15:38:02,189 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 15:38:08,977 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-04-18 15:38:08,977 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-18 15:38:08,977 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-18 15:38:24,328 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -40,7 +43,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -54,7 +57,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-16 13:26:54,458 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 15:38:24,328 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -92,7 +95,7 @@ Incremental java compilation is an incubating feature.
 :aslibrary:incrementalReleaseJavaCompilationSafeguard
 :aslibrary:compileReleaseJavaWithJavac
 :aslibrary:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/ActivitySwitcher-master/aslibrary/src/main/java/com/hitomi/aslibrary/ActivitySwitcherHelper.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/aslibrary/src/main/java/com/hitomi/aslibrary/ActivitySwitcherHelper.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :aslibrary:extractReleaseAnnotations
 :aslibrary:mergeReleaseProguardFiles
@@ -105,12 +108,12 @@ Note: Recompile with -Xlint:deprecation for details.
 :aslibrary:transformNative_libsWithMergeJniLibsForRelease
 :aslibrary:transformNative_libsWithSyncJniLibsForRelease
 :aslibrary:bundleRelease
-:app:prepareActivitySwitcherMasterAslibraryUnspecifiedLibrary
 :app:prepareComAndroidSupportAnimatedVectorDrawable2411Library
 :app:prepareComAndroidSupportAppcompatV72411Library
 :app:prepareComAndroidSupportCardviewV72411Library
 :app:prepareComAndroidSupportSupportV42411Library
 :app:prepareComAndroidSupportSupportVectorDrawable2411Library
+:app:prepareSrcAslibraryUnspecifiedLibrary
 :app:prepareDebugDependencies
 :app:compileDebugAidl
 :app:compileDebugRenderscript
@@ -132,16 +135,16 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:compileDebugSources
 :app:prePackageMarkerForDebug
 :app:transformClassesWithDexForDebug
-Merged dex #1 (26 defs/40.1KiB)
-Merged dex #2 (5 defs/15.3KiB)
-Merged dex #3 (355 defs/574.2KiB)
-Merged dex #4 (13 defs/24.3KiB)
-Merged dex #5 (819 defs/997.1KiB)
-Merged dex #6 (17 defs/48.5KiB)
-Merged dex #7 (51 defs/118.2KiB)
-Merged dex #8 (363 defs/280.8KiB)
+Merged dex #1 (5 defs/15.3KiB)
+Merged dex #2 (355 defs/574.2KiB)
+Merged dex #3 (13 defs/24.3KiB)
+Merged dex #4 (819 defs/997.1KiB)
+Merged dex #5 (17 defs/48.5KiB)
+Merged dex #6 (51 defs/118.2KiB)
+Merged dex #7 (363 defs/280.8KiB)
+Merged dex #8 (26 defs/40.1KiB)
 Merged dex #9 (46 defs/7.4KiB)
-Result is 1695 defs/2550.5KiB. Took 0.3s
+Result is 1695 defs/2550.5KiB. Took 0.2s
 :app:mergeDebugJniLibFolders
 :app:transformNative_libsWithMergeJniLibsForDebug
 :app:processDebugJavaRes UP-TO-DATE
@@ -266,6 +269,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 16.538 secs
+Total time: 14.789 secs
 
-2018-10-16 13:26:54,564 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539671178748-0/src/ActivitySwitcher-master/app/build/outputs/apk/app-debug.apk
+2019-04-18 15:38:24,414 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555576553926-0/src/app/build/outputs/apk/app-debug.apk

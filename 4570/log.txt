@@ -1,342 +1,345 @@
-2019-01-06 19:10:49,097 INFO  DownloadService - Downloading "https://github.com/DreaminginCodeZH/MaterialRatingBar/archive/master.zip", attempt 3
-2019-01-06 19:10:50,232 INFO  DownloadService - Downloaded https://github.com/DreaminginCodeZH/MaterialRatingBar/archive/master.zip, attempt 3
-2019-01-06 19:10:50,232 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/master.zip": 752 KB
-2019-01-06 19:10:50,232 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-06 19:10:50,238 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/master.zip: true
-2019-01-06 19:10:50,238 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src'.
-2019-01-06 19:10:50,272 INFO  FullProcessService - Size of directory with sources: 845 KB
-2019-01-06 19:10:50,272 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src]
-2019-01-06 19:10:50,294 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/.git/
+2019-04-18 19:26:23,469 INFO  DownloadService - Downloading "https://github.com/DreaminginCodeZH/MaterialRatingBar/archive/master.zip", attempt 3
+2019-04-18 19:27:24,262 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 19:27:25,335 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 19:27:25,335 INFO  DownloadService - Downloading "https://github.com/DreaminginCodeZH/MaterialRatingBar/archive/master.zip", attempt 3
+2019-04-18 19:28:26,753 DEBUG FullProcessService - Repository https://github.com/DreaminginCodeZH/MaterialRatingBar available: true
+2019-04-18 19:28:26,759 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 19:28:26,760 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/DreaminginCodeZH/MaterialRatingBar, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src]
+2019-04-18 19:28:29,117 INFO  SysUtils - 
+2019-04-18 19:28:29,223 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/.git": true
+2019-04-18 19:28:29,229 INFO  FullProcessService - Size of directory with sources: 845 KB
+2019-04-18 19:28:29,229 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src]
+2019-04-18 19:28:29,277 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/.git/
 
-2019-01-06 19:10:50,298 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/gradlew
-2019-01-06 19:10:50,302 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/build.gradle
-2019-01-06 19:10:50,306 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/settings.gradle
-2019-01-06 19:10:50,307 INFO  ProjectBuildService - Remote scripts: none
-2019-01-06 19:10:50,307 INFO  ProjectFixService - Fixing project...
-2019-01-06 19:10:50,320 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/local.properties
-2019-01-06 19:10:50,323 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-06 19:10:50,323 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-06 19:10:50,324 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/sample/local.properties
-2019-01-06 19:10:50,327 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-06 19:10:50,328 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-06 19:10:50,329 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/local.properties
-2019-01-06 19:10:50,330 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-01-06 19:10:50,330 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-01-06 19:10:50,333 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-06 19:10:50,334 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-06 19:10:50,334 INFO  ProjectFixService - Project was maybe fixed
-2019-01-06 19:10:50,334 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 19:10:50,334 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 19:10:59,022 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-01-06 19:10:59,022 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-06 19:10:59,023 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-06 19:11:14,463 INFO  SysUtils - Configuration on demand is an incubating feature.
-:library:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:15: error: package android.support.annotation does not exist
+2019-04-18 19:28:29,285 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/gradlew
+2019-04-18 19:28:29,291 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/build.gradle
+2019-04-18 19:28:29,343 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/settings.gradle
+2019-04-18 19:28:29,345 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 19:28:29,345 INFO  ProjectFixService - Fixing project...
+2019-04-18 19:28:29,437 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/local.properties
+2019-04-18 19:28:29,506 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-18 19:28:29,506 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-18 19:28:29,508 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/sample/local.properties
+2019-04-18 19:28:29,554 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-18 19:28:29,554 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-18 19:28:29,556 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/local.properties
+2019-04-18 19:28:29,556 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-04-18 19:28:29,557 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-04-18 19:28:29,597 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-18 19:28:29,597 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-18 19:28:29,598 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 19:28:29,598 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 19:28:29,598 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 19:29:10,454 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-04-18 19:29:10,455 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-18 19:29:10,455 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-18 19:30:29,532 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:15: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:16: error: package android.support.v7.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:16: error: package android.support.v7.widget does not exist
 import android.support.v7.widget.TintTypedArray;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingDrawable.java:14: error: package android.support.v7.content.res does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingDrawable.java:14: error: package android.support.v7.content.res does not exist
 import android.support.v7.content.res.AppCompatResources;
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/TileDrawable.java:11: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/TileDrawable.java:11: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/BaseDrawable.java:17: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/BaseDrawable.java:17: error: package android.support.annotation does not exist
 import android.support.annotation.ColorInt;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/BaseDrawable.java:18: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/BaseDrawable.java:18: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/BaseDrawable.java:19: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/BaseDrawable.java:19: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/TintableDrawable.java:12: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/TintableDrawable.java:12: error: package android.support.annotation does not exist
 import android.support.annotation.ColorInt;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/TintableDrawable.java:13: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/TintableDrawable.java:13: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/TintableDrawable.java:14: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/TintableDrawable.java:14: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/ClipDrawableCompat.java:12: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/ClipDrawableCompat.java:12: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/ClipDrawableCompat.java:13: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/ClipDrawableCompat.java:13: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:152: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:152: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:163: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:163: error: cannot find symbol
     public void setProgressTintList(@Nullable ColorStateList tint) {
                                      ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:171: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:171: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:182: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:182: error: cannot find symbol
     public void setProgressTintMode(@Nullable PorterDuff.Mode tintMode) {
                                      ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:190: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:190: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:201: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:201: error: cannot find symbol
     public void setSecondaryProgressTintList(@Nullable ColorStateList tint) {
                                               ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:209: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:209: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:220: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:220: error: cannot find symbol
     public void setSecondaryProgressTintMode(@Nullable PorterDuff.Mode tintMode) {
                                               ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:228: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:228: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:239: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:239: error: cannot find symbol
     public void setProgressBackgroundTintList(@Nullable ColorStateList tint) {
                                                ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:247: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:247: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:258: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:258: error: cannot find symbol
     public void setProgressBackgroundTintMode(@Nullable PorterDuff.Mode tintMode) {
                                                ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:266: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:266: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:277: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:277: error: cannot find symbol
     public void setIndeterminateTintList(@Nullable ColorStateList tint) {
                                           ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:285: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:285: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:296: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:296: error: cannot find symbol
     public void setIndeterminateTintMode(@Nullable PorterDuff.Mode tintMode) {
                                           ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:310: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:310: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:318: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:318: error: cannot find symbol
     public void setSupportProgressTintList(@Nullable ColorStateList tint) {
                                             ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:328: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:328: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:336: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:336: error: cannot find symbol
     public void setSupportProgressTintMode(@Nullable PorterDuff.Mode tintMode) {
                                             ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:346: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:346: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:354: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:354: error: cannot find symbol
     public void setSupportSecondaryProgressTintList(@Nullable ColorStateList tint) {
                                                      ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:364: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:364: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:372: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:372: error: cannot find symbol
     public void setSupportSecondaryProgressTintMode(@Nullable PorterDuff.Mode tintMode) {
                                                      ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:382: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:382: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:390: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:390: error: cannot find symbol
     public void setSupportProgressBackgroundTintList(@Nullable ColorStateList tint) {
                                                       ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:400: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:400: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:408: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:408: error: cannot find symbol
     public void setSupportProgressBackgroundTintMode(@Nullable PorterDuff.Mode tintMode) {
                                                       ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:418: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:418: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:426: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:426: error: cannot find symbol
     public void setSupportIndeterminateTintList(@Nullable ColorStateList tint) {
                                                  ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:436: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:436: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:444: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:444: error: cannot find symbol
     public void setSupportIndeterminateTintMode(@Nullable PorterDuff.Mode tintMode) {
                                                  ^
   symbol:   class Nullable
   location: class MaterialRatingBar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/TileDrawable.java:35: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/TileDrawable.java:35: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class TileDrawable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/BaseDrawable.java:59: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/BaseDrawable.java:59: error: cannot find symbol
     public void setColorFilter(@Nullable ColorFilter colorFilter) {
                                 ^
   symbol:   class Nullable
   location: class BaseDrawable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/BaseDrawable.java:68: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/BaseDrawable.java:68: error: cannot find symbol
     public void setTint(@ColorInt int tintColor) {
                          ^
   symbol:   class ColorInt
   location: class BaseDrawable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/BaseDrawable.java:76: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/BaseDrawable.java:76: error: cannot find symbol
     public void setTintList(@Nullable ColorStateList tint) {
                              ^
   symbol:   class Nullable
   location: class BaseDrawable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/BaseDrawable.java:87: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/BaseDrawable.java:87: error: cannot find symbol
     public void setTintMode(@NonNull PorterDuff.Mode tintMode) {
                              ^
   symbol:   class NonNull
   location: class BaseDrawable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/TintableDrawable.java:41: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/TintableDrawable.java:41: error: cannot find symbol
     void setTint(@ColorInt int tintColor);
                   ^
   symbol:   class ColorInt
   location: interface TintableDrawable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/TintableDrawable.java:60: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/TintableDrawable.java:60: error: cannot find symbol
     void setTintList(@Nullable ColorStateList tint);
                       ^
   symbol:   class Nullable
   location: interface TintableDrawable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/TintableDrawable.java:77: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/TintableDrawable.java:77: error: cannot find symbol
     void setTintMode(@NonNull PorterDuff.Mode tintMode);
                       ^
   symbol:   class NonNull
   location: interface TintableDrawable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/BaseDrawable.java:167: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/BaseDrawable.java:167: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class BaseDrawable.DummyConstantState
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/ClipDrawableCompat.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/ClipDrawableCompat.java:30: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class ClipDrawableCompat
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/ClipDrawableCompat.java:89: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/ClipDrawableCompat.java:89: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class ClipDrawableCompat.DummyConstantState
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/internal/DrawableCompat.java:15: warning: no @param for value
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/internal/DrawableCompat.java:15: warning: no @param for value
     public static PorterDuff.Mode parseTintMode(int value, PorterDuff.Mode defaultMode) {
                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/internal/DrawableCompat.java:15: warning: no @param for defaultMode
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/internal/DrawableCompat.java:15: warning: no @param for defaultMode
     public static PorterDuff.Mode parseTintMode(int value, PorterDuff.Mode defaultMode) {
                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/internal/DrawableCompat.java:15: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/internal/DrawableCompat.java:15: warning: no @return
     public static PorterDuff.Mode parseTintMode(int value, PorterDuff.Mode defaultMode) {
                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:311: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:311: warning: no @return
     public ColorStateList getSupportProgressTintList() {
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:318: warning: no @param for tint
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:318: warning: no @param for tint
     public void setSupportProgressTintList(@Nullable ColorStateList tint) {
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:329: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:329: warning: no @return
     public PorterDuff.Mode getSupportProgressTintMode() {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:336: warning: no @param for tintMode
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:336: warning: no @param for tintMode
     public void setSupportProgressTintMode(@Nullable PorterDuff.Mode tintMode) {
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:347: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:347: warning: no @return
     public ColorStateList getSupportSecondaryProgressTintList() {
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:354: warning: no @param for tint
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:354: warning: no @param for tint
     public void setSupportSecondaryProgressTintList(@Nullable ColorStateList tint) {
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:365: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:365: warning: no @return
     public PorterDuff.Mode getSupportSecondaryProgressTintMode() {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:372: warning: no @param for tintMode
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:372: warning: no @param for tintMode
     public void setSupportSecondaryProgressTintMode(@Nullable PorterDuff.Mode tintMode) {
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:383: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:383: warning: no @return
     public ColorStateList getSupportProgressBackgroundTintList() {
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:390: warning: no @param for tint
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:390: warning: no @param for tint
     public void setSupportProgressBackgroundTintList(@Nullable ColorStateList tint) {
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:401: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:401: warning: no @return
     public PorterDuff.Mode getSupportProgressBackgroundTintMode() {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:408: warning: no @param for tintMode
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:408: warning: no @param for tintMode
     public void setSupportProgressBackgroundTintMode(@Nullable PorterDuff.Mode tintMode) {
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:419: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:419: warning: no @return
     public ColorStateList getSupportIndeterminateTintList() {
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:426: warning: no @param for tint
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:426: warning: no @param for tint
     public void setSupportIndeterminateTintList(@Nullable ColorStateList tint) {
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:437: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:437: warning: no @return
     public PorterDuff.Mode getSupportIndeterminateTintMode() {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:444: warning: no @param for tintMode
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/src/main/java/me/zhanghai/android/materialratingbar/MaterialRatingBar.java:444: warning: no @param for tintMode
     public void setSupportIndeterminateTintMode(@Nullable PorterDuff.Mode tintMode) {
                 ^
 javadoc: warning - Class Nullable not found.
@@ -439,15 +442,15 @@ javadoc: warning - Class Nullable not found.
 :library:assemble
 :library:build
 
-BUILD SUCCESSFUL in 14s
+BUILD SUCCESSFUL in 1m 18s
 48 actionable tasks: 48 executed
 
-2019-01-06 19:11:14,522 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 19:11:14,522 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 19:11:21,067 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-01-06 19:11:21,068 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-06 19:11:21,068 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-06 19:12:03,391 ERROR SysUtils - Could not process external command
+2019-04-18 19:30:29,678 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 19:30:29,678 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 19:31:00,445 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-04-18 19:31:00,446 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-18 19:31:00,446 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-18 19:33:37,413 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -460,22 +463,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-06 19:12:03,392 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 19:33:37,415 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
 :library:compileDebugAidl NO-SOURCE
@@ -626,9 +628,9 @@ Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/sample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/sample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
@@ -647,7 +649,7 @@ Ignoring unused library classes...
 Printing kept classes, fields, and methods...
 Inlining subroutines...
 Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/sample/build/outputs/mapping/release/usage.txt]...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/sample/build/outputs/mapping/release/usage.txt]...
 Removing unused program classes and class elements...
   Original number of program classes: 1408
   Final number of program classes:    683
@@ -684,7 +686,7 @@ Optimizing (pass 1/5)...
   Number of removed instructions:                1931
   Number of removed local variables:             114
   Number of removed exception blocks:            40
-  Number of optimized local variable frames:     1073
+  Number of optimized local variable frames:     1074
 Shrinking...
 Removing unused program classes and class elements...
   Original number of program classes: 683
@@ -719,7 +721,7 @@ Optimizing (pass 2/5)...
   Number of string peephole optimizations:       67
   Number of math peephole optimizations:         0
   Number of simplified instructions:             93
-  Number of removed instructions:                2607
+  Number of removed instructions:                2610
   Number of removed local variables:             60
   Number of removed exception blocks:            0
   Number of optimized local variable frames:     74
@@ -795,7 +797,7 @@ Optimizing (pass 4/5)...
   Number of string peephole optimizations:       0
   Number of math peephole optimizations:         0
   Number of simplified instructions:             4
-  Number of removed instructions:                17
+  Number of removed instructions:                18
   Number of removed local variables:             0
   Number of removed exception blocks:            0
   Number of optimized local variable frames:     1
@@ -833,7 +835,7 @@ Optimizing (pass 5/5)...
   Number of string peephole optimizations:       0
   Number of math peephole optimizations:         0
   Number of simplified instructions:             1
-  Number of removed instructions:                8
+  Number of removed instructions:                7
   Number of removed local variables:             0
   Number of removed exception blocks:            0
   Number of optimized local variable frames:     0
@@ -842,10 +844,10 @@ Removing unused program classes and class elements...
   Original number of program classes: 664
   Final number of program classes:    664
 Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/sample/build/outputs/mapping/release/mapping.txt]...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/sample/build/outputs/mapping/release/mapping.txt]...
 Preverifying...
 Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/sample/build/intermediates/transforms/proguard/release/0.jar]
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/sample/build/intermediates/transforms/proguard/release/0.jar]
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/edda314c4a10848021ee3d21ac9f47d3/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/0a9fdba8ef084928597b572f67f29d07/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/abc412fabbf2bdc688fcf20d969e6965/jars/classes.jar] (filtered)
@@ -878,9 +880,9 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/library/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/sample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/library/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/sample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
 :sample:transformClassesWithDexBuilderForRelease
 :sample:transformDexArchiveWithDexMergerForRelease
 :sample:transformClassesAndDexWithShrinkResForRelease
@@ -899,7 +901,7 @@ FAILURE: Build failed with an exception.
 
 * What went wrong:
 Execution failed for task ':sample:validateSigningRelease'.
-> Keystore file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/github.jks' not found for signing config 'release'.
+> Keystore file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/github.jks' not found for signing config 'release'.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -937,7 +939,7 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':sample:
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: org.gradle.api.InvalidUserDataException: Keystore file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/github.jks' not found for signing config 'release'.
+Caused by: org.gradle.api.InvalidUserDataException: Keystore file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/github.jks' not found for signing config 'release'.
 	at com.android.build.gradle.internal.tasks.ValidateSigningTask.validate(ValidateSigningTask.kt:71)
 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:46)
@@ -957,7 +959,7 @@ Caused by: org.gradle.api.InvalidUserDataException: Keystore file '/private/var/
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 42s
+BUILD FAILED in 2m 36s
 93 actionable tasks: 61 executed, 32 up-to-date
 
-2019-01-06 19:12:03,529 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546776649095-0/src/MaterialRatingBar-master/sample/build/outputs/apk/debug/sample-debug.apk
+2019-04-18 19:33:37,760 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555590383463-0/src/sample/build/outputs/apk/debug/sample-debug.apk

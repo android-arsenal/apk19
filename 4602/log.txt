@@ -1,33 +1,36 @@
-2018-10-16 14:12:21,758 INFO  DownloadService - Downloading "https://github.com/Plastix/RxSchedulerRule/archive/master.zip", attempt 3
-2018-10-16 14:12:22,305 INFO  DownloadService - Downloaded https://github.com/Plastix/RxSchedulerRule/archive/master.zip, attempt 3
-2018-10-16 14:12:22,305 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/master.zip": 68 KB
-2018-10-16 14:12:22,305 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-16 14:12:22,305 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/master.zip: true
-2018-10-16 14:12:22,305 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src'.
-2018-10-16 14:12:22,316 INFO  FullProcessService - Size of directory with sources: 76 KB
-2018-10-16 14:12:22,316 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src]
-2018-10-16 14:12:22,332 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/.git/
+2019-04-18 17:32:23,787 INFO  DownloadService - Downloading "https://github.com/Plastix/RxSchedulerRule/archive/master.zip", attempt 3
+2019-04-18 17:33:24,628 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 17:33:25,899 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 17:33:25,899 INFO  DownloadService - Downloading "https://github.com/Plastix/RxSchedulerRule/archive/master.zip", attempt 3
+2019-04-18 17:34:28,010 DEBUG FullProcessService - Repository https://github.com/Plastix/RxSchedulerRule available: true
+2019-04-18 17:34:28,010 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 17:34:28,010 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Plastix/RxSchedulerRule, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src]
+2019-04-18 17:34:29,774 INFO  SysUtils - 
+2019-04-18 17:34:29,797 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/.git": true
+2019-04-18 17:34:29,799 INFO  FullProcessService - Size of directory with sources: 76 KB
+2019-04-18 17:34:29,799 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src]
+2019-04-18 17:34:29,819 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/.git/
 
-2018-10-16 14:12:22,334 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/gradlew
-2018-10-16 14:12:22,336 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/build.gradle
-2018-10-16 14:12:22,338 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/settings.gradle
-2018-10-16 14:12:22,338 INFO  ProjectBuildService - Remote scripts: none
-2018-10-16 14:12:22,338 INFO  ProjectFixService - Fixing project...
-2018-10-16 14:12:22,344 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx1/local.properties
-2018-10-16 14:12:22,344 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx1/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
-2018-10-16 14:12:22,344 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx2/local.properties
-2018-10-16 14:12:22,345 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx2/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
-2018-10-16 14:12:22,345 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/local.properties
-2018-10-16 14:12:22,345 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-16 14:12:22,346 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-16 14:12:22,346 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
-2018-10-16 14:12:22,346 INFO  ProjectFixService - Project was maybe fixed
-2018-10-16 14:12:22,346 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 14:12:22,346 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx1/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 14:12:33,528 INFO  ProjectTaskService - Detected possible tasks: 68
-2018-10-16 14:12:33,530 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-10-16 14:12:33,530 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx1/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-16 14:12:42,798 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 17:34:29,821 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/gradlew
+2019-04-18 17:34:29,823 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/rx1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/rx2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/build.gradle
+2019-04-18 17:34:29,825 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/rx2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/rx1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/settings.gradle
+2019-04-18 17:34:29,826 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 17:34:29,826 INFO  ProjectFixService - Fixing project...
+2019-04-18 17:34:29,831 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/rx1/local.properties
+2019-04-18 17:34:29,832 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/rx1/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
+2019-04-18 17:34:29,832 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/rx2/local.properties
+2019-04-18 17:34:29,832 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/rx2/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
+2019-04-18 17:34:29,832 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/local.properties
+2019-04-18 17:34:29,833 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-18 17:34:29,833 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-18 17:34:29,834 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
+2019-04-18 17:34:29,834 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 17:34:29,834 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 17:34:29,834 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/rx1/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 17:34:39,457 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-04-18 17:34:39,457 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-18 17:34:39,458 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/rx1/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-18 17:34:47,894 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :rx1:preBuild UP-TO-DATE
 :rx1:preDebugBuild UP-TO-DATE
@@ -101,13 +104,13 @@ Incremental java compilation is an incubating feature.
 :rx1:bundleRelease
 :rx1:compileReleaseSources
 :rx1:assembleRelease
-:rx1:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx1/src/main/java/io/github/plastix/rxschedulerrule/RxSchedulerRule.java:8: error: package rx.android.plugins does not exist
+:rx1:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/rx1/src/main/java/io/github/plastix/rxschedulerrule/RxSchedulerRule.java:8: error: package rx.android.plugins does not exist
 import rx.android.plugins.RxAndroidPlugins;
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx1/src/main/java/io/github/plastix/rxschedulerrule/RxSchedulerRule.java:9: error: package rx.android.plugins does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/rx1/src/main/java/io/github/plastix/rxschedulerrule/RxSchedulerRule.java:9: error: package rx.android.plugins does not exist
 import rx.android.plugins.RxAndroidSchedulersHook;
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx1/src/main/java/io/github/plastix/rxschedulerrule/RxSchedulerRule.java:21: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/rx1/src/main/java/io/github/plastix/rxschedulerrule/RxSchedulerRule.java:21: error: cannot find symbol
     private final RxAndroidSchedulersHook rxAndroidSchedulersHook = new RxAndroidSchedulersHook() {
                   ^
   symbol:   class RxAndroidSchedulersHook
@@ -121,14 +124,14 @@ import rx.android.plugins.RxAndroidSchedulersHook;
 
 BUILD SUCCESSFUL
 
-Total time: 8.666 secs
+Total time: 7.849 secs
 
-2018-10-16 14:12:42,830 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 14:12:42,831 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 14:12:50,233 INFO  ProjectTaskService - Detected possible tasks: 67
-2018-10-16 14:12:50,233 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-10-16 14:12:50,233 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-16 14:12:59,664 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 17:34:47,909 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 17:34:47,909 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/rx2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 17:34:53,962 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-04-18 17:34:53,962 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-18 17:34:53,965 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/rx2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-18 17:35:01,570 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :rx2:preBuild UP-TO-DATE
 :rx2:preDebugBuild UP-TO-DATE
@@ -202,7 +205,7 @@ Incremental java compilation is an incubating feature.
 :rx2:bundleRelease
 :rx2:compileReleaseSources
 :rx2:assembleRelease
-:rx2:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/rx2/src/main/java/io/github/plastix/rxschedulerrule/RxSchedulerRule.java:10: error: package io.reactivex.android.plugins does not exist
+:rx2:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/rx2/src/main/java/io/github/plastix/rxschedulerrule/RxSchedulerRule.java:10: error: package io.reactivex.android.plugins does not exist
 import io.reactivex.android.plugins.RxAndroidPlugins;
                                    ^
 
@@ -214,14 +217,14 @@ import io.reactivex.android.plugins.RxAndroidPlugins;
 
 BUILD SUCCESSFUL
 
-Total time: 8.842 secs
+Total time: 7.025 secs
 
-2018-10-16 14:12:59,733 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 14:12:59,733 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 14:13:07,234 INFO  ProjectTaskService - Detected possible tasks: 67
-2018-10-16 14:13:07,234 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-10-16 14:13:07,234 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539673941756-0/src/RxSchedulerRule-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-16 14:13:14,440 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 17:35:01,594 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 17:35:01,594 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 17:35:07,820 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-04-18 17:35:07,820 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-18 17:35:07,820 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583543785-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-18 17:35:14,226 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :rx1:preBuild UP-TO-DATE
 :rx1:preDebugBuild UP-TO-DATE
@@ -376,7 +379,7 @@ Incremental java compilation is an incubating feature.
 
 BUILD SUCCESSFUL
 
-Total time: 6.603 secs
+Total time: 5.84 secs
 
-2018-10-16 14:13:14,509 ERROR FullProcessService - Project build has not produced APK file
-2018-10-16 14:13:14,569 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-18 17:35:14,250 ERROR FullProcessService - Project build has not produced APK file
+2019-04-18 17:35:14,268 ERROR FullProcessService - Could not find generated or existed APK file

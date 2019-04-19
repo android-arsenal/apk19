@@ -1,34 +1,37 @@
-2018-10-17 15:05:58,939 INFO  DownloadService - Downloading "https://github.com/t-kurimura/flickabledialog/archive/master.zip", attempt 3
-2018-10-17 15:06:05,648 INFO  DownloadService - Downloaded https://github.com/t-kurimura/flickabledialog/archive/master.zip, attempt 3
-2018-10-17 15:06:05,648 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/master.zip": 9 MB
-2018-10-17 15:06:05,648 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-17 15:06:05,654 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/master.zip: true
-2018-10-17 15:06:05,654 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src'.
-2018-10-17 15:06:05,729 INFO  FullProcessService - Size of directory with sources: 9 MB
-2018-10-17 15:06:05,729 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src]
-2018-10-17 15:06:05,748 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/.git/
+2019-04-18 19:39:16,606 INFO  DownloadService - Downloading "https://github.com/t-kurimura/flickabledialog/archive/master.zip", attempt 3
+2019-04-18 19:40:17,273 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 19:40:18,289 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 19:40:18,289 INFO  DownloadService - Downloading "https://github.com/t-kurimura/flickabledialog/archive/master.zip", attempt 3
+2019-04-18 19:41:19,701 DEBUG FullProcessService - Repository https://github.com/t-kurimura/flickabledialog available: true
+2019-04-18 19:41:19,701 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 19:41:19,701 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/t-kurimura/flickabledialog, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src]
+2019-04-18 19:41:25,754 INFO  SysUtils - 
+2019-04-18 19:41:25,762 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/.git": true
+2019-04-18 19:41:25,766 INFO  FullProcessService - Size of directory with sources: 9 MB
+2019-04-18 19:41:25,766 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src]
+2019-04-18 19:41:25,784 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/.git/
 
-2018-10-17 15:06:05,751 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/gradlew
-2018-10-17 15:06:05,755 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/flickabledialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/build.gradle
-2018-10-17 15:06:05,758 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/flickabledialog/build.gradle
-2018-10-17 15:06:05,758 INFO  ProjectBuildService - Remote scripts: none
-2018-10-17 15:06:05,758 INFO  ProjectFixService - Fixing project...
-2018-10-17 15:06:05,766 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/app/local.properties
-2018-10-17 15:06:05,766 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
-2018-10-17 15:06:05,767 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/flickabledialog/local.properties
-2018-10-17 15:06:05,767 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/flickabledialog/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2018-10-17 15:06:05,768 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/local.properties
-2018-10-17 15:06:05,768 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-17 15:06:05,768 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-17 15:06:05,769 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
-2018-10-17 15:06:05,769 INFO  ProjectFixService - Project was maybe fixed
-2018-10-17 15:06:05,769 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-17 15:06:05,769 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-17 15:06:21,885 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-17 15:06:21,885 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-17 15:06:21,885 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-17 15:06:21,886 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-17 15:06:29,033 ERROR SysUtils - Could not process external command
+2019-04-18 19:41:25,787 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/gradlew
+2019-04-18 19:41:25,791 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/flickabledialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/build.gradle
+2019-04-18 19:41:25,793 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/flickabledialog/build.gradle
+2019-04-18 19:41:25,794 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 19:41:25,794 INFO  ProjectFixService - Fixing project...
+2019-04-18 19:41:25,801 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/app/local.properties
+2019-04-18 19:41:25,801 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2019-04-18 19:41:25,802 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/flickabledialog/local.properties
+2019-04-18 19:41:25,802 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/flickabledialog/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-04-18 19:41:25,802 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/local.properties
+2019-04-18 19:41:25,802 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-04-18 19:41:25,803 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-04-18 19:41:25,803 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2019-04-18 19:41:25,803 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 19:41:25,803 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 19:41:25,803 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 19:41:35,108 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 19:41:35,109 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 19:41:35,109 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 19:41:35,109 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 19:41:41,548 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-17 15:06:29,034 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 19:41:41,548 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -166,15 +169,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.533 secs
+Total time: 5.816 secs
 
-2018-10-17 15:06:29,038 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-17 15:06:29,038 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/flickabledialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-17 15:06:35,645 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-17 15:06:35,645 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-17 15:06:35,645 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-17 15:06:35,645 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/flickabledialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-17 15:06:50,671 ERROR SysUtils - Could not process external command
+2019-04-18 19:41:41,553 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 19:41:41,553 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/flickabledialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 19:41:48,108 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 19:41:48,108 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 19:41:48,108 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 19:41:48,108 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/flickabledialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 19:42:00,921 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -201,7 +204,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-17 15:06:50,671 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 19:42:00,921 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :flickabledialog:preBuild UP-TO-DATE
 :flickabledialog:preDebugBuild UP-TO-DATE
@@ -385,15 +388,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 14.374 secs
+Total time: 12.177 secs
 
-2018-10-17 15:06:50,787 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-17 15:06:50,788 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-17 15:06:57,099 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-17 15:06:57,099 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-17 15:06:57,099 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-17 15:06:57,099 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539763558937-0/src/flickabledialog-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-17 15:07:03,474 ERROR SysUtils - Could not process external command
+2019-04-18 19:42:00,995 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 19:42:00,995 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 19:42:07,303 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-18 19:42:07,303 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-18 19:42:07,303 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-18 19:42:07,303 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555591156602-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-18 19:42:13,633 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -420,7 +423,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-17 15:07:03,475 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 19:42:13,633 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -524,14 +527,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 5.751 secs
+Total time: 5.698 secs
 
-2018-10-17 15:07:03,598 ERROR FullProcessService - Project build has not produced APK file
-2018-10-17 15:07:03,718 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-18 19:42:13,706 ERROR FullProcessService - Project build has not produced APK file
+2019-04-18 19:42:13,769 ERROR FullProcessService - Could not find generated or existed APK file

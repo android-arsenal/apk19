@@ -1,161 +1,149 @@
-2018-10-16 00:07:41,854 INFO  DownloadService - Downloading "https://github.com/alxrm/animated-clock-icon/archive/master.zip", attempt 3
-2018-10-16 00:07:46,836 INFO  DownloadService - Downloaded https://github.com/alxrm/animated-clock-icon/archive/master.zip, attempt 3
-2018-10-16 00:07:46,836 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/master.zip": 181 KB
-2018-10-16 00:07:46,836 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-16 00:07:46,842 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/master.zip: true
-2018-10-16 00:07:46,843 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src'.
-2018-10-16 00:07:46,861 INFO  FullProcessService - Size of directory with sources: 205 KB
-2018-10-16 00:07:46,861 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src]
-2018-10-16 00:07:46,877 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/.git/
+2019-04-18 14:12:57,269 INFO  DownloadService - Downloading "https://github.com/alxrm/animated-clock-icon/archive/master.zip", attempt 3
+2019-04-18 14:13:58,086 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-04-18 14:13:59,219 INFO  GithubDownloadService - Default branch of this repository: master
+2019-04-18 14:13:59,219 INFO  DownloadService - Downloading "https://github.com/alxrm/animated-clock-icon/archive/master.zip", attempt 3
+2019-04-18 14:15:01,095 DEBUG FullProcessService - Repository https://github.com/alxrm/animated-clock-icon available: true
+2019-04-18 14:15:01,095 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-04-18 14:15:01,095 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/alxrm/animated-clock-icon, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src]
+2019-04-18 14:15:04,901 INFO  SysUtils - 
+2019-04-18 14:15:04,929 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/.git": true
+2019-04-18 14:15:04,931 INFO  FullProcessService - Size of directory with sources: 205 KB
+2019-04-18 14:15:04,932 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src]
+2019-04-18 14:15:04,948 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/.git/
 
-2018-10-16 00:07:46,879 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/gradlew
-2018-10-16 00:07:46,882 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/build.gradle
-2018-10-16 00:07:46,885 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/settings.gradle
-2018-10-16 00:07:46,885 INFO  ProjectBuildService - Remote scripts: none
-2018-10-16 00:07:46,885 INFO  ProjectFixService - Fixing project...
-2018-10-16 00:07:46,891 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/app/local.properties
-2018-10-16 00:07:46,892 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-10-16 00:07:46,892 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/lib/local.properties
-2018-10-16 00:07:46,892 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/lib/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-10-16 00:07:46,893 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/local.properties
-2018-10-16 00:07:46,893 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5-all.zip
-2018-10-16 00:07:46,893 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5-bin.zip)
-2018-10-16 00:07:46,894 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-10-16 00:07:46,894 INFO  ProjectFixService - Project was maybe fixed
-2018-10-16 00:07:46,894 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 00:07:46,894 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 00:07:47,321 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-16 00:07:47,321 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-16 00:07:47,321 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-16 00:07:47,321 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-16 00:07:47,675 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-2018-10-16 00:07:47,675 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+2019-04-18 14:15:04,951 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/gradlew
+2019-04-18 14:15:04,953 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/build.gradle
+2019-04-18 14:15:04,955 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/settings.gradle
+2019-04-18 14:15:04,956 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 14:15:04,956 INFO  ProjectFixService - Fixing project...
+2019-04-18 14:15:04,961 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/app/local.properties
+2019-04-18 14:15:04,962 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-04-18 14:15:04,962 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/lib/local.properties
+2019-04-18 14:15:04,962 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/lib/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-04-18 14:15:04,963 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/local.properties
+2019-04-18 14:15:04,963 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5-all.zip
+2019-04-18 14:15:04,963 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5-bin.zip)
+2019-04-18 14:15:04,964 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-04-18 14:15:04,964 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 14:15:04,964 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 14:15:04,964 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 14:15:34,923 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-04-18 14:15:34,923 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-18 14:15:34,923 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-18 14:16:33,807 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+Download https://jitpack.io/com/github/alxrm/animated-clock-icon/1.0.2/animated-clock-icon-1.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/27.0.2/appcompat-v7-27.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/27.0.2/support-core-utils-27.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/27.0.2/support-annotations-27.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/27.0.2/support-fragment-27.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/27.0.2/support-vector-drawable-27.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/27.0.2/animated-vector-drawable-27.0.2.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.0.5/kotlin-stdlib-1.0.5.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-project/1.0.5/kotlin-project-1.0.5.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/27.0.2/support-compat-27.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/27.0.2/support-core-ui-27.0.2.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-runtime/1.0.5/kotlin-runtime-1.0.5.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.0.3/runtime-1.0.3.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.0.3/common-1.0.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/27.0.2/appcompat-v7-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/27.0.2/animated-vector-drawable-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/27.0.2/support-fragment-27.0.2.aar
+Download https://jitpack.io/com/github/alxrm/animated-clock-icon/1.0.2/animated-clock-icon-1.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/27.0.2/support-vector-drawable-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/27.0.2/support-core-utils-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/27.0.2/support-core-ui-27.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/27.0.2/support-compat-27.0.2.aar
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:javaPreCompileDebug
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/27.0.2/support-annotations-27.0.2.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-runtime/1.0.5/kotlin-runtime-1.0.5.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.0.5/kotlin-stdlib-1.0.5.jar
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.2.0-alpha03/lint-gradle-26.2.0-alpha03.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.2.0-alpha03/intellij-core-26.2.0-alpha03.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.2.0-alpha03/uast-26.2.0-alpha03.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.2.0-alpha03/lint-26.2.0-alpha03.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0-alpha03/kotlin-compiler-26.2.0-alpha03.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.2.0-alpha03/lint-checks-26.2.0-alpha03.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.2.0-alpha03/lint-kotlin-26.2.0-alpha03.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.2.0-alpha03/lint-api-26.2.0-alpha03.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.2.0-alpha03/lint-gradle-26.2.0-alpha03.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.2.0-alpha03/lint-26.2.0-alpha03.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.2.0-alpha03/lint-kotlin-26.2.0-alpha03.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.2.0-alpha03/lint-api-26.2.0-alpha03.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.2.0-alpha03/lint-checks-26.2.0-alpha03.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.2.0-alpha03/intellij-core-26.2.0-alpha03.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.2.0-alpha03/uast-26.2.0-alpha03.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0-alpha03/kotlin-compiler-26.2.0-alpha03.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
 
-* What went wrong:
-Could not determine java version from '11'.
+BUILD SUCCESSFUL in 58s
+53 actionable tasks: 53 executed
 
-* Try:
-Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Get more help at https://help.gradle.org
-
-2018-10-16 00:07:47,678 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 00:07:47,678 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 00:07:48,041 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-16 00:07:48,041 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-16 00:07:48,041 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-16 00:07:48,042 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-16 00:07:48,395 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-2018-10-16 00:07:48,395 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Could not determine java version from '11'.
-
-* Try:
-Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Get more help at https://help.gradle.org
-
-2018-10-16 00:07:48,398 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-16 00:07:48,398 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-16 00:07:48,755 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-16 00:07:48,755 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-16 00:07:48,755 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-16 00:07:48,755 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539623261851-0/src/animated-clock-icon-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-16 00:07:49,112 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-2018-10-16 00:07:49,112 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Could not determine java version from '11'.
-
-* Try:
-Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Get more help at https://help.gradle.org
-
-2018-10-16 00:07:49,115 ERROR FullProcessService - Project build has not produced APK file
-2018-10-16 00:07:49,118 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-18 14:16:33,871 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555571577267-0/src/app/build/outputs/apk/debug/app-debug.apk
