@@ -1,37 +1,34 @@
-2019-04-18 17:27:18,316 INFO  DownloadService - Downloading "https://github.com/rubensousa/RaiflatButton/archive/master.zip", attempt 3
-2019-04-18 17:28:19,237 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-18 17:28:20,418 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-18 17:28:20,419 INFO  DownloadService - Downloading "https://github.com/rubensousa/RaiflatButton/archive/master.zip", attempt 3
-2019-04-18 17:29:22,167 DEBUG FullProcessService - Repository https://github.com/rubensousa/RaiflatButton available: true
-2019-04-18 17:29:22,168 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-18 17:29:22,168 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/rubensousa/RaiflatButton, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src]
-2019-04-18 17:29:24,853 INFO  SysUtils - 
-2019-04-18 17:29:24,883 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/.git": true
-2019-04-18 17:29:24,886 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-04-18 17:29:24,886 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src]
-2019-04-18 17:29:24,904 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/.git/
+2019-05-30 20:19:34,085 INFO  DownloadService - Downloading "https://github.com/rubensousa/RaiflatButton/archive/master.zip", attempt 3
+2019-05-30 20:19:35,346 INFO  DownloadService - Downloaded https://github.com/rubensousa/RaiflatButton/archive/master.zip, attempt 3
+2019-05-30 20:19:35,346 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/master.zip": 1 MB
+2019-05-30 20:19:35,346 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-30 20:19:35,347 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/master.zip: true
+2019-05-30 20:19:35,347 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src'.
+2019-05-30 20:19:35,371 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-05-30 20:19:35,371 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src]
+2019-05-30 20:19:35,387 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/.git/
 
-2019-04-18 17:29:24,906 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/gradlew
-2019-04-18 17:29:24,909 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/raiflatbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/build.gradle
-2019-04-18 17:29:24,911 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/gradle/gradle-bintray-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/raiflatbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/settings.gradle
-2019-04-18 17:29:24,912 INFO  ProjectBuildService - Remote scripts: none
-2019-04-18 17:29:24,912 INFO  ProjectFixService - Fixing project...
-2019-04-18 17:29:24,921 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/app/local.properties
-2019-04-18 17:29:24,921 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2019-04-18 17:29:24,921 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/raiflatbutton/local.properties
-2019-04-18 17:29:24,922 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/raiflatbutton/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2019-04-18 17:29:24,922 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/local.properties
-2019-04-18 17:29:24,922 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2019-04-18 17:29:24,922 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2019-04-18 17:29:24,923 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2019-04-18 17:29:24,923 INFO  ProjectFixService - Project was maybe fixed
-2019-04-18 17:29:24,923 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 17:29:24,923 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 17:29:31,833 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 17:29:31,834 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 17:29:31,834 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 17:29:31,834 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 17:29:38,997 ERROR SysUtils - Could not process external command
+2019-05-30 20:19:35,389 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/gradlew
+2019-05-30 20:19:35,391 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/raiflatbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/build.gradle
+2019-05-30 20:19:35,393 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/gradle/gradle-bintray-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/raiflatbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/settings.gradle
+2019-05-30 20:19:35,393 INFO  ProjectBuildService - Remote scripts: none
+2019-05-30 20:19:35,393 INFO  ProjectFixService - Fixing project...
+2019-05-30 20:19:35,399 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/app/local.properties
+2019-05-30 20:19:35,400 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-05-30 20:19:35,400 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/raiflatbutton/local.properties
+2019-05-30 20:19:35,400 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/raiflatbutton/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-05-30 20:19:35,400 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/local.properties
+2019-05-30 20:19:35,401 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-05-30 20:19:35,401 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-05-30 20:19:35,402 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-05-30 20:19:35,402 INFO  ProjectFixService - Project was maybe fixed
+2019-05-30 20:19:35,402 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 20:19:35,402 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 20:19:41,962 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-30 20:19:41,962 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-30 20:19:41,962 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-30 20:19:41,962 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-30 20:19:48,442 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,21 +41,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 17:29:38,997 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 20:19:48,442 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -162,22 +159,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 6.553 secs
+Total time: 5.891 secs
 
-2019-04-18 17:29:39,002 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 17:29:39,002 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/raiflatbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 17:29:46,346 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 17:29:46,346 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 17:29:46,346 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 17:29:46,346 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/raiflatbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 17:29:59,134 ERROR SysUtils - Could not process external command
+2019-05-30 20:19:48,444 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 20:19:48,444 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/raiflatbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 20:19:54,966 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-30 20:19:54,966 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-30 20:19:54,966 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-30 20:19:54,966 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/raiflatbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-30 20:20:06,958 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -190,43 +187,43 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 17:29:59,134 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 20:20:06,958 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
-:raiflatbutton:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/raiflatbutton/src/main/java/com/github/rubensousa/raiflatbutton/RaiflatUtils.java:23: error: package android.support.annotation does not exist
+:raiflatbutton:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/raiflatbutton/src/main/java/com/github/rubensousa/raiflatbutton/RaiflatUtils.java:23: error: package android.support.annotation does not exist
 import android.support.annotation.RequiresApi;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/raiflatbutton/src/main/java/com/github/rubensousa/raiflatbutton/RaiflatButton.java:23: error: package android.support.v7.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/raiflatbutton/src/main/java/com/github/rubensousa/raiflatbutton/RaiflatButton.java:23: error: package android.support.v7.widget does not exist
 import android.support.v7.widget.AppCompatButton;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/raiflatbutton/src/main/java/com/github/rubensousa/raiflatbutton/RaiflatButton.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/raiflatbutton/src/main/java/com/github/rubensousa/raiflatbutton/RaiflatButton.java:29: error: cannot find symbol
 public class RaiflatButton extends AppCompatButton {
                                    ^
   symbol: class AppCompatButton
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/raiflatbutton/src/main/java/com/github/rubensousa/raiflatbutton/RaiflatImageButton.java:23: error: package android.support.v4.content does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/raiflatbutton/src/main/java/com/github/rubensousa/raiflatbutton/RaiflatImageButton.java:23: error: package android.support.v4.content does not exist
 import android.support.v4.content.ContextCompat;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/raiflatbutton/src/main/java/com/github/rubensousa/raiflatbutton/RaiflatImageButton.java:24: error: package android.support.v7.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/raiflatbutton/src/main/java/com/github/rubensousa/raiflatbutton/RaiflatImageButton.java:24: error: package android.support.v7.widget does not exist
 import android.support.v7.widget.AppCompatImageButton;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/raiflatbutton/src/main/java/com/github/rubensousa/raiflatbutton/RaiflatImageButton.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/raiflatbutton/src/main/java/com/github/rubensousa/raiflatbutton/RaiflatImageButton.java:30: error: cannot find symbol
 public class RaiflatImageButton extends AppCompatImageButton {
                                         ^
   symbol: class AppCompatImageButton
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/raiflatbutton/src/main/java/com/github/rubensousa/raiflatbutton/RaiflatUtils.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/raiflatbutton/src/main/java/com/github/rubensousa/raiflatbutton/RaiflatUtils.java:28: error: cannot find symbol
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
      ^
   symbol:   class RequiresApi
@@ -421,15 +418,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 12.181 secs
+Total time: 11.39 secs
 
-2019-04-18 17:29:59,209 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 17:29:59,209 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 17:30:06,231 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 17:30:06,231 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 17:30:06,231 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 17:30:06,232 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555583238313-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 17:30:13,651 ERROR SysUtils - Could not process external command
+2019-05-30 20:20:07,013 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 20:20:07,013 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 20:20:13,467 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-30 20:20:13,467 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-30 20:20:13,467 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-30 20:20:13,468 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222374083-0/src/RaiflatButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-30 20:20:20,030 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -442,21 +439,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 17:30:13,651 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 20:20:20,030 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -560,14 +557,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 6.813 secs
+Total time: 5.915 secs
 
-2019-04-18 17:30:13,723 ERROR FullProcessService - Project build has not produced APK file
-2019-04-18 17:30:13,793 ERROR FullProcessService - Could not find generated or existed APK file
+2019-05-30 20:20:20,080 ERROR FullProcessService - Project build has not produced APK file
+2019-05-30 20:20:20,126 ERROR FullProcessService - Could not find generated or existed APK file

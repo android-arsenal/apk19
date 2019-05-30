@@ -1,36 +1,33 @@
-2019-04-18 17:18:17,510 INFO  DownloadService - Downloading "https://github.com/gavinliu/ShapedImageView/archive/master.zip", attempt 3
-2019-04-18 17:19:18,399 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-18 17:19:19,481 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-18 17:19:19,482 INFO  DownloadService - Downloading "https://github.com/gavinliu/ShapedImageView/archive/master.zip", attempt 3
-2019-04-18 17:20:50,538 DEBUG FullProcessService - Repository https://github.com/gavinliu/ShapedImageView available: true
-2019-04-18 17:20:50,538 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-18 17:20:50,538 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/gavinliu/ShapedImageView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src]
-2019-04-18 17:20:59,996 INFO  SysUtils - 
-2019-04-18 17:21:00,031 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/.git": true
-2019-04-18 17:21:00,035 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-04-18 17:21:00,035 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src]
-2019-04-18 17:21:00,052 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/.git/
+2019-05-30 20:17:39,670 INFO  DownloadService - Downloading "https://github.com/gavinliu/ShapedImageView/archive/master.zip", attempt 3
+2019-05-30 20:17:43,697 INFO  DownloadService - Downloaded https://github.com/gavinliu/ShapedImageView/archive/master.zip, attempt 3
+2019-05-30 20:17:43,698 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/master.zip": 3 MB
+2019-05-30 20:17:43,698 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-30 20:17:43,698 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/master.zip: true
+2019-05-30 20:17:43,698 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src'.
+2019-05-30 20:17:43,742 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-05-30 20:17:43,742 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src]
+2019-05-30 20:17:43,800 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/.git/
 
-2019-04-18 17:21:00,054 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/gradlew
-2019-04-18 17:21:00,057 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/ShapedImageView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/build.gradle
-2019-04-18 17:21:00,060 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/ShapedImageView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/settings.gradle
-2019-04-18 17:21:00,060 INFO  ProjectBuildService - Remote scripts: none
-2019-04-18 17:21:00,060 INFO  ProjectFixService - Fixing project...
-2019-04-18 17:21:00,066 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/ShapedImageView/local.properties
-2019-04-18 17:21:00,066 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/ShapedImageView/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-04-18 17:21:00,066 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/app/local.properties
-2019-04-18 17:21:00,067 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-04-18 17:21:00,067 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/local.properties
-2019-04-18 17:21:00,067 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-04-18 17:21:00,067 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-04-18 17:21:00,068 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-04-18 17:21:00,068 INFO  ProjectFixService - Project was maybe fixed
-2019-04-18 17:21:00,068 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 17:21:00,068 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/ShapedImageView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 17:21:07,352 INFO  ProjectTaskService - Detected possible tasks: 64
-2019-04-18 17:21:07,352 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-18 17:21:07,352 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/ShapedImageView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-18 17:21:15,869 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 20:17:43,802 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/gradlew
+2019-05-30 20:17:43,805 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/ShapedImageView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/build.gradle
+2019-05-30 20:17:43,807 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/ShapedImageView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/settings.gradle
+2019-05-30 20:17:43,807 INFO  ProjectBuildService - Remote scripts: none
+2019-05-30 20:17:43,807 INFO  ProjectFixService - Fixing project...
+2019-05-30 20:17:43,812 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/ShapedImageView/local.properties
+2019-05-30 20:17:43,812 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/ShapedImageView/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-05-30 20:17:43,813 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/app/local.properties
+2019-05-30 20:17:43,813 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-05-30 20:17:43,813 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/local.properties
+2019-05-30 20:17:43,813 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-05-30 20:17:43,814 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-05-30 20:17:43,814 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-05-30 20:17:43,814 INFO  ProjectFixService - Project was maybe fixed
+2019-05-30 20:17:43,814 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 20:17:43,814 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/ShapedImageView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 20:17:51,430 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-05-30 20:17:51,430 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-30 20:17:51,430 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/ShapedImageView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-30 20:17:59,292 INFO  SysUtils - Configuration on demand is an incubating feature.
 :ShapedImageView:preBuild UP-TO-DATE
 :ShapedImageView:preDebugBuild UP-TO-DATE
 :ShapedImageView:compileDebugAidl
@@ -58,9 +55,31 @@
 :ShapedImageView:transformNativeLibsWithSyncJniLibsForDebug
 :ShapedImageView:preReleaseBuild UP-TO-DATE
 :ShapedImageView:compileReleaseAidl
+:ShapedImageView:compileReleaseRenderscript
+:ShapedImageView:checkReleaseManifest
+:ShapedImageView:generateReleaseBuildConfig
+:ShapedImageView:generateReleaseResValues
+:ShapedImageView:generateReleaseResources
+:ShapedImageView:packageReleaseResources
+:ShapedImageView:processReleaseManifest
+:ShapedImageView:javaPreCompileRelease
+:ShapedImageView:mergeReleaseConsumerProguardFiles
+:ShapedImageView:mergeReleaseShaders
+:ShapedImageView:compileReleaseShaders
+:ShapedImageView:generateReleaseAssets
+:ShapedImageView:packageReleaseAssets
+:ShapedImageView:packageReleaseRenderscript NO-SOURCE
+:ShapedImageView:processReleaseJavaRes NO-SOURCE
+:ShapedImageView:compileReleaseNdk NO-SOURCE
+:ShapedImageView:mergeReleaseJniLibFolders
+:ShapedImageView:transformNativeLibsWithMergeJniLibsForRelease
+:ShapedImageView:transformNativeLibsWithStripDebugSymbolForRelease
+:ShapedImageView:transformNativeLibsWithSyncJniLibsForRelease
+:ShapedImageView:mergeReleaseResources
+:ShapedImageView:verifyReleaseResources
 :ShapedImageView:generateDebugRFile
 :ShapedImageView:generateDebugSources
-:ShapedImageView:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/ShapedImageView/src/main/java/cn/gavinliu/android/lib/shapedimageview/ShapedImageView.java uses or overrides a deprecated API.
+:ShapedImageView:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/ShapedImageView/src/main/java/cn/gavinliu/android/lib/shapedimageview/ShapedImageView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :ShapedImageView:extractDebugAnnotations
@@ -69,51 +88,29 @@ Note: Recompile with -Xlint:deprecation for details.
 :ShapedImageView:bundleDebug
 :ShapedImageView:compileDebugSources
 :ShapedImageView:assembleDebug
-:ShapedImageView:compileReleaseRenderscript
-:ShapedImageView:checkReleaseManifest
-:ShapedImageView:generateReleaseBuildConfig
-:ShapedImageView:generateReleaseResValues
-:ShapedImageView:generateReleaseResources
-:ShapedImageView:packageReleaseResources
-:ShapedImageView:processReleaseManifest
 :ShapedImageView:generateReleaseRFile
 :ShapedImageView:generateReleaseSources
-:ShapedImageView:javaPreCompileRelease
-:ShapedImageView:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/ShapedImageView/src/main/java/cn/gavinliu/android/lib/shapedimageview/ShapedImageView.java uses or overrides a deprecated API.
+:ShapedImageView:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/ShapedImageView/src/main/java/cn/gavinliu/android/lib/shapedimageview/ShapedImageView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :ShapedImageView:extractReleaseAnnotations
-:ShapedImageView:mergeReleaseConsumerProguardFiles
-:ShapedImageView:mergeReleaseShaders
-:ShapedImageView:compileReleaseShaders
-:ShapedImageView:generateReleaseAssets
-:ShapedImageView:packageReleaseAssets
-:ShapedImageView:packageReleaseRenderscript NO-SOURCE
-:ShapedImageView:processReleaseJavaRes NO-SOURCE
 :ShapedImageView:transformResourcesWithMergeJavaResForRelease
 :ShapedImageView:transformClassesAndResourcesWithSyncLibJarsForRelease
-:ShapedImageView:compileReleaseNdk NO-SOURCE
-:ShapedImageView:mergeReleaseJniLibFolders
-:ShapedImageView:transformNativeLibsWithMergeJniLibsForRelease
-:ShapedImageView:transformNativeLibsWithStripDebugSymbolForRelease
-:ShapedImageView:transformNativeLibsWithSyncJniLibsForRelease
 :ShapedImageView:bundleRelease
 :ShapedImageView:compileReleaseSources
-:ShapedImageView:mergeReleaseResources
-:ShapedImageView:verifyReleaseResources
 :ShapedImageView:assembleRelease
 :ShapedImageView:assemble
 :ShapedImageView:build
 
-BUILD SUCCESSFUL in 8s
+BUILD SUCCESSFUL in 7s
 48 actionable tasks: 48 executed
 
-2019-04-18 17:21:15,885 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 17:21:15,885 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 17:21:21,882 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-04-18 17:21:21,882 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-18 17:21:21,882 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-18 17:21:29,583 ERROR SysUtils - Could not process external command
+2019-05-30 20:17:59,304 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 20:17:59,304 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 20:18:04,660 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-30 20:18:04,660 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-30 20:18:04,660 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-30 20:18:11,915 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -126,21 +123,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 17:21:29,584 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 20:18:11,915 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild
 Download https://jitpack.io/cn/gavinliu/ShapedImageView/0.8.6/ShapedImageView-0.8.6.aar
@@ -208,12 +205,12 @@ Cause 1: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find s
 Searched in the following locations:
     https://jcenter.bintray.com/com/android/support/support-core-utils/27.1.1/support-core-utils-27.1.1.aar
 	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver$RemoteRepositoryAccess.resolveArtifact(ExternalResourceResolver.java:501)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$ResolveAndCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:409)
 	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
 	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
 	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:171)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:80)
 	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:121)
 	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:46)
 	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:171)
@@ -239,12 +236,12 @@ Cause 2: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find s
 Searched in the following locations:
     https://jcenter.bintray.com/com/android/support/support-compat/27.1.1/support-compat-27.1.1.aar
 	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver$RemoteRepositoryAccess.resolveArtifact(ExternalResourceResolver.java:501)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$ResolveAndCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:409)
 	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
 	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
 	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:171)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:80)
 	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:121)
 	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:46)
 	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:171)
@@ -273,15 +270,15 @@ Searched in the following locations:
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7s
+BUILD FAILED in 6s
 1 actionable task: 1 executed
 
-2019-04-18 17:21:29,595 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 17:21:29,595 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 17:21:35,738 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-04-18 17:21:35,738 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-18 17:21:35,738 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555582697508-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-18 17:21:42,721 ERROR SysUtils - Could not process external command
+2019-05-30 20:18:11,927 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 20:18:11,927 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 20:18:17,778 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-05-30 20:18:17,778 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-30 20:18:17,778 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559222259668-0/src/ShapedImageView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-30 20:18:23,804 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -294,21 +291,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 17:21:42,721 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 20:18:23,804 INFO  SysUtils - Configuration on demand is an incubating feature.
 :ShapedImageView:preBuild UP-TO-DATE
 :ShapedImageView:preDebugBuild UP-TO-DATE
 :ShapedImageView:compileDebugAidl UP-TO-DATE
@@ -508,8 +505,8 @@ Searched in the following locations:
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 49 actionable tasks: 1 executed, 48 up-to-date
 
-2019-04-18 17:21:42,736 ERROR FullProcessService - Project build has not produced APK file
-2019-04-18 17:21:42,748 ERROR FullProcessService - Could not find generated or existed APK file
+2019-05-30 20:18:23,815 ERROR FullProcessService - Project build has not produced APK file
+2019-05-30 20:18:23,825 ERROR FullProcessService - Could not find generated or existed APK file
