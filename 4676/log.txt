@@ -1,76 +1,73 @@
-2019-04-18 13:11:55,268 INFO  DownloadService - Downloading "https://github.com/AleksanderMielczarek/Napkin/archive/master.zip", attempt 3
-2019-04-18 13:12:56,124 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-18 13:12:57,245 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-18 13:12:57,245 INFO  DownloadService - Downloading "https://github.com/AleksanderMielczarek/Napkin/archive/master.zip", attempt 3
-2019-04-18 13:13:59,558 DEBUG FullProcessService - Repository https://github.com/AleksanderMielczarek/Napkin available: true
-2019-04-18 13:13:59,558 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-18 13:13:59,558 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/AleksanderMielczarek/Napkin, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src]
-2019-04-18 13:14:01,387 INFO  SysUtils - 
-2019-04-18 13:14:01,400 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/.git": true
-2019-04-18 13:14:01,411 INFO  FullProcessService - Size of directory with sources: 194 KB
-2019-04-18 13:14:01,411 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src]
-2019-04-18 13:14:01,428 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/.git/
+2019-05-30 13:21:11,526 INFO  DownloadService - Downloading "https://github.com/AleksanderMielczarek/Napkin/archive/master.zip", attempt 3
+2019-05-30 13:21:13,872 INFO  DownloadService - Downloaded https://github.com/AleksanderMielczarek/Napkin/archive/master.zip, attempt 3
+2019-05-30 13:21:13,872 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/master.zip": 198 KB
+2019-05-30 13:21:13,872 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-30 13:21:13,878 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/master.zip: true
+2019-05-30 13:21:13,878 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src'.
+2019-05-30 13:21:13,926 INFO  FullProcessService - Size of directory with sources: 194 KB
+2019-05-30 13:21:13,926 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src]
+2019-05-30 13:21:13,947 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/.git/
 
-2019-04-18 13:14:01,437 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew
-2019-04-18 13:14:01,447 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-qualifier-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-inverse-qualifier-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-per-qualifier-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-per/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/napkin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope-per/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope/build.gradle
-2019-04-18 13:14:01,455 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-per/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope-per/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-qualifier-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/napkin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-inverse-qualifier-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-per-qualifier-inverse/build.gradle
-2019-04-18 13:14:01,456 INFO  ProjectBuildService - Remote scripts: none
-2019-04-18 13:14:01,456 INFO  ProjectFixService - Fixing project...
-2019-04-18 13:14:01,476 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/app/local.properties
-2019-04-18 13:14:01,481 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-18 13:14:01,482 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-18 13:14:01,482 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-qualifier-inverse/local.properties
-2019-04-18 13:14:01,488 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-qualifier-inverse/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-18 13:14:01,488 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-qualifier-inverse/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-18 13:14:01,489 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-inverse-qualifier-inverse/local.properties
-2019-04-18 13:14:01,495 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-inverse-qualifier-inverse/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-18 13:14:01,495 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-inverse-qualifier-inverse/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-18 13:14:01,496 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-inverse/local.properties
-2019-04-18 13:14:01,502 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-inverse/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-18 13:14:01,502 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-inverse/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-18 13:14:01,503 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-per-qualifier-inverse/local.properties
-2019-04-18 13:14:01,508 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-per-qualifier-inverse/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-18 13:14:01,508 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-per-qualifier-inverse/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-18 13:14:01,509 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-per/local.properties
-2019-04-18 13:14:01,515 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-per/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-18 13:14:01,515 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-per/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-18 13:14:01,516 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module/local.properties
-2019-04-18 13:14:01,522 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-18 13:14:01,522 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-18 13:14:01,523 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/napkin/local.properties
-2019-04-18 13:14:01,533 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/napkin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-18 13:14:01,533 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/napkin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-18 13:14:01,534 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/local.properties
-2019-04-18 13:14:01,534 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-04-18 13:14:01,534 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-04-18 13:14:01,540 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-18 13:14:01,540 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-18 13:14:01,541 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier-common/local.properties
-2019-04-18 13:14:01,547 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier-common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-18 13:14:01,547 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier-common/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-18 13:14:01,548 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier-inverse/local.properties
-2019-04-18 13:14:01,554 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier-inverse/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-18 13:14:01,554 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier-inverse/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-18 13:14:01,555 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier/local.properties
-2019-04-18 13:14:01,560 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-18 13:14:01,560 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-18 13:14:01,561 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope-inverse/local.properties
-2019-04-18 13:14:01,567 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope-inverse/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-18 13:14:01,567 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope-inverse/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-18 13:14:01,568 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope-per/local.properties
-2019-04-18 13:14:01,573 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope-per/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-18 13:14:01,573 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope-per/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-18 13:14:01,574 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope/local.properties
-2019-04-18 13:14:01,580 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-18 13:14:01,580 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-18 13:14:01,580 INFO  ProjectFixService - Project was maybe fixed
-2019-04-18 13:14:01,580 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:14:01,580 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:14:16,376 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 13:14:16,376 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 13:14:16,376 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 13:14:16,376 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 13:14:22,494 ERROR SysUtils - Could not process external command
+2019-05-30 13:21:13,955 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew
+2019-05-30 13:21:13,963 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-qualifier-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-inverse-qualifier-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-per-qualifier-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-per/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/napkin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope-per/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope/build.gradle
+2019-05-30 13:21:13,969 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-per/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope-per/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-qualifier-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/napkin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-inverse-qualifier-inverse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-per-qualifier-inverse/build.gradle
+2019-05-30 13:21:13,970 INFO  ProjectBuildService - Remote scripts: none
+2019-05-30 13:21:13,970 INFO  ProjectFixService - Fixing project...
+2019-05-30 13:21:13,985 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/app/local.properties
+2019-05-30 13:21:13,989 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 13:21:13,989 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 13:21:13,990 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-qualifier-inverse/local.properties
+2019-05-30 13:21:13,995 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-qualifier-inverse/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 13:21:13,995 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-qualifier-inverse/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 13:21:13,996 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-inverse-qualifier-inverse/local.properties
+2019-05-30 13:21:14,001 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-inverse-qualifier-inverse/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 13:21:14,001 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-inverse-qualifier-inverse/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 13:21:14,002 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-inverse/local.properties
+2019-05-30 13:21:14,007 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-inverse/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 13:21:14,007 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-inverse/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 13:21:14,008 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-per-qualifier-inverse/local.properties
+2019-05-30 13:21:14,015 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-per-qualifier-inverse/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 13:21:14,015 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-per-qualifier-inverse/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 13:21:14,016 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-per/local.properties
+2019-05-30 13:21:14,021 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-per/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 13:21:14,022 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-per/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 13:21:14,023 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module/local.properties
+2019-05-30 13:21:14,029 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 13:21:14,029 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 13:21:14,030 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/napkin/local.properties
+2019-05-30 13:21:14,035 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/napkin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 13:21:14,035 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/napkin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 13:21:14,036 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/local.properties
+2019-05-30 13:21:14,036 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-05-30 13:21:14,036 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-05-30 13:21:14,041 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 13:21:14,041 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 13:21:14,042 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier-common/local.properties
+2019-05-30 13:21:14,048 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier-common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 13:21:14,048 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier-common/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 13:21:14,049 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier-inverse/local.properties
+2019-05-30 13:21:14,053 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier-inverse/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 13:21:14,053 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier-inverse/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 13:21:14,054 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier/local.properties
+2019-05-30 13:21:14,059 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 13:21:14,059 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 13:21:14,060 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope-inverse/local.properties
+2019-05-30 13:21:14,067 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope-inverse/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 13:21:14,067 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope-inverse/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 13:21:14,069 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope-per/local.properties
+2019-05-30 13:21:14,076 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope-per/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 13:21:14,076 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope-per/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 13:21:14,077 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope/local.properties
+2019-05-30 13:21:14,082 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-30 13:21:14,082 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-30 13:21:14,083 INFO  ProjectFixService - Project was maybe fixed
+2019-05-30 13:21:14,083 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:21:14,083 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:21:43,912 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-30 13:21:43,912 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-30 13:21:43,912 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-30 13:21:43,912 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-30 13:21:50,117 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -83,21 +80,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 13:14:22,494 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:21:50,117 INFO  SysUtils - Configuration on demand is an incubating feature.
 The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
 	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:241)
 	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
@@ -738,14 +735,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.878 secs
+Total time: 5.957 secs
 
-2019-04-18 13:14:22,507 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:14:22,507 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-qualifier-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:14:28,763 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-04-18 13:14:28,763 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-18 13:14:28,763 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-qualifier-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-18 13:14:42,943 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:21:50,127 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:21:50,127 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-qualifier-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:21:56,247 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-05-30 13:21:56,247 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-30 13:21:56,247 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-qualifier-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-30 13:22:09,889 INFO  SysUtils - Configuration on demand is an incubating feature.
 The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
 	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:241)
 	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
@@ -1240,14 +1237,14 @@ The TaskInputs.source(Object) method has been deprecated and is scheduled to be 
 
 BUILD SUCCESSFUL
 
-Total time: 13.906 secs
+Total time: 13.399 secs
 
-2019-04-18 13:14:43,057 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:14:43,057 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-inverse-qualifier-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:14:49,355 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-04-18 13:14:49,356 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-18 13:14:49,356 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-inverse-qualifier-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-18 13:15:01,752 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:22:09,977 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:22:09,977 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-inverse-qualifier-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:22:16,319 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-05-30 13:22:16,319 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-30 13:22:16,319 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-inverse-qualifier-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-30 13:22:28,456 INFO  SysUtils - Configuration on demand is an incubating feature.
 The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
 	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:241)
 	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
@@ -1739,14 +1736,14 @@ The TaskInputs.source(Object) method has been deprecated and is scheduled to be 
 
 BUILD SUCCESSFUL
 
-Total time: 12.137 secs
+Total time: 11.905 secs
 
-2019-04-18 13:15:01,929 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:15:01,929 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:15:08,178 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-04-18 13:15:08,178 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-18 13:15:08,178 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-18 13:15:20,696 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:22:28,590 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:22:28,590 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:22:34,473 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-05-30 13:22:34,473 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-30 13:22:34,473 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-30 13:22:46,927 INFO  SysUtils - Configuration on demand is an incubating feature.
 The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
 	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:241)
 	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
@@ -2238,14 +2235,14 @@ The TaskInputs.source(Object) method has been deprecated and is scheduled to be 
 
 BUILD SUCCESSFUL
 
-Total time: 12.263 secs
+Total time: 12.215 secs
 
-2019-04-18 13:15:20,927 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:15:20,927 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-per-qualifier-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:15:27,165 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-04-18 13:15:27,165 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-18 13:15:27,165 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-per-qualifier-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-18 13:15:39,472 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:22:47,109 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:22:47,109 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-per-qualifier-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:22:53,196 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-05-30 13:22:53,196 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-30 13:22:53,196 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-per-qualifier-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-30 13:23:05,853 INFO  SysUtils - Configuration on demand is an incubating feature.
 The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
 	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:241)
 	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
@@ -2737,14 +2734,14 @@ The TaskInputs.source(Object) method has been deprecated and is scheduled to be 
 
 BUILD SUCCESSFUL
 
-Total time: 12.08 secs
+Total time: 12.399 secs
 
-2019-04-18 13:15:39,761 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:15:39,761 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-per/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:15:46,214 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-04-18 13:15:46,214 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-18 13:15:46,214 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module-scope-per/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-18 13:15:58,372 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:23:06,084 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:23:06,084 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-per/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:23:12,099 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-05-30 13:23:12,099 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-30 13:23:12,099 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module-scope-per/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-30 13:23:24,488 INFO  SysUtils - Configuration on demand is an incubating feature.
 The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
 	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:241)
 	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
@@ -3234,14 +3231,14 @@ The TaskInputs.source(Object) method has been deprecated and is scheduled to be 
 
 BUILD SUCCESSFUL
 
-Total time: 11.89 secs
+Total time: 12.134 secs
 
-2019-04-18 13:15:58,718 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:15:58,718 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:16:04,738 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-04-18 13:16:04,738 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-18 13:16:04,738 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/module/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-18 13:16:16,921 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:23:24,761 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:23:24,761 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:23:30,895 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-05-30 13:23:30,895 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-30 13:23:30,895 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/module/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-30 13:23:43,922 INFO  SysUtils - Configuration on demand is an incubating feature.
 The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
 	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:241)
 	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
@@ -3731,14 +3728,14 @@ The TaskInputs.source(Object) method has been deprecated and is scheduled to be 
 
 BUILD SUCCESSFUL
 
-Total time: 11.922 secs
+Total time: 12.754 secs
 
-2019-04-18 13:16:17,322 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:16:17,322 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/napkin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:16:22,884 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-04-18 13:16:22,884 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-18 13:16:22,885 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/napkin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-18 13:16:31,404 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:23:44,262 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:23:44,262 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/napkin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:23:49,953 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-05-30 13:23:49,953 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-30 13:23:49,954 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/napkin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-30 13:23:58,138 INFO  SysUtils - Configuration on demand is an incubating feature.
 The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
 	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:241)
 	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
@@ -4018,15 +4015,15 @@ The TaskInputs.source(Object) method has been deprecated and is scheduled to be 
 
 BUILD SUCCESSFUL
 
-Total time: 8.268 secs
+Total time: 7.962 secs
 
-2019-04-18 13:16:31,859 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:16:31,859 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:16:38,015 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 13:16:38,015 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 13:16:38,015 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 13:16:38,015 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 13:16:44,232 ERROR SysUtils - Could not process external command
+2019-05-30 13:23:58,471 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:23:58,471 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:24:04,654 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-30 13:24:04,654 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-30 13:24:04,654 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-30 13:24:04,654 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-30 13:24:10,806 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -4039,21 +4036,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 13:16:44,232 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:24:10,806 INFO  SysUtils - Configuration on demand is an incubating feature.
 The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
 	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:241)
 	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
@@ -4694,14 +4691,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.951 secs
+Total time: 5.928 secs
 
-2019-04-18 13:16:44,660 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:16:44,660 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier-common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:16:47,717 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-04-18 13:16:47,717 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-04-18 13:16:47,717 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier-common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-04-18 13:16:51,311 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:24:11,140 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:24:11,140 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier-common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:24:14,214 INFO  ProjectTaskService - Detected possible tasks: 39
+2019-05-30 13:24:14,214 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2019-05-30 13:24:14,214 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier-common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2019-05-30 13:24:17,717 INFO  SysUtils - Configuration on demand is an incubating feature.
 :qualifier-common:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
 1 warning
 
@@ -4713,14 +4710,14 @@ Total time: 5.951 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.453 secs
+Total time: 3.379 secs
 
-2019-04-18 13:16:51,736 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:16:51,736 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:44:55,523 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-04-18 13:44:55,523 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-04-18 13:44:55,523 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-04-18 13:44:59,558 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:24:18,049 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:24:18,049 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:24:21,225 INFO  ProjectTaskService - Detected possible tasks: 39
+2019-05-30 13:24:21,225 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2019-05-30 13:24:21,225 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2019-05-30 13:24:24,451 INFO  SysUtils - Configuration on demand is an incubating feature.
 :qualifier-inverse:compileJava UP-TO-DATE
 :qualifier-inverse:processResources UP-TO-DATE
 :qualifier-inverse:classes UP-TO-DATE
@@ -4730,14 +4727,14 @@ Total time: 3.453 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.897 secs
+Total time: 2.999 secs
 
-2019-04-18 13:45:00,050 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:45:00,050 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:45:03,426 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-04-18 13:45:03,426 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-04-18 13:45:03,426 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/qualifier/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-04-18 13:45:06,810 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:24:24,786 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:24:24,786 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:24:27,950 INFO  ProjectTaskService - Detected possible tasks: 39
+2019-05-30 13:24:27,950 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2019-05-30 13:24:27,950 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/qualifier/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2019-05-30 13:24:31,001 INFO  SysUtils - Configuration on demand is an incubating feature.
 :qualifier:compileJava UP-TO-DATE
 :qualifier:processResources UP-TO-DATE
 :qualifier:classes UP-TO-DATE
@@ -4747,14 +4744,14 @@ Total time: 3.897 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.274 secs
+Total time: 2.936 secs
 
-2019-04-18 13:45:07,272 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:45:07,272 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:45:10,567 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-04-18 13:45:10,567 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-04-18 13:45:10,567 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-04-18 13:45:14,056 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:24:31,335 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:24:31,335 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:24:34,460 INFO  ProjectTaskService - Detected possible tasks: 39
+2019-05-30 13:24:34,460 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2019-05-30 13:24:34,460 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope-inverse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2019-05-30 13:24:37,630 INFO  SysUtils - Configuration on demand is an incubating feature.
 :scope-inverse:compileJava UP-TO-DATE
 :scope-inverse:processResources UP-TO-DATE
 :scope-inverse:classes UP-TO-DATE
@@ -4764,14 +4761,14 @@ Total time: 3.274 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.308 secs
+Total time: 3.033 secs
 
-2019-04-18 13:45:14,547 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:45:14,547 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope-per/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:45:18,061 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-04-18 13:45:18,061 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-04-18 13:45:18,061 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope-per/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-04-18 13:45:21,668 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:24:38,019 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:24:38,019 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope-per/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:24:41,183 INFO  ProjectTaskService - Detected possible tasks: 39
+2019-05-30 13:24:41,183 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2019-05-30 13:24:41,183 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope-per/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2019-05-30 13:24:44,292 INFO  SysUtils - Configuration on demand is an incubating feature.
 :scope-per:compileJava UP-TO-DATE
 :scope-per:processResources UP-TO-DATE
 :scope-per:classes UP-TO-DATE
@@ -4781,14 +4778,14 @@ Total time: 3.308 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.459 secs
+Total time: 2.984 secs
 
-2019-04-18 13:45:22,118 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:45:22,118 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:45:25,253 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-04-18 13:45:25,253 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-04-18 13:45:25,253 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555567915260-0/src/scope/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-04-18 13:45:28,260 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:24:44,635 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:24:44,635 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:24:47,749 INFO  ProjectTaskService - Detected possible tasks: 39
+2019-05-30 13:24:47,749 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2019-05-30 13:24:47,749 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197271519-0/src/Napkin-master/scope/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2019-05-30 13:24:51,028 INFO  SysUtils - Configuration on demand is an incubating feature.
 :scope:compileJava UP-TO-DATE
 :scope:processResources UP-TO-DATE
 :scope:classes UP-TO-DATE
@@ -4798,7 +4795,7 @@ Total time: 3.459 secs
 
 BUILD SUCCESSFUL
 
-Total time: 2.878 secs
+Total time: 3.06 secs
 
-2019-04-18 13:45:28,699 ERROR FullProcessService - Project build has not produced APK file
-2019-04-18 13:45:29,158 ERROR FullProcessService - Could not find generated or existed APK file
+2019-05-30 13:24:51,364 ERROR FullProcessService - Project build has not produced APK file
+2019-05-30 13:24:51,695 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,37 +1,34 @@
-2019-04-18 13:45:31,887 INFO  DownloadService - Downloading "https://github.com/niltonvasques/mathjs-android/archive/master.zip", attempt 3
-2019-04-18 13:46:32,831 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-18 13:46:33,980 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-18 13:46:33,980 INFO  DownloadService - Downloading "https://github.com/niltonvasques/mathjs-android/archive/master.zip", attempt 3
-2019-04-18 13:47:36,002 DEBUG FullProcessService - Repository https://github.com/niltonvasques/mathjs-android available: true
-2019-04-18 13:47:36,002 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-18 13:47:36,003 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/niltonvasques/mathjs-android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src]
-2019-04-18 13:47:37,897 INFO  SysUtils - 
-2019-04-18 13:47:37,925 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/.git": true
-2019-04-18 13:47:37,928 INFO  FullProcessService - Size of directory with sources: 547 KB
-2019-04-18 13:47:37,928 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src]
-2019-04-18 13:47:37,945 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/.git/
+2019-05-30 13:24:53,795 INFO  DownloadService - Downloading "https://github.com/niltonvasques/mathjs-android/archive/master.zip", attempt 3
+2019-05-30 13:24:55,791 INFO  DownloadService - Downloaded https://github.com/niltonvasques/mathjs-android/archive/master.zip, attempt 3
+2019-05-30 13:24:55,791 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/master.zip": 212 KB
+2019-05-30 13:24:55,791 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-30 13:24:55,793 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/master.zip: true
+2019-05-30 13:24:55,794 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src'.
+2019-05-30 13:24:55,810 INFO  FullProcessService - Size of directory with sources: 547 KB
+2019-05-30 13:24:55,810 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src]
+2019-05-30 13:24:55,827 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/.git/
 
-2019-04-18 13:47:37,948 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/gradlew
-2019-04-18 13:47:37,950 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/mathjs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/build.gradle
-2019-04-18 13:47:37,953 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/mathjs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/settings.gradle
-2019-04-18 13:47:37,953 INFO  ProjectBuildService - Remote scripts: none
-2019-04-18 13:47:37,953 INFO  ProjectFixService - Fixing project...
-2019-04-18 13:47:37,959 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/app/local.properties
-2019-04-18 13:47:37,959 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
-2019-04-18 13:47:37,960 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/mathjs/local.properties
-2019-04-18 13:47:37,960 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/mathjs/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
-2019-04-18 13:47:37,960 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/local.properties
-2019-04-18 13:47:37,961 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-04-18 13:47:37,961 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-04-18 13:47:37,962 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
-2019-04-18 13:47:37,962 INFO  ProjectFixService - Project was maybe fixed
-2019-04-18 13:47:37,962 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:47:37,962 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:47:48,191 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 13:47:48,191 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 13:47:48,191 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 13:47:48,192 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 13:47:53,391 ERROR SysUtils - Could not process external command
+2019-05-30 13:24:55,829 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/gradlew
+2019-05-30 13:24:55,831 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/mathjs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/build.gradle
+2019-05-30 13:24:55,833 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/mathjs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/settings.gradle
+2019-05-30 13:24:55,833 INFO  ProjectBuildService - Remote scripts: none
+2019-05-30 13:24:55,833 INFO  ProjectFixService - Fixing project...
+2019-05-30 13:24:55,838 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/app/local.properties
+2019-05-30 13:24:55,838 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
+2019-05-30 13:24:55,838 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/mathjs/local.properties
+2019-05-30 13:24:55,838 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/mathjs/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
+2019-05-30 13:24:55,839 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/local.properties
+2019-05-30 13:24:55,839 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-05-30 13:24:55,839 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-05-30 13:24:55,840 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
+2019-05-30 13:24:55,840 INFO  ProjectFixService - Project was maybe fixed
+2019-05-30 13:24:55,840 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:24:55,840 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:25:04,968 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-30 13:25:04,968 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-30 13:25:04,968 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-30 13:25:04,968 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-30 13:25:10,165 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,21 +41,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 13:47:53,392 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:25:10,165 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -244,15 +241,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.85 secs
+Total time: 4.953 secs
 
-2019-04-18 13:47:53,395 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:47:53,395 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/mathjs/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:47:58,331 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 13:47:58,331 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 13:47:58,331 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 13:47:58,331 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/mathjs/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 13:48:04,178 ERROR SysUtils - Could not process external command
+2019-05-30 13:25:10,168 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:25:10,168 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/mathjs/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:25:15,450 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-30 13:25:15,450 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-30 13:25:15,450 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-30 13:25:15,450 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/mathjs/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-30 13:25:20,641 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -265,21 +262,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 13:48:04,178 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:25:20,641 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -387,15 +384,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.558 secs
+Total time: 4.932 secs
 
-2019-04-18 13:48:04,183 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:48:04,183 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:48:10,035 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 13:48:10,035 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 13:48:10,035 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 13:48:10,035 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555569931885-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 13:48:15,177 ERROR SysUtils - Could not process external command
+2019-05-30 13:25:20,644 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:25:20,644 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:25:25,938 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-30 13:25:25,938 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-30 13:25:25,938 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-30 13:25:25,938 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197493791-0/src/mathjs-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-30 13:25:31,102 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -408,21 +405,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 13:48:15,178 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:25:31,103 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -608,7 +605,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.84 secs
+Total time: 4.835 secs
 
-2019-04-18 13:48:15,181 ERROR FullProcessService - Project build has not produced APK file
-2019-04-18 13:48:15,185 ERROR FullProcessService - Could not find generated or existed APK file
+2019-05-30 13:25:31,105 ERROR FullProcessService - Project build has not produced APK file
+2019-05-30 13:25:31,107 ERROR FullProcessService - Could not find generated or existed APK file

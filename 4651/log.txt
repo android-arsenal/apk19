@@ -1,28 +1,25 @@
-2019-04-18 14:29:49,486 INFO  DownloadService - Downloading "https://github.com/Piasy/YaMvp/archive/master.zip", attempt 3
-2019-04-18 14:30:50,355 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-18 14:30:51,477 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-18 14:30:51,477 INFO  DownloadService - Downloading "https://github.com/Piasy/YaMvp/archive/master.zip", attempt 3
-2019-04-18 14:31:53,652 DEBUG FullProcessService - Repository https://github.com/Piasy/YaMvp available: true
-2019-04-18 14:31:53,652 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-18 14:31:53,652 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Piasy/YaMvp, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src]
-2019-04-18 14:31:57,000 INFO  SysUtils - 
-2019-04-18 14:31:57,010 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/.git": true
-2019-04-18 14:31:57,016 INFO  FullProcessService - Size of directory with sources: 507 KB
-2019-04-18 14:31:57,016 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src]
-2019-04-18 14:31:57,034 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/.git/
+2019-05-30 13:37:01,441 INFO  DownloadService - Downloading "https://github.com/Piasy/YaMvp/archive/master.zip", attempt 3
+2019-05-30 13:37:02,364 INFO  DownloadService - Downloaded https://github.com/Piasy/YaMvp/archive/master.zip, attempt 3
+2019-05-30 13:37:02,364 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/master.zip": 447 KB
+2019-05-30 13:37:02,364 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-30 13:37:02,370 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/master.zip: true
+2019-05-30 13:37:02,370 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src'.
+2019-05-30 13:37:02,400 INFO  FullProcessService - Size of directory with sources: 507 KB
+2019-05-30 13:37:02,400 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src]
+2019-05-30 13:37:02,416 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/.git/
 
-2019-04-18 14:31:57,039 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/gradlew
-2019-04-18 14:31:57,044 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Component/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Dagger2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/build.gradle
-2019-04-18 14:31:57,049 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Dagger2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Component/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/settings.gradle
-2019-04-18 14:31:57,049 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Piasy/BintrayUploadScript/master/bintray.gradle", attempt 3
-2019-04-18 14:32:02,766 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Piasy/BintrayUploadScript/master/bintray.gradle", attempt 2
-2019-04-18 14:32:07,984 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Piasy/BintrayUploadScript/master/bintray.gradle", attempt 1
-2019-04-18 14:33:07,987 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/Piasy/BintrayUploadScript/master/bintray.gradle"
+2019-05-30 13:37:02,420 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/gradlew
+2019-05-30 13:37:02,424 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Component/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Dagger2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/build.gradle
+2019-05-30 13:37:02,428 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Dagger2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Component/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/settings.gradle
+2019-05-30 13:37:02,429 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Piasy/BintrayUploadScript/master/bintray.gradle", attempt 3
+2019-05-30 13:37:08,190 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Piasy/BintrayUploadScript/master/bintray.gradle", attempt 2
+2019-05-30 13:37:13,709 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Piasy/BintrayUploadScript/master/bintray.gradle", attempt 1
+2019-05-30 13:38:13,712 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/Piasy/BintrayUploadScript/master/bintray.gradle"
 org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
 	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:314)
 	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:280)
 	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:190)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
 	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
 	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
 	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
@@ -41,50 +38,50 @@ org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connect
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 14:33:07,987 INFO  ProjectBuildService - Remote scripts: none
-2019-04-18 14:33:07,987 INFO  ProjectFixService - Fixing project...
-2019-04-18 14:33:08,004 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Component/local.properties
-2019-04-18 14:33:08,008 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Component/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=25]
-2019-04-18 14:33:08,008 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Component/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=25]
-2019-04-18 14:33:08,009 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Dagger2/local.properties
-2019-04-18 14:33:08,012 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Dagger2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=25]
-2019-04-18 14:33:08,012 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Dagger2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=25]
-2019-04-18 14:33:08,013 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Rx/local.properties
-2019-04-18 14:33:08,017 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Rx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=25]
-2019-04-18 14:33:08,017 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Rx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=25]
-2019-04-18 14:33:08,017 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp/local.properties
-2019-04-18 14:33:08,021 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=25]
-2019-04-18 14:33:08,021 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=25]
-2019-04-18 14:33:08,021 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/example/local.properties
-2019-04-18 14:33:08,025 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=25]
-2019-04-18 14:33:08,025 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=25]
-2019-04-18 14:33:08,026 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/local.properties
-2019-04-18 14:33:08,026 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.2.1-all.zip
-2019-04-18 14:33:08,026 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.2.1-bin.zip)
-2019-04-18 14:33:08,028 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=25]
-2019-04-18 14:33:08,028 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=25]
-2019-04-18 14:33:08,029 INFO  ProjectFixService - Project was maybe fixed
-2019-04-18 14:33:08,029 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 14:33:08,029 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Component/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 14:33:14,651 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 14:33:14,651 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 14:33:14,651 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 14:33:14,651 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Component/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 14:33:18,742 ERROR SysUtils - Could not process external command
+2019-05-30 13:38:13,712 INFO  ProjectBuildService - Remote scripts: none
+2019-05-30 13:38:13,712 INFO  ProjectFixService - Fixing project...
+2019-05-30 13:38:13,726 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Component/local.properties
+2019-05-30 13:38:13,728 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Component/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=25]
+2019-05-30 13:38:13,728 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Component/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=25]
+2019-05-30 13:38:13,729 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Dagger2/local.properties
+2019-05-30 13:38:13,732 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Dagger2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=25]
+2019-05-30 13:38:13,732 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Dagger2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=25]
+2019-05-30 13:38:13,733 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Rx/local.properties
+2019-05-30 13:38:13,735 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Rx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=25]
+2019-05-30 13:38:13,735 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Rx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=25]
+2019-05-30 13:38:13,736 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp/local.properties
+2019-05-30 13:38:13,739 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=25]
+2019-05-30 13:38:13,739 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=25]
+2019-05-30 13:38:13,740 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/example/local.properties
+2019-05-30 13:38:13,742 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=25]
+2019-05-30 13:38:13,742 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=25]
+2019-05-30 13:38:13,743 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/local.properties
+2019-05-30 13:38:13,743 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.2.1-all.zip
+2019-05-30 13:38:13,743 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.2.1-bin.zip)
+2019-05-30 13:38:13,746 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=25]
+2019-05-30 13:38:13,746 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=25]
+2019-05-30 13:38:13,746 INFO  ProjectFixService - Project was maybe fixed
+2019-05-30 13:38:13,746 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:38:13,746 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Component/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:38:23,881 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-30 13:38:23,883 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-30 13:38:23,883 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-30 13:38:23,883 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Component/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-30 13:38:28,163 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -97,21 +94,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 14:33:18,743 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:38:28,163 INFO  SysUtils - Configuration on demand is an incubating feature.
 The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
 	at org.gradle.api.internal.AbstractTask.leftShift(AbstractTask.java:505)
 	at org.gradle.api.Task$leftShift.call(Unknown Source)
@@ -134,7 +131,7 @@ The Task.leftShift(Closure) method has been deprecated and is scheduled to be re
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at build_83kfobgugxf1nydic4586vq3x.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Component/build.gradle:3)
+	at build_eqsbt0cv93l6ds62mw26uttcl.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Component/build.gradle:3)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -293,7 +290,7 @@ java.lang.IllegalStateException: buildToolsVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Component/build.gradle' line: 4
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Component/build.gradle' line: 4
 
 * What went wrong:
 A problem occurred evaluating project ':YaMvp-Component'.
@@ -385,22 +382,22 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:44)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_83kfobgugxf1nydic4586vq3x.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Component/build.gradle:4)
+	at build_eqsbt0cv93l6ds62mw26uttcl.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Component/build.gradle:4)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 3.869 secs
+Total time: 4.033 secs
 
-2019-04-18 14:33:18,749 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 14:33:18,749 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Dagger2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 14:33:22,718 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 14:33:22,718 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 14:33:22,718 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 14:33:22,719 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Dagger2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 14:33:26,679 ERROR SysUtils - Could not process external command
+2019-05-30 13:38:28,168 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:38:28,168 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Dagger2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:38:32,003 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-30 13:38:32,003 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-30 13:38:32,003 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-30 13:38:32,003 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Dagger2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-30 13:38:36,207 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -413,21 +410,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 14:33:26,680 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:38:36,207 INFO  SysUtils - Configuration on demand is an incubating feature.
 The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
 	at org.gradle.api.internal.AbstractTask.leftShift(AbstractTask.java:505)
 	at org.gradle.api.Task$leftShift.call(Unknown Source)
@@ -450,7 +447,7 @@ The Task.leftShift(Closure) method has been deprecated and is scheduled to be re
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at build_4hm5zz9iz50i91p0a4dgr4h9k.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Dagger2/build.gradle:2)
+	at build_5ahaedb8f11fpw1lwrdxfi70o.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Dagger2/build.gradle:2)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -609,7 +606,7 @@ java.lang.IllegalStateException: buildToolsVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Dagger2/build.gradle' line: 3
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Dagger2/build.gradle' line: 3
 
 * What went wrong:
 A problem occurred evaluating project ':YaMvp-Dagger2'.
@@ -701,22 +698,22 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:44)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_4hm5zz9iz50i91p0a4dgr4h9k.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Dagger2/build.gradle:3)
+	at build_5ahaedb8f11fpw1lwrdxfi70o.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Dagger2/build.gradle:3)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 3.719 secs
+Total time: 3.965 secs
 
-2019-04-18 14:33:26,686 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 14:33:26,686 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 14:33:30,685 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 14:33:30,685 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 14:33:30,685 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 14:33:30,686 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 14:33:34,636 ERROR SysUtils - Could not process external command
+2019-05-30 13:38:36,213 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:38:36,213 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:38:42,979 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-30 13:38:42,979 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-30 13:38:42,979 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-30 13:38:42,980 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-30 13:38:54,489 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -729,21 +726,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 14:33:34,636 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:38:54,489 INFO  SysUtils - Configuration on demand is an incubating feature.
 The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
 	at org.gradle.api.internal.AbstractTask.leftShift(AbstractTask.java:505)
 	at org.gradle.api.Task$leftShift.call(Unknown Source)
@@ -766,7 +763,7 @@ The Task.leftShift(Closure) method has been deprecated and is scheduled to be re
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at build_6gsgy6ilma0ebcxtocuyptm0u.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Rx/build.gradle:3)
+	at build_26hyl8mb6pdga2zmvzuqy8l3n.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Rx/build.gradle:3)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -925,7 +922,7 @@ java.lang.IllegalStateException: buildToolsVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Rx/build.gradle' line: 4
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Rx/build.gradle' line: 4
 
 * What went wrong:
 A problem occurred evaluating project ':YaMvp-Rx'.
@@ -1017,22 +1014,22 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:44)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_6gsgy6ilma0ebcxtocuyptm0u.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Rx/build.gradle:4)
+	at build_26hyl8mb6pdga2zmvzuqy8l3n.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Rx/build.gradle:4)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 3.738 secs
+Total time: 11.098 secs
 
-2019-04-18 14:33:34,643 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 14:33:34,643 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 14:33:38,645 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 14:33:38,645 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 14:33:38,645 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 14:33:38,645 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 14:33:42,591 ERROR SysUtils - Could not process external command
+2019-05-30 13:38:54,496 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:38:54,497 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:38:59,619 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-30 13:38:59,620 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-30 13:38:59,620 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-30 13:38:59,620 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-30 13:39:05,480 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1045,21 +1042,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 14:33:42,591 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:39:05,481 INFO  SysUtils - Configuration on demand is an incubating feature.
 The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
 	at org.gradle.api.internal.AbstractTask.leftShift(AbstractTask.java:505)
 	at org.gradle.api.Task$leftShift.call(Unknown Source)
@@ -1082,7 +1079,7 @@ The Task.leftShift(Closure) method has been deprecated and is scheduled to be re
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at build_7bvcxpn1bpheoeto6d2gxe68z.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp/build.gradle:3)
+	at build_b3tq1wx2vt6pd7d0qff5fl2xc.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp/build.gradle:3)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -1241,7 +1238,7 @@ java.lang.IllegalStateException: buildToolsVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp/build.gradle' line: 4
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp/build.gradle' line: 4
 
 * What went wrong:
 A problem occurred evaluating project ':YaMvp'.
@@ -1333,22 +1330,22 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:44)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_7bvcxpn1bpheoeto6d2gxe68z.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp/build.gradle:4)
+	at build_b3tq1wx2vt6pd7d0qff5fl2xc.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp/build.gradle:4)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 3.716 secs
+Total time: 5.588 secs
 
-2019-04-18 14:33:42,596 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 14:33:42,596 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 14:33:48,077 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 14:33:48,077 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 14:33:48,077 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 14:33:48,077 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 14:33:53,735 ERROR SysUtils - Could not process external command
+2019-05-30 13:39:05,487 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:39:05,487 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:39:11,498 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-30 13:39:11,498 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-30 13:39:11,498 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-30 13:39:11,498 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-30 13:39:17,554 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1361,21 +1358,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 14:33:53,736 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:39:17,556 INFO  SysUtils - Configuration on demand is an incubating feature.
 The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
 	at org.gradle.api.internal.AbstractTask.leftShift(AbstractTask.java:505)
 	at org.gradle.api.Task$leftShift.call(Unknown Source)
@@ -1398,7 +1395,7 @@ The Task.leftShift(Closure) method has been deprecated and is scheduled to be re
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at build_97h9gvbmcx5gvw9cfqvyoleya.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/example/build.gradle:4)
+	at build_6cab22t51w6ylgjuc772hxoph.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/example/build.gradle:4)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -1625,7 +1622,7 @@ java.lang.IllegalStateException: buildToolsVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Dagger2/build.gradle' line: 3
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Dagger2/build.gradle' line: 3
 
 * What went wrong:
 A problem occurred evaluating project ':YaMvp-Dagger2'.
@@ -1785,22 +1782,22 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:44)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_4hm5zz9iz50i91p0a4dgr4h9k.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp-Dagger2/build.gradle:3)
+	at build_5ahaedb8f11fpw1lwrdxfi70o.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp-Dagger2/build.gradle:3)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 131 more
 
 
 BUILD FAILED
 
-Total time: 5.383 secs
+Total time: 5.775 secs
 
-2019-04-18 14:33:53,743 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 14:33:53,743 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 14:33:57,931 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 14:33:57,931 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 14:33:57,931 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 14:33:57,931 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 14:34:02,029 ERROR SysUtils - Could not process external command
+2019-05-30 13:39:17,562 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:39:17,562 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:39:21,849 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-30 13:39:21,849 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-30 13:39:21,849 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-30 13:39:21,849 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-30 13:39:26,772 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1813,21 +1810,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 14:34:02,029 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:39:26,772 INFO  SysUtils - Configuration on demand is an incubating feature.
 The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
 	at org.gradle.api.internal.AbstractTask.leftShift(AbstractTask.java:505)
 	at org.gradle.api.Task$leftShift.call(Unknown Source)
@@ -1850,7 +1847,7 @@ The Task.leftShift(Closure) method has been deprecated and is scheduled to be re
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at build_7bvcxpn1bpheoeto6d2gxe68z.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp/build.gradle:3)
+	at build_b3tq1wx2vt6pd7d0qff5fl2xc.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp/build.gradle:3)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -2009,7 +2006,7 @@ java.lang.IllegalStateException: buildToolsVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp/build.gradle' line: 4
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp/build.gradle' line: 4
 
 * What went wrong:
 A problem occurred evaluating project ':YaMvp'.
@@ -2101,14 +2098,14 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:44)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_7bvcxpn1bpheoeto6d2gxe68z.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555572589483-0/src/YaMvp/build.gradle:4)
+	at build_b3tq1wx2vt6pd7d0qff5fl2xc.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198221439-0/src/YaMvp-master/YaMvp/build.gradle:4)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 3.87 secs
+Total time: 4.695 secs
 
-2019-04-18 14:34:02,036 ERROR FullProcessService - Project build has not produced APK file
-2019-04-18 14:34:02,042 ERROR FullProcessService - Could not find generated or existed APK file
+2019-05-30 13:39:26,776 ERROR FullProcessService - Project build has not produced APK file
+2019-05-30 13:39:26,781 ERROR FullProcessService - Could not find generated or existed APK file

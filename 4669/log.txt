@@ -1,36 +1,33 @@
-2019-04-18 13:58:39,822 INFO  DownloadService - Downloading "https://github.com/iravul/SwipeCardview/archive/master.zip", attempt 3
-2019-04-18 13:59:40,637 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-18 13:59:41,757 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-18 13:59:41,757 INFO  DownloadService - Downloading "https://github.com/iravul/SwipeCardview/archive/master.zip", attempt 3
-2019-04-18 14:00:44,017 DEBUG FullProcessService - Repository https://github.com/iravul/SwipeCardview available: true
-2019-04-18 14:00:44,017 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-18 14:00:44,017 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/iravul/SwipeCardview, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src]
-2019-04-18 14:00:45,621 INFO  SysUtils - 
-2019-04-18 14:00:45,630 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/.git": true
-2019-04-18 14:00:45,634 INFO  FullProcessService - Size of directory with sources: 123 KB
-2019-04-18 14:00:45,634 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src]
-2019-04-18 14:00:45,653 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/.git/
+2019-05-30 13:27:25,254 INFO  DownloadService - Downloading "https://github.com/iravul/SwipeCardview/archive/master.zip", attempt 3
+2019-05-30 13:27:25,921 INFO  DownloadService - Downloaded https://github.com/iravul/SwipeCardview/archive/master.zip, attempt 3
+2019-05-30 13:27:25,921 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/master.zip": 112 KB
+2019-05-30 13:27:25,921 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-30 13:27:25,927 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/master.zip: true
+2019-05-30 13:27:25,927 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src'.
+2019-05-30 13:27:25,947 INFO  FullProcessService - Size of directory with sources: 123 KB
+2019-05-30 13:27:25,947 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src]
+2019-05-30 13:27:25,964 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/.git/
 
-2019-04-18 14:00:45,657 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/gradlew
-2019-04-18 14:00:45,661 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/swipecardview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/build.gradle
-2019-04-18 14:00:45,665 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/swipecardview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/settings.gradle
-2019-04-18 14:00:45,665 INFO  ProjectBuildService - Remote scripts: none
-2019-04-18 14:00:45,665 INFO  ProjectFixService - Fixing project...
-2019-04-18 14:00:45,674 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/app/local.properties
-2019-04-18 14:00:45,674 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2019-04-18 14:00:45,675 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/swipecardview/local.properties
-2019-04-18 14:00:45,675 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/swipecardview/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2019-04-18 14:00:45,675 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/local.properties
-2019-04-18 14:00:45,676 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2019-04-18 14:00:45,676 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2019-04-18 14:00:45,676 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2019-04-18 14:00:45,677 INFO  ProjectFixService - Project was maybe fixed
-2019-04-18 14:00:45,677 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 14:00:45,677 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 14:00:55,152 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-04-18 14:00:55,152 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-18 14:00:55,152 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-18 14:01:13,682 ERROR SysUtils - Could not process external command
+2019-05-30 13:27:25,967 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/SwipeCardview-master/gradlew
+2019-05-30 13:27:25,970 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/SwipeCardview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/SwipeCardview-master/swipecardview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/SwipeCardview-master/build.gradle
+2019-05-30 13:27:25,974 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/SwipeCardview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/SwipeCardview-master/swipecardview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/SwipeCardview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/SwipeCardview-master/settings.gradle
+2019-05-30 13:27:25,974 INFO  ProjectBuildService - Remote scripts: none
+2019-05-30 13:27:25,974 INFO  ProjectFixService - Fixing project...
+2019-05-30 13:27:25,980 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/SwipeCardview-master/app/local.properties
+2019-05-30 13:27:25,981 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/SwipeCardview-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-05-30 13:27:25,981 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/SwipeCardview-master/swipecardview/local.properties
+2019-05-30 13:27:25,981 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/SwipeCardview-master/swipecardview/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-05-30 13:27:25,982 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/SwipeCardview-master/local.properties
+2019-05-30 13:27:25,982 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-05-30 13:27:25,982 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-05-30 13:27:25,983 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/SwipeCardview-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-05-30 13:27:25,983 INFO  ProjectFixService - Project was maybe fixed
+2019-05-30 13:27:25,983 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:27:25,983 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/SwipeCardview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/SwipeCardview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:27:49,156 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-05-30 13:27:49,156 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-30 13:27:49,156 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/SwipeCardview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/SwipeCardview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-30 13:28:06,982 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -43,21 +40,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 14:01:13,682 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:28:06,982 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -99,7 +96,7 @@ Incremental java compilation is an incubating feature.
 :swipecardview:incrementalReleaseJavaCompilationSafeguard
 :swipecardview:compileReleaseJavaWithJavac
 :swipecardview:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/swipecardview/src/main/java/com/iravul/swipecardview/SwipeCardAdapter.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/SwipeCardview-master/swipecardview/src/main/java/com/iravul/swipecardview/SwipeCardAdapter.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :swipecardview:extractReleaseAnnotations
 :swipecardview:mergeReleaseProguardFiles
@@ -157,7 +154,7 @@ Merged dex #11 (66 defs/159.1KiB)
 Merged dex #12 (165 defs/169.3KiB)
 Merged dex #13 (335 defs/262.9KiB)
 Merged dex #14 (41 defs/6.5KiB)
-Result is 2721 defs/4050.9KiB. Took 0.3s
+Result is 2721 defs/4050.9KiB. Took 0.6s
 :app:mergeDebugJniLibFolders
 :app:transformNative_libsWithMergeJniLibsForDebug
 :app:processDebugJavaRes UP-TO-DATE
@@ -282,6 +279,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 17.945 secs
+Total time: 17.263 secs
 
-2019-04-18 14:01:13,794 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570719819-0/src/app/build/outputs/apk/app-debug.apk
+2019-05-30 13:28:07,056 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197645252-0/src/SwipeCardview-master/app/build/outputs/apk/app-debug.apk

@@ -1,37 +1,34 @@
-2019-04-18 13:53:14,566 INFO  DownloadService - Downloading "https://github.com/jasonwyatt/SRML/archive/master.zip", attempt 3
-2019-04-18 13:54:15,412 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-18 13:54:16,533 INFO  GithubDownloadService - Default branch of this repository: develop
-2019-04-18 13:54:16,533 INFO  DownloadService - Downloading "https://github.com/jasonwyatt/SRML/archive/develop.zip", attempt 3
-2019-04-18 13:55:18,495 DEBUG FullProcessService - Repository https://github.com/jasonwyatt/SRML available: true
-2019-04-18 13:55:18,495 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-18 13:55:18,495 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/jasonwyatt/SRML, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src]
-2019-04-18 13:55:25,716 INFO  SysUtils - 
-2019-04-18 13:55:25,724 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/.git": true
-2019-04-18 13:55:25,729 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-04-18 13:55:25,729 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src]
-2019-04-18 13:55:25,749 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/.git/
+2019-05-30 13:26:18,074 INFO  DownloadService - Downloading "https://github.com/jasonwyatt/SRML/archive/master.zip", attempt 3
+2019-05-30 13:26:19,884 INFO  DownloadService - Downloaded https://github.com/jasonwyatt/SRML/archive/master.zip, attempt 3
+2019-05-30 13:26:19,884 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/master.zip": 1 MB
+2019-05-30 13:26:19,884 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-30 13:26:19,884 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/master.zip: true
+2019-05-30 13:26:19,884 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src'.
+2019-05-30 13:26:19,919 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-05-30 13:26:19,919 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src]
+2019-05-30 13:26:19,937 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/.git/
 
-2019-04-18 13:55:25,753 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/gradlew
-2019-04-18 13:55:25,757 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/build.gradle
-2019-04-18 13:55:25,761 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/settings.gradle
-2019-04-18 13:55:25,761 INFO  ProjectBuildService - Remote scripts: none
-2019-04-18 13:55:25,761 INFO  ProjectFixService - Fixing project...
-2019-04-18 13:55:25,769 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/app/local.properties
-2019-04-18 13:55:25,770 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2019-04-18 13:55:25,770 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/local.properties
-2019-04-18 13:55:25,770 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2019-04-18 13:55:25,771 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/local.properties
-2019-04-18 13:55:25,771 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2019-04-18 13:55:25,771 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2019-04-18 13:55:25,772 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2019-04-18 13:55:25,772 INFO  ProjectFixService - Project was maybe fixed
-2019-04-18 13:55:25,772 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:55:25,772 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:55:34,722 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 13:55:34,723 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 13:55:34,723 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 13:55:34,723 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 13:55:40,954 ERROR SysUtils - Could not process external command
+2019-05-30 13:26:19,940 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/gradlew
+2019-05-30 13:26:19,943 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/build.gradle
+2019-05-30 13:26:19,946 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/settings.gradle
+2019-05-30 13:26:19,946 INFO  ProjectBuildService - Remote scripts: none
+2019-05-30 13:26:19,946 INFO  ProjectFixService - Fixing project...
+2019-05-30 13:26:19,953 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/app/local.properties
+2019-05-30 13:26:19,954 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-05-30 13:26:19,954 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/local.properties
+2019-05-30 13:26:19,954 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-05-30 13:26:19,955 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/local.properties
+2019-05-30 13:26:19,955 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-05-30 13:26:19,955 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-05-30 13:26:19,956 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-05-30 13:26:19,956 INFO  ProjectFixService - Project was maybe fixed
+2019-05-30 13:26:19,956 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:26:19,956 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:26:26,895 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-30 13:26:26,895 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-30 13:26:26,895 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-30 13:26:26,895 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-30 13:26:32,943 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,21 +41,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 13:55:40,955 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:26:32,944 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -169,15 +166,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.637 secs
+Total time: 5.468 secs
 
-2019-04-18 13:55:40,960 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:55:40,960 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:55:47,596 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 13:55:47,596 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 13:55:47,596 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 13:55:47,596 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 13:55:58,603 ERROR SysUtils - Could not process external command
+2019-05-30 13:26:32,947 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:26:32,947 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:26:40,085 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-30 13:26:40,086 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-30 13:26:40,086 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-30 13:26:40,086 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-30 13:26:50,188 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -190,21 +187,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 13:55:58,603 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:26:50,188 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
@@ -278,112 +275,112 @@ Note: Recompile with -Xlint:deprecation for details.
 :library:bundleRelease
 :library:compileReleaseSources
 :library:assembleRelease
-:library:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/Sanitizer.java:19: warning: no @param for formatArgs
+:library:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/Sanitizer.java:19: warning: no @param for formatArgs
     Object[] sanitizeArgs(Object[] formatArgs);
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/Sanitizer.java:19: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/Sanitizer.java:19: warning: no @return
     Object[] sanitizeArgs(Object[] formatArgs);
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/Sanitizer.java:24: warning: no @param for s
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/Sanitizer.java:24: warning: no @param for s
     String desantitize(String s);
            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/Sanitizer.java:24: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/Sanitizer.java:24: warning: no @return
     String desantitize(String s);
            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/Transformer.java:20: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/Transformer.java:20: warning: no @return
     TagFactory getTagFactory();
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/SRML.java:68: error: unterminated signature
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/SRML.java:68: error: unterminated signature
      * @param formatArgs Format arguments for the string, passed along to {@link Context#getString(int, Object[]}
                                                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/SRML.java:71: warning - Tag @link: malformed: "Context#getString(int, Object[]"
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/tags/ParameterizedTag.java:49: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/SRML.java:71: warning - Tag @link: malformed: "Context#getString(int, Object[]"
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/tags/ParameterizedTag.java:49: warning: no @return
     protected String getParam(String name) {
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/tags/ParameterizedTag.java:56: error: type arguments not allowed here
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/tags/ParameterizedTag.java:56: error: type arguments not allowed here
      * @return List of {@link Utils.Pair<String, String>} pairs, with the keys & values for the
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/tags/ParameterizedTag.java:56: error: bad HTML entity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/tags/ParameterizedTag.java:56: error: bad HTML entity
      * @return List of {@link Utils.Pair<String, String>} pairs, with the keys & values for the
                                                                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/tags/ParameterizedTag.java:57: error: no tag name after @
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/tags/ParameterizedTag.java:57: error: no tag name after @
      *         parameters which match {@param pattern}
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/tags/Tag.java:47: error: self-closing element not allowed
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/tags/Tag.java:47: error: self-closing element not allowed
      * Whether or not this tag is allowed to be an empty, self-closing tag. <br/><br/>
                                                                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/tags/Tag.java:47: error: self-closing element not allowed
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/tags/Tag.java:47: error: self-closing element not allowed
      * Whether or not this tag is allowed to be an empty, self-closing tag. <br/><br/>
                                                                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/tags/Tag.java:70: error: self-closing element not allowed
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/tags/Tag.java:70: error: self-closing element not allowed
      * Return whether or not the closing tag seen matches this tag.<br/><br/>
                                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/tags/Tag.java:70: error: self-closing element not allowed
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/tags/Tag.java:70: error: self-closing element not allowed
      * Return whether or not the closing tag seen matches this tag.<br/><br/>
                                                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/tags/Tag.java:72: error: no tag name after @
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/tags/Tag.java:72: error: no tag name after @
      * <b>NOTE:</b> Typically you only need to check {@param tagName} against the name you use for the tag.
                                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/tags/Tag.java:81: error: self-closing element not allowed
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/tags/Tag.java:81: error: self-closing element not allowed
      * Operate on the provided {@link Spannable}.<br/><br/>
                                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/tags/Tag.java:81: error: self-closing element not allowed
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/tags/Tag.java:81: error: self-closing element not allowed
      * Operate on the provided {@link Spannable}.<br/><br/>
                                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/tags/Tag.java:84: error: no tag name after @
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/tags/Tag.java:84: error: no tag name after @
      * using {@link #getTaggedTextStart()} and {@param taggedTextEnd} as the start and end
                                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/tags/ParameterizedTag.java:17: error: self-closing element not allowed
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/tags/ParameterizedTag.java:17: error: self-closing element not allowed
  * <code>name=value</code> pairs after the tag name in the opening tag.<br/><br/>
                                                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/tags/ParameterizedTag.java:17: error: self-closing element not allowed
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/tags/ParameterizedTag.java:17: error: self-closing element not allowed
  * <code>name=value</code> pairs after the tag name in the opening tag.<br/><br/>
                                                                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/tags/ParameterizedTag.java:19: error: self-closing element not allowed
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/tags/ParameterizedTag.java:19: error: self-closing element not allowed
  * Parameters can be of the following formats:<br/>
                                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/tags/ParameterizedTag.java:59: warning - Tag @link:illegal character: "60" in "Utils.Pair<String, String>"
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/tags/ParameterizedTag.java:59: warning - Tag @link: malformed: "Utils.Pair<String, String>"
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/tags/Tag.java:24: warning: no @param for taggedTextStart
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/tags/ParameterizedTag.java:59: warning - Tag @link:illegal character: "60" in "Utils.Pair<String, String>"
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/tags/ParameterizedTag.java:59: warning - Tag @link: malformed: "Utils.Pair<String, String>"
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/tags/Tag.java:24: warning: no @param for taggedTextStart
     public Tag(String tagStr, int taggedTextStart) {
            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/utils/SafeString.java:27: error: unexpected end tag: </p>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/utils/SafeString.java:27: error: unexpected end tag: </p>
      * of 16-bit <code>char</code>s in the sequence.</p>
                                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/utils/SafeString.java:40: error: unexpected end tag: </p>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/utils/SafeString.java:40: error: unexpected end tag: </p>
      * indexing. </p>
                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/utils/SafeString.java:65: error: unexpected end tag: </p>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/utils/SafeString.java:65: error: unexpected end tag: </p>
      * then an empty sequence is returned. </p>
                                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/utils/SafeString.java:85: error: unexpected end tag: </p>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/utils/SafeString.java:85: error: unexpected end tag: </p>
      * this sequence. </p>
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/utils/Utils.java:34: warning: no @param for divider
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/utils/Utils.java:34: warning: no @param for divider
     public static String join(CharSequence divider, CharSequence[] parts) {
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/utils/Utils.java:34: warning: no @param for parts
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/utils/Utils.java:34: warning: no @param for parts
     public static String join(CharSequence divider, CharSequence[] parts) {
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/utils/Utils.java:34: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/utils/Utils.java:34: warning: no @return
     public static String join(CharSequence divider, CharSequence[] parts) {
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/utils/Utils.java:95: error: self-closing element not allowed
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/utils/Utils.java:95: error: self-closing element not allowed
      * Transform the provided size string into a pixel size.<br/>
                                                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/utils/Utils.java:131: error: no tag name after @
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/utils/Utils.java:131: error: no tag name after @
      * tries to interpret {@param colorValue} as a resource identifier.
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/utils/Utils.java:133: error: unexpected text
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/utils/Utils.java:133: error: unexpected text
      * @throws {@link NumberFormatException} if {@param colorValue} was not a hex string.
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/utils/Utils.java:134: error: unexpected text
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/utils/Utils.java:134: error: unexpected text
      * @throws {@link BadParameterException} if the color value could not be parsed.
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/utils/Utils.java:137: warning: no @param for colorValue
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/utils/Utils.java:137: warning: no @param for colorValue
     public static int getColorInt(String colorValue) {
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/library/src/main/java/co/jasonwyatt/srml/utils/Utils.java:169: error: unexpected text
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/library/src/main/java/co/jasonwyatt/srml/utils/Utils.java:169: error: unexpected text
      * @throws {@link BadParameterException} if the color value could not be parsed.
        ^
 
@@ -488,15 +485,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 10.429 secs
+Total time: 9.52 secs
 
-2019-04-18 13:55:58,618 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 13:55:58,618 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 13:56:04,862 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 13:56:04,863 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 13:56:04,863 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 13:56:04,863 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570394563-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 13:56:11,081 ERROR SysUtils - Could not process external command
+2019-05-30 13:26:50,200 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:26:50,201 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:26:56,494 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-30 13:26:56,494 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-30 13:26:56,494 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-30 13:26:56,494 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197578072-0/src/SRML-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-30 13:27:02,581 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -509,21 +506,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 13:56:11,081 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:27:02,581 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -627,14 +624,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 5.618 secs
+Total time: 5.492 secs
 
-2019-04-18 13:56:11,095 ERROR FullProcessService - Project build has not produced APK file
-2019-04-18 13:56:11,108 ERROR FullProcessService - Could not find generated or existed APK file
+2019-05-30 13:27:02,592 ERROR FullProcessService - Project build has not produced APK file
+2019-05-30 13:27:02,603 ERROR FullProcessService - Could not find generated or existed APK file

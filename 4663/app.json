@@ -31,8 +31,8 @@
   "dexClasses" : 1750,
   "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"rm.com.timecon\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"Timecon\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"rm.com.timecon.MainActivity\" android:configChanges=\"0x4a0\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"rm.com.timecon.SystemClockActivity\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 1704548,
-  "crc32" : 3519559787,
-  "sha256" : "69e7ce6986b73f4074144f11dac1c472af35ad56bd9ef00bd9cf47d94f242942",
-  "buildTime" : 1555571765000
+  "fileSize" : 1704500,
+  "crc32" : 3725284523,
+  "sha256" : "7b76c4dcbaf8da49dd78a8dc8e6898e480e6f9cfe1d947bb98a8329744391754",
+  "buildTime" : 1559198030000
 }

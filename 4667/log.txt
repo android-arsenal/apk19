@@ -1,48 +1,45 @@
-2019-04-18 14:01:23,073 INFO  DownloadService - Downloading "https://github.com/amitshekhariitbhu/Android-Debug-Database/archive/master.zip", attempt 3
-2019-04-18 14:02:24,036 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-18 14:02:25,193 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-18 14:02:25,193 INFO  DownloadService - Downloading "https://github.com/amitshekhariitbhu/Android-Debug-Database/archive/master.zip", attempt 3
-2019-04-18 14:03:27,085 DEBUG FullProcessService - Repository https://github.com/amitshekhariitbhu/Android-Debug-Database available: true
-2019-04-18 14:03:27,085 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-18 14:03:27,085 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/amitshekhariitbhu/Android-Debug-Database, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src]
-2019-04-18 14:03:29,783 INFO  SysUtils - 
-2019-04-18 14:03:29,794 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/.git": true
-2019-04-18 14:03:29,803 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-04-18 14:03:29,803 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src]
-2019-04-18 14:03:29,821 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/.git/
+2019-05-30 13:28:16,256 INFO  DownloadService - Downloading "https://github.com/amitshekhariitbhu/Android-Debug-Database/archive/master.zip", attempt 3
+2019-05-30 13:28:17,768 INFO  DownloadService - Downloaded https://github.com/amitshekhariitbhu/Android-Debug-Database/archive/master.zip, attempt 3
+2019-05-30 13:28:17,768 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/master.zip": 1 MB
+2019-05-30 13:28:17,768 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-30 13:28:17,774 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/master.zip: true
+2019-05-30 13:28:17,774 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src'.
+2019-05-30 13:28:17,825 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-05-30 13:28:17,825 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src]
+2019-05-30 13:28:17,841 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/.git/
 
-2019-04-18 14:03:29,828 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/gradlew
-2019-04-18 14:03:29,836 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db-encrypt/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/sample-app-encrypt/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/build.gradle
-2019-04-18 14:03:29,843 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/sample-app-encrypt/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db/debug-db-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db-base/debug-db-base-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db-encrypt/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db-encrypt/debug-db-encrypt-upload.gradle
-2019-04-18 14:03:29,843 INFO  ProjectBuildService - Remote scripts: none
-2019-04-18 14:03:29,843 INFO  ProjectFixService - Fixing project...
-2019-04-18 14:03:29,860 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db-base/local.properties
-2019-04-18 14:03:29,862 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db-base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-18 14:03:29,863 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db-base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-18 14:03:29,863 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db-encrypt/local.properties
-2019-04-18 14:03:29,865 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db-encrypt/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-18 14:03:29,865 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db-encrypt/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-18 14:03:29,866 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db/local.properties
-2019-04-18 14:03:29,868 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-18 14:03:29,868 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-18 14:03:29,869 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/sample-app-encrypt/local.properties
-2019-04-18 14:03:29,870 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/sample-app-encrypt/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-18 14:03:29,871 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/sample-app-encrypt/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-18 14:03:29,871 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/sample-app/local.properties
-2019-04-18 14:03:29,873 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-18 14:03:29,873 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-18 14:03:29,874 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/local.properties
-2019-04-18 14:03:29,874 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
-2019-04-18 14:03:29,875 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
-2019-04-18 14:03:29,877 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-18 14:03:29,877 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-18 14:03:29,877 INFO  ProjectFixService - Project was maybe fixed
-2019-04-18 14:03:29,877 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 14:03:29,878 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db-base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 14:03:41,557 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-04-18 14:03:41,558 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-18 14:03:41,558 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db-base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-18 14:03:51,167 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:28:17,848 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/gradlew
+2019-05-30 13:28:17,854 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db-encrypt/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/sample-app-encrypt/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/build.gradle
+2019-05-30 13:28:17,860 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/sample-app-encrypt/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db/debug-db-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db-base/debug-db-base-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db-encrypt/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db-encrypt/debug-db-encrypt-upload.gradle
+2019-05-30 13:28:17,861 INFO  ProjectBuildService - Remote scripts: none
+2019-05-30 13:28:17,861 INFO  ProjectFixService - Fixing project...
+2019-05-30 13:28:17,874 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db-base/local.properties
+2019-05-30 13:28:17,876 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db-base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-30 13:28:17,876 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db-base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-30 13:28:17,877 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db-encrypt/local.properties
+2019-05-30 13:28:17,879 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db-encrypt/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-30 13:28:17,879 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db-encrypt/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-30 13:28:17,880 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db/local.properties
+2019-05-30 13:28:17,882 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-30 13:28:17,882 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-30 13:28:17,882 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/sample-app-encrypt/local.properties
+2019-05-30 13:28:17,884 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/sample-app-encrypt/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-30 13:28:17,884 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/sample-app-encrypt/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-30 13:28:17,885 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/sample-app/local.properties
+2019-05-30 13:28:17,887 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-30 13:28:17,887 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-30 13:28:17,887 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/local.properties
+2019-05-30 13:28:17,888 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-05-30 13:28:17,888 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-05-30 13:28:17,890 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-30 13:28:17,890 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-30 13:28:17,891 INFO  ProjectFixService - Project was maybe fixed
+2019-05-30 13:28:17,891 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:28:17,891 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db-base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:28:25,379 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-05-30 13:28:25,379 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-30 13:28:25,379 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db-base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-30 13:28:34,970 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :debug-db-base:preBuild UP-TO-DATE
 > Task :debug-db-base:preDebugBuild UP-TO-DATE
 > Task :debug-db-base:compileDebugAidl NO-SOURCE
@@ -115,12 +112,12 @@
 BUILD SUCCESSFUL in 9s
 45 actionable tasks: 45 executed
 
-2019-04-18 14:03:51,202 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 14:03:51,202 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db-encrypt/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 14:03:57,615 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-04-18 14:03:57,615 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-18 14:03:57,615 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db-encrypt/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-18 14:04:12,114 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:28:34,998 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:28:34,998 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db-encrypt/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:28:41,122 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-05-30 13:28:41,122 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-30 13:28:41,122 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db-encrypt/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-30 13:28:56,616 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :debug-db-base:preBuild UP-TO-DATE
 > Task :debug-db-base:preDebugBuild UP-TO-DATE
 > Task :debug-db-base:compileDebugAidl NO-SOURCE
@@ -224,15 +221,15 @@ BUILD SUCCESSFUL in 9s
 > Task :debug-db-encrypt:assemble
 > Task :debug-db-encrypt:build
 
-BUILD SUCCESSFUL in 14s
+BUILD SUCCESSFUL in 15s
 66 actionable tasks: 47 executed, 19 up-to-date
 
-2019-04-18 14:04:12,173 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 14:04:12,173 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 14:04:18,808 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-04-18 14:04:18,808 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-18 14:04:18,808 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/debug-db/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-18 14:04:27,771 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:28:56,660 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:28:56,660 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:29:02,483 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-05-30 13:29:02,483 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-30 13:29:02,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/debug-db/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-30 13:29:10,539 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :debug-db:preBuild UP-TO-DATE
 > Task :debug-db:preDebugBuild UP-TO-DATE
 > Task :debug-db-base:preBuild UP-TO-DATE
@@ -336,15 +333,15 @@ BUILD SUCCESSFUL in 14s
 > Task :debug-db:assemble
 > Task :debug-db:build
 
-BUILD SUCCESSFUL in 8s
+BUILD SUCCESSFUL in 7s
 66 actionable tasks: 45 executed, 21 up-to-date
 
-2019-04-18 14:04:27,859 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 14:04:27,859 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/sample-app-encrypt/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 14:04:34,505 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-04-18 14:04:34,505 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-18 14:04:34,505 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/sample-app-encrypt/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-18 14:05:13,115 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-30 13:29:10,598 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 13:29:10,598 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/sample-app-encrypt/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 13:29:16,825 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-30 13:29:16,825 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-30 13:29:16,826 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/sample-app-encrypt/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-30 13:29:53,124 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :debug-db-base:preBuild UP-TO-DATE
 > Task :debug-db-base:preDebugBuild UP-TO-DATE
 > Task :debug-db-base:compileDebugAidl NO-SOURCE
@@ -441,7 +438,7 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :sample-app-encrypt:transformNativeLibsWithMergeJniLibsForDebug
 
 > Task :sample-app-encrypt:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/sample-app-encrypt/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libsqlcipher.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/sample-app-encrypt/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libsqlcipher.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 
 > Task :sample-app-encrypt:processDebugJavaRes NO-SOURCE
 > Task :sample-app-encrypt:transformResourcesWithMergeJavaResForDebug
@@ -484,7 +481,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample-app-encrypt:transformNativeLibsWithMergeJniLibsForRelease
 
 > Task :sample-app-encrypt:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/sample-app-encrypt/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libsqlcipher.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/sample-app-encrypt/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libsqlcipher.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 
 > Task :sample-app-encrypt:processReleaseJavaRes NO-SOURCE
 > Task :sample-app-encrypt:transformResourcesWithMergeJavaResForRelease
@@ -493,7 +490,7 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 > Task :sample-app-encrypt:assemble
 > Task :sample-app-encrypt:build
 
-BUILD SUCCESSFUL in 37s
+BUILD SUCCESSFUL in 35s
 89 actionable tasks: 56 executed, 33 up-to-date
 
-2019-04-18 14:05:13,267 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555570883065-0/src/sample-app-encrypt/build/outputs/apk/release/sample-app-encrypt-release-unsigned.apk
+2019-05-30 13:29:53,234 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559197696248-0/src/Android-Debug-Database-master/sample-app-encrypt/build/outputs/apk/release/sample-app-encrypt-release-unsigned.apk
