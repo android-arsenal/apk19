@@ -1,21 +1,9 @@
-2019-04-18 20:14:01,125 INFO  DownloadService - Downloading "https://github.com/JakeWharton/sdk-artifact-sync/archive/master.zip", attempt 3
-2019-04-18 20:15:01,750 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-18 20:15:04,129 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-18 20:15:04,129 INFO  DownloadService - Downloading "https://github.com/JakeWharton/sdk-artifact-sync/archive/master.zip", attempt 3
-2019-04-18 20:16:05,868 DEBUG FullProcessService - Repository https://github.com/JakeWharton/sdk-artifact-sync available: true
-2019-04-18 20:16:05,868 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-18 20:16:05,869 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/JakeWharton/sdk-artifact-sync, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593241123-0/src]
-2019-04-18 20:16:07,998 INFO  SysUtils - 
-2019-04-18 20:16:08,007 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593241123-0/src/.git": true
-2019-04-18 20:16:08,007 INFO  FullProcessService - Size of directory with sources: 27 KB
-2019-04-18 20:16:08,007 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593241123-0/src]
-2019-04-18 20:16:08,025 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555593241123-0/src/.git/
-
-2019-04-18 20:16:08,026 INFO  ProjectBuildService - Gradle wrapper(s): none
-2019-04-18 20:16:08,026 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2019-04-18 20:16:08,027 INFO  ProjectBuildService - Build script(s): none
-2019-04-18 20:16:08,027 INFO  ProjectBuildService - All script(s): none
-2019-04-18 20:16:08,027 INFO  ProjectBuildService - Remote scripts: none
-2019-04-18 20:16:08,027 ERROR FullProcessService - Project is not correct Gradle project
-2019-04-18 20:16:08,027 ERROR FullProcessService - Project build has not produced APK file
-2019-04-18 20:16:08,028 ERROR FullProcessService - Could not find generated or existed APK file
+2019-06-03 01:28:56,107 INFO  DownloadService - Downloading "https://github.com/JakeWharton/sdk-artifact-sync/archive/master.zip", attempt 3
+2019-06-03 01:28:56,108 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-06-03 01:28:56,109 INFO  GithubDownloadService - Default branch of this repository: null
+2019-06-03 01:28:56,109 ERROR GithubDownloadService - Could not detect default branch for Github repository
+2019-06-03 01:28:56,110 DEBUG FullProcessService - Repository https://github.com/JakeWharton/sdk-artifact-sync available: false
+2019-06-03 01:28:56,110 ERROR FullProcessService - Could not find directory with sources
+2019-06-03 01:28:56,110 ERROR FullProcessService - Project will not be processed
+2019-06-03 01:28:56,110 ERROR FullProcessService - Project build has not produced APK file
+2019-06-03 01:28:56,110 ERROR FullProcessService - Could not find generated or existed APK file
