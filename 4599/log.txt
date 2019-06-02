@@ -1,37 +1,34 @@
-2019-04-18 17:40:52,501 INFO  DownloadService - Downloading "https://github.com/yshrsmz/monotweety/archive/master.zip", attempt 3
-2019-04-18 17:41:53,277 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-18 17:41:54,733 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-18 17:41:54,733 INFO  DownloadService - Downloading "https://github.com/yshrsmz/monotweety/archive/master.zip", attempt 3
-2019-04-18 17:42:56,581 DEBUG FullProcessService - Repository https://github.com/yshrsmz/monotweety available: true
-2019-04-18 17:42:56,581 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-18 17:42:56,581 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/yshrsmz/monotweety, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src]
-2019-04-18 17:43:02,288 INFO  SysUtils - 
-2019-04-18 17:43:02,300 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/.git": true
-2019-04-18 17:43:02,310 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-04-18 17:43:02,310 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src]
-2019-04-18 17:43:02,328 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/.git/
+2019-06-02 20:09:31,436 INFO  DownloadService - Downloading "https://github.com/yshrsmz/monotweety/archive/master.zip", attempt 3
+2019-06-02 20:09:32,612 INFO  DownloadService - Downloaded https://github.com/yshrsmz/monotweety/archive/master.zip, attempt 3
+2019-06-02 20:09:32,612 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/master.zip": 1 MB
+2019-06-02 20:09:32,612 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-02 20:09:32,619 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/master.zip: true
+2019-06-02 20:09:32,619 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src'.
+2019-06-02 20:09:32,688 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-06-02 20:09:32,688 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src]
+2019-06-02 20:09:32,704 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/.git/
 
-2019-04-18 17:43:02,336 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/gradlew
-2019-04-18 17:43:02,343 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/build.gradle
-2019-04-18 17:43:02,351 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/gradle/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/settings.gradle
-2019-04-18 17:43:02,351 INFO  ProjectBuildService - Remote scripts: none
-2019-04-18 17:43:02,351 INFO  ProjectFixService - Fixing project...
-2019-04-18 17:43:02,368 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/app/local.properties
-2019-04-18 17:43:02,370 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-04-18 17:43:02,370 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-04-18 17:43:02,371 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/local.properties
-2019-04-18 17:43:02,371 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
-2019-04-18 17:43:02,371 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
-2019-04-18 17:43:02,373 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-04-18 17:43:02,373 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-04-18 17:43:02,373 INFO  ProjectFixService - Project was maybe fixed
-2019-04-18 17:43:02,374 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 17:43:02,374 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 17:43:09,001 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 17:43:09,001 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 17:43:09,001 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 17:43:09,001 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 17:43:12,941 ERROR SysUtils - Could not process external command
+2019-06-02 20:09:32,710 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/gradlew
+2019-06-02 20:09:32,716 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/build.gradle
+2019-06-02 20:09:32,722 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/gradle/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/settings.gradle
+2019-06-02 20:09:32,722 INFO  ProjectBuildService - Remote scripts: none
+2019-06-02 20:09:32,722 INFO  ProjectFixService - Fixing project...
+2019-06-02 20:09:32,736 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/app/local.properties
+2019-06-02 20:09:32,737 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-02 20:09:32,737 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-02 20:09:32,738 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/local.properties
+2019-06-02 20:09:32,739 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-06-02 20:09:32,739 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-06-02 20:09:32,741 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-02 20:09:32,741 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-02 20:09:32,741 INFO  ProjectFixService - Project was maybe fixed
+2019-06-02 20:09:32,742 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-02 20:09:32,742 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-02 20:09:39,579 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-02 20:09:39,579 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-02 20:09:39,580 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-02 20:09:39,580 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-02 20:09:44,899 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,21 +41,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 17:43:12,941 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-02 20:09:44,899 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
@@ -200,11 +198,11 @@ java.lang.IllegalStateException: compileSdkVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/app/build.gradle' line: 11
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/app/build.gradle' line: 11
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
-> /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/secret.properties (No such file or directory)
+> /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/secret.properties (No such file or directory)
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -316,25 +314,25 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/secret.properties (No such file or directory)
-	at build_aknfh0matws8aqyswqr1pdz02.getSecretProperty(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/app/build.gradle:11)
-	at build_aknfh0matws8aqyswqr1pdz02$getSecretProperty.callCurrent(Unknown Source)
-	at build_aknfh0matws8aqyswqr1pdz02.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/app/build.gradle:16)
+Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/secret.properties (No such file or directory)
+	at build_2p61myyfkn3oqc874id61yyc2.getSecretProperty(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/app/build.gradle:11)
+	at build_2p61myyfkn3oqc874id61yyc2$getSecretProperty.callCurrent(Unknown Source)
+	at build_2p61myyfkn3oqc874id61yyc2.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/app/build.gradle:16)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 104 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 3s
+BUILD FAILED in 5s
 
-2019-04-18 17:43:12,953 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 17:43:12,953 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 17:43:17,006 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 17:43:17,006 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 17:43:17,006 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 17:43:17,006 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 17:43:20,935 ERROR SysUtils - Could not process external command
+2019-06-02 20:09:44,910 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-02 20:09:44,910 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-02 20:09:51,530 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-02 20:09:51,530 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-02 20:09:51,530 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-02 20:09:51,531 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-02 20:09:57,830 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -347,21 +345,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 17:43:20,935 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-02 20:09:57,830 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
@@ -503,11 +502,11 @@ java.lang.IllegalStateException: compileSdkVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/app/build.gradle' line: 11
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/app/build.gradle' line: 11
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
-> /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/secret.properties (No such file or directory)
+> /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/secret.properties (No such file or directory)
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -619,17 +618,17 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/secret.properties (No such file or directory)
-	at build_aknfh0matws8aqyswqr1pdz02.getSecretProperty(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/app/build.gradle:11)
-	at build_aknfh0matws8aqyswqr1pdz02$getSecretProperty.callCurrent(Unknown Source)
-	at build_aknfh0matws8aqyswqr1pdz02.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555584052498-0/src/app/build.gradle:16)
+Caused by: java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/secret.properties (No such file or directory)
+	at build_2p61myyfkn3oqc874id61yyc2.getSecretProperty(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/app/build.gradle:11)
+	at build_2p61myyfkn3oqc874id61yyc2$getSecretProperty.callCurrent(Unknown Source)
+	at build_2p61myyfkn3oqc874id61yyc2.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559480971428-0/src/monotweety-master/app/build.gradle:16)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 104 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 3s
+BUILD FAILED in 6s
 
-2019-04-18 17:43:20,946 ERROR FullProcessService - Project build has not produced APK file
-2019-04-18 17:43:20,956 ERROR FullProcessService - Could not find generated or existed APK file
+2019-06-02 20:09:57,839 ERROR FullProcessService - Project build has not produced APK file
+2019-06-02 20:09:57,846 ERROR FullProcessService - Could not find generated or existed APK file

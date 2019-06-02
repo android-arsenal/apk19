@@ -1,37 +1,37 @@
-2019-04-18 17:57:05,899 INFO  DownloadService - Downloading "https://github.com/Rudresh-JR/DoughnutChart/archive/master.zip", attempt 3
-2019-04-18 17:58:06,767 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-18 17:58:07,935 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-18 17:58:07,935 INFO  DownloadService - Downloading "https://github.com/Rudresh-JR/DoughnutChart/archive/master.zip", attempt 3
-2019-04-18 17:59:09,805 DEBUG FullProcessService - Repository https://github.com/Rudresh-JR/DoughnutChart available: true
-2019-04-18 17:59:09,805 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-18 17:59:09,805 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Rudresh-JR/DoughnutChart, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src]
-2019-04-18 17:59:11,367 INFO  SysUtils - 
-2019-04-18 17:59:11,399 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/.git": true
-2019-04-18 17:59:11,402 INFO  FullProcessService - Size of directory with sources: 115 KB
-2019-04-18 17:59:11,402 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src]
-2019-04-18 17:59:11,418 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/.git/
+2019-06-02 20:17:26,173 INFO  DownloadService - Downloading "https://github.com/Rudresh-JR/DoughnutChart/archive/master.zip", attempt 3
+2019-06-02 20:18:26,768 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-06-02 20:18:27,949 INFO  GithubDownloadService - Default branch of this repository: master
+2019-06-02 20:18:27,949 INFO  DownloadService - Downloading "https://github.com/Rudresh-JR/DoughnutChart/archive/master.zip", attempt 3
+2019-06-02 20:19:29,743 DEBUG FullProcessService - Repository https://github.com/Rudresh-JR/DoughnutChart available: true
+2019-06-02 20:19:29,743 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-06-02 20:19:29,743 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Rudresh-JR/DoughnutChart, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src]
+2019-06-02 20:19:31,732 INFO  SysUtils - 
+2019-06-02 20:19:31,758 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/.git": true
+2019-06-02 20:19:31,760 INFO  FullProcessService - Size of directory with sources: 115 KB
+2019-06-02 20:19:31,760 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src]
+2019-06-02 20:19:31,776 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/.git/
 
-2019-04-18 17:59:11,421 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/gradlew
-2019-04-18 17:59:11,424 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/fitdoughnut/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/fitdoughnutsampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/build.gradle
-2019-04-18 17:59:11,427 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/fitdoughnut/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/fitdoughnutsampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/settings.gradle
-2019-04-18 17:59:11,427 INFO  ProjectBuildService - Remote scripts: none
-2019-04-18 17:59:11,427 INFO  ProjectFixService - Fixing project...
-2019-04-18 17:59:11,433 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/fitdoughnut/local.properties
-2019-04-18 17:59:11,434 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/fitdoughnut/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
-2019-04-18 17:59:11,434 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/fitdoughnutsampleapp/local.properties
-2019-04-18 17:59:11,434 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/fitdoughnutsampleapp/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
-2019-04-18 17:59:11,434 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/local.properties
-2019-04-18 17:59:11,434 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
-2019-04-18 17:59:11,435 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
-2019-04-18 17:59:11,435 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
-2019-04-18 17:59:11,435 INFO  ProjectFixService - Project was maybe fixed
-2019-04-18 17:59:11,435 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 17:59:11,435 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/fitdoughnut/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 17:59:25,082 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 17:59:25,084 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 17:59:25,084 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 17:59:25,084 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/fitdoughnut/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 17:59:34,602 ERROR SysUtils - Could not process external command
+2019-06-02 20:19:31,778 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/gradlew
+2019-06-02 20:19:31,780 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/fitdoughnut/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/fitdoughnutsampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/build.gradle
+2019-06-02 20:19:31,782 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/fitdoughnut/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/fitdoughnutsampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/settings.gradle
+2019-06-02 20:19:31,783 INFO  ProjectBuildService - Remote scripts: none
+2019-06-02 20:19:31,783 INFO  ProjectFixService - Fixing project...
+2019-06-02 20:19:31,788 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/fitdoughnut/local.properties
+2019-06-02 20:19:31,789 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/fitdoughnut/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-06-02 20:19:31,789 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/fitdoughnutsampleapp/local.properties
+2019-06-02 20:19:31,789 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/fitdoughnutsampleapp/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-06-02 20:19:31,789 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/local.properties
+2019-06-02 20:19:31,790 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2019-06-02 20:19:31,790 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2019-06-02 20:19:31,790 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-06-02 20:19:31,790 INFO  ProjectFixService - Project was maybe fixed
+2019-06-02 20:19:31,790 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-02 20:19:31,791 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/fitdoughnut/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-02 20:19:52,250 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-02 20:19:52,252 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-02 20:19:52,252 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-02 20:19:52,252 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/fitdoughnut/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-02 20:20:01,086 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,21 +44,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 17:59:34,602 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-02 20:20:01,086 INFO  SysUtils - Configuration on demand is an incubating feature.
 :fitdoughnut:compileLint
 :fitdoughnut:copyDebugLint UP-TO-DATE
 :fitdoughnut:preBuild UP-TO-DATE
@@ -79,7 +79,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :fitdoughnut:generateDebugResValues
 :fitdoughnut:generateDebugResources
 :fitdoughnut:mergeDebugResources
-AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/fitdoughnut/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/fitdoughnut/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
 :fitdoughnut:processDebugManifest
 :fitdoughnut:processDebugResources
 :fitdoughnut:generateDebugSources
@@ -107,7 +107,7 @@ AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/s
 :fitdoughnut:generateReleaseResValues
 :fitdoughnut:generateReleaseResources
 :fitdoughnut:mergeReleaseResources
-AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/fitdoughnut/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/fitdoughnut/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
 :fitdoughnut:processReleaseManifest
 :fitdoughnut:processReleaseResources
 :fitdoughnut:generateReleaseSources
@@ -210,14 +210,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 8.969 secs
+Total time: 8.314 secs
 
-2019-04-18 17:59:34,646 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 17:59:34,646 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/fitdoughnutsampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 17:59:40,053 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-04-18 17:59:40,053 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-18 17:59:40,053 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/fitdoughnutsampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-18 17:59:57,001 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-02 20:20:01,120 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-02 20:20:01,120 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/fitdoughnutsampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-02 20:20:06,248 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-06-02 20:20:06,248 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-02 20:20:06,249 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/fitdoughnutsampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-02 20:20:22,484 INFO  SysUtils - Configuration on demand is an incubating feature.
 :fitdoughnut:compileLint
 :fitdoughnut:copyReleaseLint UP-TO-DATE
 :fitdoughnut:preBuild UP-TO-DATE
@@ -272,7 +272,7 @@ Total time: 8.969 secs
 :fitdoughnutsampleapp:processDebugResources
 :fitdoughnutsampleapp:generateDebugSources
 :fitdoughnutsampleapp:processDebugJavaRes UP-TO-DATE
-:fitdoughnutsampleapp:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/fitdoughnutsampleapp/src/main/java/me/mwild/fitdoughnutsampleapp/MainActivity.java uses or overrides a deprecated API.
+:fitdoughnutsampleapp:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/fitdoughnutsampleapp/src/main/java/me/mwild/fitdoughnutsampleapp/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :fitdoughnutsampleapp:compileDebugNdk UP-TO-DATE
@@ -297,7 +297,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :fitdoughnutsampleapp:processReleaseResources
 :fitdoughnutsampleapp:generateReleaseSources
 :fitdoughnutsampleapp:processReleaseJavaRes UP-TO-DATE
-:fitdoughnutsampleapp:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/fitdoughnutsampleapp/src/main/java/me/mwild/fitdoughnutsampleapp/MainActivity.java uses or overrides a deprecated API.
+:fitdoughnutsampleapp:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/fitdoughnutsampleapp/src/main/java/me/mwild/fitdoughnutsampleapp/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :fitdoughnutsampleapp:compileReleaseNdk UP-TO-DATE
@@ -311,6 +311,6 @@ Note: Recompile with -Xlint:deprecation for details.
 
 BUILD SUCCESSFUL
 
-Total time: 16.411 secs
+Total time: 15.719 secs
 
-2019-04-18 17:59:57,087 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555585025897-0/src/fitdoughnut/FitDoughnut-master/fitdoughnutsampleapp/build/outputs/apk/fitdoughnutsampleapp-release-unsigned.apk
+2019-06-02 20:20:22,544 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559481446170-0/src/fitdoughnut/FitDoughnut-master/fitdoughnutsampleapp/build/outputs/apk/fitdoughnutsampleapp-release-unsigned.apk
