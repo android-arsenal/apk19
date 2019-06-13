@@ -31,8 +31,8 @@
   "dexClasses" : 1408,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"9\" android:versionName=\"1.3.2\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"me.zhanghai.android.materialratingbar.sample\" platformBuildVersionCode=\"9\" platformBuildVersionName=\"1.3.2\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"MaterialRatingBar Sample\" android:icon=\"res/mipmap-xxxhdpi-v4/launcher_icon.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"true\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:label=\"MaterialRatingBar Sample\" android:name=\"me.zhanghai.android.materialratingbar.sample.MainActivity\" android:launchMode=\"singleTop\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"About\" android:name=\"me.zhanghai.android.materialratingbar.sample.AboutActivity\" android:launchMode=\"singleTop\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\".MainActivity\" />\n\t\t</activity>\n\t</application>\n</manifest>\n",
-  "fileSize" : 1528445,
-  "crc32" : 1849363019,
-  "sha256" : "d3aae264dabad8442f6b9f9182ac0a0791d99604fbe72735b318795ab61d3811",
-  "buildTime" : 1559491113000
+  "fileSize" : 1528483,
+  "crc32" : 3653232614,
+  "sha256" : "0bca598c8422b2e666299ac43705a6ca2346a42c3ffbe3e99f459cf2c2979f40",
+  "buildTime" : 1560399663000
 }
