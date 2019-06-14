@@ -1,9 +1,10 @@
-2019-06-03 01:28:56,107 INFO  DownloadService - Downloading "https://github.com/JakeWharton/sdk-artifact-sync/archive/master.zip", attempt 3
-2019-06-03 01:28:56,108 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-06-03 01:28:56,109 INFO  GithubDownloadService - Default branch of this repository: null
-2019-06-03 01:28:56,109 ERROR GithubDownloadService - Could not detect default branch for Github repository
-2019-06-03 01:28:56,110 DEBUG FullProcessService - Repository https://github.com/JakeWharton/sdk-artifact-sync available: false
-2019-06-03 01:28:56,110 ERROR FullProcessService - Could not find directory with sources
-2019-06-03 01:28:56,110 ERROR FullProcessService - Project will not be processed
-2019-06-03 01:28:56,110 ERROR FullProcessService - Project build has not produced APK file
-2019-06-03 01:28:56,110 ERROR FullProcessService - Could not find generated or existed APK file
+2019-06-14 11:43:51,047 INFO  DownloadService - Downloading "https://github.com/JakeWharton/sdk-artifact-sync/archive/master.zip", attempt 3
+2019-06-14 11:43:51,563 INFO  DownloadService - Downloaded https://github.com/JakeWharton/sdk-artifact-sync/archive/master.zip, attempt 3
+2019-06-14 11:43:51,563 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560487431044-0/master.zip": 9 KB
+2019-06-14 11:43:51,563 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-14 11:43:51,568 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560487431044-0/master.zip: false
+2019-06-14 11:43:51,568 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-06-14 11:43:51,569 ERROR FullProcessService - Could not find directory with sources
+2019-06-14 11:43:51,569 ERROR FullProcessService - Project will not be processed
+2019-06-14 11:43:51,569 ERROR FullProcessService - Project build has not produced APK file
+2019-06-14 11:43:51,569 ERROR FullProcessService - Could not find generated or existed APK file

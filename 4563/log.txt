@@ -1,41 +1,38 @@
-2019-06-02 23:10:59,826 INFO  DownloadService - Downloading "https://github.com/pakoito/FunctionalAndroidReference/archive/master.zip", attempt 3
-2019-06-02 23:12:00,479 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-06-02 23:12:01,725 INFO  GithubDownloadService - Default branch of this repository: master
-2019-06-02 23:12:01,725 INFO  DownloadService - Downloading "https://github.com/pakoito/FunctionalAndroidReference/archive/master.zip", attempt 3
-2019-06-02 23:13:03,520 DEBUG FullProcessService - Repository https://github.com/pakoito/FunctionalAndroidReference available: true
-2019-06-02 23:13:03,520 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-06-02 23:13:03,521 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/pakoito/FunctionalAndroidReference, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src]
-2019-06-02 23:13:05,873 INFO  SysUtils - 
-2019-06-02 23:13:05,881 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/.git": true
-2019-06-02 23:13:05,887 INFO  FullProcessService - Size of directory with sources: 379 KB
-2019-06-02 23:13:05,887 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src]
-2019-06-02 23:13:05,903 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/.git/
+2019-06-14 11:34:56,899 INFO  DownloadService - Downloading "https://github.com/pakoito/FunctionalAndroidReference/archive/master.zip", attempt 3
+2019-06-14 11:34:59,275 INFO  DownloadService - Downloaded https://github.com/pakoito/FunctionalAndroidReference/archive/master.zip, attempt 3
+2019-06-14 11:34:59,275 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/master.zip": 253 KB
+2019-06-14 11:34:59,275 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-14 11:34:59,281 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/master.zip: true
+2019-06-14 11:34:59,281 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src'.
+2019-06-14 11:34:59,325 INFO  FullProcessService - Size of directory with sources: 379 KB
+2019-06-14 11:34:59,325 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src]
+2019-06-14 11:34:59,349 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/.git/
 
-2019-06-02 23:13:05,908 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/gradlew
-2019-06-02 23:13:05,913 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/libcore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/libservices/build.gradle
-2019-06-02 23:13:05,917 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/libservices/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/libcore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/settings.gradle
-2019-06-02 23:13:05,918 INFO  ProjectBuildService - Remote scripts: none
-2019-06-02 23:13:05,918 INFO  ProjectFixService - Fixing project...
-2019-06-02 23:13:05,929 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/app/local.properties
-2019-06-02 23:13:05,929 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/app/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2019-06-02 23:13:05,930 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/local.properties
-2019-06-02 23:13:05,930 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.4-all.zip
-2019-06-02 23:13:05,930 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.4-bin.zip)
-2019-06-02 23:13:05,931 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2019-06-02 23:13:05,931 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/libcore/local.properties
-2019-06-02 23:13:05,932 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/libcore/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2019-06-02 23:13:05,932 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/local.properties
-2019-06-02 23:13:05,933 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2019-06-02 23:13:05,933 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/libservices/local.properties
-2019-06-02 23:13:05,933 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/libservices/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2019-06-02 23:13:05,934 INFO  ProjectFixService - Project was maybe fixed
-2019-06-02 23:13:05,934 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-02 23:13:05,934 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-02 23:13:37,411 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-06-02 23:13:37,411 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-06-02 23:13:37,411 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-06-02 23:13:37,411 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-06-02 23:13:42,864 ERROR SysUtils - Could not process external command
+2019-06-14 11:34:59,355 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/gradlew
+2019-06-14 11:34:59,361 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/libcore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/libservices/build.gradle
+2019-06-14 11:34:59,366 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/libservices/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/libcore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/settings.gradle
+2019-06-14 11:34:59,366 INFO  ProjectBuildService - Remote scripts: none
+2019-06-14 11:34:59,366 INFO  ProjectFixService - Fixing project...
+2019-06-14 11:34:59,379 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/app/local.properties
+2019-06-14 11:34:59,380 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/app/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-06-14 11:34:59,380 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/local.properties
+2019-06-14 11:34:59,381 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.4-all.zip
+2019-06-14 11:34:59,381 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.4-bin.zip)
+2019-06-14 11:34:59,382 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-06-14 11:34:59,383 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/libcore/local.properties
+2019-06-14 11:34:59,383 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/libcore/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-06-14 11:34:59,384 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/local.properties
+2019-06-14 11:34:59,385 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-06-14 11:34:59,385 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/libservices/local.properties
+2019-06-14 11:34:59,386 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/libservices/build.gradle": [buildToolsVersion=24.0.3,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
+2019-06-14 11:34:59,386 INFO  ProjectFixService - Project was maybe fixed
+2019-06-14 11:34:59,386 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-14 11:34:59,387 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-14 11:35:08,514 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-14 11:35:08,514 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-14 11:35:08,514 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-14 11:35:08,515 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-14 11:35:16,344 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -48,7 +45,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -62,7 +60,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-06-02 23:13:42,864 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-14 11:35:16,344 INFO  SysUtils - Configuration on demand is an incubating feature.
 The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
 	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:245)
 	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
@@ -285,15 +283,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.186 secs
+Total time: 7.498 secs
 
-2019-06-02 23:13:42,870 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-02 23:13:42,870 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-02 23:13:48,202 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-06-02 23:13:48,202 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-06-02 23:13:48,202 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-06-02 23:13:48,202 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-06-02 23:13:53,522 ERROR SysUtils - Could not process external command
+2019-06-14 11:35:16,354 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-14 11:35:16,354 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-14 11:35:22,270 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-14 11:35:22,271 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-14 11:35:22,271 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-14 11:35:22,271 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-14 11:35:28,801 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -306,7 +304,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -320,7 +319,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-06-02 23:13:53,522 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-14 11:35:28,802 INFO  SysUtils - Configuration on demand is an incubating feature.
 The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
 	at org.gradle.api.tasks.compile.JavaCompile.setDependencyCacheDir(JavaCompile.java:245)
 	at com.android.build.gradle.tasks.factory.AndroidJavaCompile_Decorated.setDependencyCacheDir(Unknown Source)
@@ -543,14 +542,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.097 secs
+Total time: 6.2 secs
 
-2019-06-02 23:13:53,529 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-02 23:13:53,529 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/libcore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-02 23:13:56,589 INFO  ProjectTaskService - Detected possible tasks: 41
-2019-06-02 23:13:56,589 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-06-02 23:13:56,590 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/libcore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-06-02 23:14:03,419 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-14 11:35:28,809 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-14 11:35:28,809 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/libcore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-14 11:35:33,580 INFO  ProjectTaskService - Detected possible tasks: 41
+2019-06-14 11:35:33,580 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-06-14 11:35:33,580 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/libcore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-06-14 11:35:44,191 INFO  SysUtils - Configuration on demand is an incubating feature.
 :libcore:compileKotlin
 w: The '-d' option with a directory destination is ignored because '-module' is specified
 :libcore:compileJava NO-SOURCE
@@ -563,14 +562,14 @@ w: The '-d' option with a directory destination is ignored because '-module' is 
 
 BUILD SUCCESSFUL
 
-Total time: 6.28 secs
+Total time: 10.099 secs
 
-2019-06-02 23:14:03,428 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-02 23:14:03,428 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-02 23:14:06,474 INFO  ProjectTaskService - Detected possible tasks: 41
-2019-06-02 23:14:06,474 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-06-02 23:14:06,474 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-06-02 23:14:18,669 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-14 11:35:44,198 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-14 11:35:44,198 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-14 11:35:48,825 INFO  ProjectTaskService - Detected possible tasks: 41
+2019-06-14 11:35:48,825 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-06-14 11:35:48,825 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-06-14 11:36:09,501 INFO  SysUtils - Configuration on demand is an incubating feature.
 :libcore:compileKotlin UP-TO-DATE
 :libcore:compileJava NO-SOURCE
 :libcore:copyMainKotlinClasses UP-TO-DATE
@@ -586,24 +585,24 @@ w: The '-d' option with a directory destination is ignored because '-module' is 
 :libservices:jar
 :liblogic:compileKotlin
 w: The '-d' option with a directory destination is ignored because '-module' is specified
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/src/main/kotlin/com/pacoworks/dereference/features/cache/CacheExampleInteractor.kt: (59, 35): Parameter 'present' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (63, 29): Parameter 'click' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (79, 27): Parameter 'normal' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (81, 27): Parameter 'delete' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (90, 19): Parameter 'click' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (93, 31): Parameter 'normal' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (95, 31): Parameter 'delete' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (104, 27): Parameter 'normal' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (112, 47): Parameter 'normal' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (112, 67): Parameter 'delete' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (116, 19): Parameter 'exitEditMode' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (128, 31): Parameter 'normal' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (130, 31): Parameter 'delete' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/src/main/kotlin/com/pacoworks/dereference/features/pagination/PaginationExampleInteractor.kt: (48, 19): Parameter 'elements' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/src/main/kotlin/com/pacoworks/dereference/features/pagination/PaginationExampleInteractor.kt: (48, 29): Parameter 'click' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/src/main/kotlin/com/pacoworks/dereference/features/pagination/PaginationExampleInteractor.kt: (50, 29): Parameter 'click' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/src/main/kotlin/com/pacoworks/dereference/features/rotation/RotationInteractor.kt: (113, 32): Parameter 'trans' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/liblogic/src/main/kotlin/com/pacoworks/dereference/features/rotation/RotationInteractor.kt: (135, 39): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/src/main/kotlin/com/pacoworks/dereference/features/cache/CacheExampleInteractor.kt: (59, 35): Parameter 'present' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (63, 29): Parameter 'click' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (79, 27): Parameter 'normal' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (81, 27): Parameter 'delete' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (90, 19): Parameter 'click' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (93, 31): Parameter 'normal' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (95, 31): Parameter 'delete' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (104, 27): Parameter 'normal' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (112, 47): Parameter 'normal' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (112, 67): Parameter 'delete' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (116, 19): Parameter 'exitEditMode' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (128, 31): Parameter 'normal' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/src/main/kotlin/com/pacoworks/dereference/features/list/ListExampleInteractor.kt: (130, 31): Parameter 'delete' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/src/main/kotlin/com/pacoworks/dereference/features/pagination/PaginationExampleInteractor.kt: (48, 19): Parameter 'elements' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/src/main/kotlin/com/pacoworks/dereference/features/pagination/PaginationExampleInteractor.kt: (48, 29): Parameter 'click' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/src/main/kotlin/com/pacoworks/dereference/features/pagination/PaginationExampleInteractor.kt: (50, 29): Parameter 'click' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/src/main/kotlin/com/pacoworks/dereference/features/rotation/RotationInteractor.kt: (113, 32): Parameter 'trans' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/liblogic/src/main/kotlin/com/pacoworks/dereference/features/rotation/RotationInteractor.kt: (135, 39): No cast needed
 :liblogic:compileJava NO-SOURCE
 :liblogic:copyMainKotlinClasses
 :liblogic:processResources NO-SOURCE
@@ -614,14 +613,14 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/
 
 BUILD SUCCESSFUL
 
-Total time: 11.649 secs
+Total time: 20.148 secs
 
-2019-06-02 23:14:18,685 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-02 23:14:18,685 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/libservices/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-02 23:14:21,892 INFO  ProjectTaskService - Detected possible tasks: 41
-2019-06-02 23:14:21,892 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-06-02 23:14:21,892 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559491859824-0/src/libservices/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-06-02 23:14:25,056 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-14 11:36:09,528 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-14 11:36:09,528 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/libservices/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-14 11:36:15,134 INFO  ProjectTaskService - Detected possible tasks: 41
+2019-06-14 11:36:15,134 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-06-14 11:36:15,135 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486896896-0/src/FunctionalAndroidReference-master/libservices/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-06-14 11:36:21,831 INFO  SysUtils - Configuration on demand is an incubating feature.
 :libcore:compileKotlin UP-TO-DATE
 :libcore:compileJava NO-SOURCE
 :libcore:copyMainKotlinClasses UP-TO-DATE
@@ -639,7 +638,7 @@ Total time: 11.649 secs
 
 BUILD SUCCESSFUL
 
-Total time: 2.995 secs
+Total time: 6.369 secs
 
-2019-06-02 23:14:25,071 ERROR FullProcessService - Project build has not produced APK file
-2019-06-02 23:14:25,084 ERROR FullProcessService - Could not find generated or existed APK file
+2019-06-14 11:36:21,847 ERROR FullProcessService - Project build has not produced APK file
+2019-06-14 11:36:21,867 ERROR FullProcessService - Could not find generated or existed APK file
