@@ -1,9 +1,190 @@
-2019-06-03 01:28:56,164 INFO  DownloadService - Downloading "https://github.com/L4Digital/FastScroll/archive/master.zip", attempt 3
-2019-06-03 01:28:56,164 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-06-03 01:28:56,165 INFO  GithubDownloadService - Default branch of this repository: null
-2019-06-03 01:28:56,165 ERROR GithubDownloadService - Could not detect default branch for Github repository
-2019-06-03 01:28:56,166 DEBUG FullProcessService - Repository https://github.com/L4Digital/FastScroll available: false
-2019-06-03 01:28:56,166 ERROR FullProcessService - Could not find directory with sources
-2019-06-03 01:28:56,166 ERROR FullProcessService - Project will not be processed
-2019-06-03 01:28:56,166 ERROR FullProcessService - Project build has not produced APK file
-2019-06-03 01:28:56,166 ERROR FullProcessService - Could not find generated or existed APK file
+2019-06-14 13:27:45,717 INFO  DownloadService - Downloading "https://github.com/L4Digital/FastScroll/archive/master.zip", attempt 3
+2019-06-14 13:27:47,773 INFO  DownloadService - Downloaded https://github.com/L4Digital/FastScroll/archive/master.zip, attempt 3
+2019-06-14 13:27:47,773 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/master.zip": 177 KB
+2019-06-14 13:27:47,773 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-14 13:27:47,791 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/master.zip: true
+2019-06-14 13:27:47,792 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src'.
+2019-06-14 13:27:47,816 INFO  FullProcessService - Size of directory with sources: 251 KB
+2019-06-14 13:27:47,822 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src]
+2019-06-14 13:27:47,865 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/.git/
+
+2019-06-14 13:27:47,878 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/gradlew
+2019-06-14 13:27:47,890 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/fastscroll/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/build.gradle
+2019-06-14 13:27:47,896 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/fastscroll/build.gradle
+2019-06-14 13:27:47,898 INFO  ProjectBuildService - Remote scripts: none
+2019-06-14 13:27:47,899 INFO  ProjectFixService - Fixing project...
+2019-06-14 13:27:47,957 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2019-06-14 13:27:47,957 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2019-06-14 13:27:47,959 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 21.1.0 28.0.0 18.1.0 19.1.0 18.1.1
+2019-06-14 13:27:47,962 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 28.0.0-rc1 28.0.0-rc2
+2019-06-14 13:27:47,966 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2019-06-14 13:27:47,967 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
+2019-06-14 13:27:47,967 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/example/local.properties
+2019-06-14 13:27:47,976 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-06-14 13:27:47,980 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-14 13:27:47,982 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/fastscroll/local.properties
+2019-06-14 13:27:47,984 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/fastscroll/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-06-14 13:27:47,985 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/fastscroll/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-14 13:27:47,986 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/local.properties
+2019-06-14 13:27:47,991 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-06-14 13:27:47,992 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-06-14 13:27:47,994 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-06-14 13:27:47,994 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-14 13:27:47,995 INFO  ProjectFixService - Project was maybe fixed
+2019-06-14 13:27:47,998 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-14 13:27:47,998 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-14 13:27:57,539 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-14 13:27:57,539 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-14 13:27:57,540 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-14 13:28:49,177 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :example:preBuild UP-TO-DATE
+> Task :fastscroll:preBuild UP-TO-DATE
+> Task :fastscroll:preDebugBuild UP-TO-DATE
+> Task :fastscroll:checkDebugManifest
+> Task :fastscroll:processDebugManifest
+> Task :example:preDebugBuild
+> Task :fastscroll:packageDebugRenderscript NO-SOURCE
+> Task :example:checkDebugManifest
+> Task :example:compileDebugRenderscript NO-SOURCE
+> Task :example:generateDebugBuildConfig
+> Task :example:mainApkListPersistenceDebug
+> Task :example:generateDebugResValues
+> Task :example:generateDebugResources
+> Task :fastscroll:generateDebugResValues
+> Task :example:createDebugCompatibleScreenManifests
+> Task :example:processDebugManifest
+> Task :fastscroll:generateDebugBuildConfig
+> Task :fastscroll:compileDebugAidl NO-SOURCE
+> Task :example:compileDebugAidl NO-SOURCE
+> Task :fastscroll:compileDebugRenderscript NO-SOURCE
+> Task :fastscroll:generateDebugResources
+> Task :fastscroll:packageDebugResources
+> Task :example:mergeDebugResources
+> Task :fastscroll:generateDebugRFile
+> Task :example:processDebugResources
+> Task :fastscroll:prepareLintJar
+> Task :fastscroll:generateDebugSources
+> Task :fastscroll:javaPreCompileDebug
+> Task :fastscroll:compileDebugJavaWithJavac
+> Task :fastscroll:bundleLibCompileDebug
+> Task :example:compileDebugKotlin
+> Task :example:prepareLintJar
+> Task :example:generateDebugSources
+> Task :example:javaPreCompileDebug
+> Task :example:compileDebugJavaWithJavac
+> Task :example:compileDebugSources
+> Task :example:mergeDebugShaders
+> Task :example:compileDebugShaders
+> Task :example:generateDebugAssets
+> Task :fastscroll:mergeDebugShaders
+> Task :fastscroll:compileDebugShaders
+> Task :fastscroll:generateDebugAssets
+> Task :fastscroll:packageDebugAssets
+> Task :example:mergeDebugAssets
+> Task :fastscroll:processDebugJavaRes NO-SOURCE
+> Task :fastscroll:bundleLibResDebug
+> Task :fastscroll:bundleLibRuntimeDebug
+> Task :fastscroll:createFullJarDebug
+> Task :example:checkDebugDuplicateClasses
+> Task :example:transformClassesWithDexBuilderForDebug
+> Task :example:validateSigningDebug
+> Task :example:signingConfigWriterDebug
+> Task :example:mergeDebugJniLibFolders
+> Task :fastscroll:mergeDebugJniLibFolders
+> Task :fastscroll:transformNativeLibsWithMergeJniLibsForDebug
+> Task :fastscroll:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :fastscroll:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :example:transformNativeLibsWithMergeJniLibsForDebug
+> Task :example:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :example:processDebugJavaRes NO-SOURCE
+> Task :example:transformResourcesWithMergeJavaResForDebug
+> Task :example:extractProguardFiles
+> Task :fastscroll:preReleaseBuild UP-TO-DATE
+> Task :fastscroll:checkReleaseManifest
+> Task :fastscroll:processReleaseManifest
+> Task :example:preReleaseBuild
+> Task :fastscroll:compileReleaseAidl NO-SOURCE
+> Task :example:compileReleaseAidl NO-SOURCE
+> Task :fastscroll:packageReleaseRenderscript NO-SOURCE
+> Task :example:compileReleaseRenderscript NO-SOURCE
+> Task :example:checkReleaseManifest
+> Task :example:generateReleaseBuildConfig
+> Task :example:mainApkListPersistenceRelease
+> Task :example:generateReleaseResValues
+> Task :example:generateReleaseResources
+> Task :fastscroll:compileReleaseRenderscript NO-SOURCE
+> Task :fastscroll:generateReleaseResValues
+> Task :fastscroll:generateReleaseResources
+> Task :fastscroll:packageReleaseResources
+> Task :example:mergeReleaseResources
+> Task :example:createReleaseCompatibleScreenManifests
+> Task :example:processReleaseManifest
+> Task :fastscroll:generateReleaseRFile
+> Task :example:processReleaseResources
+> Task :fastscroll:generateReleaseBuildConfig
+> Task :fastscroll:generateReleaseSources
+> Task :fastscroll:javaPreCompileRelease
+> Task :fastscroll:compileReleaseJavaWithJavac
+> Task :fastscroll:bundleLibCompileRelease
+> Task :example:compileReleaseKotlin
+> Task :example:generateReleaseSources
+> Task :example:javaPreCompileRelease
+> Task :example:compileReleaseJavaWithJavac
+> Task :example:mergeExtDexDebug
+> Task :example:mergeDexDebug
+> Task :example:packageDebug
+> Task :example:assembleDebug
+> Task :example:compileReleaseSources
+> Task :fastscroll:prepareLintJarForPublish
+
+> Task :example:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e1d321ec762cc5ff16feaf961144bfb2/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :example:mergeReleaseShaders
+> Task :example:compileReleaseShaders
+> Task :example:generateReleaseAssets
+> Task :fastscroll:mergeReleaseShaders
+> Task :fastscroll:compileReleaseShaders
+> Task :fastscroll:generateReleaseAssets
+> Task :fastscroll:packageReleaseAssets
+> Task :example:mergeReleaseAssets
+> Task :example:signingConfigWriterRelease
+> Task :example:processReleaseJavaRes NO-SOURCE
+> Task :fastscroll:processReleaseJavaRes NO-SOURCE
+> Task :fastscroll:bundleLibResRelease
+> Task :example:transformResourcesWithMergeJavaResForRelease
+> Task :fastscroll:bundleLibRuntimeRelease
+> Task :fastscroll:mergeReleaseConsumerProguardFiles
+D8: The rule `-keep public class * extends androidx.versionedparcelable.VersionedParcelable {
+  <init>();
+}` uses extends but actually matches implements.
+
+> Task :example:transformClassesAndResourcesWithR8ForRelease
+R8 is the new Android code shrinker. If you experience any issues, please file a bug at
+https://issuetracker.google.com, using 'Shrinker (R8)' as component name. You can
+disable R8 by updating gradle.properties with 'android.enableR8=false'.
+Current version is: 1.4.77 (build b74371231cb896b02f83285efb055b7c00ff64d8 from go/r8bot (luci-r8-ci-archive-0-eqqf)).
+
+Removed unused resources: Binary resource data reduced from 530KB to 518KB: Removed 2%
+
+> Task :example:transformClassesAndDexWithShrinkResForRelease
+> Task :example:mergeReleaseJniLibFolders
+> Task :fastscroll:mergeReleaseJniLibFolders
+> Task :fastscroll:transformNativeLibsWithMergeJniLibsForRelease
+> Task :fastscroll:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :fastscroll:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :example:transformNativeLibsWithMergeJniLibsForRelease
+> Task :example:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :example:packageRelease
+> Task :example:assembleRelease
+> Task :example:assemble
+> Task :example:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 50s
+92 actionable tasks: 92 executed
+
+2019-06-14 13:28:49,280 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493665636-0/src/FastScroll-master/example/build/outputs/apk/release/example-release-unsigned.apk

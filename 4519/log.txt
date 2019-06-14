@@ -1,37 +1,34 @@
-2019-04-18 21:23:40,187 INFO  DownloadService - Downloading "https://github.com/multidots/android-social-signin-helper/archive/master.zip", attempt 3
-2019-04-18 21:24:40,806 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-18 21:24:41,913 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-18 21:24:41,913 INFO  DownloadService - Downloading "https://github.com/multidots/android-social-signin-helper/archive/master.zip", attempt 3
-2019-04-18 21:25:43,608 DEBUG FullProcessService - Repository https://github.com/multidots/android-social-signin-helper available: true
-2019-04-18 21:25:43,608 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-18 21:25:43,608 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/multidots/android-social-signin-helper, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src]
-2019-04-18 21:25:47,151 INFO  SysUtils - 
-2019-04-18 21:25:47,160 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/.git": true
-2019-04-18 21:25:47,164 INFO  FullProcessService - Size of directory with sources: 4 MB
-2019-04-18 21:25:47,164 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src]
-2019-04-18 21:25:47,182 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/.git/
+2019-06-14 13:54:29,750 INFO  DownloadService - Downloading "https://github.com/multidots/android-social-signin-helper/archive/master.zip", attempt 3
+2019-06-14 13:54:34,810 INFO  DownloadService - Downloaded https://github.com/multidots/android-social-signin-helper/archive/master.zip, attempt 3
+2019-06-14 13:54:34,811 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/master.zip": 3 MB
+2019-06-14 13:54:34,811 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-14 13:54:34,812 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/master.zip: true
+2019-06-14 13:54:34,812 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src'.
+2019-06-14 13:54:34,888 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-06-14 13:54:34,888 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src]
+2019-06-14 13:54:34,919 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src/.git/
 
-2019-04-18 21:25:47,185 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/gradlew
-2019-04-18 21:25:47,189 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/linkedinsdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/build.gradle
-2019-04-18 21:25:47,193 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/linkedinsdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/settings.gradle
-2019-04-18 21:25:47,193 INFO  ProjectBuildService - Remote scripts: none
-2019-04-18 21:25:47,193 INFO  ProjectFixService - Fixing project...
-2019-04-18 21:25:47,201 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/app/local.properties
-2019-04-18 21:25:47,201 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2019-04-18 21:25:47,202 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/linkedinsdk/local.properties
-2019-04-18 21:25:47,202 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/linkedinsdk/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2019-04-18 21:25:47,202 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/local.properties
-2019-04-18 21:25:47,202 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-04-18 21:25:47,203 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-04-18 21:25:47,203 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2019-04-18 21:25:47,203 INFO  ProjectFixService - Project was maybe fixed
-2019-04-18 21:25:47,203 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 21:25:47,203 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 21:25:53,666 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 21:25:53,666 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 21:25:53,666 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 21:25:53,666 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 21:25:58,801 ERROR SysUtils - Could not process external command
+2019-06-14 13:54:34,923 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src/android-social-signin-helper-master/gradlew
+2019-06-14 13:54:34,926 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src/android-social-signin-helper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src/android-social-signin-helper-master/linkedinsdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src/android-social-signin-helper-master/build.gradle
+2019-06-14 13:54:34,929 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src/android-social-signin-helper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src/android-social-signin-helper-master/linkedinsdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src/android-social-signin-helper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src/android-social-signin-helper-master/settings.gradle
+2019-06-14 13:54:34,929 INFO  ProjectBuildService - Remote scripts: none
+2019-06-14 13:54:34,929 INFO  ProjectFixService - Fixing project...
+2019-06-14 13:54:34,936 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src/android-social-signin-helper-master/app/local.properties
+2019-06-14 13:54:34,937 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src/android-social-signin-helper-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2019-06-14 13:54:34,937 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src/android-social-signin-helper-master/linkedinsdk/local.properties
+2019-06-14 13:54:34,938 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src/android-social-signin-helper-master/linkedinsdk/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-06-14 13:54:34,938 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src/android-social-signin-helper-master/local.properties
+2019-06-14 13:54:34,939 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-06-14 13:54:34,939 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-06-14 13:54:34,940 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src/android-social-signin-helper-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2019-06-14 13:54:34,940 INFO  ProjectFixService - Project was maybe fixed
+2019-06-14 13:54:34,940 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-14 13:54:34,941 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src/android-social-signin-helper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src/android-social-signin-helper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-14 13:54:44,728 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-14 13:54:44,728 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-14 13:54:44,728 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-14 13:54:44,728 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src/android-social-signin-helper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src/android-social-signin-helper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-14 13:54:53,563 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,21 +41,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 21:25:58,801 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-14 13:54:53,563 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -244,6 +241,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.855 secs
+Total time: 8.374 secs
 
-2019-04-18 21:25:58,806 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555597420183-0/src/Sample apk.apk
+2019-06-14 13:54:53,568 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560495269747-0/src/android-social-signin-helper-master/Sample apk.apk
