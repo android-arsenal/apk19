@@ -1,39 +1,36 @@
-2019-04-18 21:37:24,799 INFO  DownloadService - Downloading "https://github.com/protyposis/MediaPlayer-Extended/archive/master.zip", attempt 3
-2019-04-18 21:38:25,448 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-18 21:38:27,228 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-18 21:38:27,248 INFO  DownloadService - Downloading "https://github.com/protyposis/MediaPlayer-Extended/archive/master.zip", attempt 3
-2019-04-18 21:39:28,634 DEBUG FullProcessService - Repository https://github.com/protyposis/MediaPlayer-Extended available: true
-2019-04-18 21:39:28,634 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-18 21:39:28,635 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/protyposis/MediaPlayer-Extended, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src]
-2019-04-18 21:39:30,683 INFO  SysUtils - 
-2019-04-18 21:39:30,691 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/.git": true
-2019-04-18 21:39:30,696 INFO  FullProcessService - Size of directory with sources: 558 KB
-2019-04-18 21:39:30,696 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src]
-2019-04-18 21:39:30,714 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/.git/
+2019-06-16 15:47:50,318 INFO  DownloadService - Downloading "https://github.com/protyposis/MediaPlayer-Extended/archive/master.zip", attempt 3
+2019-06-16 15:47:50,974 INFO  DownloadService - Downloaded https://github.com/protyposis/MediaPlayer-Extended/archive/master.zip, attempt 3
+2019-06-16 15:47:50,974 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/master.zip": 261 KB
+2019-06-16 15:47:50,974 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-16 15:47:50,976 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/master.zip: true
+2019-06-16 15:47:50,976 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src'.
+2019-06-16 15:47:51,007 INFO  FullProcessService - Size of directory with sources: 558 KB
+2019-06-16 15:47:51,007 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src]
+2019-06-16 15:47:51,031 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/.git/
 
-2019-04-18 21:39:30,718 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/gradlew
-2019-04-18 21:39:30,722 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/MediaPlayer-DASH/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/MediaPlayer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/MediaPlayerDemo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/build.gradle
-2019-04-18 21:39:30,726 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/MediaPlayer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/gitversioning.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/MediaPlayerDemo/signingconfig.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/MediaPlayerDemo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/MediaPlayer-DASH/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/settings.gradle
-2019-04-18 21:39:30,727 INFO  ProjectBuildService - Remote scripts: none
-2019-04-18 21:39:30,727 INFO  ProjectFixService - Fixing project...
-2019-04-18 21:39:30,737 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/MediaPlayer-DASH/local.properties
-2019-04-18 21:39:30,737 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/MediaPlayer-DASH/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=16,targetSdkVersion=22]
-2019-04-18 21:39:30,738 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/MediaPlayer/local.properties
-2019-04-18 21:39:30,738 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/MediaPlayer/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=16,targetSdkVersion=22]
-2019-04-18 21:39:30,738 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/MediaPlayerDemo/local.properties
-2019-04-18 21:39:30,738 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/MediaPlayerDemo/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=16,targetSdkVersion=22]
-2019-04-18 21:39:30,739 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/local.properties
-2019-04-18 21:39:30,739 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2019-04-18 21:39:30,739 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2019-04-18 21:39:30,740 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=16,targetSdkVersion=22]
-2019-04-18 21:39:30,740 INFO  ProjectFixService - Project was maybe fixed
-2019-04-18 21:39:30,740 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 21:39:30,740 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/MediaPlayer-DASH/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 21:39:42,257 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 21:39:42,257 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 21:39:42,257 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 21:39:42,257 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/MediaPlayer-DASH/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 21:39:50,985 ERROR SysUtils - Could not process external command
+2019-06-16 15:47:51,036 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/gradlew
+2019-06-16 15:47:51,040 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/MediaPlayer-DASH/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/MediaPlayer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/MediaPlayerDemo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/build.gradle
+2019-06-16 15:47:51,043 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/MediaPlayer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/gitversioning.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/MediaPlayerDemo/signingconfig.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/MediaPlayerDemo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/MediaPlayer-DASH/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/settings.gradle
+2019-06-16 15:47:51,044 INFO  ProjectBuildService - Remote scripts: none
+2019-06-16 15:47:51,044 INFO  ProjectFixService - Fixing project...
+2019-06-16 15:47:51,052 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/MediaPlayer-DASH/local.properties
+2019-06-16 15:47:51,052 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/MediaPlayer-DASH/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=16,targetSdkVersion=22]
+2019-06-16 15:47:51,053 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/MediaPlayer/local.properties
+2019-06-16 15:47:51,053 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/MediaPlayer/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=16,targetSdkVersion=22]
+2019-06-16 15:47:51,053 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/MediaPlayerDemo/local.properties
+2019-06-16 15:47:51,053 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/MediaPlayerDemo/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=16,targetSdkVersion=22]
+2019-06-16 15:47:51,054 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/local.properties
+2019-06-16 15:47:51,054 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-06-16 15:47:51,054 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-06-16 15:47:51,055 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=16,targetSdkVersion=22]
+2019-06-16 15:47:51,055 INFO  ProjectFixService - Project was maybe fixed
+2019-06-16 15:47:51,055 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-16 15:47:51,055 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/MediaPlayer-DASH/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-16 15:48:02,444 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-16 15:48:02,444 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-16 15:48:02,444 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-16 15:48:02,444 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/MediaPlayer-DASH/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-16 15:48:11,868 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -46,21 +43,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 21:39:50,985 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-16 15:48:11,868 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :MediaPlayer-DASH:preBuild UP-TO-DATE
 :MediaPlayer-DASH:preDebugBuild UP-TO-DATE
@@ -103,7 +100,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :MediaPlayer-DASH:preDebugUnitTestBuild UP-TO-DATE
 :MediaPlayer-DASH:preReleaseBuild UP-TO-DATE
 :MediaPlayer-DASH:preReleaseUnitTestBuild UP-TO-DATE
-:MediaPlayer-DASH:prepareSrcMediaPlayerUnspecifiedLibrary
+:MediaPlayer-DASH:prepareMediaPlayerExtendedMasterMediaPlayerUnspecifiedLibrary
 :MediaPlayer-DASH:prepareDebugDependencies
 :MediaPlayer-DASH:compileDebugAidl
 :MediaPlayer-DASH:compileDebugNdk UP-TO-DATE
@@ -265,15 +262,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 8.133 secs
+Total time: 8.862 secs
 
-2019-04-18 21:39:51,005 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 21:39:51,005 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/MediaPlayer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 21:39:57,987 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 21:39:57,987 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 21:39:57,987 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 21:39:57,987 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/MediaPlayer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 21:40:05,821 ERROR SysUtils - Could not process external command
+2019-06-16 15:48:11,885 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-16 15:48:11,885 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/MediaPlayer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-16 15:48:19,147 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-16 15:48:19,148 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-16 15:48:19,148 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-16 15:48:19,148 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/MediaPlayer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-16 15:48:27,178 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -286,21 +283,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 21:40:05,821 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-16 15:48:27,179 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :MediaPlayer:preBuild UP-TO-DATE
 :MediaPlayer:preDebugBuild UP-TO-DATE
@@ -466,15 +463,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.255 secs
+Total time: 7.453 secs
 
-2019-04-18 21:40:05,845 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 21:40:05,845 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/MediaPlayerDemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 21:40:12,411 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 21:40:12,411 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 21:40:12,411 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 21:40:12,411 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/MediaPlayerDemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 21:40:18,975 ERROR SysUtils - Could not process external command
+2019-06-16 15:48:27,197 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-16 15:48:27,197 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/MediaPlayerDemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-16 15:48:34,007 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-16 15:48:34,007 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-16 15:48:34,007 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-16 15:48:34,008 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/MediaPlayerDemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-16 15:48:41,008 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -487,21 +484,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 21:40:18,975 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-16 15:48:41,008 INFO  SysUtils - Configuration on demand is an incubating feature.
 fatal: bad revision 'HEAD'
 signingconfig.properties file is missing (required for release builds)!
 Incremental java compilation is an incubating feature.
@@ -607,22 +604,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 5.987 secs
+Total time: 6.414 secs
 
-2019-04-18 21:40:18,998 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 21:40:18,999 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 21:40:25,512 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 21:40:25,512 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 21:40:25,512 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 21:40:25,512 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555598244797-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 21:40:31,943 ERROR SysUtils - Could not process external command
+2019-06-16 15:48:41,026 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-16 15:48:41,026 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-16 15:48:48,111 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-16 15:48:48,112 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-16 15:48:48,112 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-16 15:48:48,112 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560674870315-0/src/MediaPlayer-Extended-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-16 15:48:56,510 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -635,21 +632,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 21:40:31,943 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-16 15:48:56,511 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 fatal: bad revision 'HEAD'
 signingconfig.properties file is missing (required for release builds)!
@@ -755,14 +752,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 5.849 secs
+Total time: 7.801 secs
 
-2019-04-18 21:40:31,966 ERROR FullProcessService - Project build has not produced APK file
-2019-04-18 21:40:31,985 ERROR FullProcessService - Could not find generated or existed APK file
+2019-06-16 15:48:56,529 ERROR FullProcessService - Project build has not produced APK file
+2019-06-16 15:48:56,545 ERROR FullProcessService - Could not find generated or existed APK file
