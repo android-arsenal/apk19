@@ -1,39 +1,39 @@
-2019-04-18 21:54:35,065 INFO  DownloadService - Downloading "https://github.com/xyzxqs/XLowPoly/archive/master.zip", attempt 3
-2019-04-18 21:55:35,711 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-18 21:55:37,546 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-18 21:55:37,546 INFO  DownloadService - Downloading "https://github.com/xyzxqs/XLowPoly/archive/master.zip", attempt 3
-2019-04-18 21:56:39,338 DEBUG FullProcessService - Repository https://github.com/xyzxqs/XLowPoly available: true
-2019-04-18 21:56:39,344 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-18 21:56:39,344 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/xyzxqs/XLowPoly, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src]
-2019-04-18 21:56:42,351 INFO  SysUtils - 
-2019-04-18 21:56:42,360 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/.git": true
-2019-04-18 21:56:42,365 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-04-18 21:56:42,365 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src]
-2019-04-18 21:56:42,385 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/.git/
+2019-06-16 16:02:43,152 INFO  DownloadService - Downloading "https://github.com/xyzxqs/XLowPoly/archive/master.zip", attempt 3
+2019-06-16 16:03:43,744 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-06-16 16:03:44,910 INFO  GithubDownloadService - Default branch of this repository: master
+2019-06-16 16:03:44,910 INFO  DownloadService - Downloading "https://github.com/xyzxqs/XLowPoly/archive/master.zip", attempt 3
+2019-06-16 16:04:46,336 DEBUG FullProcessService - Repository https://github.com/xyzxqs/XLowPoly available: true
+2019-06-16 16:04:46,336 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-06-16 16:04:46,336 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/xyzxqs/XLowPoly, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src]
+2019-06-16 16:04:49,083 INFO  SysUtils - 
+2019-06-16 16:04:49,091 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/.git": true
+2019-06-16 16:04:49,094 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-06-16 16:04:49,095 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src]
+2019-06-16 16:04:49,111 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/.git/
 
-2019-04-18 21:56:42,389 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/gradlew
-2019-04-18 21:56:42,393 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/xlowpoly/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/build.gradle
-2019-04-18 21:56:42,397 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/xlowpoly/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/settings.gradle
-2019-04-18 21:56:42,397 INFO  ProjectBuildService - Remote scripts: none
-2019-04-18 21:56:42,397 INFO  ProjectFixService - Fixing project...
-2019-04-18 21:56:42,406 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/app/local.properties
-2019-04-18 21:56:42,407 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=25]
-2019-04-18 21:56:42,407 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=25]
-2019-04-18 21:56:42,408 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/xlowpoly/local.properties
-2019-04-18 21:56:42,409 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/xlowpoly/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
-2019-04-18 21:56:42,410 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/xlowpoly/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
-2019-04-18 21:56:42,410 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/local.properties
-2019-04-18 21:56:42,411 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-04-18 21:56:42,411 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-04-18 21:56:42,412 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
-2019-04-18 21:56:42,413 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
-2019-04-18 21:56:42,413 INFO  ProjectFixService - Project was maybe fixed
-2019-04-18 21:56:42,413 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 21:56:42,413 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 21:56:50,329 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-04-18 21:56:50,329 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-18 21:56:50,330 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-18 21:57:26,242 ERROR SysUtils - Could not process external command
+2019-06-16 16:04:49,115 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/gradlew
+2019-06-16 16:04:49,118 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/xlowpoly/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/build.gradle
+2019-06-16 16:04:49,121 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/xlowpoly/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/settings.gradle
+2019-06-16 16:04:49,121 INFO  ProjectBuildService - Remote scripts: none
+2019-06-16 16:04:49,121 INFO  ProjectFixService - Fixing project...
+2019-06-16 16:04:49,129 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/app/local.properties
+2019-06-16 16:04:49,130 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=25]
+2019-06-16 16:04:49,130 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=25]
+2019-06-16 16:04:49,131 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/xlowpoly/local.properties
+2019-06-16 16:04:49,132 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/xlowpoly/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
+2019-06-16 16:04:49,132 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/xlowpoly/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
+2019-06-16 16:04:49,133 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/local.properties
+2019-06-16 16:04:49,134 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-06-16 16:04:49,135 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-06-16 16:04:49,136 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
+2019-06-16 16:04:49,137 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=25]
+2019-06-16 16:04:49,137 INFO  ProjectFixService - Project was maybe fixed
+2019-06-16 16:04:49,138 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-16 16:04:49,138 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-16 16:04:56,092 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-06-16 16:04:56,093 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-16 16:04:56,093 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-16 16:05:32,918 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -46,21 +46,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 21:57:26,244 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-16 16:05:32,918 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
 It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
 WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
@@ -133,7 +134,7 @@ Variant=debug ABI=armeabi-v7a :-- Detecting CXX compile features
 Variant=debug ABI=armeabi-v7a :-- Detecting CXX compile features - done
 Variant=debug ABI=armeabi-v7a :-- Configuring done
 Variant=debug ABI=armeabi-v7a :-- Generating done
-Variant=debug ABI=armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/xlowpoly/.externalNativeBuild/cmake/debug/armeabi-v7a
+Variant=debug ABI=armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/xlowpoly/.externalNativeBuild/cmake/debug/armeabi-v7a
 Variant=debug ABI=arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 Variant=debug ABI=arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 Variant=debug ABI=arm64-v8a :-- Detecting C compiler ABI info
@@ -148,7 +149,7 @@ Variant=debug ABI=arm64-v8a :-- Detecting CXX compile features
 Variant=debug ABI=arm64-v8a :-- Detecting CXX compile features - done
 Variant=debug ABI=arm64-v8a :-- Configuring done
 Variant=debug ABI=arm64-v8a :-- Generating done
-Variant=debug ABI=arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/xlowpoly/.externalNativeBuild/cmake/debug/arm64-v8a
+Variant=debug ABI=arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/xlowpoly/.externalNativeBuild/cmake/debug/arm64-v8a
 Variant=debug ABI=x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 Variant=debug ABI=x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 Variant=debug ABI=x86 :-- Detecting C compiler ABI info
@@ -163,7 +164,7 @@ Variant=debug ABI=x86 :-- Detecting CXX compile features
 Variant=debug ABI=x86 :-- Detecting CXX compile features - done
 Variant=debug ABI=x86 :-- Configuring done
 Variant=debug ABI=x86 :-- Generating done
-Variant=debug ABI=x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/xlowpoly/.externalNativeBuild/cmake/debug/x86
+Variant=debug ABI=x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/xlowpoly/.externalNativeBuild/cmake/debug/x86
 Variant=debug ABI=x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 Variant=debug ABI=x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 Variant=debug ABI=x86_64 :-- Detecting C compiler ABI info
@@ -178,7 +179,7 @@ Variant=debug ABI=x86_64 :-- Detecting CXX compile features
 Variant=debug ABI=x86_64 :-- Detecting CXX compile features - done
 Variant=debug ABI=x86_64 :-- Configuring done
 Variant=debug ABI=x86_64 :-- Generating done
-Variant=debug ABI=x86_64 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/xlowpoly/.externalNativeBuild/cmake/debug/x86_64
+Variant=debug ABI=x86_64 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/xlowpoly/.externalNativeBuild/cmake/debug/x86_64
 :xlowpoly:externalNativeBuildDebug
 Build lowpoly-lib x86_64
 [1/8] Building C object CMakeFiles/lowpoly-lib.dir/src/main/jni/lowpoly-lib.c.o
@@ -265,7 +266,7 @@ Build lowpoly-lib armeabi-v7a
 :app:compileReleaseSources
 :app:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/57fc3ed8628424e3e084efd676b270cd/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/app/build.gradle:8: Error: Google Play requires that apps target API level 26 or higher.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/app/build.gradle:8: Error: Google Play requires that apps target API level 26 or higher.
  [ExpiredTargetSdkVersion]
         targetSdkVersion 25
         ~~~~~~~~~~~~~~~~~~~
@@ -383,7 +384,7 @@ android {
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 35s
+BUILD FAILED in 36s
 73 actionable tasks: 73 executed
 
-2019-04-18 21:57:26,329 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599275058-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-06-16 16:05:32,982 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675763144-0/src/app/build/outputs/apk/debug/app-debug.apk

@@ -1,35 +1,35 @@
-2019-04-18 22:00:33,384 INFO  DownloadService - Downloading "https://github.com/kayan1990/ShareButton/archive/master.zip", attempt 3
-2019-04-18 22:01:34,047 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-18 22:01:35,166 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-18 22:01:35,167 INFO  DownloadService - Downloading "https://github.com/kayan1990/ShareButton/archive/master.zip", attempt 3
-2019-04-18 22:02:36,798 DEBUG FullProcessService - Repository https://github.com/kayan1990/ShareButton available: true
-2019-04-18 22:02:36,798 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-18 22:02:36,798 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/kayan1990/ShareButton, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src]
-2019-04-18 22:02:38,728 INFO  SysUtils - 
-2019-04-18 22:02:38,758 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src/.git": true
-2019-04-18 22:02:38,761 INFO  FullProcessService - Size of directory with sources: 264 KB
-2019-04-18 22:02:38,762 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src]
-2019-04-18 22:02:38,779 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src/.git/
+2019-06-16 16:08:41,601 INFO  DownloadService - Downloading "https://github.com/kayan1990/ShareButton/archive/master.zip", attempt 3
+2019-06-16 16:09:42,161 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-06-16 16:09:43,082 INFO  GithubDownloadService - Default branch of this repository: master
+2019-06-16 16:09:43,082 INFO  DownloadService - Downloading "https://github.com/kayan1990/ShareButton/archive/master.zip", attempt 3
+2019-06-16 16:10:44,446 DEBUG FullProcessService - Repository https://github.com/kayan1990/ShareButton available: true
+2019-06-16 16:10:44,446 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-06-16 16:10:44,446 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/kayan1990/ShareButton, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src]
+2019-06-16 16:10:46,653 INFO  SysUtils - 
+2019-06-16 16:10:46,679 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src/.git": true
+2019-06-16 16:10:46,682 INFO  FullProcessService - Size of directory with sources: 264 KB
+2019-06-16 16:10:46,682 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src]
+2019-06-16 16:10:46,699 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src/.git/
 
-2019-04-18 22:02:38,782 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src/ShareButton/gradlew
-2019-04-18 22:02:38,785 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src/ShareButton/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src/ShareButton/build.gradle
-2019-04-18 22:02:38,787 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src/ShareButton/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src/ShareButton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src/ShareButton/settings.gradle
-2019-04-18 22:02:38,787 INFO  ProjectBuildService - Remote scripts: none
-2019-04-18 22:02:38,787 INFO  ProjectFixService - Fixing project...
-2019-04-18 22:02:38,794 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src/ShareButton/app/local.properties
-2019-04-18 22:02:38,794 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src/ShareButton/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2019-04-18 22:02:38,794 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src/ShareButton/local.properties
-2019-04-18 22:02:38,794 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2019-04-18 22:02:38,795 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2019-04-18 22:02:38,795 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src/ShareButton/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2019-04-18 22:02:38,795 INFO  ProjectFixService - Project was maybe fixed
-2019-04-18 22:02:38,795 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 22:02:38,795 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src/ShareButton/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src/ShareButton/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 22:02:44,439 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 22:02:44,440 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 22:02:44,440 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 22:02:44,440 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src/ShareButton/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src/ShareButton/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 22:02:49,925 ERROR SysUtils - Could not process external command
+2019-06-16 16:10:46,701 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src/ShareButton/gradlew
+2019-06-16 16:10:46,703 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src/ShareButton/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src/ShareButton/build.gradle
+2019-06-16 16:10:46,705 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src/ShareButton/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src/ShareButton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src/ShareButton/settings.gradle
+2019-06-16 16:10:46,706 INFO  ProjectBuildService - Remote scripts: none
+2019-06-16 16:10:46,706 INFO  ProjectFixService - Fixing project...
+2019-06-16 16:10:46,711 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src/ShareButton/app/local.properties
+2019-06-16 16:10:46,712 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src/ShareButton/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-06-16 16:10:46,712 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src/ShareButton/local.properties
+2019-06-16 16:10:46,713 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-06-16 16:10:46,713 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-06-16 16:10:46,714 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src/ShareButton/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-06-16 16:10:46,714 INFO  ProjectFixService - Project was maybe fixed
+2019-06-16 16:10:46,714 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-16 16:10:46,714 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src/ShareButton/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src/ShareButton/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-16 16:10:52,345 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-16 16:10:52,345 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-16 16:10:52,345 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-16 16:10:52,345 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src/ShareButton/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src/ShareButton/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-16 16:10:57,958 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -42,21 +42,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 22:02:49,925 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-16 16:10:57,958 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -167,15 +168,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.906 secs
+Total time: 5.015 secs
 
-2019-04-18 22:02:49,929 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 22:02:49,929 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src/ShareButton/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src/ShareButton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 22:02:55,776 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 22:02:55,776 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 22:02:55,776 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 22:02:55,776 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src/ShareButton/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555599633382-0/src/ShareButton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 22:03:01,929 ERROR SysUtils - Could not process external command
+2019-06-16 16:10:57,961 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-16 16:10:57,961 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src/ShareButton/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src/ShareButton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-16 16:11:03,649 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-16 16:11:03,649 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-16 16:11:03,649 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-16 16:11:03,649 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src/ShareButton/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560676121592-0/src/ShareButton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-16 16:11:09,272 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -188,21 +189,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 22:03:01,930 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-16 16:11:09,272 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -306,14 +308,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 5.554 secs
+Total time: 4.992 secs
 
-2019-04-18 22:03:01,933 ERROR FullProcessService - Project build has not produced APK file
-2019-04-18 22:03:01,936 ERROR FullProcessService - Could not find generated or existed APK file
+2019-06-16 16:11:09,275 ERROR FullProcessService - Project build has not produced APK file
+2019-06-16 16:11:09,278 ERROR FullProcessService - Could not find generated or existed APK file
