@@ -31,8 +31,8 @@
   "dexClasses" : 3219,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "zh", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"100\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.lovejjfg.swiperefreshrecycleview\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\" />\n\t<application android:theme=\"resourceId:0x7f100006\" android:label=\"PowerRecyclerView\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.lovejjfg.swiperefreshrecycleview.NormalActivity\" />\n\t\t<activity android:name=\"com.lovejjfg.swiperefreshrecycleview.SecondActivity\" />\n\t\t<activity android:name=\"com.lovejjfg.swiperefreshrecycleview.GuideActivity\" />\n\t\t<activity-alias android:name=\"com.lovejjfg.swiperefreshrecycleview.launchActivity\" android:targetActivity=\"com.lovejjfg.swiperefreshrecycleview.GuideActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity-alias>\n\t\t<activity android:name=\"com.lovejjfg.swiperefreshrecycleview.activity.CatsActivity\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 3129186,
-  "crc32" : 3240811253,
-  "sha256" : "bc6f8ea168a9fdbf52142edac8f15cd717e80b91d41f22f7bcd32cc4b2e30d27",
-  "buildTime" : 1559196728000
+  "fileSize" : 3129131,
+  "crc32" : 994859436,
+  "sha256" : "88c3ca864d91600db3e9fc1195280bde85d443780fe2a2bdc4a99ea6ca145700",
+  "buildTime" : 1560748546000
 }

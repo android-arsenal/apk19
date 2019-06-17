@@ -1,33 +1,33 @@
-2019-04-13 20:16:11,149 INFO  DownloadService - Downloading "https://github.com/wonderkiln/blurkit-android/archive/master.zip", attempt 3
-2019-04-13 20:16:16,809 INFO  DownloadService - Downloaded https://github.com/wonderkiln/blurkit-android/archive/master.zip, attempt 3
-2019-04-13 20:16:16,809 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/master.zip": 5 MB
-2019-04-13 20:16:16,809 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-13 20:16:16,816 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/master.zip: true
-2019-04-13 20:16:16,816 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src'.
-2019-04-13 20:16:16,875 INFO  FullProcessService - Size of directory with sources: 5 MB
-2019-04-13 20:16:16,875 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src]
-2019-04-13 20:16:16,893 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/.git/
+2019-06-17 12:16:17,524 INFO  DownloadService - Downloading "https://github.com/wonderkiln/blurkit-android/archive/master.zip", attempt 3
+2019-06-17 12:16:24,033 INFO  DownloadService - Downloaded https://github.com/wonderkiln/blurkit-android/archive/master.zip, attempt 3
+2019-06-17 12:16:24,033 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/master.zip": 5 MB
+2019-06-17 12:16:24,033 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-17 12:16:24,035 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/master.zip: true
+2019-06-17 12:16:24,035 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src'.
+2019-06-17 12:16:24,091 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-06-17 12:16:24,091 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src]
+2019-06-17 12:16:24,115 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/.git/
 
-2019-04-13 20:16:16,896 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/gradlew
-2019-04-13 20:16:16,899 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/blurkit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/build.gradle
-2019-04-13 20:16:16,903 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/blurkit/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/blurkit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/settings.gradle
-2019-04-13 20:16:16,903 INFO  ProjectBuildService - Remote scripts: none
-2019-04-13 20:16:16,903 INFO  ProjectFixService - Fixing project...
-2019-04-13 20:16:16,912 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/blurkit/local.properties
-2019-04-13 20:16:16,913 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/blurkit/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-04-13 20:16:16,914 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/demo/local.properties
-2019-04-13 20:16:16,914 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/demo/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-04-13 20:16:16,914 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/local.properties
-2019-04-13 20:16:16,915 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-04-13 20:16:16,915 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-04-13 20:16:16,916 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-04-13 20:16:16,916 INFO  ProjectFixService - Project was maybe fixed
-2019-04-13 20:16:16,916 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-13 20:16:16,916 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/blurkit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-13 20:16:29,562 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-04-13 20:16:29,562 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-13 20:16:29,562 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/blurkit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-13 20:16:40,997 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-17 12:16:24,117 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/gradlew
+2019-06-17 12:16:24,119 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/blurkit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/build.gradle
+2019-06-17 12:16:24,121 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/blurkit/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/blurkit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/settings.gradle
+2019-06-17 12:16:24,122 INFO  ProjectBuildService - Remote scripts: none
+2019-06-17 12:16:24,122 INFO  ProjectFixService - Fixing project...
+2019-06-17 12:16:24,127 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/blurkit/local.properties
+2019-06-17 12:16:24,128 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/blurkit/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-06-17 12:16:24,128 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/demo/local.properties
+2019-06-17 12:16:24,129 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/demo/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-06-17 12:16:24,129 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/local.properties
+2019-06-17 12:16:24,130 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-06-17 12:16:24,130 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-06-17 12:16:24,131 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-06-17 12:16:24,131 INFO  ProjectFixService - Project was maybe fixed
+2019-06-17 12:16:24,131 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 12:16:24,131 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/blurkit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 12:16:31,542 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-06-17 12:16:31,542 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-06-17 12:16:31,542 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/blurkit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-06-17 12:16:41,988 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :blurkit
 BlurKit: Deployment: Building...
@@ -49,7 +49,7 @@ BlurKit - Starting Release Deployment
 > Task :blurkit:javaPreCompileDebug
 
 > Task :blurkit:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/blurkit/src/main/java/io/alterac/blurkit/RoundedImageView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/blurkit/src/main/java/io/alterac/blurkit/RoundedImageView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :blurkit:extractDebugAnnotations
@@ -84,7 +84,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :blurkit:javaPreCompileRelease
 
 > Task :blurkit:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/blurkit/src/main/java/io/alterac/blurkit/RoundedImageView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/blurkit/src/main/java/io/alterac/blurkit/RoundedImageView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :blurkit:extractReleaseAnnotations
@@ -110,15 +110,15 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :blurkit:assemble
 > Task :blurkit:build
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 10s
 45 actionable tasks: 45 executed
 
-2019-04-13 20:16:41,015 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-13 20:16:41,015 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-13 20:16:48,070 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-04-13 20:16:48,071 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-13 20:16:48,071 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-13 20:17:19,104 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-17 12:16:42,001 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 12:16:42,001 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 12:16:48,280 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-17 12:16:48,281 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-17 12:16:48,281 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-17 12:17:17,497 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :blurkit
 BlurKit: Deployment: Building...
@@ -258,7 +258,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :demo:assemble
 > Task :demo:build
 
-BUILD SUCCESSFUL in 30s
+BUILD SUCCESSFUL in 28s
 89 actionable tasks: 58 executed, 31 up-to-date
 
-2019-04-13 20:17:19,190 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555161371141-0/src/blurkit-android-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
+2019-06-17 12:17:17,565 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748577520-0/src/blurkit-android-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

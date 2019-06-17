@@ -1,36 +1,36 @@
-2019-05-30 13:14:20,927 INFO  DownloadService - Downloading "https://github.com/mkaflowski/HybridMediaPlayer/archive/master.zip", attempt 3
-2019-05-30 13:14:23,118 INFO  DownloadService - Downloaded https://github.com/mkaflowski/HybridMediaPlayer/archive/master.zip, attempt 3
-2019-05-30 13:14:23,118 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/master.zip": 181 KB
-2019-05-30 13:14:23,118 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-30 13:14:23,123 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/master.zip: true
-2019-05-30 13:14:23,124 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src'.
-2019-05-30 13:14:23,140 INFO  FullProcessService - Size of directory with sources: 277 KB
-2019-05-30 13:14:23,140 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src]
-2019-05-30 13:14:23,158 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/.git/
+2019-06-17 12:18:03,418 INFO  DownloadService - Downloading "https://github.com/mkaflowski/HybridMediaPlayer/archive/master.zip", attempt 3
+2019-06-17 12:18:04,417 INFO  DownloadService - Downloaded https://github.com/mkaflowski/HybridMediaPlayer/archive/master.zip, attempt 3
+2019-06-17 12:18:04,417 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/master.zip": 181 KB
+2019-06-17 12:18:04,417 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-17 12:18:04,417 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/master.zip: true
+2019-06-17 12:18:04,417 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src'.
+2019-06-17 12:18:04,433 INFO  FullProcessService - Size of directory with sources: 277 KB
+2019-06-17 12:18:04,433 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src]
+2019-06-17 12:18:04,449 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/.git/
 
-2019-05-30 13:14:23,161 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/gradlew
-2019-05-30 13:14:23,164 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/hybridmediaplayer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/build.gradle
-2019-05-30 13:14:23,166 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/hybridmediaplayer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/settings.gradle
-2019-05-30 13:14:23,166 INFO  ProjectBuildService - Remote scripts: none
-2019-05-30 13:14:23,166 INFO  ProjectFixService - Fixing project...
-2019-05-30 13:14:23,171 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/demo/local.properties
-2019-05-30 13:14:23,174 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-30 13:14:23,174 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-30 13:14:23,174 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/hybridmediaplayer/local.properties
-2019-05-30 13:14:23,175 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/hybridmediaplayer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-30 13:14:23,175 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/hybridmediaplayer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-30 13:14:23,176 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/local.properties
-2019-05-30 13:14:23,176 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-30 13:14:23,176 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-30 13:14:23,177 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-30 13:14:23,177 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-30 13:14:23,178 INFO  ProjectFixService - Project was maybe fixed
-2019-05-30 13:14:23,178 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-30 13:14:23,178 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-30 13:14:31,209 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-05-30 13:14:31,210 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-30 13:14:31,210 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-30 13:15:41,599 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-17 12:18:04,451 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/gradlew
+2019-06-17 12:18:04,453 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/hybridmediaplayer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/build.gradle
+2019-06-17 12:18:04,455 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/hybridmediaplayer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/settings.gradle
+2019-06-17 12:18:04,455 INFO  ProjectBuildService - Remote scripts: none
+2019-06-17 12:18:04,455 INFO  ProjectFixService - Fixing project...
+2019-06-17 12:18:04,460 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/demo/local.properties
+2019-06-17 12:18:04,461 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-17 12:18:04,461 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-17 12:18:04,461 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/hybridmediaplayer/local.properties
+2019-06-17 12:18:04,462 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/hybridmediaplayer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-17 12:18:04,462 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/hybridmediaplayer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-17 12:18:04,463 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/local.properties
+2019-06-17 12:18:04,463 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-06-17 12:18:04,464 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-06-17 12:18:04,465 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-17 12:18:04,465 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-17 12:18:04,465 INFO  ProjectFixService - Project was maybe fixed
+2019-06-17 12:18:04,465 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 12:18:04,465 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 12:18:10,424 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-06-17 12:18:10,424 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-17 12:18:10,424 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-17 12:18:51,519 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :demo
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
@@ -58,39 +58,15 @@ It will be removed at the end of 2018. For more information see: http://d.androi
 > Task :hybridmediaplayer:generateDebugBuildConfig
 > Task :hybridmediaplayer:generateDebugResValues
 > Task :hybridmediaplayer:prepareLintJar
-> Task :hybridmediaplayer:mergeDebugShaders
-> Task :hybridmediaplayer:compileDebugShaders
-> Task :hybridmediaplayer:generateDebugAssets
-> Task :hybridmediaplayer:packageDebugAssets
-> Task :hybridmediaplayer:processDebugJavaRes NO-SOURCE
-> Task :hybridmediaplayer:mergeDebugJniLibFolders
-> Task :hybridmediaplayer:transformNativeLibsWithMergeJniLibsForDebug
-> Task :hybridmediaplayer:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :hybridmediaplayer:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :hybridmediaplayer:preReleaseBuild UP-TO-DATE
-> Task :hybridmediaplayer:checkReleaseManifest
-> Task :hybridmediaplayer:processReleaseManifest
-> Task :hybridmediaplayer:packageReleaseRenderscript NO-SOURCE
-> Task :hybridmediaplayer:generateReleaseBuildConfig
-> Task :hybridmediaplayer:generateReleaseResValues
-> Task :hybridmediaplayer:prepareLintJarForPublish
-> Task :hybridmediaplayer:mergeReleaseShaders
-> Task :hybridmediaplayer:compileReleaseShaders
-> Task :hybridmediaplayer:generateReleaseAssets
-> Task :hybridmediaplayer:packageReleaseAssets
-> Task :hybridmediaplayer:processReleaseJavaRes NO-SOURCE
-> Task :hybridmediaplayer:mergeReleaseJniLibFolders
-> Task :hybridmediaplayer:transformNativeLibsWithMergeJniLibsForRelease
-> Task :hybridmediaplayer:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :hybridmediaplayer:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :hybridmediaplayer:compileDebugRenderscript NO-SOURCE
 > Task :demo:preDebugBuild
-> Task :hybridmediaplayer:compileDebugAidl NO-SOURCE
-> Task :demo:compileDebugAidl NO-SOURCE
 > Task :demo:compileDebugRenderscript NO-SOURCE
 > Task :demo:checkDebugManifest
 > Task :demo:generateDebugBuildConfig
+> Task :hybridmediaplayer:compileDebugAidl NO-SOURCE
+> Task :demo:compileDebugAidl NO-SOURCE
 > Task :demo:generateDebugSources
+> Task :demo:mainApkListPersistenceDebug
+> Task :hybridmediaplayer:compileDebugRenderscript NO-SOURCE
 > Task :hybridmediaplayer:generateDebugResources
 > Task :hybridmediaplayer:packageDebugResources
 > Task :hybridmediaplayer:generateDebugRFile
@@ -103,7 +79,6 @@ Note: Recompile with -Xlint:deprecation for details.
 
 > Task :hybridmediaplayer:bundleLibCompileDebug
 > Task :demo:javaPreCompileDebug
-> Task :demo:mainApkListPersistenceDebug
 > Task :demo:generateDebugResValues
 > Task :demo:generateDebugResources
 > Task :demo:mergeDebugResources
@@ -112,41 +87,56 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :demo:processDebugResources
 
 > Task :demo:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/demo/src/main/java/hybridmediaplayer/demo/CastOptionsProvider.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/demo/src/main/java/hybridmediaplayer/demo/CastOptionsProvider.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :demo:compileDebugSources
 > Task :demo:mergeDebugShaders
 > Task :demo:compileDebugShaders
 > Task :demo:generateDebugAssets
+> Task :hybridmediaplayer:mergeDebugShaders
+> Task :hybridmediaplayer:compileDebugShaders
+> Task :hybridmediaplayer:generateDebugAssets
+> Task :hybridmediaplayer:packageDebugAssets
 > Task :demo:mergeDebugAssets
 > Task :demo:validateSigningDebug
 > Task :demo:signingConfigWriterDebug
-> Task :demo:checkDebugDuplicateClasses
 > Task :hybridmediaplayer:bundleLibRuntimeDebug
-D8: synthesized for lambda desugaring: Type `com.google.android.exoplayer2.trackselection.BufferSizeAdaptationBuilder$DynamicFormatFilter$-CC` was not found, it is required for default or static interface methods desugaring of `boolean com.google.android.exoplayer2.trackselection.-$$Lambda$BufferSizeAdaptationBuilder$DynamicFormatFilter$BH3m8KzNbxVGby6qwbUDLza1S04.isFormatAllowed(com.google.android.exoplayer2.Format, int, boolean)`
+> Task :demo:checkDebugDuplicateClasses
 D8: synthesized for lambda desugaring: Type `com.google.android.exoplayer2.upstream.HttpDataSource$-CC` was not found, it is required for default or static interface methods desugaring of `boolean com.google.android.exoplayer2.upstream.-$$Lambda$HttpDataSource$fz-i4cgBB9tTB1JUdq8hmlAPFIw.evaluate(java.lang.Object)`
+D8: synthesized for lambda desugaring: Type `com.google.android.exoplayer2.trackselection.BufferSizeAdaptationBuilder$DynamicFormatFilter$-CC` was not found, it is required for default or static interface methods desugaring of `boolean com.google.android.exoplayer2.trackselection.-$$Lambda$BufferSizeAdaptationBuilder$DynamicFormatFilter$BH3m8KzNbxVGby6qwbUDLza1S04.isFormatAllowed(com.google.android.exoplayer2.Format, int, boolean)`
 D8: synthesized for lambda desugaring: Type `com.google.android.exoplayer2.trackselection.TrackBitrateEstimator$-CC` was not found, it is required for default or static interface methods desugaring of `int[] com.google.android.exoplayer2.trackselection.-$$Lambda$TrackBitrateEstimator$2lQ5lBvmOkJuNPw2qehuzXBInmI.getBitrates(com.google.android.exoplayer2.Format[], java.util.List, com.google.android.exoplayer2.source.chunk.MediaChunkIterator[], int[])`
 D8: synthesized for lambda desugaring: Type `com.google.android.exoplayer2.trackselection.TrackSelection$Factory$-CC` was not found, it is required for default or static interface methods desugaring of `com.google.android.exoplayer2.trackselection.TrackSelection com.google.android.exoplayer2.trackselection.-$$Lambda$TrackSelection$Factory$9mnNWe-5kFFae0E_IiLXrOzpdtA.createAdaptiveTrackSelection(com.google.android.exoplayer2.trackselection.TrackSelection$Definition)`
 > Task :demo:transformClassesWithDexBuilderForDebug
 > Task :demo:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :demo:transformDexArchiveWithDexMergerForDebug
 > Task :demo:mergeDebugJniLibFolders
+> Task :hybridmediaplayer:processDebugJavaRes NO-SOURCE
 > Task :hybridmediaplayer:bundleLibResDebug
+> Task :hybridmediaplayer:mergeDebugJniLibFolders
+> Task :hybridmediaplayer:transformNativeLibsWithMergeJniLibsForDebug
+> Task :hybridmediaplayer:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :hybridmediaplayer:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :demo:transformNativeLibsWithMergeJniLibsForDebug
 > Task :demo:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :demo:processDebugJavaRes NO-SOURCE
 > Task :demo:transformResourcesWithMergeJavaResForDebug
 > Task :demo:packageDebug
 > Task :demo:assembleDebug
+> Task :hybridmediaplayer:preReleaseBuild UP-TO-DATE
+> Task :hybridmediaplayer:checkReleaseManifest
+> Task :hybridmediaplayer:processReleaseManifest
 > Task :demo:preReleaseBuild
 > Task :hybridmediaplayer:compileReleaseAidl NO-SOURCE
 > Task :demo:compileReleaseAidl NO-SOURCE
+> Task :hybridmediaplayer:packageReleaseRenderscript NO-SOURCE
 > Task :demo:compileReleaseRenderscript NO-SOURCE
 > Task :demo:checkReleaseManifest
 > Task :demo:generateReleaseBuildConfig
 > Task :demo:generateReleaseSources
 > Task :hybridmediaplayer:compileReleaseRenderscript NO-SOURCE
+> Task :hybridmediaplayer:generateReleaseBuildConfig
+> Task :hybridmediaplayer:generateReleaseResValues
 > Task :hybridmediaplayer:generateReleaseResources
 > Task :hybridmediaplayer:packageReleaseResources
 > Task :hybridmediaplayer:generateReleaseRFile
@@ -168,27 +158,37 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :demo:processReleaseResources
 
 > Task :demo:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/demo/src/main/java/hybridmediaplayer/demo/CastOptionsProvider.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/demo/src/main/java/hybridmediaplayer/demo/CastOptionsProvider.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :demo:compileReleaseSources
-> Task :demo:mergeReleaseShaders
+> Task :hybridmediaplayer:prepareLintJarForPublish
 > Task :demo:lintVitalRelease
+> Task :demo:mergeReleaseShaders
 > Task :demo:compileReleaseShaders
 > Task :demo:generateReleaseAssets
+> Task :hybridmediaplayer:mergeReleaseShaders
+> Task :hybridmediaplayer:compileReleaseShaders
+> Task :hybridmediaplayer:generateReleaseAssets
+> Task :hybridmediaplayer:packageReleaseAssets
 > Task :demo:mergeReleaseAssets
 > Task :demo:signingConfigWriterRelease
 > Task :demo:checkReleaseDuplicateClasses
 > Task :hybridmediaplayer:bundleLibRuntimeRelease
-D8: synthesized for lambda desugaring: Type `com.google.android.exoplayer2.upstream.HttpDataSource$-CC` was not found, it is required for default or static interface methods desugaring of `boolean com.google.android.exoplayer2.upstream.-$$Lambda$HttpDataSource$fz-i4cgBB9tTB1JUdq8hmlAPFIw.evaluate(java.lang.Object)`
 D8: synthesized for lambda desugaring: Type `com.google.android.exoplayer2.trackselection.BufferSizeAdaptationBuilder$DynamicFormatFilter$-CC` was not found, it is required for default or static interface methods desugaring of `boolean com.google.android.exoplayer2.trackselection.-$$Lambda$BufferSizeAdaptationBuilder$DynamicFormatFilter$BH3m8KzNbxVGby6qwbUDLza1S04.isFormatAllowed(com.google.android.exoplayer2.Format, int, boolean)`
+D8: synthesized for lambda desugaring: Type `com.google.android.exoplayer2.upstream.HttpDataSource$-CC` was not found, it is required for default or static interface methods desugaring of `boolean com.google.android.exoplayer2.upstream.-$$Lambda$HttpDataSource$fz-i4cgBB9tTB1JUdq8hmlAPFIw.evaluate(java.lang.Object)`
 D8: synthesized for lambda desugaring: Type `com.google.android.exoplayer2.trackselection.TrackBitrateEstimator$-CC` was not found, it is required for default or static interface methods desugaring of `int[] com.google.android.exoplayer2.trackselection.-$$Lambda$TrackBitrateEstimator$2lQ5lBvmOkJuNPw2qehuzXBInmI.getBitrates(com.google.android.exoplayer2.Format[], java.util.List, com.google.android.exoplayer2.source.chunk.MediaChunkIterator[], int[])`
 D8: synthesized for lambda desugaring: Type `com.google.android.exoplayer2.trackselection.TrackSelection$Factory$-CC` was not found, it is required for default or static interface methods desugaring of `com.google.android.exoplayer2.trackselection.TrackSelection com.google.android.exoplayer2.trackselection.-$$Lambda$TrackSelection$Factory$9mnNWe-5kFFae0E_IiLXrOzpdtA.createAdaptiveTrackSelection(com.google.android.exoplayer2.trackselection.TrackSelection$Definition)`
 > Task :demo:transformClassesWithDexBuilderForRelease
 > Task :demo:transformDexArchiveWithExternalLibsDexMergerForRelease
 > Task :demo:transformDexArchiveWithDexMergerForRelease
 > Task :demo:mergeReleaseJniLibFolders
+> Task :hybridmediaplayer:processReleaseJavaRes NO-SOURCE
 > Task :hybridmediaplayer:bundleLibResRelease
+> Task :hybridmediaplayer:mergeReleaseJniLibFolders
+> Task :hybridmediaplayer:transformNativeLibsWithMergeJniLibsForRelease
+> Task :hybridmediaplayer:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :hybridmediaplayer:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :demo:transformNativeLibsWithMergeJniLibsForRelease
 > Task :demo:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :demo:processReleaseJavaRes NO-SOURCE
@@ -202,7 +202,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 9s
+BUILD SUCCESSFUL in 40s
 89 actionable tasks: 89 executed
 
-2019-05-30 13:15:41,690 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559196860922-0/src/HybridMediaPlayer-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
+2019-06-17 12:18:51,607 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748683413-0/src/HybridMediaPlayer-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

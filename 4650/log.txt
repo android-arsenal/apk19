@@ -1,51 +1,51 @@
-2019-05-30 13:39:26,808 INFO  DownloadService - Downloading "https://github.com/Piasy/BigImageViewer/archive/master.zip", attempt 3
-2019-05-30 13:39:41,172 INFO  DownloadService - Downloaded https://github.com/Piasy/BigImageViewer/archive/master.zip, attempt 3
-2019-05-30 13:39:41,173 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/master.zip": 26 MB
-2019-05-30 13:39:41,173 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-30 13:39:41,174 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/master.zip: true
-2019-05-30 13:39:41,174 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src'.
-2019-05-30 13:39:41,355 INFO  FullProcessService - Size of directory with sources: 26 MB
-2019-05-30 13:39:41,355 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src]
-2019-05-30 13:39:41,377 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/.git/
+2019-06-17 12:23:02,113 INFO  DownloadService - Downloading "https://github.com/Piasy/BigImageViewer/archive/master.zip", attempt 3
+2019-06-17 12:23:16,549 INFO  DownloadService - Downloaded https://github.com/Piasy/BigImageViewer/archive/master.zip, attempt 3
+2019-06-17 12:23:16,549 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/master.zip": 26 MB
+2019-06-17 12:23:16,550 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-17 12:23:16,551 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/master.zip: true
+2019-06-17 12:23:16,551 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src'.
+2019-06-17 12:23:16,722 INFO  FullProcessService - Size of directory with sources: 26 MB
+2019-06-17 12:23:16,722 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src]
+2019-06-17 12:23:16,745 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/.git/
 
-2019-05-30 13:39:41,383 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/gradlew
-2019-05-30 13:39:41,389 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageViewFactory/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageViewFactory/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/ProgressPieIndicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/build.gradle
-2019-05-30 13:39:41,393 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageViewFactory/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageViewFactory/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/ProgressPieIndicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/gradle/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/build.gradle
-2019-05-30 13:39:41,394 INFO  ProjectBuildService - Remote scripts: none
-2019-05-30 13:39:41,394 INFO  ProjectFixService - Fixing project...
-2019-05-30 13:39:41,409 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/local.properties
-2019-05-30 13:39:41,413 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=28]
-2019-05-30 13:39:41,413 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-30 13:39:41,414 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/local.properties
-2019-05-30 13:39:41,419 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=28]
-2019-05-30 13:39:41,419 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-30 13:39:41,420 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageViewFactory/local.properties
-2019-05-30 13:39:41,424 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageViewFactory/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=28]
-2019-05-30 13:39:41,424 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageViewFactory/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-30 13:39:41,425 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/local.properties
-2019-05-30 13:39:41,429 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=28]
-2019-05-30 13:39:41,429 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-30 13:39:41,430 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageViewFactory/local.properties
-2019-05-30 13:39:41,435 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageViewFactory/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=28]
-2019-05-30 13:39:41,435 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageViewFactory/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-30 13:39:41,436 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/ProgressPieIndicator/local.properties
-2019-05-30 13:39:41,442 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/ProgressPieIndicator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=28]
-2019-05-30 13:39:41,442 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/ProgressPieIndicator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-30 13:39:41,443 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/local.properties
-2019-05-30 13:39:41,447 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=28]
-2019-05-30 13:39:41,447 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-30 13:39:41,448 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/local.properties
-2019-05-30 13:39:41,448 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2-all.zip
-2019-05-30 13:39:41,448 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2-bin.zip)
-2019-05-30 13:39:41,451 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
-2019-05-30 13:39:41,451 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-30 13:39:41,452 INFO  ProjectFixService - Project was maybe fixed
-2019-05-30 13:39:41,452 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-30 13:39:41,452 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-30 13:39:51,932 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-05-30 13:39:51,932 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-30 13:39:51,932 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-30 13:40:06,463 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-17 12:23:16,749 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/gradlew
+2019-06-17 12:23:16,754 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageViewFactory/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageViewFactory/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/ProgressPieIndicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/build.gradle
+2019-06-17 12:23:16,758 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageViewFactory/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageViewFactory/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/ProgressPieIndicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/gradle/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/build.gradle
+2019-06-17 12:23:16,759 INFO  ProjectBuildService - Remote scripts: none
+2019-06-17 12:23:16,759 INFO  ProjectFixService - Fixing project...
+2019-06-17 12:23:16,773 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/local.properties
+2019-06-17 12:23:16,778 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 12:23:16,778 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 12:23:16,778 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/local.properties
+2019-06-17 12:23:16,782 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 12:23:16,782 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 12:23:16,783 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageViewFactory/local.properties
+2019-06-17 12:23:16,787 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageViewFactory/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 12:23:16,787 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageViewFactory/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 12:23:16,788 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/local.properties
+2019-06-17 12:23:16,792 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 12:23:16,792 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 12:23:16,793 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageViewFactory/local.properties
+2019-06-17 12:23:16,797 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageViewFactory/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 12:23:16,797 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageViewFactory/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 12:23:16,798 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/ProgressPieIndicator/local.properties
+2019-06-17 12:23:16,802 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/ProgressPieIndicator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 12:23:16,802 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/ProgressPieIndicator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 12:23:16,803 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/local.properties
+2019-06-17 12:23:16,806 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 12:23:16,806 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 12:23:16,807 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/local.properties
+2019-06-17 12:23:16,808 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2-all.zip
+2019-06-17 12:23:16,808 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2-bin.zip)
+2019-06-17 12:23:16,811 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
+2019-06-17 12:23:16,811 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-06-17 12:23:16,812 INFO  ProjectFixService - Project was maybe fixed
+2019-06-17 12:23:16,812 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 12:23:16,812 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 12:23:25,588 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-06-17 12:23:25,588 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-06-17 12:23:25,588 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-06-17 12:23:36,469 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :BigImageViewer:preBuild UP-TO-DATE
 > Task :BigImageViewer:preDebugBuild UP-TO-DATE
 > Task :BigImageViewer:checkDebugManifest
@@ -56,13 +56,6 @@
 > Task :BigImageViewer:mergeDebugConsumerProguardFiles
 > Task :BigImageViewer:mergeDebugShaders
 > Task :BigImageViewer:compileDebugShaders
-> Task :BigImageViewer:generateDebugAssets
-> Task :BigImageViewer:packageDebugAssets
-> Task :BigImageViewer:packageDebugRenderscript NO-SOURCE
-> Task :BigImageViewer:prepareLintJarForPublish
-> Task :BigImageViewer:processDebugJavaRes NO-SOURCE
-> Task :BigImageViewer:mergeDebugJniLibFolders
-> Task :BigImageViewer:transformNativeLibsWithMergeJniLibsForDebug
 > Task :BigImageViewer:compileDebugAidl NO-SOURCE
 > Task :BigImageViewer:compileDebugRenderscript NO-SOURCE
 > Task :BigImageViewer:generateDebugResources
@@ -72,8 +65,15 @@
 > Task :BigImageViewer:javaPreCompileDebug
 > Task :BigImageViewer:compileDebugJavaWithJavac
 > Task :BigImageViewer:extractDebugAnnotations
+> Task :BigImageViewer:generateDebugAssets
+> Task :BigImageViewer:packageDebugAssets
+> Task :BigImageViewer:packageDebugRenderscript NO-SOURCE
+> Task :BigImageViewer:prepareLintJarForPublish
+> Task :BigImageViewer:processDebugJavaRes NO-SOURCE
 > Task :BigImageViewer:transformResourcesWithMergeJavaResForDebug
 > Task :BigImageViewer:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :BigImageViewer:mergeDebugJniLibFolders
+> Task :BigImageViewer:transformNativeLibsWithMergeJniLibsForDebug
 > Task :BigImageViewer:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :BigImageViewer:transformNativeLibsWithSyncJniLibsForDebug
 > Task :BigImageViewer:bundleDebugAar
@@ -110,105 +110,105 @@
 > Task :BigImageViewer:compileReleaseSources
 
 > Task :BigImageViewer:javadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:42: error: cannot find symbol
 import androidx.annotation.Keep;
                           ^
   symbol:   class Keep
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:43: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:43: error: cannot find symbol
 import androidx.annotation.RequiresPermission;
                           ^
   symbol:   class RequiresPermission
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:44: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:44: error: cannot find symbol
 import androidx.annotation.UiThread;
                           ^
   symbol:   class UiThread
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:45: error: package com.davemorrissey.labs.subscaleview does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:45: error: package com.davemorrissey.labs.subscaleview does not exist
 import com.davemorrissey.labs.subscaleview.ImageSource;
                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:46: error: package com.davemorrissey.labs.subscaleview does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:46: error: package com.davemorrissey.labs.subscaleview does not exist
 import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView;
                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:48: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:48: error: cannot find symbol
 import com.github.piasy.biv.R;
                            ^
   symbol:   class R
   location: package com.github.piasy.biv
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/loader/ImageLoader.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/loader/ImageLoader.java:28: error: cannot find symbol
 import androidx.annotation.UiThread;
                           ^
   symbol:   class UiThread
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/loader/ImageLoader.java:45: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/loader/ImageLoader.java:45: error: cannot find symbol
     @UiThread
      ^
   symbol:   class UiThread
   location: interface ImageLoader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:65: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:65: error: cannot find symbol
 @Keep
  ^
   symbol: class Keep
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/ImageViewFactory.java:31: error: package com.davemorrissey.labs.subscaleview does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/ImageViewFactory.java:31: error: package com.davemorrissey.labs.subscaleview does not exist
 import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView;
                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:96: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:96: error: cannot find symbol
     private SubsamplingScaleImageView mSSIV;
             ^
   symbol:   class SubsamplingScaleImageView
   location: class BigImageView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/utils/DisplayOptimizeListener.java:28: error: package com.davemorrissey.labs.subscaleview does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/utils/DisplayOptimizeListener.java:28: error: package com.davemorrissey.labs.subscaleview does not exist
 import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView;
                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/utils/DisplayOptimizeListener.java:35: error: package SubsamplingScaleImageView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/utils/DisplayOptimizeListener.java:35: error: package SubsamplingScaleImageView does not exist
 public class DisplayOptimizeListener implements SubsamplingScaleImageView.OnImageEventListener {
                                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:360: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:360: error: cannot find symbol
     public SubsamplingScaleImageView getSSIV() {
            ^
   symbol:   class SubsamplingScaleImageView
   location: class BigImageView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/ImageViewFactory.java:53: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/ImageViewFactory.java:53: error: cannot find symbol
     protected SubsamplingScaleImageView createStillImageView(Context context) {
               ^
   symbol:   class SubsamplingScaleImageView
   location: class ImageViewFactory
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/utils/DisplayOptimizeListener.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/utils/DisplayOptimizeListener.java:38: error: cannot find symbol
     private final SubsamplingScaleImageView mImageView;
                   ^
   symbol:   class SubsamplingScaleImageView
   location: class DisplayOptimizeListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/utils/DisplayOptimizeListener.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/utils/DisplayOptimizeListener.java:42: error: cannot find symbol
     public DisplayOptimizeListener(SubsamplingScaleImageView imageView) {
                                    ^
   symbol:   class SubsamplingScaleImageView
   location: class DisplayOptimizeListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/utils/ThreadedCallbacks.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/utils/ThreadedCallbacks.java:29: error: cannot find symbol
 import androidx.annotation.Keep;
                           ^
   symbol:   class Keep
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/utils/ThreadedCallbacks.java:37: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/utils/ThreadedCallbacks.java:37: error: cannot find symbol
 @Keep
  ^
   symbol: class Keep
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:301: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:301: error: cannot find symbol
     @RequiresPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE)
      ^
   symbol:   class RequiresPermission
   location: class BigImageView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:444: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:444: error: cannot find symbol
     @UiThread
      ^
   symbol:   class UiThread
   location: class BigImageView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:504: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:504: error: cannot find symbol
     @UiThread
      ^
   symbol:   class UiThread
   location: class BigImageView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:538: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/view/BigImageView.java:538: error: cannot find symbol
     @UiThread
      ^
   symbol:   class UiThread
@@ -225,10 +225,10 @@ javadoc: warning - Class Keep not found.
 javadoc: warning - Class Keep not found.
 javadoc: warning - Class Keep not found.
 javadoc: warning - Class Keep not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/metadata/ImageInfoExtractor.java:54: warning: no @param for file
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/metadata/ImageInfoExtractor.java:54: warning: no @param for file
     public static int getImageType(File file) {
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/metadata/ImageInfoExtractor.java:54: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/BigImageViewer/src/main/java/com/github/piasy/biv/metadata/ImageInfoExtractor.java:54: warning: no @return
     public static int getImageType(File file) {
                       ^
 javadoc: warning - Class UiThread not found.
@@ -308,15 +308,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 14s
+BUILD SUCCESSFUL in 10s
 47 actionable tasks: 47 executed
 
-2019-05-30 13:40:06,482 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-30 13:40:06,482 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-30 13:40:13,491 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-05-30 13:40:13,492 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-30 13:40:13,492 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-30 13:40:25,687 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-17 12:23:36,483 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 12:23:36,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 12:23:43,102 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-06-17 12:23:43,102 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-06-17 12:23:43,102 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-06-17 12:23:52,503 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :BigImageViewer:preBuild UP-TO-DATE
 > Task :BigImageViewer:preDebugBuild UP-TO-DATE
 > Task :BigImageViewer:compileDebugAidl NO-SOURCE
@@ -344,18 +344,33 @@ BUILD SUCCESSFUL in 14s
 > Task :FrescoImageLoader:mergeDebugConsumerProguardFiles
 > Task :FrescoImageLoader:mergeDebugShaders
 > Task :FrescoImageLoader:compileDebugShaders
+> Task :FrescoImageLoader:compileDebugAidl NO-SOURCE
+> Task :FrescoImageLoader:compileDebugRenderscript NO-SOURCE
+> Task :FrescoImageLoader:generateDebugResources
+> Task :FrescoImageLoader:packageDebugResources
+> Task :FrescoImageLoader:generateDebugRFile
+> Task :FrescoImageLoader:generateDebugSources
+> Task :FrescoImageLoader:javaPreCompileDebug
+> Task :FrescoImageLoader:compileDebugJavaWithJavac
+> Task :FrescoImageLoader:extractDebugAnnotations
 > Task :FrescoImageLoader:generateDebugAssets
 > Task :FrescoImageLoader:packageDebugAssets
 > Task :FrescoImageLoader:packageDebugRenderscript NO-SOURCE
 > Task :FrescoImageLoader:prepareLintJarForPublish
 > Task :FrescoImageLoader:processDebugJavaRes NO-SOURCE
+> Task :FrescoImageLoader:transformResourcesWithMergeJavaResForDebug
+> Task :FrescoImageLoader:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :FrescoImageLoader:mergeDebugJniLibFolders
 > Task :FrescoImageLoader:transformNativeLibsWithMergeJniLibsForDebug
 > Task :FrescoImageLoader:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :FrescoImageLoader:transformNativeLibsWithSyncJniLibsForDebug
+> Task :FrescoImageLoader:bundleDebugAar
+> Task :FrescoImageLoader:compileDebugSources
+> Task :FrescoImageLoader:assembleDebug
 > Task :BigImageViewer:preReleaseBuild UP-TO-DATE
 > Task :BigImageViewer:compileReleaseAidl NO-SOURCE
 > Task :FrescoImageLoader:preReleaseBuild UP-TO-DATE
+> Task :FrescoImageLoader:compileReleaseAidl NO-SOURCE
 > Task :BigImageViewer:compileReleaseRenderscript NO-SOURCE
 > Task :BigImageViewer:checkReleaseManifest UP-TO-DATE
 > Task :BigImageViewer:generateReleaseBuildConfig UP-TO-DATE
@@ -369,10 +384,18 @@ BUILD SUCCESSFUL in 14s
 > Task :BigImageViewer:compileReleaseJavaWithJavac UP-TO-DATE
 > Task :BigImageViewer:bundleLibCompileRelease
 > Task :BigImageViewer:packageReleaseRenderscript NO-SOURCE
+> Task :FrescoImageLoader:compileReleaseRenderscript NO-SOURCE
 > Task :FrescoImageLoader:checkReleaseManifest
 > Task :FrescoImageLoader:generateReleaseBuildConfig
 > Task :FrescoImageLoader:generateReleaseResValues
+> Task :FrescoImageLoader:generateReleaseResources
+> Task :FrescoImageLoader:packageReleaseResources
 > Task :FrescoImageLoader:processReleaseManifest
+> Task :FrescoImageLoader:generateReleaseRFile
+> Task :FrescoImageLoader:generateReleaseSources
+> Task :FrescoImageLoader:javaPreCompileRelease
+> Task :FrescoImageLoader:compileReleaseJavaWithJavac
+> Task :FrescoImageLoader:extractReleaseAnnotations
 > Task :FrescoImageLoader:mergeReleaseConsumerProguardFiles
 > Task :FrescoImageLoader:mergeReleaseShaders
 > Task :FrescoImageLoader:compileReleaseShaders
@@ -380,197 +403,201 @@ BUILD SUCCESSFUL in 14s
 > Task :FrescoImageLoader:packageReleaseAssets
 > Task :FrescoImageLoader:packageReleaseRenderscript NO-SOURCE
 > Task :FrescoImageLoader:processReleaseJavaRes NO-SOURCE
+> Task :FrescoImageLoader:transformResourcesWithMergeJavaResForRelease
+> Task :FrescoImageLoader:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :FrescoImageLoader:mergeReleaseJniLibFolders
 > Task :FrescoImageLoader:transformNativeLibsWithMergeJniLibsForRelease
 > Task :FrescoImageLoader:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :FrescoImageLoader:transformNativeLibsWithSyncJniLibsForRelease
+> Task :FrescoImageLoader:bundleReleaseAar
+> Task :FrescoImageLoader:compileReleaseSources
 
 > Task :FrescoImageLoader:javadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:29: error: package com.facebook.binaryresource does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:29: error: package com.facebook.binaryresource does not exist
 import com.facebook.binaryresource.FileBinaryResource;
                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:30: error: package com.facebook.cache.common does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:30: error: package com.facebook.cache.common does not exist
 import com.facebook.cache.common.CacheKey;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:31: error: package com.facebook.cache.disk does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:31: error: package com.facebook.cache.disk does not exist
 import com.facebook.cache.disk.FileCache;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:32: error: package com.facebook.common.memory does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:32: error: package com.facebook.common.memory does not exist
 import com.facebook.common.memory.PooledByteBuffer;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:33: error: package com.facebook.common.references does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:33: error: package com.facebook.common.references does not exist
 import com.facebook.common.references.CloseableReference;
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:34: error: package com.facebook.datasource does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:34: error: package com.facebook.datasource does not exist
 import com.facebook.datasource.DataSource;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:35: error: package com.facebook.drawee.backends.pipeline does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:35: error: package com.facebook.drawee.backends.pipeline does not exist
 import com.facebook.drawee.backends.pipeline.DraweeConfig;
                                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:36: error: package com.facebook.drawee.backends.pipeline does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:36: error: package com.facebook.drawee.backends.pipeline does not exist
 import com.facebook.drawee.backends.pipeline.Fresco;
                                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:37: error: package com.facebook.imagepipeline.cache does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:37: error: package com.facebook.imagepipeline.cache does not exist
 import com.facebook.imagepipeline.cache.DefaultCacheKeyFactory;
                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:38: error: package com.facebook.imagepipeline.core does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:38: error: package com.facebook.imagepipeline.core does not exist
 import com.facebook.imagepipeline.core.DefaultExecutorSupplier;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:39: error: package com.facebook.imagepipeline.core does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:39: error: package com.facebook.imagepipeline.core does not exist
 import com.facebook.imagepipeline.core.ImagePipeline;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:40: error: package com.facebook.imagepipeline.core does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:40: error: package com.facebook.imagepipeline.core does not exist
 import com.facebook.imagepipeline.core.ImagePipelineConfig;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:41: error: package com.facebook.imagepipeline.core does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:41: error: package com.facebook.imagepipeline.core does not exist
 import com.facebook.imagepipeline.core.ImagePipelineFactory;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:42: error: package com.facebook.imagepipeline.request does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:42: error: package com.facebook.imagepipeline.request does not exist
 import com.facebook.imagepipeline.request.ImageRequest;
                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:43: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:43: error: cannot find symbol
 import com.github.piasy.biv.loader.ImageLoader;
                                   ^
   symbol:   class ImageLoader
   location: package com.github.piasy.biv.loader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:44: error: package com.github.piasy.biv.metadata does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:44: error: package com.github.piasy.biv.metadata does not exist
 import com.github.piasy.biv.metadata.ImageInfoExtractor;
                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:52: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:52: error: cannot find symbol
 public final class FrescoImageLoader implements ImageLoader {
                                                 ^
   symbol: class ImageLoader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:55: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:55: error: cannot find symbol
     private final DefaultExecutorSupplier mExecutorSupplier;
                   ^
   symbol:   class DefaultExecutorSupplier
   location: class FrescoImageLoader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:57: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:57: error: cannot find symbol
     private final ConcurrentHashMap<Integer, DataSource> mRequestSourceMap
                                              ^
   symbol:   class DataSource
   location: class FrescoImageLoader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:70: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:70: error: cannot find symbol
             ImagePipelineConfig imagePipelineConfig) {
             ^
   symbol:   class ImagePipelineConfig
   location: class FrescoImageLoader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:75: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:75: error: cannot find symbol
             ImagePipelineConfig imagePipelineConfig, DraweeConfig draweeConfig) {
             ^
   symbol:   class ImagePipelineConfig
   location: class FrescoImageLoader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:75: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:75: error: cannot find symbol
             ImagePipelineConfig imagePipelineConfig, DraweeConfig draweeConfig) {
                                                      ^
   symbol:   class DraweeConfig
   location: class FrescoImageLoader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:81: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:81: error: cannot find symbol
     public void loadImage(int requestId, Uri uri, final Callback callback) {
                                                         ^
   symbol:   class Callback
   location: class FrescoImageLoader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:144: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:144: error: cannot find symbol
     private void saveSource(int requestId, DataSource target) {
                                            ^
   symbol:   class DataSource
   location: class FrescoImageLoader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:155: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/FrescoImageLoader.java:155: error: cannot find symbol
     private File getCacheFile(final ImageRequest request) {
                                     ^
   symbol:   class ImageRequest
   location: class FrescoImageLoader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:28: error: cannot find symbol
 import androidx.annotation.WorkerThread;
                           ^
   symbol:   class WorkerThread
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:29: error: package com.facebook.common.memory does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:29: error: package com.facebook.common.memory does not exist
 import com.facebook.common.memory.PooledByteBuffer;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:30: error: package com.facebook.common.memory does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:30: error: package com.facebook.common.memory does not exist
 import com.facebook.common.memory.PooledByteBufferInputStream;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:31: error: package com.facebook.common.references does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:31: error: package com.facebook.common.references does not exist
 import com.facebook.common.references.CloseableReference;
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:32: error: package com.facebook.datasource does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:32: error: package com.facebook.datasource does not exist
 import com.facebook.datasource.BaseDataSubscriber;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:33: error: package com.facebook.datasource does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:33: error: package com.facebook.datasource does not exist
 import com.facebook.datasource.DataSource;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:34: error: package com.github.piasy.biv.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:34: error: package com.github.piasy.biv.utils does not exist
 import com.github.piasy.biv.utils.IOUtils;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:44: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:44: error: cannot find symbol
         extends BaseDataSubscriber<CloseableReference<PooledByteBuffer>> {
                 ^
   symbol: class BaseDataSubscriber
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:44: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:44: error: cannot find symbol
         extends BaseDataSubscriber<CloseableReference<PooledByteBuffer>> {
                                    ^
   symbol: class CloseableReference
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:44: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:44: error: cannot find symbol
         extends BaseDataSubscriber<CloseableReference<PooledByteBuffer>> {
                                                       ^
   symbol: class PooledByteBuffer
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:54: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:54: error: cannot find symbol
     public void onProgressUpdate(DataSource<CloseableReference<PooledByteBuffer>> dataSource) {
                                  ^
   symbol:   class DataSource
   location: class ImageDownloadSubscriber
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:54: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:54: error: cannot find symbol
     public void onProgressUpdate(DataSource<CloseableReference<PooledByteBuffer>> dataSource) {
                                             ^
   symbol:   class CloseableReference
   location: class ImageDownloadSubscriber
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:54: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:54: error: cannot find symbol
     public void onProgressUpdate(DataSource<CloseableReference<PooledByteBuffer>> dataSource) {
                                                                ^
   symbol:   class PooledByteBuffer
   location: class ImageDownloadSubscriber
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:61: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:61: error: cannot find symbol
     protected void onNewResultImpl(DataSource<CloseableReference<PooledByteBuffer>> dataSource) {
                                    ^
   symbol:   class DataSource
   location: class ImageDownloadSubscriber
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:61: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:61: error: cannot find symbol
     protected void onNewResultImpl(DataSource<CloseableReference<PooledByteBuffer>> dataSource) {
                                               ^
   symbol:   class CloseableReference
   location: class ImageDownloadSubscriber
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:61: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:61: error: cannot find symbol
     protected void onNewResultImpl(DataSource<CloseableReference<PooledByteBuffer>> dataSource) {
                                                                  ^
   symbol:   class PooledByteBuffer
   location: class ImageDownloadSubscriber
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:86: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:86: error: cannot find symbol
     protected void onFailureImpl(DataSource<CloseableReference<PooledByteBuffer>> dataSource) {
                                  ^
   symbol:   class DataSource
   location: class ImageDownloadSubscriber
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:86: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:86: error: cannot find symbol
     protected void onFailureImpl(DataSource<CloseableReference<PooledByteBuffer>> dataSource) {
                                             ^
   symbol:   class CloseableReference
   location: class ImageDownloadSubscriber
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:86: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:86: error: cannot find symbol
     protected void onFailureImpl(DataSource<CloseableReference<PooledByteBuffer>> dataSource) {
                                                                ^
   symbol:   class PooledByteBuffer
   location: class ImageDownloadSubscriber
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:91: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:91: error: cannot find symbol
     @WorkerThread
      ^
   symbol:   class WorkerThread
   location: class ImageDownloadSubscriber
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:94: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:94: error: cannot find symbol
     @WorkerThread
      ^
   symbol:   class WorkerThread
   location: class ImageDownloadSubscriber
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:97: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageLoader/src/main/java/com/github/piasy/biv/loader/fresco/ImageDownloadSubscriber.java:97: error: cannot find symbol
     @WorkerThread
      ^
   symbol:   class WorkerThread
@@ -595,38 +622,11 @@ javadoc: warning - Class WorkerThread not found.
 javadoc: warning - Class WorkerThread not found.
 65 warnings
 
-> Task :FrescoImageLoader:javadocJar
-> Task :FrescoImageLoader:compileDebugAidl NO-SOURCE
-> Task :FrescoImageLoader:compileDebugRenderscript NO-SOURCE
-> Task :FrescoImageLoader:generateDebugResources
-> Task :FrescoImageLoader:packageDebugResources
-> Task :FrescoImageLoader:generateDebugRFile
-> Task :FrescoImageLoader:generateDebugSources
-> Task :FrescoImageLoader:javaPreCompileDebug
-> Task :FrescoImageLoader:compileDebugJavaWithJavac
-> Task :FrescoImageLoader:extractDebugAnnotations
-> Task :FrescoImageLoader:transformResourcesWithMergeJavaResForDebug
-> Task :FrescoImageLoader:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :FrescoImageLoader:bundleDebugAar
-> Task :FrescoImageLoader:compileDebugSources
-> Task :FrescoImageLoader:assembleDebug
-> Task :FrescoImageLoader:compileReleaseAidl NO-SOURCE
-> Task :FrescoImageLoader:compileReleaseRenderscript NO-SOURCE
-> Task :FrescoImageLoader:generateReleaseResources
-> Task :FrescoImageLoader:packageReleaseResources
-> Task :FrescoImageLoader:generateReleaseRFile
-> Task :FrescoImageLoader:generateReleaseSources
-> Task :FrescoImageLoader:javaPreCompileRelease
-> Task :FrescoImageLoader:compileReleaseJavaWithJavac
-> Task :FrescoImageLoader:extractReleaseAnnotations
-> Task :FrescoImageLoader:transformResourcesWithMergeJavaResForRelease
-> Task :FrescoImageLoader:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :FrescoImageLoader:bundleReleaseAar
-> Task :FrescoImageLoader:compileReleaseSources
-> Task :FrescoImageLoader:sourcesJar
 > Task :FrescoImageLoader:mergeReleaseResources
 > Task :FrescoImageLoader:verifyReleaseResources
 > Task :FrescoImageLoader:assembleRelease
+> Task :FrescoImageLoader:javadocJar
+> Task :FrescoImageLoader:sourcesJar
 > Task :FrescoImageLoader:assemble
 > Task :FrescoImageLoader:build
 
@@ -634,15 +634,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 12s
+BUILD SUCCESSFUL in 9s
 66 actionable tasks: 49 executed, 17 up-to-date
 
-2019-05-30 13:40:25,713 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-30 13:40:25,713 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageViewFactory/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-30 13:40:33,228 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-05-30 13:40:33,229 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-30 13:40:33,229 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageViewFactory/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-30 13:40:45,065 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-17 12:23:52,527 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 12:23:52,527 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageViewFactory/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 12:23:59,048 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-06-17 12:23:59,048 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-06-17 12:23:59,048 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageViewFactory/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-06-17 12:24:08,032 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :BigImageViewer:preBuild UP-TO-DATE
 > Task :BigImageViewer:preDebugBuild UP-TO-DATE
 > Task :BigImageViewer:compileDebugAidl NO-SOURCE
@@ -653,8 +653,8 @@ BUILD SUCCESSFUL in 12s
 > Task :BigImageViewer:generateDebugBuildConfig UP-TO-DATE
 > Task :BigImageViewer:generateDebugResValues UP-TO-DATE
 > Task :BigImageViewer:generateDebugResources UP-TO-DATE
-> Task :BigImageViewer:packageDebugResources UP-TO-DATE
 > Task :BigImageViewer:processDebugManifest UP-TO-DATE
+> Task :BigImageViewer:packageDebugResources UP-TO-DATE
 > Task :BigImageViewer:generateDebugRFile UP-TO-DATE
 > Task :BigImageViewer:prepareLintJar UP-TO-DATE
 > Task :BigImageViewer:generateDebugSources UP-TO-DATE
@@ -663,10 +663,19 @@ BUILD SUCCESSFUL in 12s
 > Task :BigImageViewer:bundleLibCompileDebug UP-TO-DATE
 > Task :BigImageViewer:packageDebugRenderscript NO-SOURCE
 > Task :FrescoImageViewFactory:checkDebugManifest
+> Task :FrescoImageViewFactory:compileDebugAidl NO-SOURCE
+> Task :FrescoImageViewFactory:compileDebugRenderscript NO-SOURCE
 > Task :FrescoImageViewFactory:generateDebugBuildConfig
 > Task :FrescoImageViewFactory:generateDebugResValues
+> Task :FrescoImageViewFactory:generateDebugResources
+> Task :FrescoImageViewFactory:packageDebugResources
 > Task :FrescoImageViewFactory:processDebugManifest
 > Task :FrescoImageViewFactory:prepareLintJar
+> Task :FrescoImageViewFactory:generateDebugSources
+> Task :FrescoImageViewFactory:javaPreCompileDebug
+> Task :FrescoImageViewFactory:generateDebugRFile
+> Task :FrescoImageViewFactory:compileDebugJavaWithJavac
+> Task :FrescoImageViewFactory:extractDebugAnnotations
 > Task :FrescoImageViewFactory:mergeDebugConsumerProguardFiles
 > Task :FrescoImageViewFactory:mergeDebugShaders
 > Task :FrescoImageViewFactory:compileDebugShaders
@@ -675,13 +684,19 @@ BUILD SUCCESSFUL in 12s
 > Task :FrescoImageViewFactory:packageDebugRenderscript NO-SOURCE
 > Task :FrescoImageViewFactory:prepareLintJarForPublish
 > Task :FrescoImageViewFactory:processDebugJavaRes NO-SOURCE
+> Task :FrescoImageViewFactory:transformResourcesWithMergeJavaResForDebug
+> Task :FrescoImageViewFactory:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :FrescoImageViewFactory:mergeDebugJniLibFolders
 > Task :FrescoImageViewFactory:transformNativeLibsWithMergeJniLibsForDebug
 > Task :FrescoImageViewFactory:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :FrescoImageViewFactory:transformNativeLibsWithSyncJniLibsForDebug
+> Task :FrescoImageViewFactory:bundleDebugAar
+> Task :FrescoImageViewFactory:compileDebugSources
+> Task :FrescoImageViewFactory:assembleDebug
 > Task :BigImageViewer:preReleaseBuild UP-TO-DATE
 > Task :BigImageViewer:compileReleaseAidl NO-SOURCE
 > Task :FrescoImageViewFactory:preReleaseBuild UP-TO-DATE
+> Task :FrescoImageViewFactory:compileReleaseAidl NO-SOURCE
 > Task :BigImageViewer:compileReleaseRenderscript NO-SOURCE
 > Task :BigImageViewer:checkReleaseManifest UP-TO-DATE
 > Task :BigImageViewer:generateReleaseBuildConfig UP-TO-DATE
@@ -695,10 +710,18 @@ BUILD SUCCESSFUL in 12s
 > Task :BigImageViewer:compileReleaseJavaWithJavac UP-TO-DATE
 > Task :BigImageViewer:bundleLibCompileRelease UP-TO-DATE
 > Task :BigImageViewer:packageReleaseRenderscript NO-SOURCE
+> Task :FrescoImageViewFactory:compileReleaseRenderscript NO-SOURCE
 > Task :FrescoImageViewFactory:checkReleaseManifest
 > Task :FrescoImageViewFactory:generateReleaseBuildConfig
 > Task :FrescoImageViewFactory:generateReleaseResValues
+> Task :FrescoImageViewFactory:generateReleaseResources
+> Task :FrescoImageViewFactory:packageReleaseResources
 > Task :FrescoImageViewFactory:processReleaseManifest
+> Task :FrescoImageViewFactory:generateReleaseRFile
+> Task :FrescoImageViewFactory:generateReleaseSources
+> Task :FrescoImageViewFactory:javaPreCompileRelease
+> Task :FrescoImageViewFactory:compileReleaseJavaWithJavac
+> Task :FrescoImageViewFactory:extractReleaseAnnotations
 > Task :FrescoImageViewFactory:mergeReleaseConsumerProguardFiles
 > Task :FrescoImageViewFactory:mergeReleaseShaders
 > Task :FrescoImageViewFactory:compileReleaseShaders
@@ -706,68 +729,45 @@ BUILD SUCCESSFUL in 12s
 > Task :FrescoImageViewFactory:packageReleaseAssets
 > Task :FrescoImageViewFactory:packageReleaseRenderscript NO-SOURCE
 > Task :FrescoImageViewFactory:processReleaseJavaRes NO-SOURCE
+> Task :FrescoImageViewFactory:transformResourcesWithMergeJavaResForRelease
+> Task :FrescoImageViewFactory:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :FrescoImageViewFactory:mergeReleaseJniLibFolders
 > Task :FrescoImageViewFactory:transformNativeLibsWithMergeJniLibsForRelease
 > Task :FrescoImageViewFactory:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :FrescoImageViewFactory:transformNativeLibsWithSyncJniLibsForRelease
+> Task :FrescoImageViewFactory:bundleReleaseAar
+> Task :FrescoImageViewFactory:compileReleaseSources
 
 > Task :FrescoImageViewFactory:javadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageViewFactory/src/main/java/com/github/piasy/biv/view/FrescoImageViewFactory.java:31: error: package com.facebook.drawee.backends.pipeline does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageViewFactory/src/main/java/com/github/piasy/biv/view/FrescoImageViewFactory.java:31: error: package com.facebook.drawee.backends.pipeline does not exist
 import com.facebook.drawee.backends.pipeline.Fresco;
                                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageViewFactory/src/main/java/com/github/piasy/biv/view/FrescoImageViewFactory.java:32: error: package com.facebook.drawee.drawable does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageViewFactory/src/main/java/com/github/piasy/biv/view/FrescoImageViewFactory.java:32: error: package com.facebook.drawee.drawable does not exist
 import com.facebook.drawee.drawable.ScalingUtils;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageViewFactory/src/main/java/com/github/piasy/biv/view/FrescoImageViewFactory.java:33: error: package com.facebook.drawee.interfaces does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageViewFactory/src/main/java/com/github/piasy/biv/view/FrescoImageViewFactory.java:33: error: package com.facebook.drawee.interfaces does not exist
 import com.facebook.drawee.interfaces.DraweeController;
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageViewFactory/src/main/java/com/github/piasy/biv/view/FrescoImageViewFactory.java:34: error: package com.facebook.drawee.view does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageViewFactory/src/main/java/com/github/piasy/biv/view/FrescoImageViewFactory.java:34: error: package com.facebook.drawee.view does not exist
 import com.facebook.drawee.view.SimpleDraweeView;
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageViewFactory/src/main/java/com/github/piasy/biv/view/FrescoImageViewFactory.java:40: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageViewFactory/src/main/java/com/github/piasy/biv/view/FrescoImageViewFactory.java:40: error: cannot find symbol
 public class FrescoImageViewFactory extends ImageViewFactory {
                                             ^
   symbol: class ImageViewFactory
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageViewFactory/src/main/java/com/github/piasy/biv/view/FrescoImageViewFactory.java:68: error: package ScalingUtils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageViewFactory/src/main/java/com/github/piasy/biv/view/FrescoImageViewFactory.java:68: error: package ScalingUtils does not exist
     private ScalingUtils.ScaleType scaleType(int value) {
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/FrescoImageViewFactory/src/main/java/com/github/piasy/biv/view/FrescoImageViewFactory.java:88: error: package ScalingUtils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/FrescoImageViewFactory/src/main/java/com/github/piasy/biv/view/FrescoImageViewFactory.java:88: error: package ScalingUtils does not exist
     private ScalingUtils.ScaleType scaleType(ImageView.ScaleType scaleType) {
                         ^
 7 warnings
 
-> Task :FrescoImageViewFactory:javadocJar
-> Task :FrescoImageViewFactory:sourcesJar
-> Task :FrescoImageViewFactory:compileDebugRenderscript NO-SOURCE
-> Task :FrescoImageViewFactory:compileDebugAidl NO-SOURCE
-> Task :FrescoImageViewFactory:generateDebugResources
-> Task :FrescoImageViewFactory:packageDebugResources
-> Task :FrescoImageViewFactory:generateDebugRFile
-> Task :FrescoImageViewFactory:generateDebugSources
-> Task :FrescoImageViewFactory:javaPreCompileDebug
-> Task :FrescoImageViewFactory:compileDebugJavaWithJavac
-> Task :FrescoImageViewFactory:extractDebugAnnotations
-> Task :FrescoImageViewFactory:transformResourcesWithMergeJavaResForDebug
-> Task :FrescoImageViewFactory:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :FrescoImageViewFactory:bundleDebugAar
-> Task :FrescoImageViewFactory:compileDebugSources
-> Task :FrescoImageViewFactory:assembleDebug
-> Task :FrescoImageViewFactory:compileReleaseAidl NO-SOURCE
-> Task :FrescoImageViewFactory:compileReleaseRenderscript NO-SOURCE
-> Task :FrescoImageViewFactory:generateReleaseResources
-> Task :FrescoImageViewFactory:packageReleaseResources
-> Task :FrescoImageViewFactory:generateReleaseRFile
-> Task :FrescoImageViewFactory:generateReleaseSources
-> Task :FrescoImageViewFactory:javaPreCompileRelease
-> Task :FrescoImageViewFactory:compileReleaseJavaWithJavac
-> Task :FrescoImageViewFactory:extractReleaseAnnotations
-> Task :FrescoImageViewFactory:transformResourcesWithMergeJavaResForRelease
-> Task :FrescoImageViewFactory:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :FrescoImageViewFactory:bundleReleaseAar
-> Task :FrescoImageViewFactory:compileReleaseSources
 > Task :FrescoImageViewFactory:mergeReleaseResources
 > Task :FrescoImageViewFactory:verifyReleaseResources
 > Task :FrescoImageViewFactory:assembleRelease
+> Task :FrescoImageViewFactory:javadocJar
+> Task :FrescoImageViewFactory:sourcesJar
 > Task :FrescoImageViewFactory:assemble
 > Task :FrescoImageViewFactory:build
 
@@ -775,27 +775,27 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 8s
 66 actionable tasks: 47 executed, 19 up-to-date
 
-2019-05-30 13:40:45,096 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-30 13:40:45,096 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-30 13:40:52,258 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-05-30 13:40:52,258 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-30 13:40:52,258 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-30 13:41:03,371 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-17 12:24:08,063 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 12:24:08,063 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 12:24:14,515 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-06-17 12:24:14,515 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-06-17 12:24:14,515 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-06-17 12:24:24,895 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :BigImageViewer:preBuild UP-TO-DATE
 > Task :BigImageViewer:preDebugBuild UP-TO-DATE
-> Task :BigImageViewer:compileDebugAidl NO-SOURCE
 > Task :GlideImageLoader:preBuild UP-TO-DATE
 > Task :GlideImageLoader:preDebugBuild UP-TO-DATE
-> Task :BigImageViewer:compileDebugRenderscript NO-SOURCE
+> Task :BigImageViewer:compileDebugAidl NO-SOURCE
 > Task :BigImageViewer:checkDebugManifest UP-TO-DATE
+> Task :BigImageViewer:compileDebugRenderscript NO-SOURCE
 > Task :BigImageViewer:generateDebugBuildConfig UP-TO-DATE
 > Task :BigImageViewer:generateDebugResValues UP-TO-DATE
 > Task :BigImageViewer:generateDebugResources UP-TO-DATE
-> Task :BigImageViewer:packageDebugResources UP-TO-DATE
 > Task :BigImageViewer:processDebugManifest UP-TO-DATE
+> Task :BigImageViewer:packageDebugResources UP-TO-DATE
 > Task :BigImageViewer:generateDebugRFile UP-TO-DATE
 > Task :BigImageViewer:prepareLintJar UP-TO-DATE
 > Task :BigImageViewer:generateDebugSources UP-TO-DATE
@@ -880,389 +880,388 @@ BUILD SUCCESSFUL in 11s
 > Task :GlideImageLoader:compileReleaseSources
 
 > Task :GlideImageLoader:javadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:29: error: package com.bumptech.glide does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:29: error: package com.bumptech.glide does not exist
 import com.bumptech.glide.Glide;
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:30: error: package com.bumptech.glide.integration.okhttp3 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:30: error: package com.bumptech.glide.integration.okhttp3 does not exist
 import com.bumptech.glide.integration.okhttp3.OkHttpUrlLoader;
                                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:31: error: package com.bumptech.glide.load.model does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:31: error: package com.bumptech.glide.load.model does not exist
 import com.bumptech.glide.load.model.GlideUrl;
                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:36: error: package okhttp3 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:36: error: package okhttp3 does not exist
 import okhttp3.HttpUrl;
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:37: error: package okhttp3 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:37: error: package okhttp3 does not exist
 import okhttp3.Interceptor;
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:38: error: package okhttp3 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:38: error: package okhttp3 does not exist
 import okhttp3.MediaType;
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:39: error: package okhttp3 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:39: error: package okhttp3 does not exist
 import okhttp3.OkHttpClient;
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:40: error: package okhttp3 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:40: error: package okhttp3 does not exist
 import okhttp3.Request;
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:41: error: package okhttp3 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:41: error: package okhttp3 does not exist
 import okhttp3.Response;
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:42: error: package okhttp3 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:42: error: package okhttp3 does not exist
 import okhttp3.ResponseBody;
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:43: error: package okio does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:43: error: package okio does not exist
 import okio.Buffer;
            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:44: error: package okio does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:44: error: package okio does not exist
 import okio.BufferedSource;
            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:45: error: package okio does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:45: error: package okio does not exist
 import okio.ForwardingSource;
            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:46: error: package okio does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:46: error: package okio does not exist
 import okio.Okio;
            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:47: error: package okio does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:47: error: package okio does not exist
 import okio.Source;
            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:54: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:54: error: cannot find symbol
     private static Interceptor createInterceptor(final ResponseProgressListener listener) {
                    ^
   symbol:   class Interceptor
   location: class GlideProgressSupport
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:68: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:68: error: cannot find symbol
     public static void init(Glide glide, OkHttpClient okHttpClient) {
                             ^
   symbol:   class Glide
   location: class GlideProgressSupport
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:68: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:68: error: cannot find symbol
     public static void init(Glide glide, OkHttpClient okHttpClient) {
                                          ^
   symbol:   class OkHttpClient
   location: class GlideProgressSupport
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:97: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:97: error: cannot find symbol
         void update(HttpUrl url, long bytesRead, long contentLength);
                     ^
   symbol:   class HttpUrl
   location: interface ResponseProgressListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:115: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:115: error: cannot find symbol
         public void update(HttpUrl url, final long bytesRead, final long contentLength) {
                            ^
   symbol:   class HttpUrl
   location: class DispatchingProgressListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:144: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:144: error: cannot find symbol
     private static class OkHttpProgressResponseBody extends ResponseBody {
                                                             ^
   symbol:   class ResponseBody
   location: class GlideProgressSupport
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:145: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:145: error: cannot find symbol
         private final HttpUrl mUrl;
                       ^
   symbol:   class HttpUrl
   location: class OkHttpProgressResponseBody
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:146: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:146: error: cannot find symbol
         private final ResponseBody mResponseBody;
                       ^
   symbol:   class ResponseBody
   location: class OkHttpProgressResponseBody
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:148: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:148: error: cannot find symbol
         private BufferedSource mBufferedSource;
                 ^
   symbol:   class BufferedSource
   location: class OkHttpProgressResponseBody
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:150: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:150: error: cannot find symbol
         OkHttpProgressResponseBody(HttpUrl url, ResponseBody responseBody,
                                    ^
   symbol:   class HttpUrl
   location: class OkHttpProgressResponseBody
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:150: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:150: error: cannot find symbol
         OkHttpProgressResponseBody(HttpUrl url, ResponseBody responseBody,
                                                 ^
   symbol:   class ResponseBody
   location: class OkHttpProgressResponseBody
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:158: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:158: error: cannot find symbol
         public MediaType contentType() {
                ^
   symbol:   class MediaType
   location: class OkHttpProgressResponseBody
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:168: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:168: error: cannot find symbol
         public BufferedSource source() {
                ^
   symbol:   class BufferedSource
   location: class OkHttpProgressResponseBody
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:175: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:175: error: cannot find symbol
         private Source source(Source source) {
                               ^
   symbol:   class Source
   location: class OkHttpProgressResponseBody
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:175: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideProgressSupport.java:175: error: cannot find symbol
         private Source source(Source source) {
                 ^
   symbol:   class Source
   location: class OkHttpProgressResponseBody
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:31: error: package com.bumptech.glide does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:31: error: package com.bumptech.glide does not exist
 import com.bumptech.glide.Glide;
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:32: error: package com.bumptech.glide does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:32: error: package com.bumptech.glide does not exist
 import com.bumptech.glide.RequestManager;
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:33: error: package com.bumptech.glide.request.target does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:33: error: package com.bumptech.glide.request.target does not exist
 import com.bumptech.glide.request.target.Target;
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:34: error: package com.bumptech.glide.request.transition does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:34: error: package com.bumptech.glide.request.transition does not exist
 import com.bumptech.glide.request.transition.Transition;
                                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:35: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:35: error: cannot find symbol
 import com.github.piasy.biv.loader.ImageLoader;
                                   ^
   symbol:   class ImageLoader
   location: package com.github.piasy.biv.loader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:36: error: package com.github.piasy.biv.metadata does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:36: error: package com.github.piasy.biv.metadata does not exist
 import com.github.piasy.biv.metadata.ImageInfoExtractor;
                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:41: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:41: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:42: error: package okhttp3 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:42: error: package okhttp3 does not exist
 import okhttp3.OkHttpClient;
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:48: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:48: error: cannot find symbol
 public class GlideImageLoader implements ImageLoader {
                                          ^
   symbol: class ImageLoader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:49: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:49: error: cannot find symbol
     protected final RequestManager mRequestManager;
                     ^
   symbol:   class RequestManager
   location: class GlideImageLoader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:29: error: package com.bumptech.glide.request does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:29: error: package com.bumptech.glide.request does not exist
 import com.bumptech.glide.request.Request;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:30: error: package com.bumptech.glide.request.target does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:30: error: package com.bumptech.glide.request.target does not exist
 import com.bumptech.glide.request.target.SizeReadyCallback;
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:31: error: package com.bumptech.glide.request.target does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:31: error: package com.bumptech.glide.request.target does not exist
 import com.bumptech.glide.request.target.Target;
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:32: error: package com.bumptech.glide.request.transition does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:32: error: package com.bumptech.glide.request.transition does not exist
 import com.bumptech.glide.request.transition.Transition;
                                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:33: error: package com.bumptech.glide.util does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:33: error: package com.bumptech.glide.util does not exist
 import com.bumptech.glide.util.Util;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:37: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:37: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:38: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:44: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:44: error: cannot find symbol
 public abstract class ImageDownloadTarget implements Target<File>,
                                                      ^
   symbol: class Target
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:54: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:54: error: cannot find symbol
     protected GlideImageLoader(Context context, OkHttpClient okHttpClient) {
                                                 ^
   symbol:   class OkHttpClient
   location: class GlideImageLoader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:63: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:63: error: cannot find symbol
     public static GlideImageLoader with(Context context, OkHttpClient okHttpClient) {
                                                          ^
   symbol:   class OkHttpClient
   location: class GlideImageLoader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:68: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:68: error: cannot find symbol
     public void loadImage(final int requestId, final Uri uri, final Callback callback) {
                                                                     ^
   symbol:   class Callback
   location: class GlideImageLoader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:106: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideImageLoader.java:106: error: cannot find symbol
     protected void downloadImageInto(Uri uri, Target<File> target) {
                                               ^
   symbol:   class Target
   location: class GlideImageLoader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:47: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:47: error: cannot find symbol
     private Request request;
             ^
   symbol:   class Request
   location: class ImageDownloadTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:65: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:65: error: cannot find symbol
     public void onResourceReady(@NonNull File resource, Transition<? super File> transition) {
                                                         ^
   symbol:   class Transition
   location: class ImageDownloadTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:90: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:90: error: cannot find symbol
     public final void getSize(@NonNull SizeReadyCallback cb) {
                                        ^
   symbol:   class SizeReadyCallback
   location: class ImageDownloadTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:101: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:101: error: cannot find symbol
     public void removeCallback(@NonNull SizeReadyCallback cb) {
                                         ^
   symbol:   class SizeReadyCallback
   location: class ImageDownloadTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:106: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:106: error: cannot find symbol
     public void setRequest(@Nullable Request request) {
                                      ^
   symbol:   class Request
   location: class ImageDownloadTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:112: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:112: error: cannot find symbol
     public Request getRequest() {
            ^
   symbol:   class Request
   location: class ImageDownloadTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:5: error: package com.bumptech.glide.request does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:5: error: package com.bumptech.glide.request does not exist
 import com.bumptech.glide.request.Request;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:6: error: package com.bumptech.glide.request.target does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:6: error: package com.bumptech.glide.request.target does not exist
 import com.bumptech.glide.request.target.SizeReadyCallback;
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:7: error: package com.bumptech.glide.request.target does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:7: error: package com.bumptech.glide.request.target does not exist
 import com.bumptech.glide.request.target.Target;
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:8: error: package com.bumptech.glide.request.transition does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:8: error: package com.bumptech.glide.request.transition does not exist
 import com.bumptech.glide.request.transition.Transition;
                                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:9: error: package com.bumptech.glide.util does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:9: error: package com.bumptech.glide.util does not exist
 import com.bumptech.glide.util.Util;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:13: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:13: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:14: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:14: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:16: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:16: error: cannot find symbol
 public class PrefetchTarget implements Target<File> {
                                        ^
   symbol: class Target
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:21: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:21: error: cannot find symbol
     private Request request;
             ^
   symbol:   class Request
   location: class PrefetchTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:35: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:35: error: cannot find symbol
     public void onResourceReady(@NonNull File resource, @Nullable Transition<? super File> transition) {
                                                                   ^
   symbol:   class Transition
   location: class PrefetchTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:45: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:45: error: cannot find symbol
     public final void getSize(@NonNull SizeReadyCallback cb) {
                                        ^
   symbol:   class SizeReadyCallback
   location: class PrefetchTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:56: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:56: error: cannot find symbol
     public void removeCallback(@NonNull SizeReadyCallback cb) {
                                         ^
   symbol:   class SizeReadyCallback
   location: class PrefetchTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:61: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:61: error: cannot find symbol
     public void setRequest(@Nullable Request request) {
                                      ^
   symbol:   class Request
   location: class PrefetchTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:67: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:67: error: cannot find symbol
     public Request getRequest() {
            ^
   symbol:   class Request
   location: class PrefetchTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideCustomImageLoader.java:6: error: package com.bumptech.glide.request.target does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideCustomImageLoader.java:6: error: package com.bumptech.glide.request.target does not exist
 import com.bumptech.glide.request.target.Target;
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideCustomImageLoader.java:10: error: package okhttp3 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideCustomImageLoader.java:10: error: package okhttp3 does not exist
 import okhttp3.OkHttpClient;
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideCustomImageLoader.java:15: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideCustomImageLoader.java:15: error: cannot find symbol
   private GlideCustomImageLoader(Context context, OkHttpClient okHttpClient,
                                                   ^
   symbol:   class OkHttpClient
   location: class GlideCustomImageLoader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideCustomImageLoader.java:25: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideCustomImageLoader.java:25: error: cannot find symbol
   public static GlideCustomImageLoader with(Context context, OkHttpClient okHttpClient, Class<? extends GlideModel> glideModel) {
                                                              ^
   symbol:   class OkHttpClient
   location: class GlideCustomImageLoader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideCustomImageLoader.java:30: error: cannot find symbol
-100 warnings
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/GlideCustomImageLoader.java:30: error: cannot find symbol
   protected void downloadImageInto(Uri uri, Target<File> target) {
                                             ^
   symbol:   class Target
   location: class GlideCustomImageLoader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:65: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:65: error: cannot find symbol
     public void onResourceReady(@NonNull File resource, Transition<? super File> transition) {
                                  ^
   symbol:   class NonNull
   location: class ImageDownloadTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:90: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:90: error: cannot find symbol
     public final void getSize(@NonNull SizeReadyCallback cb) {
                                ^
   symbol:   class NonNull
   location: class ImageDownloadTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:101: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:101: error: cannot find symbol
     public void removeCallback(@NonNull SizeReadyCallback cb) {
                                 ^
   symbol:   class NonNull
   location: class ImageDownloadTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:106: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:106: error: cannot find symbol
     public void setRequest(@Nullable Request request) {
                             ^
   symbol:   class Nullable
   location: class ImageDownloadTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:111: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/ImageDownloadTarget.java:111: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class ImageDownloadTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:35: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:35: error: cannot find symbol
     public void onResourceReady(@NonNull File resource, @Nullable Transition<? super File> transition) {
                                  ^
   symbol:   class NonNull
   location: class PrefetchTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:35: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:35: error: cannot find symbol
     public void onResourceReady(@NonNull File resource, @Nullable Transition<? super File> transition) {
                                                          ^
   symbol:   class Nullable
   location: class PrefetchTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:45: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:45: error: cannot find symbol
     public final void getSize(@NonNull SizeReadyCallback cb) {
                                ^
   symbol:   class NonNull
   location: class PrefetchTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:56: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:56: error: cannot find symbol
     public void removeCallback(@NonNull SizeReadyCallback cb) {
                                 ^
   symbol:   class NonNull
   location: class PrefetchTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:61: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:61: error: cannot find symbol
     public void setRequest(@Nullable Request request) {
                             ^
   symbol:   class Nullable
   location: class PrefetchTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:66: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:66: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class PrefetchTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:72: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:72: error: cannot find symbol
     public void onLoadCleared(@Nullable Drawable placeholder) {
                                ^
   symbol:   class Nullable
   location: class PrefetchTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:77: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:77: error: cannot find symbol
     public void onLoadStarted(@Nullable Drawable placeholder) {
                                ^
   symbol:   class Nullable
   location: class PrefetchTarget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:82: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageLoader/src/main/java/com/github/piasy/biv/loader/glide/PrefetchTarget.java:82: error: cannot find symbol
     public void onLoadFailed(@Nullable Drawable errorDrawable) {
                               ^
   symbol:   class Nullable
@@ -1276,6 +1275,7 @@ javadoc: warning - Class Nullable not found.
 javadoc: warning - Class Nullable not found.
 javadoc: warning - Class Nullable not found.
 javadoc: warning - Class Nullable not found.
+100 warnings
 
 > Task :GlideImageLoader:mergeReleaseResources
 > Task :GlideImageLoader:verifyReleaseResources
@@ -1292,17 +1292,17 @@ See https://docs.gradle.org/5.2/userguide/command_line_interface.html#sec:comman
 BUILD SUCCESSFUL in 10s
 66 actionable tasks: 47 executed, 19 up-to-date
 
-2019-05-30 13:41:03,421 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-30 13:41:03,421 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageViewFactory/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-30 13:41:10,460 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-05-30 13:41:10,460 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-30 13:41:10,460 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageViewFactory/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-30 13:41:22,524 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-17 12:24:24,941 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 12:24:24,941 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageViewFactory/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 12:24:31,459 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-06-17 12:24:31,459 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-06-17 12:24:31,460 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageViewFactory/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-06-17 12:24:40,786 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :BigImageViewer:preBuild UP-TO-DATE
 > Task :BigImageViewer:preDebugBuild UP-TO-DATE
 > Task :GlideImageViewFactory:preBuild UP-TO-DATE
-> Task :BigImageViewer:compileDebugAidl NO-SOURCE
 > Task :GlideImageViewFactory:preDebugBuild UP-TO-DATE
+> Task :BigImageViewer:compileDebugAidl NO-SOURCE
 > Task :BigImageViewer:checkDebugManifest UP-TO-DATE
 > Task :BigImageViewer:compileDebugRenderscript NO-SOURCE
 > Task :BigImageViewer:generateDebugBuildConfig UP-TO-DATE
@@ -1322,6 +1322,15 @@ BUILD SUCCESSFUL in 10s
 > Task :GlideImageViewFactory:generateDebugResValues
 > Task :GlideImageViewFactory:processDebugManifest
 > Task :GlideImageViewFactory:prepareLintJar
+> Task :GlideImageViewFactory:compileDebugAidl NO-SOURCE
+> Task :GlideImageViewFactory:compileDebugRenderscript NO-SOURCE
+> Task :GlideImageViewFactory:generateDebugResources
+> Task :GlideImageViewFactory:packageDebugResources
+> Task :GlideImageViewFactory:generateDebugRFile
+> Task :GlideImageViewFactory:generateDebugSources
+> Task :GlideImageViewFactory:javaPreCompileDebug
+> Task :GlideImageViewFactory:compileDebugJavaWithJavac
+> Task :GlideImageViewFactory:extractDebugAnnotations
 > Task :GlideImageViewFactory:mergeDebugConsumerProguardFiles
 > Task :GlideImageViewFactory:mergeDebugShaders
 > Task :GlideImageViewFactory:compileDebugShaders
@@ -1330,13 +1339,19 @@ BUILD SUCCESSFUL in 10s
 > Task :GlideImageViewFactory:packageDebugRenderscript NO-SOURCE
 > Task :GlideImageViewFactory:prepareLintJarForPublish
 > Task :GlideImageViewFactory:processDebugJavaRes NO-SOURCE
+> Task :GlideImageViewFactory:transformResourcesWithMergeJavaResForDebug
+> Task :GlideImageViewFactory:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :GlideImageViewFactory:mergeDebugJniLibFolders
 > Task :GlideImageViewFactory:transformNativeLibsWithMergeJniLibsForDebug
 > Task :GlideImageViewFactory:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :GlideImageViewFactory:transformNativeLibsWithSyncJniLibsForDebug
+> Task :GlideImageViewFactory:bundleDebugAar
+> Task :GlideImageViewFactory:compileDebugSources
+> Task :GlideImageViewFactory:assembleDebug
 > Task :BigImageViewer:preReleaseBuild UP-TO-DATE
 > Task :BigImageViewer:compileReleaseAidl NO-SOURCE
 > Task :GlideImageViewFactory:preReleaseBuild UP-TO-DATE
+> Task :GlideImageViewFactory:compileReleaseAidl NO-SOURCE
 > Task :BigImageViewer:compileReleaseRenderscript NO-SOURCE
 > Task :BigImageViewer:checkReleaseManifest UP-TO-DATE
 > Task :BigImageViewer:generateReleaseBuildConfig UP-TO-DATE
@@ -1350,10 +1365,18 @@ BUILD SUCCESSFUL in 10s
 > Task :BigImageViewer:compileReleaseJavaWithJavac UP-TO-DATE
 > Task :BigImageViewer:bundleLibCompileRelease UP-TO-DATE
 > Task :BigImageViewer:packageReleaseRenderscript NO-SOURCE
+> Task :GlideImageViewFactory:compileReleaseRenderscript NO-SOURCE
 > Task :GlideImageViewFactory:checkReleaseManifest
 > Task :GlideImageViewFactory:generateReleaseBuildConfig
 > Task :GlideImageViewFactory:generateReleaseResValues
+> Task :GlideImageViewFactory:generateReleaseResources
+> Task :GlideImageViewFactory:packageReleaseResources
 > Task :GlideImageViewFactory:processReleaseManifest
+> Task :GlideImageViewFactory:generateReleaseRFile
+> Task :GlideImageViewFactory:generateReleaseSources
+> Task :GlideImageViewFactory:javaPreCompileRelease
+> Task :GlideImageViewFactory:compileReleaseJavaWithJavac
+> Task :GlideImageViewFactory:extractReleaseAnnotations
 > Task :GlideImageViewFactory:mergeReleaseConsumerProguardFiles
 > Task :GlideImageViewFactory:mergeReleaseShaders
 > Task :GlideImageViewFactory:compileReleaseShaders
@@ -1361,59 +1384,36 @@ BUILD SUCCESSFUL in 10s
 > Task :GlideImageViewFactory:packageReleaseAssets
 > Task :GlideImageViewFactory:packageReleaseRenderscript NO-SOURCE
 > Task :GlideImageViewFactory:processReleaseJavaRes NO-SOURCE
+> Task :GlideImageViewFactory:transformResourcesWithMergeJavaResForRelease
+> Task :GlideImageViewFactory:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :GlideImageViewFactory:mergeReleaseJniLibFolders
 > Task :GlideImageViewFactory:transformNativeLibsWithMergeJniLibsForRelease
 > Task :GlideImageViewFactory:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :GlideImageViewFactory:transformNativeLibsWithSyncJniLibsForRelease
+> Task :GlideImageViewFactory:bundleReleaseAar
+> Task :GlideImageViewFactory:compileReleaseSources
 
 > Task :GlideImageViewFactory:javadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageViewFactory/src/main/java/com/github/piasy/biv/view/GlideImageViewFactory.java:31: error: package com.bumptech.glide does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageViewFactory/src/main/java/com/github/piasy/biv/view/GlideImageViewFactory.java:31: error: package com.bumptech.glide does not exist
 import com.bumptech.glide.Glide;
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageViewFactory/src/main/java/com/github/piasy/biv/view/GlideImageViewFactory.java:32: error: package com.github.piasy.biv.metadata does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageViewFactory/src/main/java/com/github/piasy/biv/view/GlideImageViewFactory.java:32: error: package com.github.piasy.biv.metadata does not exist
 import com.github.piasy.biv.metadata.ImageInfoExtractor;
                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageViewFactory/src/main/java/com/github/piasy/biv/view/GlideImageViewFactory.java:34: error: package pl.droidsonroids.gif does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageViewFactory/src/main/java/com/github/piasy/biv/view/GlideImageViewFactory.java:34: error: package pl.droidsonroids.gif does not exist
 import pl.droidsonroids.gif.GifImageView;
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/GlideImageViewFactory/src/main/java/com/github/piasy/biv/view/GlideImageViewFactory.java:39: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/GlideImageViewFactory/src/main/java/com/github/piasy/biv/view/GlideImageViewFactory.java:39: error: cannot find symbol
 public class GlideImageViewFactory extends ImageViewFactory {
                                            ^
   symbol: class ImageViewFactory
 4 warnings
 
-> Task :GlideImageViewFactory:javadocJar
-> Task :GlideImageViewFactory:sourcesJar
-> Task :GlideImageViewFactory:compileDebugAidl NO-SOURCE
-> Task :GlideImageViewFactory:compileDebugRenderscript NO-SOURCE
-> Task :GlideImageViewFactory:generateDebugResources
-> Task :GlideImageViewFactory:packageDebugResources
-> Task :GlideImageViewFactory:generateDebugRFile
-> Task :GlideImageViewFactory:generateDebugSources
-> Task :GlideImageViewFactory:javaPreCompileDebug
-> Task :GlideImageViewFactory:compileDebugJavaWithJavac
-> Task :GlideImageViewFactory:extractDebugAnnotations
-> Task :GlideImageViewFactory:transformResourcesWithMergeJavaResForDebug
-> Task :GlideImageViewFactory:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :GlideImageViewFactory:bundleDebugAar
-> Task :GlideImageViewFactory:compileDebugSources
-> Task :GlideImageViewFactory:assembleDebug
-> Task :GlideImageViewFactory:compileReleaseAidl NO-SOURCE
-> Task :GlideImageViewFactory:compileReleaseRenderscript NO-SOURCE
-> Task :GlideImageViewFactory:generateReleaseResources
-> Task :GlideImageViewFactory:packageReleaseResources
-> Task :GlideImageViewFactory:generateReleaseRFile
-> Task :GlideImageViewFactory:generateReleaseSources
-> Task :GlideImageViewFactory:javaPreCompileRelease
-> Task :GlideImageViewFactory:compileReleaseJavaWithJavac
-> Task :GlideImageViewFactory:extractReleaseAnnotations
-> Task :GlideImageViewFactory:transformResourcesWithMergeJavaResForRelease
-> Task :GlideImageViewFactory:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :GlideImageViewFactory:bundleReleaseAar
-> Task :GlideImageViewFactory:compileReleaseSources
 > Task :GlideImageViewFactory:mergeReleaseResources
 > Task :GlideImageViewFactory:verifyReleaseResources
 > Task :GlideImageViewFactory:assembleRelease
+> Task :GlideImageViewFactory:javadocJar
+> Task :GlideImageViewFactory:sourcesJar
 > Task :GlideImageViewFactory:assemble
 > Task :GlideImageViewFactory:build
 
@@ -1421,15 +1421,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 9s
 66 actionable tasks: 47 executed, 19 up-to-date
 
-2019-05-30 13:41:22,594 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-30 13:41:22,594 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/ProgressPieIndicator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-30 13:41:29,807 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-05-30 13:41:29,807 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-30 13:41:29,807 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/ProgressPieIndicator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-30 13:41:40,665 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-17 12:24:40,845 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 12:24:40,846 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/ProgressPieIndicator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 12:24:47,351 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-06-17 12:24:47,351 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-06-17 12:24:47,351 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/ProgressPieIndicator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-06-17 12:24:57,002 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :BigImageViewer:preBuild UP-TO-DATE
 > Task :BigImageViewer:preDebugBuild UP-TO-DATE
 > Task :ProgressPieIndicator:preBuild UP-TO-DATE
@@ -1440,19 +1440,19 @@ BUILD SUCCESSFUL in 11s
 > Task :BigImageViewer:generateDebugBuildConfig UP-TO-DATE
 > Task :BigImageViewer:generateDebugResValues UP-TO-DATE
 > Task :BigImageViewer:generateDebugResources UP-TO-DATE
-> Task :BigImageViewer:processDebugManifest UP-TO-DATE
 > Task :BigImageViewer:packageDebugResources UP-TO-DATE
+> Task :BigImageViewer:processDebugManifest UP-TO-DATE
 > Task :BigImageViewer:generateDebugRFile UP-TO-DATE
 > Task :BigImageViewer:prepareLintJar UP-TO-DATE
 > Task :BigImageViewer:generateDebugSources UP-TO-DATE
+> Task :ProgressPieIndicator:compileDebugAidl NO-SOURCE
 > Task :BigImageViewer:javaPreCompileDebug UP-TO-DATE
 > Task :BigImageViewer:compileDebugJavaWithJavac UP-TO-DATE
 > Task :BigImageViewer:bundleLibCompileDebug UP-TO-DATE
 > Task :BigImageViewer:packageDebugRenderscript NO-SOURCE
 > Task :ProgressPieIndicator:checkDebugManifest
-> Task :ProgressPieIndicator:generateDebugBuildConfig
-> Task :ProgressPieIndicator:compileDebugAidl NO-SOURCE
 > Task :ProgressPieIndicator:compileDebugRenderscript NO-SOURCE
+> Task :ProgressPieIndicator:generateDebugBuildConfig
 > Task :ProgressPieIndicator:generateDebugResValues
 > Task :ProgressPieIndicator:generateDebugResources
 > Task :ProgressPieIndicator:packageDebugResources
@@ -1526,27 +1526,27 @@ BUILD SUCCESSFUL in 11s
 > Task :ProgressPieIndicator:compileReleaseSources
 
 > Task :ProgressPieIndicator:javadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/ProgressPieIndicator/src/main/java/com/github/piasy/biv/indicator/progresspie/ProgressPieIndicator.java:29: error: package com.filippudak.ProgressPieView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/ProgressPieIndicator/src/main/java/com/github/piasy/biv/indicator/progresspie/ProgressPieIndicator.java:29: error: package com.filippudak.ProgressPieView does not exist
 import com.filippudak.ProgressPieView.ProgressPieView;
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/ProgressPieIndicator/src/main/java/com/github/piasy/biv/indicator/progresspie/ProgressPieIndicator.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/ProgressPieIndicator/src/main/java/com/github/piasy/biv/indicator/progresspie/ProgressPieIndicator.java:30: error: cannot find symbol
 import com.github.piasy.biv.indicator.ProgressIndicator;
                                      ^
   symbol:   class ProgressIndicator
   location: package com.github.piasy.biv.indicator
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/ProgressPieIndicator/src/main/java/com/github/piasy/biv/indicator/progresspie/ProgressPieIndicator.java:31: error: package com.github.piasy.biv.view does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/ProgressPieIndicator/src/main/java/com/github/piasy/biv/indicator/progresspie/ProgressPieIndicator.java:31: error: package com.github.piasy.biv.view does not exist
 import com.github.piasy.biv.view.BigImageView;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/ProgressPieIndicator/src/main/java/com/github/piasy/biv/indicator/progresspie/ProgressPieIndicator.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/ProgressPieIndicator/src/main/java/com/github/piasy/biv/indicator/progresspie/ProgressPieIndicator.java:38: error: cannot find symbol
 public class ProgressPieIndicator implements ProgressIndicator {
                                              ^
   symbol: class ProgressIndicator
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/ProgressPieIndicator/src/main/java/com/github/piasy/biv/indicator/progresspie/ProgressPieIndicator.java:39: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/ProgressPieIndicator/src/main/java/com/github/piasy/biv/indicator/progresspie/ProgressPieIndicator.java:39: error: cannot find symbol
     private ProgressPieView mProgressPieView;
             ^
   symbol:   class ProgressPieView
   location: class ProgressPieIndicator
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/ProgressPieIndicator/src/main/java/com/github/piasy/biv/indicator/progresspie/ProgressPieIndicator.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/ProgressPieIndicator/src/main/java/com/github/piasy/biv/indicator/progresspie/ProgressPieIndicator.java:42: error: cannot find symbol
     public View getView(BigImageView parent) {
                         ^
   symbol:   class BigImageView
@@ -1565,15 +1565,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 10s
+BUILD SUCCESSFUL in 9s
 66 actionable tasks: 47 executed, 19 up-to-date
 
-2019-05-30 13:41:40,740 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-30 13:41:40,740 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-30 13:41:47,246 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-05-30 13:41:47,246 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-30 13:41:47,246 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-30 13:42:55,597 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-17 12:24:57,078 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 12:24:57,078 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 12:25:03,032 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-06-17 12:25:03,032 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-17 12:25:03,033 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-17 12:25:56,514 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :BigImageViewer:preBuild UP-TO-DATE
 > Task :BigImageViewer:preDebugBuild UP-TO-DATE
@@ -1599,19 +1599,25 @@ BUILD SUCCESSFUL in 10s
 > Task :ProgressPieIndicator:preDebugBuild UP-TO-DATE
 > Task :ProgressPieIndicator:checkDebugManifest UP-TO-DATE
 > Task :ProgressPieIndicator:processDebugManifest UP-TO-DATE
+> Task :app:preDebugBuild
 > Task :BigImageViewer:compileDebugAidl NO-SOURCE
 > Task :FrescoImageLoader:compileDebugAidl NO-SOURCE
 > Task :FrescoImageViewFactory:compileDebugAidl NO-SOURCE
 > Task :GlideImageLoader:compileDebugAidl NO-SOURCE
 > Task :GlideImageViewFactory:compileDebugAidl NO-SOURCE
 > Task :ProgressPieIndicator:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
 > Task :BigImageViewer:packageDebugRenderscript NO-SOURCE
 > Task :FrescoImageLoader:packageDebugRenderscript NO-SOURCE
 > Task :FrescoImageViewFactory:packageDebugRenderscript NO-SOURCE
 > Task :GlideImageLoader:packageDebugRenderscript NO-SOURCE
 > Task :GlideImageViewFactory:packageDebugRenderscript NO-SOURCE
 > Task :ProgressPieIndicator:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
 > Task :app:prepareLintJar
+> Task :app:generateDebugSources
 > Task :BigImageViewer:compileDebugRenderscript NO-SOURCE
 > Task :BigImageViewer:generateDebugBuildConfig UP-TO-DATE
 > Task :BigImageViewer:generateDebugResValues UP-TO-DATE
@@ -1678,6 +1684,24 @@ BUILD SUCCESSFUL in 10s
 > Task :ProgressPieIndicator:javaPreCompileDebug UP-TO-DATE
 > Task :ProgressPieIndicator:compileDebugJavaWithJavac UP-TO-DATE
 > Task :ProgressPieIndicator:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+Note: [1] Wrote GeneratedAppGlideModule with: [com.bumptech.glide.integration.okhttp3.OkHttpLibraryGlideModule]
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/src/main/java/com/github/piasy/biv/example/glide/CustomImageSizeUrlLoaderFactory.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
 > Task :BigImageViewer:mergeDebugShaders UP-TO-DATE
 > Task :BigImageViewer:compileDebugShaders UP-TO-DATE
 > Task :BigImageViewer:generateDebugAssets UP-TO-DATE
@@ -1702,6 +1726,7 @@ BUILD SUCCESSFUL in 10s
 > Task :ProgressPieIndicator:compileDebugShaders UP-TO-DATE
 > Task :ProgressPieIndicator:generateDebugAssets UP-TO-DATE
 > Task :ProgressPieIndicator:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
 > Task :BigImageViewer:processDebugJavaRes NO-SOURCE
 > Task :BigImageViewer:bundleLibResDebug
 > Task :BigImageViewer:bundleLibRuntimeDebug
@@ -1726,31 +1751,6 @@ BUILD SUCCESSFUL in 10s
 > Task :FrescoImageLoader:bundleLibResDebug
 > Task :FrescoImageLoader:bundleLibRuntimeDebug
 > Task :FrescoImageLoader:createFullJarDebug
-> Task :app:preDebugBuild
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:checkDebugManifest
-> Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:generateDebugBuildConfig
-> Task :app:generateDebugSources
-> Task :app:javaPreCompileDebug
-> Task :app:mainApkListPersistenceDebug
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :app:mergeDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :app:processDebugResources
-
-> Task :app:compileDebugJavaWithJavac
-Note: [1] Wrote GeneratedAppGlideModule with: [com.bumptech.glide.integration.okhttp3.OkHttpLibraryGlideModule]
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/src/main/java/com/github/piasy/biv/example/glide/CustomImageSizeUrlLoaderFactory.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-> Task :app:compileDebugSources
-> Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
-> Task :app:mergeDebugAssets
 > Task :app:checkDebugDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
@@ -1783,13 +1783,13 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:transformNativeLibsWithMergeJniLibsForDebug
 
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libgpuimage-library.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librgb-yuv-converter-library.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips64/libgpuimage-library.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips64/librgb-yuv-converter-library.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libgpuimage-library.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/librgb-yuv-converter-library.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libgpuimage-library.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librgb-yuv-converter-library.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips64/libgpuimage-library.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips64/librgb-yuv-converter-library.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libgpuimage-library.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/librgb-yuv-converter-library.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForDebug
@@ -1905,7 +1905,7 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 
 > Task :app:compileReleaseJavaWithJavac
 Note: [1] Wrote GeneratedAppGlideModule with: [com.bumptech.glide.integration.okhttp3.OkHttpLibraryGlideModule]
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/src/main/java/com/github/piasy/biv/example/glide/CustomImageSizeUrlLoaderFactory.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/src/main/java/com/github/piasy/biv/example/glide/CustomImageSizeUrlLoaderFactory.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :app:compileReleaseSources
@@ -1975,6 +1975,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :GlideImageViewFactory:mergeReleaseConsumerProguardFiles UP-TO-DATE
 > Task :ProgressPieIndicator:bundleLibRuntimeRelease
 > Task :ProgressPieIndicator:mergeReleaseConsumerProguardFiles UP-TO-DATE
+D8: The rule `-keep public class * extends androidx.versionedparcelable.VersionedParcelable {
+  <init>();
+}` uses extends but actually matches implements.
 
 > Task :app:transformClassesAndResourcesWithR8ForRelease
 R8 is the new Android code shrinker. If you experience any issues, please file a bug at
@@ -1982,12 +1985,6 @@ https://issuetracker.google.com, using 'Shrinker (R8)' as component name. You ca
 disable R8 by updating gradle.properties with 'android.enableR8=false'.
 Current version is: 1.4.77 (build b74371231cb896b02f83285efb055b7c00ff64d8 from go/r8bot (luci-r8-ci-archive-0-eqqf)).
 
-
-D8: The rule `-keep public class * extends androidx.versionedparcelable.VersionedParcelable {
-  <init>();
-}` uses extends but actually matches implements.
-
-> Task :app:transformClassesAndResourcesWithR8ForRelease
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/2.0.4/4dbe9405e87aa52687c692740253c0ef93dbad9b/haha-2.0.4.jar: D8: Invalid signature 'Lcom/squareup/haha/guava/collect/AbstractMultimap<TK;TV;>.com/squareup/haha/guava/collect/AbstractMultimap$Entries;Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;' for class com.squareup.haha.guava.collect.AbstractMultimap$EntrySet.
 Signature is ignored and will not be present in the output.
 Parser error: Expected ; at position 62
@@ -2099,13 +2096,13 @@ Removed unused resources: Binary resource data reduced from 735KB to 732KB: Remo
 > Task :app:transformNativeLibsWithMergeJniLibsForRelease
 
 > Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libgpuimage-library.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librgb-yuv-converter-library.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips64/libgpuimage-library.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips64/librgb-yuv-converter-library.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libgpuimage-library.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/librgb-yuv-converter-library.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libgpuimage-library.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librgb-yuv-converter-library.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips64/libgpuimage-library.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips64/librgb-yuv-converter-library.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libgpuimage-library.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/librgb-yuv-converter-library.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 
 > Task :app:packageRelease
 > Task :app:assembleRelease
@@ -2116,7 +2113,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 7s
+BUILD SUCCESSFUL in 53s
 291 actionable tasks: 103 executed, 188 up-to-date
 
-2019-05-30 13:42:55,883 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559198366806-0/src/BigImageViewer-master/app/build/outputs/apk/debug/app-debug.apk
+2019-06-17 12:25:56,670 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560748982104-0/src/BigImageViewer-master/app/build/outputs/apk/debug/app-debug.apk
