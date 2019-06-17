@@ -1,36 +1,36 @@
-2019-06-14 13:28:56,079 INFO  DownloadService - Downloading "https://github.com/aykuttasil/CallRecorder/archive/master.zip", attempt 3
-2019-06-14 13:28:57,887 INFO  DownloadService - Downloaded https://github.com/aykuttasil/CallRecorder/archive/master.zip, attempt 3
-2019-06-14 13:28:57,887 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/master.zip": 131 KB
-2019-06-14 13:28:57,887 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-14 13:28:57,892 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/master.zip: true
-2019-06-14 13:28:57,893 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src'.
-2019-06-14 13:28:57,914 INFO  FullProcessService - Size of directory with sources: 181 KB
-2019-06-14 13:28:57,914 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src]
-2019-06-14 13:28:57,940 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/.git/
+2019-06-17 21:34:11,391 INFO  DownloadService - Downloading "https://github.com/aykuttasil/CallRecorder/archive/master.zip", attempt 3
+2019-06-17 21:34:14,457 INFO  DownloadService - Downloaded https://github.com/aykuttasil/CallRecorder/archive/master.zip, attempt 3
+2019-06-17 21:34:14,458 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/master.zip": 131 KB
+2019-06-17 21:34:14,458 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-17 21:34:14,463 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/master.zip: true
+2019-06-17 21:34:14,463 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src'.
+2019-06-17 21:34:14,482 INFO  FullProcessService - Size of directory with sources: 181 KB
+2019-06-17 21:34:14,482 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src]
+2019-06-17 21:34:14,505 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/.git/
 
-2019-06-14 13:28:57,944 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/gradlew
-2019-06-14 13:28:57,948 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/build.gradle
-2019-06-14 13:28:57,952 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/settings.gradle
-2019-06-14 13:28:57,952 INFO  ProjectBuildService - Remote scripts: none
-2019-06-14 13:28:57,952 INFO  ProjectFixService - Fixing project...
-2019-06-14 13:28:57,963 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/app/local.properties
-2019-06-14 13:28:57,966 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=17,targetSdkVersion=<null>]
-2019-06-14 13:28:57,967 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-06-14 13:28:57,968 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/local.properties
-2019-06-14 13:28:57,971 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=17,targetSdkVersion=<null>]
-2019-06-14 13:28:57,971 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-06-14 13:28:57,973 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/local.properties
-2019-06-14 13:28:57,974 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-06-14 13:28:57,975 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-06-14 13:28:57,978 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=17,targetSdkVersion=<null>]
-2019-06-14 13:28:57,978 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-06-14 13:28:57,979 INFO  ProjectFixService - Project was maybe fixed
-2019-06-14 13:28:57,979 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-14 13:28:57,979 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-14 13:29:08,201 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-06-14 13:29:08,201 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-06-14 13:29:08,201 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-06-14 13:29:55,669 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-17 21:34:14,507 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/gradlew
+2019-06-17 21:34:14,511 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/build.gradle
+2019-06-17 21:34:14,513 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/settings.gradle
+2019-06-17 21:34:14,514 INFO  ProjectBuildService - Remote scripts: none
+2019-06-17 21:34:14,514 INFO  ProjectFixService - Fixing project...
+2019-06-17 21:34:14,520 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/app/local.properties
+2019-06-17 21:34:14,521 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=17,targetSdkVersion=<null>]
+2019-06-17 21:34:14,521 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-06-17 21:34:14,522 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/local.properties
+2019-06-17 21:34:14,523 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=17,targetSdkVersion=<null>]
+2019-06-17 21:34:14,523 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-06-17 21:34:14,524 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/local.properties
+2019-06-17 21:34:14,524 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-06-17 21:34:14,524 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-06-17 21:34:14,526 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=17,targetSdkVersion=<null>]
+2019-06-17 21:34:14,526 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-06-17 21:34:14,526 INFO  ProjectFixService - Project was maybe fixed
+2019-06-17 21:34:14,526 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 21:34:14,526 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 21:34:22,636 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-17 21:34:22,636 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-17 21:34:22,637 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-17 21:34:58,425 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :callrecord
 WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
@@ -43,44 +43,44 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :callrecord:preDebugBuild UP-TO-DATE
 > Task :callrecord:checkDebugManifest
 > Task :callrecord:processDebugManifest
-> Task :callrecord:packageDebugRenderscript NO-SOURCE
-> Task :app:prepareLintJar
-> Task :callrecord:generateDebugBuildConfig
 > Task :callrecord:compileDebugAidl NO-SOURCE
 > Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :callrecord:packageDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:prepareLintJar
 > Task :app:generateDebugSources
+> Task :callrecord:generateDebugBuildConfig
 > Task :callrecord:compileDebugRenderscript NO-SOURCE
 > Task :callrecord:generateDebugResValues
 > Task :callrecord:generateDebugResources
-> Task :callrecord:prepareLintJar
-> Task :callrecord:generateDebugSources
-> Task :app:mainApkListPersistenceDebug
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
 > Task :callrecord:packageDebugResources
 > Task :callrecord:generateDebugRFile
 
 > Task :callrecord:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/helper/LogUtils.kt: (28, 33): Parameter 'message' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/helper/LogUtils.kt: (43, 37): Parameter 'message' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (49, 38): Parameter 'context' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (49, 56): Parameter 'callRecord' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (49, 80): Parameter 'audioFile' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (51, 39): Parameter 'context' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (51, 57): Parameter 'callRecord' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (51, 81): Parameter 'audioFile' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/helper/LogUtils.kt: (28, 33): Parameter 'message' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/helper/LogUtils.kt: (43, 37): Parameter 'message' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (49, 38): Parameter 'context' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (49, 56): Parameter 'callRecord' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (49, 80): Parameter 'audioFile' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (51, 39): Parameter 'context' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (51, 57): Parameter 'callRecord' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (51, 81): Parameter 'audioFile' is never used
 
+> Task :callrecord:prepareLintJar
+> Task :callrecord:generateDebugSources
 > Task :callrecord:javaPreCompileDebug
 > Task :callrecord:compileDebugJavaWithJavac
 > Task :callrecord:bundleLibCompileDebug
 > Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests
 > Task :app:mergeDebugResources
+> Task :app:processDebugManifest
 > Task :app:processDebugResources
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
@@ -100,6 +100,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :callrecord:mergeDebugJniLibFolders
 > Task :callrecord:transformNativeLibsWithMergeJniLibsForDebug
@@ -109,6 +111,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :callrecord:preReleaseBuild UP-TO-DATE
 > Task :callrecord:checkReleaseManifest
 > Task :callrecord:processReleaseManifest
@@ -128,14 +132,14 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/
 > Task :callrecord:generateReleaseRFile
 
 > Task :callrecord:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/helper/LogUtils.kt: (28, 33): Parameter 'message' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/helper/LogUtils.kt: (43, 37): Parameter 'message' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (49, 38): Parameter 'context' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (49, 56): Parameter 'callRecord' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (49, 80): Parameter 'audioFile' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (51, 39): Parameter 'context' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (51, 57): Parameter 'callRecord' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (51, 81): Parameter 'audioFile' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/helper/LogUtils.kt: (28, 33): Parameter 'message' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/helper/LogUtils.kt: (43, 37): Parameter 'message' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (49, 38): Parameter 'context' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (49, 56): Parameter 'callRecord' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (49, 80): Parameter 'audioFile' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (51, 39): Parameter 'context' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (51, 57): Parameter 'callRecord' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/callrecord/src/main/java/com/aykuttasil/callrecord/receiver/CallRecordReceiver.kt: (51, 81): Parameter 'audioFile' is never used
 
 > Task :callrecord:generateReleaseSources
 > Task :callrecord:javaPreCompileRelease
@@ -149,23 +153,18 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:processReleaseManifest
 > Task :app:processReleaseResources
-> Task :app:mergeExtDexDebug
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :callrecord:prepareLintJarForPublish
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/1b24f3ff654a596946ce6fc4e8b30a29/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
 > Task :callrecord:processReleaseJavaRes NO-SOURCE
 > Task :callrecord:bundleLibResRelease
 > Task :callrecord:bundleLibRuntimeRelease
 > Task :callrecord:createFullJarRelease
 > Task :app:checkReleaseDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -184,8 +183,6 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForRelease
-> Task :app:mergeExtDexRelease
-> Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
@@ -195,7 +192,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 46s
+BUILD SUCCESSFUL in 35s
 93 actionable tasks: 93 executed
 
-2019-06-14 13:29:55,733 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560493736075-0/src/CallRecorder-master/app/build/outputs/apk/debug/app-debug.apk
+2019-06-17 21:34:58,483 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560782051387-0/src/CallRecorder-master/app/build/outputs/apk/debug/app-debug.apk
