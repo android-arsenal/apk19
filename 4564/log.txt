@@ -1,36 +1,36 @@
-2019-07-05 20:08:39,152 INFO  DownloadService - Downloading "https://github.com/StevenDXC/DxLoadingButton/archive/master.zip", attempt 3
-2019-07-05 20:08:40,436 INFO  DownloadService - Downloaded https://github.com/StevenDXC/DxLoadingButton/archive/master.zip, attempt 3
-2019-07-05 20:08:40,436 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/master.zip": 328 KB
-2019-07-05 20:08:40,436 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-05 20:08:40,441 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/master.zip: true
-2019-07-05 20:08:40,442 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src'.
-2019-07-05 20:08:40,462 INFO  FullProcessService - Size of directory with sources: 422 KB
-2019-07-05 20:08:40,462 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src]
-2019-07-05 20:08:40,479 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/.git/
+2019-08-06 12:39:33,333 INFO  DownloadService - Downloading "https://github.com/StevenDXC/DxLoadingButton/archive/master.zip", attempt 3
+2019-08-06 12:39:34,866 INFO  DownloadService - Downloaded https://github.com/StevenDXC/DxLoadingButton/archive/master.zip, attempt 3
+2019-08-06 12:39:34,867 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/master.zip": 328 KB
+2019-08-06 12:39:34,867 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-06 12:39:34,867 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/master.zip: true
+2019-08-06 12:39:34,868 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src'.
+2019-08-06 12:39:34,890 INFO  FullProcessService - Size of directory with sources: 423 KB
+2019-08-06 12:39:34,890 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src]
+2019-08-06 12:39:34,909 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/.git/
 
-2019-07-05 20:08:40,482 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/gradlew
-2019-07-05 20:08:40,485 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/build.gradle
-2019-07-05 20:08:40,487 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/settings.gradle
-2019-07-05 20:08:40,487 INFO  ProjectBuildService - Remote scripts: none
-2019-07-05 20:08:40,487 INFO  ProjectFixService - Fixing project...
-2019-07-05 20:08:40,493 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/app/local.properties
-2019-07-05 20:08:40,494 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=27]
-2019-07-05 20:08:40,494 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=27]
-2019-07-05 20:08:40,495 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/library/local.properties
-2019-07-05 20:08:40,495 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
-2019-07-05 20:08:40,495 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
-2019-07-05 20:08:40,496 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/local.properties
-2019-07-05 20:08:40,496 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-05 20:08:40,496 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-05 20:08:40,497 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=27]
-2019-07-05 20:08:40,497 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=27]
-2019-07-05 20:08:40,498 INFO  ProjectFixService - Project was maybe fixed
-2019-07-05 20:08:40,498 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 20:08:40,498 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 20:08:46,696 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-05 20:08:46,696 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-05 20:08:46,696 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-05 20:09:36,670 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-06 12:39:34,912 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/gradlew
+2019-08-06 12:39:34,916 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/build.gradle
+2019-08-06 12:39:34,920 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/settings.gradle
+2019-08-06 12:39:34,920 INFO  ProjectBuildService - Remote scripts: none
+2019-08-06 12:39:34,920 INFO  ProjectFixService - Fixing project...
+2019-08-06 12:39:34,927 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/app/local.properties
+2019-08-06 12:39:34,928 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=27]
+2019-08-06 12:39:34,928 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=27]
+2019-08-06 12:39:34,929 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/library/local.properties
+2019-08-06 12:39:34,930 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
+2019-08-06 12:39:34,930 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
+2019-08-06 12:39:34,931 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/local.properties
+2019-08-06 12:39:34,931 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-06 12:39:34,931 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-06 12:39:34,932 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=27]
+2019-08-06 12:39:34,932 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=27]
+2019-08-06 12:39:34,932 INFO  ProjectFixService - Project was maybe fixed
+2019-08-06 12:39:34,933 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-06 12:39:34,933 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-06 12:39:41,176 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-06 12:39:41,176 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-06 12:39:41,177 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-06 12:40:36,014 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
@@ -171,7 +171,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 49s
+BUILD SUCCESSFUL in 54s
 96 actionable tasks: 96 executed
 
-2019-07-05 20:09:36,731 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562332119145-0/src/DxLoadingButton-master/app/build/outputs/apk/debug/app-debug.apk
+2019-08-06 12:40:36,082 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069973329-0/src/DxLoadingButton-master/app/build/outputs/apk/debug/app-debug.apk
