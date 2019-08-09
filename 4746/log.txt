@@ -1,38 +1,38 @@
-2019-04-13 19:47:14,435 INFO  DownloadService - Downloading "https://github.com/ww6015132/SilkySignature/archive/master.zip", attempt 3
-2019-04-13 19:47:14,939 INFO  DownloadService - Downloaded https://github.com/ww6015132/SilkySignature/archive/master.zip, attempt 3
-2019-04-13 19:47:14,940 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/master.zip": 125 KB
-2019-04-13 19:47:14,940 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-13 19:47:14,941 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/master.zip: true
-2019-04-13 19:47:14,941 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src'.
-2019-04-13 19:47:14,966 INFO  FullProcessService - Size of directory with sources: 156 KB
-2019-04-13 19:47:14,966 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src]
-2019-04-13 19:47:14,985 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/.git/
+2019-08-09 12:26:06,694 INFO  DownloadService - Downloading "https://github.com/ww6015132/SilkySignature/archive/master.zip", attempt 3
+2019-08-09 12:26:07,927 INFO  DownloadService - Downloaded https://github.com/ww6015132/SilkySignature/archive/master.zip, attempt 3
+2019-08-09 12:26:07,927 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/master.zip": 125 KB
+2019-08-09 12:26:07,927 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-09 12:26:07,933 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/master.zip: true
+2019-08-09 12:26:07,933 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src'.
+2019-08-09 12:26:07,954 INFO  FullProcessService - Size of directory with sources: 156 KB
+2019-08-09 12:26:07,955 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src]
+2019-08-09 12:26:07,972 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/.git/
 
-2019-04-13 19:47:14,989 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/gradlew
-2019-04-13 19:47:14,993 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/silky-signature/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/build.gradle
-2019-04-13 19:47:14,997 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/silky-signature/build.gradle
-2019-04-13 19:47:14,998 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-04-13 19:47:15,198 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-04-13 19:47:15,198 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-04-13 19:47:15,397 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-04-13 19:47:15,397 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-04-13 19:47:15,397 INFO  ProjectFixService - Fixing project...
-2019-04-13 19:47:15,409 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/app/local.properties
-2019-04-13 19:47:15,410 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=22]
-2019-04-13 19:47:15,410 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/silky-signature/local.properties
-2019-04-13 19:47:15,411 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/silky-signature/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
-2019-04-13 19:47:15,411 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/local.properties
-2019-04-13 19:47:15,412 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2019-04-13 19:47:15,413 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2019-04-13 19:47:15,414 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=22]
-2019-04-13 19:47:15,415 INFO  ProjectFixService - Project was maybe fixed
-2019-04-13 19:47:15,415 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-13 19:47:15,415 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-13 19:47:24,541 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-13 19:47:24,541 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-04-13 19:47:24,542 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-04-13 19:47:24,542 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-04-13 19:47:33,169 ERROR SysUtils - Could not process external command
+2019-08-09 12:26:07,976 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/gradlew
+2019-08-09 12:26:07,980 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/silky-signature/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/build.gradle
+2019-08-09 12:26:07,983 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/silky-signature/build.gradle
+2019-08-09 12:26:07,983 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-08-09 12:26:08,215 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-08-09 12:26:08,215 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-08-09 12:26:08,446 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-08-09 12:26:08,446 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-08-09 12:26:08,446 INFO  ProjectFixService - Fixing project...
+2019-08-09 12:26:08,455 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/app/local.properties
+2019-08-09 12:26:08,456 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=22]
+2019-08-09 12:26:08,456 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/silky-signature/local.properties
+2019-08-09 12:26:08,456 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/silky-signature/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
+2019-08-09 12:26:08,457 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/local.properties
+2019-08-09 12:26:08,457 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-08-09 12:26:08,457 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-08-09 12:26:08,458 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=22]
+2019-08-09 12:26:08,458 INFO  ProjectFixService - Project was maybe fixed
+2019-08-09 12:26:08,458 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 12:26:08,458 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 12:26:36,437 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-09 12:26:36,438 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-08-09 12:26:36,438 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-08-09 12:26:36,438 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-08-09 12:26:43,292 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -52,14 +52,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-13 19:47:33,169 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 12:26:43,292 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -153,22 +153,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 47 more
 
 
 BUILD FAILED
 
-Total time: 8.0 secs
+Total time: 6.241 secs
 
-2019-04-13 19:47:33,175 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-13 19:47:33,175 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/silky-signature/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-13 19:47:42,146 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-13 19:47:42,146 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-04-13 19:47:42,146 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-04-13 19:47:42,146 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/silky-signature/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-04-13 19:47:57,743 ERROR SysUtils - Could not process external command
+2019-08-09 12:26:43,296 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 12:26:43,296 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/silky-signature/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 12:26:50,464 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-09 12:26:50,465 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-08-09 12:26:50,465 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-08-09 12:26:50,465 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/silky-signature/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-08-09 12:27:01,896 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -188,14 +188,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-13 19:47:57,744 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 12:27:01,896 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :silky-signature:preBuild UP-TO-DATE
 :silky-signature:preDebugBuild UP-TO-DATE
@@ -229,7 +229,7 @@ Incremental java compilation is an incubating feature.
 :silky-signature:incrementalDebugJavaCompilationSafeguard
 :silky-signature:compileDebugJavaWithJavac
 :silky-signature:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/silky-signature/src/main/java/com/williamww/silkysignature/views/SignaturePad.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/silky-signature/src/main/java/com/williamww/silkysignature/views/SignaturePad.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :silky-signature:extractDebugAnnotations
 :silky-signature:mergeDebugShaders
@@ -264,7 +264,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :silky-signature:incrementalReleaseJavaCompilationSafeguard
 :silky-signature:compileReleaseJavaWithJavac
 :silky-signature:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/silky-signature/src/main/java/com/williamww/silkysignature/views/SignaturePad.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/silky-signature/src/main/java/com/williamww/silkysignature/views/SignaturePad.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :silky-signature:extractReleaseAnnotations
 :silky-signature:mergeReleaseShaders
@@ -380,15 +380,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 14.917 secs
+Total time: 10.826 secs
 
-2019-04-13 19:47:57,822 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-13 19:47:57,822 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-13 19:48:07,352 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-13 19:48:07,352 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-04-13 19:48:07,352 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-04-13 19:48:07,352 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555159634431-0/src/SilkySignature-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-04-13 19:48:16,021 ERROR SysUtils - Could not process external command
+2019-08-09 12:27:01,948 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 12:27:01,948 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 12:27:08,708 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-09 12:27:08,708 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-08-09 12:27:08,708 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-08-09 12:27:08,708 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565328366690-0/src/SilkySignature-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-08-09 12:27:15,557 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -408,14 +408,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-13 19:48:16,021 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 12:27:15,557 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -517,7 +517,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 8.062 secs
+Total time: 6.254 secs
 
-2019-04-13 19:48:16,090 ERROR FullProcessService - Project build has not produced APK file
-2019-04-13 19:48:16,156 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-09 12:27:15,604 ERROR FullProcessService - Project build has not produced APK file
+2019-08-09 12:27:15,648 ERROR FullProcessService - Could not find generated or existed APK file
