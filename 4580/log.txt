@@ -1,364 +1,212 @@
-2019-06-02 20:53:23,608 INFO  DownloadService - Downloading "https://github.com/dotWee/MicroPinner/archive/master.zip", attempt 3
-2019-06-02 20:54:24,222 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-06-02 20:54:25,315 INFO  GithubDownloadService - Default branch of this repository: master
-2019-06-02 20:54:25,315 INFO  DownloadService - Downloading "https://github.com/dotWee/MicroPinner/archive/master.zip", attempt 3
-2019-06-02 20:55:26,837 DEBUG FullProcessService - Repository https://github.com/dotWee/MicroPinner available: true
-2019-06-02 20:55:26,837 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-06-02 20:55:26,837 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/dotWee/MicroPinner, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src]
-2019-06-02 20:55:34,924 INFO  SysUtils - 
-2019-06-02 20:55:34,933 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/.git": true
-2019-06-02 20:55:34,937 INFO  FullProcessService - Size of directory with sources: 15 MB
-2019-06-02 20:55:34,937 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src]
-2019-06-02 20:55:34,957 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/.git/
+2019-09-07 14:56:03,205 INFO  DownloadService - Downloading "https://github.com/dotWee/MicroPinner/archive/master.zip", attempt 3
+2019-09-07 14:56:12,937 INFO  DownloadService - Downloaded https://github.com/dotWee/MicroPinner/archive/master.zip, attempt 3
+2019-09-07 14:56:12,938 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/master.zip": 12 MB
+2019-09-07 14:56:12,938 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-07 14:56:12,939 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/master.zip: true
+2019-09-07 14:56:12,939 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/src'.
+2019-09-07 14:56:13,062 INFO  FullProcessService - Size of directory with sources: 15 MB
+2019-09-07 14:56:13,062 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/src]
+2019-09-07 14:56:13,083 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/src/.git/
 
-2019-06-02 20:55:34,961 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/gradlew
-2019-06-02 20:55:34,964 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/build.gradle
-2019-06-02 20:55:34,967 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/settings.gradle
-2019-06-02 20:55:34,967 INFO  ProjectBuildService - Remote scripts: none
-2019-06-02 20:55:34,967 INFO  ProjectFixService - Fixing project...
-2019-06-02 20:55:34,975 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/local.properties
-2019-06-02 20:55:34,975 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-06-02 20:55:34,976 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/local.properties
-2019-06-02 20:55:34,976 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-06-02 20:55:34,977 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-06-02 20:55:34,977 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-06-02 20:55:34,977 INFO  ProjectFixService - Project was maybe fixed
-2019-06-02 20:55:34,977 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-02 20:55:34,978 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-02 20:55:42,588 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-06-02 20:55:42,588 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-06-02 20:55:42,588 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-06-02 20:56:36,517 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:preBuild UP-TO-DATE
-:app:preDebugBuild
-:app:compileDebugAidl
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:prepareLintJar
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:app:processDebugResources
-:app:generateDebugSources
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+2019-09-07 14:56:13,085 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/src/MicroPinner-master/gradlew
+2019-09-07 14:56:13,088 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/src/MicroPinner-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/src/MicroPinner-master/build.gradle
+2019-09-07 14:56:13,090 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/src/MicroPinner-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/src/MicroPinner-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/src/MicroPinner-master/settings.gradle
+2019-09-07 14:56:13,090 INFO  ProjectBuildService - Remote scripts: none
+2019-09-07 14:56:13,090 INFO  ProjectFixService - Fixing project...
+2019-09-07 14:56:13,097 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/src/MicroPinner-master/app/local.properties
+2019-09-07 14:56:13,097 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/src/MicroPinner-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-09-07 14:56:13,097 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/src/MicroPinner-master/local.properties
+2019-09-07 14:56:13,097 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-09-07 14:56:13,098 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-09-07 14:56:13,098 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/src/MicroPinner-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-09-07 14:56:13,098 INFO  ProjectFixService - Project was maybe fixed
+2019-09-07 14:56:13,098 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-07 14:56:13,098 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/src/MicroPinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/src/MicroPinner-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-07 14:56:18,553 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-09-07 14:56:18,553 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-07 14:56:18,553 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-07 14:56:18,553 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/src/MicroPinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/src/MicroPinner-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-07 14:56:20,887 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-07 14:56:20,887 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:app:mergeDebugAssets
-:app:extractTryWithResourcesSupportJarDebug
-:app:transformClassesWithStackFramesFixerForDebug
-:app:transformClassesWithDesugarForDebug
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:extractProguardFiles
-:app:preReleaseBuild
-:app:compileReleaseAidl
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:app:processReleaseResources
-:app:generateReleaseSources
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+FAILURE: Build failed with an exception.
 
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-intents/3.0.1/espresso-intents-3.0.1.aar
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:app:mergeReleaseAssets
-:app:extractTryWithResourcesSupportJarRelease
-:app:transformClassesWithStackFramesFixerForRelease
-:app:transformClassesWithDesugarForRelease
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:transformClassesAndResourcesWithProguardForRelease
-Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
-thread-pool size=4
-ProGuard, version 5.3.3
-Reading input...
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/1.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/2.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/3.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/4.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/5.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/6.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/7.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/8.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/9.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/10.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/11.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/12.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/13.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/14.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/0] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/processing-tools/runtime-deps/release/desugar_try_with_resources.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
-Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
-Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
-Note: duplicate definition of library class [org.apache.http.params.HttpParams]
-Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
-Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
-Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
-Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
-Note: duplicate definition of library class [android.net.http.SslCertificate]
-Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
-Note: duplicate definition of library class [android.net.http.SslError]
-Note: duplicate definition of library class [android.net.http.HttpResponseCache]
-Note: there were 11 duplicate class definitions.
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
-Initializing...
-Note: com.google.devtools.build.android.desugar.runtime.ThrowableExtension accesses a field 'SDK_INT' dynamically
-      Maybe this is library field 'android.os.Build$VERSION { int SDK_INT; }'
-Note: the configuration keeps the entry point 'de.dotwee.micropinner.view.custom.AbstractDialogView { void setMainPresenter(de.dotwee.micropinner.presenter.MainPresenter); }', but not the descriptor class 'de.dotwee.micropinner.presenter.MainPresenter'
-Note: there were 1 unkept descriptor classes in kept class members.
-      You should consider explicitly keeping the mentioned classes
-      (using '-keep').
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
-Note: there were 1 accesses to class members by means of introspection.
-      You should consider explicitly keeping the mentioned class members
-      (using '-keep' or '-keepclassmembers').
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
-Ignoring unused library classes...
-  Original number of library classes: 4610
-  Final number of library classes:    1056
-Printing kept classes, fields, and methods...
-Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/outputs/mapping/release/usage.txt]...
-Removing unused program classes and class elements...
-  Original number of program classes: 1295
-  Final number of program classes:    646
-Inlining subroutines...
-Optimizing...
-  Number of finalized classes:                 318
-  Number of unboxed enum classes:              0
-  Number of vertically merged classes:         0   (disabled)
-  Number of horizontally merged classes:       0   (disabled)
-  Number of removed write-only fields:         0   (disabled)
-  Number of privatized fields:                 0   (disabled)
-  Number of inlined constant fields:           0   (disabled)
-  Number of privatized methods:                323
-  Number of staticized methods:                156
-  Number of finalized methods:                 2430
-  Number of removed method parameters:         187
-  Number of inlined constant parameters:       65
-  Number of inlined constant return values:    36
-  Number of inlined short method calls:        620
-  Number of inlined unique method calls:       880
-  Number of inlined tail recursion calls:      6
-  Number of merged code blocks:                34
-  Number of variable peephole optimizations:   3253
-  Number of arithmetic peephole optimizations: 0   (disabled)
-  Number of cast peephole optimizations:       0   (disabled)
-  Number of field peephole optimizations:      18
-  Number of branch peephole optimizations:     848
-  Number of string peephole optimizations:     256
-  Number of simplified instructions:           380
-  Number of removed instructions:              1828
-  Number of removed local variables:           117
-  Number of removed exception blocks:          39
-  Number of optimized local variable frames:   1059
-Shrinking...
-Removing unused program classes and class elements...
-  Original number of program classes: 646
-  Final number of program classes:    632
-Optimizing...
-  Number of finalized classes:                 0
-  Number of unboxed enum classes:              0
-  Number of vertically merged classes:         0   (disabled)
-  Number of horizontally merged classes:       0   (disabled)
-  Number of removed write-only fields:         0   (disabled)
-  Number of privatized fields:                 0   (disabled)
-  Number of inlined constant fields:           0   (disabled)
-  Number of privatized methods:                1
-  Number of staticized methods:                3
-  Number of finalized methods:                 29
-  Number of removed method parameters:         84
-  Number of inlined constant parameters:       64
-  Number of inlined constant return values:    10
-  Number of inlined short method calls:        33
-  Number of inlined unique method calls:       13
-  Number of inlined tail recursion calls:      0
-  Number of merged code blocks:                1
-  Number of variable peephole optimizations:   189
-  Number of arithmetic peephole optimizations: 0   (disabled)
-  Number of cast peephole optimizations:       0   (disabled)
-  Number of field peephole optimizations:      0
-  Number of branch peephole optimizations:     21
-  Number of string peephole optimizations:     0
-  Number of simplified instructions:           88
-  Number of removed instructions:              2685
-  Number of removed local variables:           67
-  Number of removed exception blocks:          0
-  Number of optimized local variable frames:   68
-Shrinking...
-Removing unused program classes and class elements...
-  Original number of program classes: 632
-  Final number of program classes:    632
-Optimizing...
-  Number of finalized classes:                 0
-  Number of unboxed enum classes:              0
-  Number of vertically merged classes:         0   (disabled)
-  Number of horizontally merged classes:       0   (disabled)
-  Number of removed write-only fields:         0   (disabled)
-  Number of privatized fields:                 0   (disabled)
-  Number of inlined constant fields:           0   (disabled)
-  Number of privatized methods:                0
-  Number of staticized methods:                1
-  Number of finalized methods:                 2
-  Number of removed method parameters:         22
-  Number of inlined constant parameters:       21
-  Number of inlined constant return values:    10
-  Number of inlined short method calls:        0
-  Number of inlined unique method calls:       2
-  Number of inlined tail recursion calls:      0
-  Number of merged code blocks:                0
-  Number of variable peephole optimizations:   33
-  Number of arithmetic peephole optimizations: 0   (disabled)
-  Number of cast peephole optimizations:       0   (disabled)
-  Number of field peephole optimizations:      0
-  Number of branch peephole optimizations:     5
-  Number of string peephole optimizations:     0
-  Number of simplified instructions:           8
-  Number of removed instructions:              350
-  Number of removed local variables:           1
-  Number of removed exception blocks:          0
-  Number of optimized local variable frames:   6
-Shrinking...
-Removing unused program classes and class elements...
-  Original number of program classes: 632
-  Final number of program classes:    632
-Optimizing...
-  Number of finalized classes:                 0
-  Number of unboxed enum classes:              0
-  Number of vertically merged classes:         0   (disabled)
-  Number of horizontally merged classes:       0   (disabled)
-  Number of removed write-only fields:         0   (disabled)
-  Number of privatized fields:                 0   (disabled)
-  Number of inlined constant fields:           0   (disabled)
-  Number of privatized methods:                0
-  Number of staticized methods:                0
-  Number of finalized methods:                 1
-  Number of removed method parameters:         6
-  Number of inlined constant parameters:       8
-  Number of inlined constant return values:    10
-  Number of inlined short method calls:        0
-  Number of inlined unique method calls:       0
-  Number of inlined tail recursion calls:      0
-  Number of merged code blocks:                0
-  Number of variable peephole optimizations:   9
-  Number of arithmetic peephole optimizations: 0   (disabled)
-  Number of cast peephole optimizations:       0   (disabled)
-  Number of field peephole optimizations:      0
-  Number of branch peephole optimizations:     0
-  Number of string peephole optimizations:     0
-  Number of simplified instructions:           4
-  Number of removed instructions:              35
-  Number of removed local variables:           0
-  Number of removed exception blocks:          0
-  Number of optimized local variable frames:   1
-Shrinking...
-Removing unused program classes and class elements...
-  Original number of program classes: 632
-  Final number of program classes:    632
-Optimizing...
-  Number of finalized classes:                 0
-  Number of unboxed enum classes:              0
-  Number of vertically merged classes:         0   (disabled)
-  Number of horizontally merged classes:       0   (disabled)
-  Number of removed write-only fields:         0   (disabled)
-  Number of privatized fields:                 0   (disabled)
-  Number of inlined constant fields:           0   (disabled)
-  Number of privatized methods:                0
-  Number of staticized methods:                0
-  Number of finalized methods:                 0
-  Number of removed method parameters:         2
-  Number of inlined constant parameters:       4
-  Number of inlined constant return values:    10
-  Number of inlined short method calls:        0
-  Number of inlined unique method calls:       0
-  Number of inlined tail recursion calls:      0
-  Number of merged code blocks:                0
-  Number of variable peephole optimizations:   7
-  Number of arithmetic peephole optimizations: 0   (disabled)
-  Number of cast peephole optimizations:       0   (disabled)
-  Number of field peephole optimizations:      0
-  Number of branch peephole optimizations:     0
-  Number of string peephole optimizations:     0
-  Number of simplified instructions:           1
-  Number of removed instructions:              9
-  Number of removed local variables:           0
-  Number of removed exception blocks:          0
-  Number of optimized local variable frames:   0
-Shrinking...
-Removing unused program classes and class elements...
-  Original number of program classes: 632
-  Final number of program classes:    632
-Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/outputs/mapping/release/mapping.txt]...
-Preverifying...
-Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/proguard/release/0.jar]
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/1.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/2.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/3.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/4.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/5.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/6.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/7.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/8.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/9.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/10.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/11.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/12.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/13.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/14.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/desugar/release/0] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/processing-tools/runtime-deps/release/desugar_try_with_resources.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/outputs/mapping/release/dump.txt]...
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:mergeReleaseJniLibFolders
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+* What went wrong:
+A problem occurred configuring root project 'MicroPinner-master'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.1.2).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/build/manifest-merger/26.1.2/manifest-merger-26.1.2.jar
+   > Could not find ddmlib.jar (com.android.tools.ddms:ddmlib:26.1.2).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/26.1.2/ddmlib-26.1.2.jar
+   > Could not find dvlib.jar (com.android.tools:dvlib:26.1.2).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/dvlib/26.1.2/dvlib-26.1.2.jar
+   > Could not find common.jar (com.android.tools:common:26.1.2).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/common/26.1.2/common-26.1.2.jar
 
-BUILD SUCCESSFUL in 53s
-60 actionable tasks: 60 executed
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
-2019-06-02 20:56:36,568 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559483603606-0/src/app/build/outputs/apk/debug/app-debug.apk
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'MicroPinner-master'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:66)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:666)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:135)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:249)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:167)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:126)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':classpath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:918)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1600(DefaultConfiguration.java:116)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:892)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getFiles(DefaultConfiguration.java:404)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getFiles(Unknown Source)
+	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:68)
+	at org.gradle.internal.classpath.DefaultClassPath.<init>(DefaultClassPath.java:48)
+	at org.gradle.api.internal.initialization.DefaultScriptClassPathResolver.resolveClassPath(DefaultScriptClassPathResolver.java:39)
+	at org.gradle.api.internal.initialization.DefaultScriptHandler.getScriptClassPath(DefaultScriptHandler.java:72)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.defineScriptHandlerClassScope(DefaultPluginRequestApplicator.java:204)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugins(DefaultPluginRequestApplicator.java:82)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:179)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:64)
+	... 70 more
+Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.1.2).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/tools/build/manifest-merger/26.1.2/manifest-merger-26.1.2.jar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:158)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:146)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:202)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s
+
+2019-09-07 14:56:20,891 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567842963197-0/src/MicroPinner-master/archive/release_v1.7.apk
