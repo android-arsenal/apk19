@@ -1,38 +1,38 @@
-2019-08-29 11:52:08,731 INFO  DownloadService - Downloading "https://github.com/jeancsanchez/JcPlayer/archive/master.zip", attempt 3
-2019-08-29 11:52:09,770 INFO  DownloadService - Downloaded https://github.com/jeancsanchez/JcPlayer/archive/master.zip, attempt 3
-2019-08-29 11:52:09,771 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/master.zip": 869 KB
-2019-08-29 11:52:09,771 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-29 11:52:09,776 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/master.zip: true
-2019-08-29 11:52:09,777 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src'.
-2019-08-29 11:52:09,815 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-08-29 11:52:09,815 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src]
-2019-08-29 11:52:09,833 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/.git/
+2019-10-06 18:46:30,850 INFO  DownloadService - Downloading "https://github.com/jeancsanchez/JcPlayer/archive/master.zip", attempt 3
+2019-10-06 18:46:33,896 INFO  DownloadService - Downloaded https://github.com/jeancsanchez/JcPlayer/archive/master.zip, attempt 3
+2019-10-06 18:46:33,897 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/master.zip": 869 KB
+2019-10-06 18:46:33,897 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-06 18:46:33,897 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/master.zip: true
+2019-10-06 18:46:33,897 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src'.
+2019-10-06 18:46:33,948 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-10-06 18:46:33,948 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src]
+2019-10-06 18:46:33,970 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/.git/
 
-2019-08-29 11:52:09,837 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/gradlew
-2019-08-29 11:52:09,841 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/jcplayer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/build.gradle
-2019-08-29 11:52:09,845 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/jcplayer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/settings.gradle
-2019-08-29 11:52:09,845 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-08-29 11:52:10,067 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-08-29 11:52:10,067 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-08-29 11:52:10,253 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-08-29 11:52:10,253 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-08-29 11:52:10,253 INFO  ProjectFixService - Fixing project...
-2019-08-29 11:52:10,265 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/jcplayer/local.properties
-2019-08-29 11:52:10,267 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/jcplayer/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2019-08-29 11:52:10,267 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/sample/local.properties
-2019-08-29 11:52:10,269 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/sample/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2019-08-29 11:52:10,270 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/local.properties
-2019-08-29 11:52:10,270 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-08-29 11:52:10,270 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-08-29 11:52:10,271 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2019-08-29 11:52:10,271 INFO  ProjectFixService - Project was maybe fixed
-2019-08-29 11:52:10,271 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-29 11:52:10,271 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/jcplayer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-29 11:52:13,808 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-29 11:52:13,808 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-08-29 11:52:13,808 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-08-29 11:52:13,809 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/jcplayer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-08-29 11:52:16,221 ERROR SysUtils - Could not process external command
+2019-10-06 18:46:33,976 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/gradlew
+2019-10-06 18:46:33,982 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/jcplayer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/build.gradle
+2019-10-06 18:46:33,986 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/jcplayer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/settings.gradle
+2019-10-06 18:46:33,987 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-10-06 18:46:35,356 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-10-06 18:46:35,357 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-10-06 18:46:35,540 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-10-06 18:46:35,541 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-10-06 18:46:35,541 INFO  ProjectFixService - Fixing project...
+2019-10-06 18:46:35,551 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/jcplayer/local.properties
+2019-10-06 18:46:35,553 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/jcplayer/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-10-06 18:46:35,554 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/sample/local.properties
+2019-10-06 18:46:35,556 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/sample/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-10-06 18:46:35,556 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/local.properties
+2019-10-06 18:46:35,557 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-10-06 18:46:35,557 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-10-06 18:46:35,558 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-10-06 18:46:35,559 INFO  ProjectFixService - Project was maybe fixed
+2019-10-06 18:46:35,559 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-06 18:46:35,559 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/jcplayer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-06 18:46:39,566 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-06 18:46:39,566 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-10-06 18:46:39,566 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-10-06 18:46:39,566 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/jcplayer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-10-06 18:46:42,601 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -45,7 +45,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -59,7 +60,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-29 11:52:16,222 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-06 18:46:42,601 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -211,13 +212,13 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2019-08-29 11:52:16,226 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-29 11:52:16,226 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-29 11:52:18,841 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-29 11:52:18,841 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-08-29 11:52:18,842 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-08-29 11:52:18,842 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-08-29 11:52:21,286 ERROR SysUtils - Could not process external command
+2019-10-06 18:46:42,607 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-06 18:46:42,607 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-06 18:46:45,814 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-06 18:46:45,814 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-10-06 18:46:45,814 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-10-06 18:46:45,814 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-10-06 18:46:48,567 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -230,7 +231,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -244,7 +246,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-29 11:52:21,286 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-06 18:46:48,567 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -396,13 +398,13 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2019-08-29 11:52:21,291 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-29 11:52:21,291 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-29 11:52:23,730 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-29 11:52:23,730 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-08-29 11:52:23,730 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-08-29 11:52:23,730 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567054328727-0/src/JcPlayer-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-08-29 11:52:26,214 ERROR SysUtils - Could not process external command
+2019-10-06 18:46:48,572 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-06 18:46:48,572 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-06 18:46:51,751 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-06 18:46:51,751 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-10-06 18:46:51,752 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-10-06 18:46:51,752 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362390846-0/src/JcPlayer-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-10-06 18:46:54,515 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -415,7 +417,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -429,7 +432,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-29 11:52:26,214 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-06 18:46:54,516 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -581,5 +584,5 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2019-08-29 11:52:26,219 ERROR FullProcessService - Project build has not produced APK file
-2019-08-29 11:52:26,223 ERROR FullProcessService - Could not find generated or existed APK file
+2019-10-06 18:46:54,520 ERROR FullProcessService - Project build has not produced APK file
+2019-10-06 18:46:54,525 ERROR FullProcessService - Could not find generated or existed APK file

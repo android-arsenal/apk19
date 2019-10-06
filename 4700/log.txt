@@ -1,39 +1,39 @@
-2019-04-13 21:31:49,866 INFO  DownloadService - Downloading "https://github.com/terrakok/Cicerone/archive/master.zip", attempt 3
-2019-04-13 21:31:54,037 INFO  DownloadService - Downloaded https://github.com/terrakok/Cicerone/archive/master.zip, attempt 3
-2019-04-13 21:31:54,037 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/master.zip": 4 MB
-2019-04-13 21:31:54,037 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-13 21:31:54,039 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/master.zip: true
-2019-04-13 21:31:54,039 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src'.
-2019-04-13 21:31:54,108 INFO  FullProcessService - Size of directory with sources: 5 MB
-2019-04-13 21:31:54,108 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src]
-2019-04-13 21:31:54,128 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/.git/
+2019-10-06 18:42:36,186 INFO  DownloadService - Downloading "https://github.com/terrakok/Cicerone/archive/master.zip", attempt 3
+2019-10-06 18:42:44,733 INFO  DownloadService - Downloaded https://github.com/terrakok/Cicerone/archive/master.zip, attempt 3
+2019-10-06 18:42:44,734 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/master.zip": 4 MB
+2019-10-06 18:42:44,734 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-06 18:42:44,736 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/master.zip: true
+2019-10-06 18:42:44,736 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src'.
+2019-10-06 18:42:44,810 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-10-06 18:42:44,810 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src]
+2019-10-06 18:42:44,833 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/.git/
 
-2019-04-13 21:31:54,133 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/gradlew
-2019-04-13 21:31:54,138 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/library/stub-android/build.gradle
-2019-04-13 21:31:54,143 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/library/stub-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/library/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/library/androidmaven.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/settings.gradle
-2019-04-13 21:31:54,144 INFO  ProjectBuildService - Remote scripts: none
-2019-04-13 21:31:54,144 INFO  ProjectFixService - Fixing project...
-2019-04-13 21:31:54,157 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/sample/local.properties
-2019-04-13 21:31:54,158 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-04-13 21:31:54,159 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-04-13 21:31:54,160 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/local.properties
-2019-04-13 21:31:54,160 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1-milestone-1-all.zip
-2019-04-13 21:31:54,161 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1-bin.zip)
-2019-04-13 21:31:54,164 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-04-13 21:31:54,165 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-04-13 21:31:54,166 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/library/local.properties
-2019-04-13 21:31:54,168 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-04-13 21:31:54,168 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-04-13 21:31:54,169 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/library/stub-android/local.properties
-2019-04-13 21:31:54,171 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/library/stub-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-04-13 21:31:54,171 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/library/stub-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-04-13 21:31:54,172 INFO  ProjectFixService - Project was maybe fixed
-2019-04-13 21:31:54,172 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-13 21:31:54,172 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-13 21:32:14,197 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-04-13 21:32:14,197 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-13 21:32:14,197 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-13 21:33:14,865 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-06 18:42:44,838 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/gradlew
+2019-10-06 18:42:44,842 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/library/stub-android/build.gradle
+2019-10-06 18:42:44,846 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/library/stub-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/library/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/library/androidmaven.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/settings.gradle
+2019-10-06 18:42:44,847 INFO  ProjectBuildService - Remote scripts: none
+2019-10-06 18:42:44,847 INFO  ProjectFixService - Fixing project...
+2019-10-06 18:42:44,858 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/sample/local.properties
+2019-10-06 18:42:44,860 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-10-06 18:42:44,860 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-10-06 18:42:44,861 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/local.properties
+2019-10-06 18:42:44,862 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1-milestone-1-all.zip
+2019-10-06 18:42:44,863 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1-bin.zip)
+2019-10-06 18:42:44,866 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-10-06 18:42:44,866 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-10-06 18:42:44,867 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/library/local.properties
+2019-10-06 18:42:44,871 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-10-06 18:42:44,872 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-10-06 18:42:44,873 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/library/stub-android/local.properties
+2019-10-06 18:42:44,877 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/library/stub-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-10-06 18:42:44,877 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/library/stub-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-10-06 18:42:44,878 INFO  ProjectFixService - Project was maybe fixed
+2019-10-06 18:42:44,878 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-06 18:42:44,878 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-06 18:43:47,894 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-10-06 18:43:47,894 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-06 18:43:47,894 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-06 18:44:51,727 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Task :stub-android:compileJava
 warning: [options] bootstrap class path not set in conjunction with -source 1.7
@@ -145,7 +145,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 0s
+BUILD SUCCESSFUL in 1m 3s
 56 actionable tasks: 56 executed
 
-2019-04-13 21:33:14,984 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555165909862-0/src/Cicerone-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-10-06 18:44:51,805 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362156178-0/src/Cicerone-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
