@@ -1,37 +1,37 @@
-2019-08-06 12:42:43,826 INFO  DownloadService - Downloading "https://github.com/romandanylyk/PageIndicatorView/archive/master.zip", attempt 3
-2019-08-06 12:42:51,730 INFO  DownloadService - Downloaded https://github.com/romandanylyk/PageIndicatorView/archive/master.zip, attempt 3
-2019-08-06 12:42:51,730 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/master.zip": 9 MB
-2019-08-06 12:42:51,730 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-06 12:42:51,736 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/master.zip: true
-2019-08-06 12:42:51,736 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src'.
-2019-08-06 12:42:51,835 INFO  FullProcessService - Size of directory with sources: 10 MB
-2019-08-06 12:42:51,835 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src]
-2019-08-06 12:42:51,862 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/.git/
+2019-10-06 19:42:43,108 INFO  DownloadService - Downloading "https://github.com/romandanylyk/PageIndicatorView/archive/master.zip", attempt 3
+2019-10-06 19:42:49,148 INFO  DownloadService - Downloaded https://github.com/romandanylyk/PageIndicatorView/archive/master.zip, attempt 3
+2019-10-06 19:42:49,148 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/master.zip": 9 MB
+2019-10-06 19:42:49,148 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-06 19:42:49,150 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/master.zip: true
+2019-10-06 19:42:49,150 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src'.
+2019-10-06 19:42:49,320 INFO  FullProcessService - Size of directory with sources: 10 MB
+2019-10-06 19:42:49,320 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src]
+2019-10-06 19:42:49,359 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/.git/
 
-2019-08-06 12:42:51,865 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/gradlew
-2019-08-06 12:42:51,868 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/pageindicatorview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/build.gradle
-2019-08-06 12:42:51,871 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/pageindicatorview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/settings.gradle
-2019-08-06 12:42:51,871 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-08-06 12:42:52,427 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-08-06 12:42:52,428 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-08-06 12:42:52,937 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-08-06 12:42:52,938 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-08-06 12:42:52,938 INFO  ProjectFixService - Fixing project...
-2019-08-06 12:42:52,949 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/pageindicatorview/local.properties
-2019-08-06 12:42:52,949 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/pageindicatorview/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-06 12:42:52,950 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/sample/local.properties
-2019-08-06 12:42:52,950 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-06 12:42:52,950 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/local.properties
-2019-08-06 12:42:52,951 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-08-06 12:42:52,951 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-08-06 12:42:52,952 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-06 12:42:52,952 INFO  ProjectFixService - Project was maybe fixed
-2019-08-06 12:42:52,952 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-06 12:42:52,952 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/pageindicatorview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-06 12:43:00,574 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-08-06 12:43:00,574 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-08-06 12:43:00,574 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/pageindicatorview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-08-06 12:43:12,270 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-06 19:42:49,366 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/gradlew
+2019-10-06 19:42:49,371 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/pageindicatorview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/build.gradle
+2019-10-06 19:42:49,378 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/pageindicatorview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/settings.gradle
+2019-10-06 19:42:49,387 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-10-06 19:42:50,306 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-10-06 19:42:50,307 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-10-06 19:42:50,531 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-10-06 19:42:50,531 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-10-06 19:42:50,531 INFO  ProjectFixService - Fixing project...
+2019-10-06 19:42:50,543 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/pageindicatorview/local.properties
+2019-10-06 19:42:50,543 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/pageindicatorview/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-10-06 19:42:50,544 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/sample/local.properties
+2019-10-06 19:42:50,546 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-10-06 19:42:50,547 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/local.properties
+2019-10-06 19:42:50,547 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-10-06 19:42:50,548 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-10-06 19:42:50,549 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-10-06 19:42:50,549 INFO  ProjectFixService - Project was maybe fixed
+2019-10-06 19:42:50,549 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-06 19:42:50,549 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/pageindicatorview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-06 19:43:01,337 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-10-06 19:43:01,337 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-10-06 19:43:01,337 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/pageindicatorview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-10-06 19:43:16,668 INFO  SysUtils - Configuration on demand is an incubating feature.
 :pageindicatorview:preBuild UP-TO-DATE
 :pageindicatorview:preDebugBuild UP-TO-DATE
 :pageindicatorview:compileDebugAidl NO-SOURCE
@@ -46,7 +46,7 @@
 :pageindicatorview:prepareLintJar
 :pageindicatorview:generateDebugSources
 :pageindicatorview:javaPreCompileDebug
-:pageindicatorview:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/pageindicatorview/src/main/java/com/rd/PageIndicatorView.java uses or overrides a deprecated API.
+:pageindicatorview:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/pageindicatorview/src/main/java/com/rd/PageIndicatorView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :pageindicatorview:extractDebugAnnotations
@@ -79,7 +79,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :pageindicatorview:generateReleaseRFile
 :pageindicatorview:generateReleaseSources
 :pageindicatorview:javaPreCompileRelease
-:pageindicatorview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/pageindicatorview/src/main/java/com/rd/PageIndicatorView.java uses or overrides a deprecated API.
+:pageindicatorview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/pageindicatorview/src/main/java/com/rd/PageIndicatorView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :pageindicatorview:extractReleaseAnnotations
@@ -105,15 +105,15 @@ Note: Recompile with -Xlint:deprecation for details.
 :pageindicatorview:assemble
 :pageindicatorview:build
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 15s
 45 actionable tasks: 45 executed
 
-2019-08-06 12:43:12,299 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-06 12:43:12,299 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-06 12:43:17,851 INFO  ProjectTaskService - Detected possible tasks: 72
-2019-08-06 12:43:17,851 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-06 12:43:17,851 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-06 12:43:23,417 ERROR SysUtils - Could not process external command
+2019-10-06 19:43:16,698 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-06 19:43:16,698 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-06 19:43:24,278 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-10-06 19:43:24,278 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-06 19:43:24,279 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-06 19:43:31,434 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -134,14 +134,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-06 12:43:23,417 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-06 19:43:31,434 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -219,11 +219,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2019-08-06 12:43:23,417 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-08-06 12:43:23,417 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-06 12:43:51,408 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-06 19:43:31,434 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-10-06 19:43:31,434 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-06 19:44:14,274 INFO  SysUtils - Configuration on demand is an incubating feature.
 :pageindicatorview:preBuild UP-TO-DATE
 :pageindicatorview:preDebugBuild UP-TO-DATE
 :pageindicatorview:compileDebugAidl NO-SOURCE
@@ -242,6 +242,7 @@ BUILD FAILED in 5s
 :pageindicatorview:processDebugJavaRes NO-SOURCE
 :pageindicatorview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :sample:checkDebugClasspath
+Download https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.0.1/appcompat-1.0.1.aar
 :sample:preBuild UP-TO-DATE
 :sample:preDebugBuild
 :sample:compileDebugAidl NO-SOURCE
@@ -357,8 +358,8 @@ Note: Recompile with -Xlint:deprecation for details.
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/80847e328f7af16fd4fa0c83b6137441/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 Ran lint on variant debug: 40 issues found
 Ran lint on variant release: 40 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/sample/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/sample/build/reports/lint-results.xml
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/sample/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/sample/build/reports/lint-results.xml
 :sample:generateDebugUnitTestSources
 :sample:preDebugUnitTestBuild UP-TO-DATE
 :sample:javaPreCompileDebugUnitTest
@@ -375,7 +376,7 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 :sample:check
 :sample:build
 
-BUILD SUCCESSFUL in 27s
+BUILD SUCCESSFUL in 42s
 92 actionable tasks: 61 executed, 31 up-to-date
 
-2019-08-06 12:43:51,485 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070163822-0/src/PageIndicatorView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-10-06 19:44:14,358 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570365763104-0/src/PageIndicatorView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
