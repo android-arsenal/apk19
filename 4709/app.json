@@ -31,8 +31,8 @@
   "dexClasses" : 3058,
   "locales" : [ "" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.stepango.example\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f070000\" android:label=\"RxDatabindings\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.stepango.example.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
-  "fileSize" : 1584030,
-  "crc32" : 3213060149,
-  "sha256" : "505116cca550da5454fb6d779a3e9b9fba2d8672efbe2309fbbe8ebaee927f9e",
-  "buildTime" : 1570362129000
+  "fileSize" : 1584038,
+  "crc32" : 3342577925,
+  "sha256" : "3aa8d697de057103ef62ea3e2fae1e15308c57649a82d0242a3f0ccd71d37819",
+  "buildTime" : 1570685439000
 }

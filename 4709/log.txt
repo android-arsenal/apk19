@@ -1,36 +1,36 @@
-2019-10-06 18:40:59,534 INFO  DownloadService - Downloading "https://github.com/stepango/RxDatabindings/archive/master.zip", attempt 3
-2019-10-06 18:41:00,023 INFO  DownloadService - Downloaded https://github.com/stepango/RxDatabindings/archive/master.zip, attempt 3
-2019-10-06 18:41:00,023 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/master.zip": 110 KB
-2019-10-06 18:41:00,023 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-06 18:41:00,028 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/master.zip: true
-2019-10-06 18:41:00,029 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src'.
-2019-10-06 18:41:00,045 INFO  FullProcessService - Size of directory with sources: 159 KB
-2019-10-06 18:41:00,045 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src]
-2019-10-06 18:41:00,067 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/.git/
+2019-10-10 12:29:07,258 INFO  DownloadService - Downloading "https://github.com/stepango/RxDatabindings/archive/master.zip", attempt 3
+2019-10-10 12:29:09,397 INFO  DownloadService - Downloaded https://github.com/stepango/RxDatabindings/archive/master.zip, attempt 3
+2019-10-10 12:29:09,397 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/master.zip": 110 KB
+2019-10-10 12:29:09,397 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-10 12:29:09,402 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/master.zip: true
+2019-10-10 12:29:09,402 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src'.
+2019-10-10 12:29:09,415 INFO  FullProcessService - Size of directory with sources: 159 KB
+2019-10-10 12:29:09,415 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src]
+2019-10-10 12:29:09,432 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/.git/
 
-2019-10-06 18:41:00,070 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/gradlew
-2019-10-06 18:41:00,073 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/build.gradle
-2019-10-06 18:41:00,076 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/settings.gradle
-2019-10-06 18:41:00,076 INFO  ProjectBuildService - Remote scripts: none
-2019-10-06 18:41:00,076 INFO  ProjectFixService - Fixing project...
-2019-10-06 18:41:00,083 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/app/local.properties
-2019-10-06 18:41:00,084 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-10-06 18:41:00,084 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-10-06 18:41:00,085 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/lib/local.properties
-2019-10-06 18:41:00,086 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-10-06 18:41:00,086 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-10-06 18:41:00,088 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/local.properties
-2019-10-06 18:41:00,089 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-10-06 18:41:00,089 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-10-06 18:41:00,091 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-10-06 18:41:00,091 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-10-06 18:41:00,091 INFO  ProjectFixService - Project was maybe fixed
-2019-10-06 18:41:00,091 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-06 18:41:00,092 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-06 18:41:10,581 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-10-06 18:41:10,582 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-06 18:41:10,582 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-06 18:42:27,520 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
+2019-10-10 12:29:09,434 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/gradlew
+2019-10-10 12:29:09,436 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/build.gradle
+2019-10-10 12:29:09,438 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/settings.gradle
+2019-10-10 12:29:09,438 INFO  ProjectBuildService - Remote scripts: none
+2019-10-10 12:29:09,438 INFO  ProjectFixService - Fixing project...
+2019-10-10 12:29:09,443 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/app/local.properties
+2019-10-10 12:29:09,444 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-10-10 12:29:09,445 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-10-10 12:29:09,445 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/lib/local.properties
+2019-10-10 12:29:09,446 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-10-10 12:29:09,446 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-10-10 12:29:09,447 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/local.properties
+2019-10-10 12:29:09,447 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-10 12:29:09,448 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-10 12:29:09,449 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-10-10 12:29:09,449 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-10-10 12:29:09,449 INFO  ProjectFixService - Project was maybe fixed
+2019-10-10 12:29:09,449 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-10 12:29:09,449 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-10 12:29:18,111 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-10-10 12:29:18,111 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-10 12:29:18,111 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-10 12:30:43,277 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 Configuration(s) specified but the install task does not exist in project :lib.
@@ -46,25 +46,21 @@ Configuration(s) specified but the install task does not exist in project :lib.
 > Task :app:generateDebugBuildConfig
 > Task :app:prepareLintJar
 > Task :app:generateDebugResValues
-> Task :app:prepareLintJarForPublish
-> Task :app:generateDebugSources
-> Task :app:dataBindingExportBuildInfoDebug
 > Task :app:generateDebugResources
 > Task :lib:compileDebugRenderscript NO-SOURCE
 > Task :lib:generateDebugResValues
 > Task :lib:generateDebugResources
 > Task :lib:packageDebugResources
 > Task :app:dataBindingMergeDependencyArtifactsDebug
-> Task :app:mainApkListPersistenceDebug
 > Task :app:mergeDebugResources
 > Task :app:dataBindingExportFeaturePackageIdsDebug
+> Task :app:mainApkListPersistenceDebug
 > Task :app:createDebugCompatibleScreenManifests
 > Task :lib:checkDebugManifest
+> Task :app:prepareLintJarForPublish
+> Task :app:generateDebugSources
+> Task :app:dataBindingExportBuildInfoDebug
 > Task :lib:generateDebugBuildConfig
-> Task :lib:processDebugManifest
-> Task :app:processDebugManifest
-> Task :app:dataBindingMergeGenClassesDebug
-> Task :app:dataBindingGenBaseClassesDebug
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -73,22 +69,21 @@ Configuration(s) specified but the install task does not exist in project :lib.
 > Task :lib:generateDebugAssets
 > Task :lib:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :app:dataBindingMergeGenClassesDebug
+> Task :app:dataBindingGenBaseClassesDebug
 > Task :lib:parseDebugLibraryResources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :lib:processDebugJavaRes NO-SOURCE
+> Task :lib:processDebugManifest
+> Task :app:processDebugManifest
 > Task :app:checkDebugDuplicateClasses
+> Task :app:validateSigningDebug
 > Task :lib:generateDebugRFile
 > Task :app:processDebugResources
 > Task :lib:compileDebugKotlin
-> Task :lib:javaPreCompileDebug
-> Task :lib:compileDebugJavaWithJavac
-> Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
-> Task :lib:bundleLibResDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :lib:mergeDebugJniLibFolders
-> Task :lib:bundleLibRuntimeDebug
-> Task :lib:createFullJarDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :lib:preReleaseBuild UP-TO-DATE
 > Task :lib:compileReleaseAidl NO-SOURCE
@@ -99,7 +94,31 @@ Configuration(s) specified but the install task does not exist in project :lib.
 > Task :app:generateReleaseBuildConfig
 > Task :app:generateReleaseSources
 > Task :app:dataBindingExportBuildInfoRelease
+> Task :lib:javaPreCompileDebug
+> Task :lib:compileDebugJavaWithJavac
+> Task :lib:bundleLibResDebug
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :lib:compileReleaseRenderscript NO-SOURCE
+> Task :lib:generateReleaseResValues
+> Task :lib:generateReleaseResources
+> Task :lib:packageReleaseResources
+> Task :lib:bundleLibRuntimeDebug
+> Task :lib:createFullJarDebug
+> Task :app:mergeExtDexDebug
+> Task :app:mainApkListPersistenceRelease
+> Task :app:dataBindingMergeGenClassesRelease
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :lib:checkReleaseManifest
+> Task :app:dataBindingExportFeaturePackageIdsRelease
 > Task :lib:mergeDebugNativeLibs
+> Task :lib:stripDebugDebugSymbols
+> Task :lib:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:mergeReleaseResources
+> Task :lib:generateReleaseBuildConfig
+> Task :lib:parseReleaseLibraryResources
+> Task :lib:processReleaseManifest
+> Task :app:processReleaseManifest
 > Task :lib:bundleLibCompileDebug
 > Task :app:kaptGenerateStubsDebugKotlin
 
@@ -107,31 +126,23 @@ Configuration(s) specified but the install task does not exist in project :lib.
 w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: android.databinding.annotationprocessor.ProcessDataBinding (DYNAMIC).
 
 > Task :app:compileDebugKotlin
-> Task :lib:stripDebugDebugSymbols
-> Task :lib:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :lib:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :lib:compileReleaseKotlin
+> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :app:dataBindingGenBaseClassesRelease
+> Task :lib:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :lib:prepareLintJarForPublish
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
-> Task :app:mergeDebugNativeLibs
 > Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:stripDebugDebugSymbols
-> Task :app:generateReleaseResValues
-> Task :app:generateReleaseResources
-> Task :lib:compileReleaseRenderscript NO-SOURCE
-> Task :lib:generateReleaseResValues
-> Task :lib:generateReleaseResources
-> Task :lib:packageReleaseResources
-> Task :app:dataBindingMergeGenClassesRelease
-> Task :app:mainApkListPersistenceRelease
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :lib:checkReleaseManifest
-> Task :app:dataBindingExportFeaturePackageIdsRelease
-> Task :lib:generateReleaseBuildConfig
-> Task :app:mergeExtDexDebug
-> Task :app:mergeReleaseResources
-> Task :lib:parseReleaseLibraryResources
-> Task :lib:processReleaseJavaRes NO-SOURCE
-> Task :app:checkReleaseDuplicateClasses
+> Task :lib:javaPreCompileRelease
+> Task :lib:compileReleaseJavaWithJavac
+> Task :lib:bundleLibResRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -144,25 +155,6 @@ w: [kapt] Incremental annotation processing requested, but support is disabled b
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :lib:mergeReleaseJniLibFolders
-> Task :lib:prepareLintJarForPublish
-> Task :lib:processReleaseManifest
-> Task :app:processReleaseManifest
-> Task :app:dataBindingMergeDependencyArtifactsRelease
-> Task :app:dataBindingGenBaseClassesRelease
-> Task :lib:mergeReleaseNativeLibs
-> Task :lib:stripReleaseDebugSymbols
-> Task :lib:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :lib:generateReleaseRFile
-> Task :app:processReleaseResources
-> Task :lib:compileReleaseKotlin
-> Task :app:mergeDexDebug
-> Task :app:mergeExtDexRelease
-> Task :app:mergeDebugJavaResource
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :lib:javaPreCompileRelease
-> Task :lib:compileReleaseJavaWithJavac
-> Task :lib:bundleLibResRelease
 > Task :lib:bundleLibCompileRelease
 > Task :app:kaptGenerateStubsReleaseKotlin
 
@@ -170,20 +162,24 @@ w: [kapt] Incremental annotation processing requested, but support is disabled b
 w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: android.databinding.annotationprocessor.ProcessDataBinding (DYNAMIC).
 
 > Task :app:compileReleaseKotlin
-> Task :lib:bundleLibRuntimeRelease
-> Task :lib:createFullJarRelease
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDebugJavaResource
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/958263ed473dc03b28e9b08c68c4ca12/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/608fdf9982ba131eee586b21d8493a09/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
 > Task :app:transformClassesWithDexBuilderForRelease
+> Task :lib:bundleLibRuntimeRelease
+> Task :lib:createFullJarRelease
+> Task :lib:mergeReleaseNativeLibs
+> Task :lib:stripReleaseDebugSymbols
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :lib:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseJavaResource
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
-> Task :app:mergeReleaseJavaResource
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
@@ -194,7 +190,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 16s
+BUILD SUCCESSFUL in 1m 24s
 109 actionable tasks: 109 executed
 
-2019-10-06 18:42:27,609 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570362059529-0/src/RxDatabindings-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-10 12:30:43,349 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685347253-0/src/RxDatabindings-master/app/build/outputs/apk/debug/app-debug.apk
